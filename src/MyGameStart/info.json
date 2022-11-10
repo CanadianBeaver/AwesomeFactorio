@@ -1,0 +1,11 @@
+{
+	"name": "MyGameStart",
+	"version": "2020.10.0",
+	"title": "Start the game with something better",
+	"author": "CanadianBeaver",
+	"contact": "",
+	"homepage": "",
+	"description": "This mod just adds a modular armor that includes an exoskeleton, a belt immunity, a personal battery, a personal roboport with 10 construction robots and personal solar panels at starting the game.",
+	"dependencies": ["base >= 1.1.0"],
+	"factorio_version": "1.1"
+}
