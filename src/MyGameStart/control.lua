@@ -54,13 +54,16 @@ function on_player_creation(player)
 		player.insert{name="power-armor", count=1}
 		if settings.startup["myGameStart-startup-with-belt-immunity"].value then
 			player.insert{name="belt-immunity-equipment", count=1}
+			player.insert{name="solar-panel-equipment", count=8}
 		else 
-			
+			player.insert{name="solar-panel-equipment", count=9}
 		end
 		player.insert{name="fusion-reactor-equipment", count=1}
-		player.insert{name="battery-equipment", count=1}		
-		player.insert{name="personal-roboport-equipment", count=1}
+		player.insert{name="exoskeleton-equipment", count=1}
+		player.insert{name="night-vision-equipment", count=1}		
+		player.insert{name="personal-laser-defense-equipment", count=1}
+		player.insert{name="battery-mk2-equipment", count=2}				
+		player.insert{name="personal-roboport-mk2-equipment", count=1}
 		player.insert{name="construction-robot", count=25}	
 	end
-
 end
