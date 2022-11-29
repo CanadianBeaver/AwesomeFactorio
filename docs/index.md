@@ -1,3 +1,3 @@
 test
 
-[url](readme)
+[url](readme.md)
