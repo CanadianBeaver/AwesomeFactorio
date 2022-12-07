@@ -1,6 +1,9 @@
 Index
 
-[Game Strategy](GameStrategy.md)
+The core
+* [Game Strategy](GameStrategy.md)
+* [Loading Trains](LoadingAndUnloadingTrains.md#loading)
+* [Unloading Trains](LoadingAndUnloadingTrains.md#unloading)
 
 Electric system
 * [Basic power](BasicPower.md)
