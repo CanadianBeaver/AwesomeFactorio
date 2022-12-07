@@ -1,6 +1,6 @@
 # Loading and Unloading Trains
 
-![Iron or Steel chests](assets\images\LoadingAndUnloadingTrains\img01.png "Iron or Steel chests")
+![Iron or Steel chests](assets/images/LoadingAndUnloadingTrains/img01.png "Iron or Steel chests")
 
 According [Factorio wiki](https://wiki.factorio.com/Inserters)
 
