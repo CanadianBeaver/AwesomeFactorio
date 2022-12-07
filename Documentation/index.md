@@ -1,5 +1,7 @@
 Index
 
+[Game Strategy](GameStrategy.md)
+
 Electric system
 * [Basic power](BasicPower.md)
 * [Nuclear power](NuclearPower.md)
