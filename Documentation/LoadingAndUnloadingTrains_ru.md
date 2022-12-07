@@ -1,16 +1,19 @@
-# Loading and Unloading Trains
+# Погрузка и разгрузка поездов
 
-For quick loading or unloading the trains, always use intermediate iron or steel chests between cargo wagons and belts. it makes possible to load or unload trains on busy belts. Here chests looks like a [cache](https://en.wikipedia.org/wiki/Cache_(computing)) between wagons and belts. You can place the 6 inserters on each side of the cargo wagon, 12 inserters are maximum for both sides.
+Для быстрой погрузки и разгрузки поездов всегда используйте `Железный сундук` или `Стальной сундук` между `Грузовым вагоном` и `Конвейерами` транспортирующих предметы. При погрузке и разгрузке жидкостей используйте `Резервуар` между `Помпой` и `Трубами` транспортирующих жидкости. В таком случае, сундуки и резервуары будут выполнять роль [cache](https://en.wikipedia.org/wiki/Cache_(computing)){:target="_blank"} в транспортировке предметов от мест добычи к местам производства.
+
+Вы можете разместить до 6 манипуляторов с каждой стороны грузового вагона, максимум 12 манипуляторов с обеих сторон.
+
 
 ![Iron or Steel chests](assets/images/LoadingAndUnloadingTrains/img01.png "Iron or Steel chests")
 
-According to [Factorio wiki](https://wiki.factorio.com/Inserters) the 
+Согласно [Factorio wiki](https://wiki.factorio.com/Inserters) 
 
 
 
 
-# Loading Trains
+# Погрузка поездов
 
 
 
-# Unloading Trains
+# Разгрузка поездов

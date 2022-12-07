@@ -1,4 +1,5 @@
 {
     "luahelper.format.break_after_operator": true,
-    "luahelper.format.chop_down_kv_table": true
+    "luahelper.format.chop_down_kv_table": true,
+    "cSpell.language": "en,ru"
 }

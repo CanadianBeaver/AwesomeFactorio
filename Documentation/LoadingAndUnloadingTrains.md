@@ -4,8 +4,6 @@ For quick loading or unloading the trains, always use intermediate iron or steel
 
 ![Iron or Steel chests](assets/images/LoadingAndUnloadingTrains/img01.png "Iron or Steel chests")
 
-You can place the 6 inserters on each side of the cargo wagon, 12 inserters are maximum for both sides.
-
 According to [Factorio wiki](https://wiki.factorio.com/Inserters){:target="_blank"} the 
 
 
