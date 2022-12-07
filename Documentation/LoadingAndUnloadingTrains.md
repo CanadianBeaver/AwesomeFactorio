@@ -1,5 +1,7 @@
 # Loading and Unloading Trains
 
+According [Factorio wiki](https://wiki.factorio.com/Inserters)
+
 Items/second at capacity bonus level (stack size)
 
 ### No capacity bonus
