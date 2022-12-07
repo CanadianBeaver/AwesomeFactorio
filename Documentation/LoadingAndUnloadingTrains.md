@@ -1,5 +1,7 @@
 # Loading and Unloading Trains
 
+![Iron or Steel chests](assets\images\LoadingAndUnloadingTrains\img01.png "Iron or Steel chests")
+
 According [Factorio wiki](https://wiki.factorio.com/Inserters)
 
 Items/second at capacity bonus level (stack size)
