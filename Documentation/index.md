@@ -1,9 +1,10 @@
 Index
 
+[Russian](index_ru.md)
+
 The core
 * [Game Strategy](GameStrategy.md)
-* [Loading Trains](LoadingAndUnloadingTrains.md#loading-trains)
-* [Unloading Trains](LoadingAndUnloadingTrains.md#unloading-trains)
+* [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
 Electric system
 * [Basic power](BasicPower.md)
