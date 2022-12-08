@@ -4,7 +4,7 @@
 
 Вы можете разместить до 6 `манипуляторов` с каждой стороны грузового вагона, максимум 12 манипуляторов с обеих сторон. Использование твёрдотопливных манипуляторов (`Burner inserter`), обычных жёлтых манипуляторов (`Inserter`) или длинных манипуляторов (`Long-handed inserter`) не эффективно. Вы также можете разместить до трёх помп с каждой стороны вагона-цистерны (`Fluid wagon`), всего 6 помп с обеих сторон. Но такое количество помп не целесообразно, две помпы на вагон-цистерну вполне достаточно.
 
-![Typical pattern for loading and unloading](assets/images/LoadingAndUnloadingTrains/img01.png "Typical pattern for loading and unloading")
+![Typical pattern for loading and unloading](assets/images/LoadingAndUnloadingTrains/img01.png)
 
 # Погрузка предметов
 
