@@ -48,6 +48,12 @@
 
 Чертеж разгрузки и погрузки жидкостей полностью одинаковый, отличается только направлением помпы.
 
+![4 cargo wagons loading station](assets/images/LoadingAndUnloadingTrains/img06.png)
+
+<details><summary>Blueprint</summary><pre>
+0eNqllmFvgyAQhv/LfZZGQBT9K0uz2Eo6MkWDuKxp/O9D2866XDbLvqmB5733uDu8wKEeVGe1cVBcQB9b00PxcoFen0xZT9/cuVNQgHaqgQhM2UxvttQ1jBFoU6lPKOgY/bmld60tT4q40rw/bGXjPgJlnHZaXaXnl/OrGZqDsp79QPCypzdHZvUIurb3u1ozSXpSlmcRnKEgIqbjFNAPEHsalOQ5BuLfoEZVemiIqtXRWX0kXVsrjJfsxJ2Y7oQ3b5TXP7SDnSzTdI+oJKtkk1t2EbhYwxGUCHCeYaD0G9Tpzh9lS062HUyFkeIlLDF7rrT1aZqXMISd4ZWCkNlCTnDDMsAwCspXhrH9fAmG4cHQeIEMTYce4R3Bt2SK0gB7HA2NhSQ93hQk3+6abgImAa7RQUBFUBnLfFOY6T+mw01iNR04Nhxo9nwyJDrMaECvSHQ40DyAhHYMWzpmAhnii/PXCpJ8fTC+VHpXXp8BMIWAFpJoCzH2/JyWFJ8UjAdEhd91Ac2S+frwd/F8axcP/wURfCjbXwteUr+MZSnPU5Ek4/gFc/anpg==
+</pre></details>
+
 # Больше подробностей
 
 Детальный разбор погрузки и разгрузки поездов смотрите на Youtube канале.
