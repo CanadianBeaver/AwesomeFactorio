@@ -4,7 +4,7 @@ Index
 
 The core
 * [Game Strategy](GameStrategy.md)
-* [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+* [Loading and Unloading Trains](LoadingAndUnloadingTrains_ru.md)
 
 Electric system
 * [Basic power](BasicPower.md)
