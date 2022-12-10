@@ -2,6 +2,7 @@
     "luahelper.format.break_after_operator": true,
     "luahelper.format.chop_down_kv_table": true,
     "markdownlint.config": {
-        "MD033": false
+        "MD033": false,
+        "MD037": false
     }
 }
