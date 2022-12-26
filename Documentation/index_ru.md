@@ -7,7 +7,7 @@ The core
 * [Loading and Unloading Trains](LoadingAndUnloadingTrains_ru.md)
 
 Electric system
-* [Basic power](BasicPower.md)
+* [Basic power](BasicPower_ru.md)
 * [Nuclear power](NuclearPower.md)
 
 Belts and Inserters
