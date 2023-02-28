@@ -1,5 +1,10 @@
 title: Awesome Factorio
 description: how to build an awesome factory
+
+remote_theme: just-the-docs/just-the-docs
+
 lang: en 
 languages: ["en", "ru"] 
-remote_theme: just-the-docs/just-the-docs
+
+mermaid:
+  version: "9.1.3"
