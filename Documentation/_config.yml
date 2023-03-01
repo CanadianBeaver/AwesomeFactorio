@@ -8,4 +8,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
 
-#language_includes_dir: _i18n
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
