@@ -1,6 +1,6 @@
 title: Awesome Factorio
 description: how to build an awesome factory
-remote_theme: allejo/jekyll-docs-theme@v1.0.0
+theme: jekyll-text-theme
 
 lang: en 
 languages: ["en", "ru"] 
