@@ -5,4 +5,4 @@ lang: en
 languages: ["en", "ru"] 
 
 plugins:
-  - jekyll-spaceship
+  - jekyll-multiple-languages-plugin
