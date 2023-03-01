@@ -3,3 +3,8 @@ description: How to build an awesome factory?
 
 plugins:
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "ru"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
