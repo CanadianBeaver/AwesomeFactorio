@@ -6,6 +6,6 @@ languages: ['en', 'de']
 
 plugins:
   - jekyll-sitemap
-  - jekyll-language-plugin
+  - jekyll-multiple-languages-plugin
 
 language_includes_dir: _i18n
