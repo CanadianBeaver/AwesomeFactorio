@@ -1,8 +1,11 @@
 title: Awesome Factorio
 description: How to build an awesome factory?
 
-lang: en 
-languages: ["en", "ru"] 
+lang: en
+languages: ['en', 'de']
 
 plugins:
-  - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
+  - jekyll-language-plugin
+
+language_includes_dir: _i18n
