@@ -1,8 +1,8 @@
 title: Awesome Factorio
-description: how to build an awesome factory
+description: How to build an awesome factory?
 
 lang: en 
 languages: ["en", "ru"] 
 
-mermaid:
-  version: "9.1.3"
+plugins:
+  - jekyll-multiple-languages-plugin
