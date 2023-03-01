@@ -8,4 +8,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
 
-language_includes_dir: _i18n
+#language_includes_dir: _i18n
