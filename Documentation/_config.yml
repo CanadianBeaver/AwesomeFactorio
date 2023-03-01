@@ -1,5 +1,6 @@
 title: Awesome Factorio
 description: how to build an awesome factory
+remote_theme: olivier3lanc/Jekyll-LibDoc
 
 lang: en 
 languages: ["en", "ru"] 
