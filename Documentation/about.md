@@ -6,4 +6,4 @@ languages:
 subset: about
 ---
 # {% t 'title' %}
-{% tinclude about.md %}
+{% t include about.md %}
