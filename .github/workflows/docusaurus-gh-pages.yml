@@ -24,23 +24,26 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+#    defaults:
+#      run:
+#        working-directory: ./Website-Generators/docusaurus
     steps:
       - name: Checkout
-        uses: actions/checkout@v3      
+        uses: actions/checkout@v3
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: yarn  
-          cache-dependency-path: docusaurus-website
+          cache: yarn
+          cache-dependency-path: Website-Generators/docusaurus
       - name: Install dependencies
-        run: yarn --cwd docusaurus-website install --frozen-lockfile --non-interactive
+        run: yarn --cwd Website-Generators/docusaurus install --frozen-lockfile --non-interactive
       - name: Build
-        run: yarn --cwd docusaurus-website build
+        run: yarn --cwd Website-Generators/docusaurus build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: docusaurus-website/build
+          path: Website-Generators/docusaurus/build
 
   # Deployment job
   deploy:
