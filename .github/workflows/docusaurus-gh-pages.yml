@@ -36,9 +36,11 @@ jobs:
       - name: Install dependencies
         run: yarn --cwd docusaurus-website install --frozen-lockfile --non-interactive
       - name: Build
-        run: yarn --cwd docusaurus-website --output-directory ./_site build
+        run: yarn --cwd docusaurus-website build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        with:
+          path: docusaurus-website/build
 
   # Deployment job
   deploy:
