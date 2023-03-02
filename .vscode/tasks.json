@@ -19,7 +19,7 @@
             "script": "start",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceFolder}/docusaurus-website"
+                "cwd": "${workspaceFolder}/Website-Generators/docusaurus"
             },
             "problemMatcher": [
                 "$eslint-stylish"
@@ -38,7 +38,7 @@
             "script": "start -- --locale ru",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceFolder}/docusaurus-website",
+                "cwd": "${workspaceFolder}/Website-Generators/docusaurus",
             },
             "problemMatcher": [
                 "$eslint-stylish"
