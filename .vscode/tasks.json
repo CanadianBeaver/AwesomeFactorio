@@ -12,6 +12,45 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Docusaurus",
+            "type": "npm",
+            "script": "start",
+            "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceFolder}/docusaurus-website"
+            },
+            "problemMatcher": [
+                "$eslint-stylish"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never"
+            }
+        },
+        {
+            "label": "Docusaurus RUS",
+            "type": "npm",
+            "script": "start -- --locale ru",
+            "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceFolder}/docusaurus-website",
+            },
+            "problemMatcher": [
+                "$eslint-stylish"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never"
+            }
         }
+
     ]
 }
