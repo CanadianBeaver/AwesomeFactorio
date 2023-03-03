@@ -1,6 +1,6 @@
 Index
 
-[English](index.md)
+[English](../index.md)
 
 The core
 * [Game Strategy](GameStrategy.md)

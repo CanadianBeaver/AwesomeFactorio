@@ -1,6 +1,6 @@
 Index
 
-[Russian](index_ru.md)
+[Russian](ru/index.md)
 
 The core
 * [Game Strategy](GameStrategy.md)
