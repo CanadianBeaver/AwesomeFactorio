@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --open",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs --dest build"
+  },
+  "devDependencies": {
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-plantuml": "^1.4.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-textual-uml": "^0.12.0",
+    "vuepress": "^1.9.2",
+    "vuepress-bar": "^0.4.4"
+  }
+}
