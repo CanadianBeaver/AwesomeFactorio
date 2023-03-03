@@ -30,6 +30,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ru'],
+    path: '../../Articles/'
   },
 
   presets: [
@@ -39,21 +40,20 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: '../../Articles/',
+          exclude: [ 'ru/**/*.*' ],
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/CanadianBeaver/AwesomeFactorio/tree/main/packages/Articles/templates/shared/',
+          //editUrl: 'https://github.com/CanadianBeaver/AwesomeFactorio/edit/main/Articles/',
         },
-        blog: {
+        blog: false/*{
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/CanadianBeaver/AwesomeFactorio/tree/main/packages/Blog/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+          // editUrl: 'https://github.com/CanadianBeaver/AwesomeFactorio/edit/main/Blog/',
+        }*/,
+        pages: false
       }),
     ],
   ],
@@ -62,9 +62,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
-//        title: 'Home',
+        // title: 'Home',
         logo: {
           alt: 'Home',
           src: 'img/logo.svg',
@@ -72,16 +72,20 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
             label: 'Articles',
           },
           /*{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
             label: 'GitHub',
             position: 'right',
           },*/
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
