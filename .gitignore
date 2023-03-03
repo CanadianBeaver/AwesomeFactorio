@@ -1,17 +1,6 @@
 # Dependencies
 node_modules
 
-# Production
-build
-
-# Generated files by Docusaurus
-.docusaurus
-.cache-loader
-
-# Generated files by VuePress
-.temp
-.cache
-
 # Misc
 .DS_Store
 .env.local
