@@ -4,10 +4,10 @@ Index
 
 The core
 * [Game Strategy](GameStrategy.md)
-* [Loading and Unloading Trains](LoadingAndUnloadingTrains_ru.md)
+* [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
 Electric system
-* [Basic power](BasicPower_ru.md)
+* [Basic power](BasicPower.md)
 * [Nuclear power](NuclearPower.md)
 
 Belts and Inserters
