@@ -30,7 +30,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ru'],
-    path: '../../Articles/'
+//    path: '../../Articles/'
   },
 
   presets: [
@@ -41,7 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: '../../Articles/',
-          exclude: [ 'ru/**/*.*' ],
+          //exclude: [ 'ru/**/*.*' ],
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
