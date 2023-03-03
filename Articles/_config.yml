@@ -1,0 +1,5 @@
+title: Awesome Factorio
+description: How to build an awesome factory?
+
+plugins:
+  - jekyll-sitemap
