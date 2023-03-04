@@ -3,20 +3,6 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "Docusaurus",
-            "request": "launch",
-            "command": "npm run start",
-            "cwd": "${workspaceFolder}\\Website-Generators\\docusaurus"
-        },
-        {
-            "type": "node-terminal",
-            "name": "Docusaurus: rus",
-            "request": "launch",
-            "command": "npm run start -- --locale ru",
-            "cwd": "${workspaceFolder}\\Website-Generators\\docusaurus"
-        },
-        {
-            "type": "node-terminal",
             "name": "VuePress",
             "request": "launch",
             "command": "npm run dev",
