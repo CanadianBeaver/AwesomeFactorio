@@ -20,7 +20,7 @@ module.exports = {
 
   themeConfig: {
     logo: '/assets/img/logo.svg',
-    repo: '',
+    repo: 'AwesomeFactorio',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
