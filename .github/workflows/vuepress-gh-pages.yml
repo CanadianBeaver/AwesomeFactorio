@@ -32,15 +32,15 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
-          cache-dependency-path: Website-Generators/docusaurus
+          cache-dependency-path: Website-Generators/vuepress
       - name: Install dependencies
-        run: yarn --cwd Website-Generators/docusaurus install --frozen-lockfile --non-interactive
+        run: yarn --cwd Website-Generators/vuepress install --frozen-lockfile --non-interactive
       - name: Build
-        run: yarn --cwd Website-Generators/docusaurus build
+        run: yarn --cwd Website-Generators/vuepress build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: Website-Generators/docusaurus/build
+          path: Website-Generators/vuepress/build
 
   # Deployment job
   deploy:
