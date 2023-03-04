@@ -1,63 +1,49 @@
-const { description } = require('../../package')
-
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'Vuepress Docs Boilerplate',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
 
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+  title: 'Awesome Factorio',
+  description: 'How to build an awesome factory?',
+
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
+  locales: {
+    '/': {
+      lang: 'en-US',
+    },
+    '/ru/': {
+      lang: 'ru-RU',
+    }
+  },
+
   themeConfig: {
+    logo: '/assets/img/logo.svg',
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
+    displayAllHeaders: true,
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+        /*nav: [
+          { text: 'Basics', link: 'BasicPower' }
+        ]*/
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+      '/ru/': {
+        selectText: 'Языки',
+        label: 'Русский',
+        /*nav: [
+          { text: 'Основы', link: 'BasicPower' }
+        ]*/
       }
-    ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    },
+
+
   },
 
   /**

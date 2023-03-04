@@ -1,24 +1,23 @@
 ---
 home: true
-tagline: How to build an awesome factory?
+tagline: Как построить классную фабрику?
 ---
 
-
-The core
+Основы
 * [Game Strategy](GameStrategy.md)
 * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
-Electric system
+Электричество
 * [Basic power](BasicPower.md)
 * [Nuclear power](NuclearPower.md)
 
-Belts and Inserters
+Манипуляторы и конвейеры
 * [Belts](BeltsAndInserters.md#belts)
 * [Inserters](BeltsAndInserters.md#inserters)
 
-Oil refining
+Переработка нефти
 * [Oil refining](OilRefining.md)
 
-Modules and Beacons
+Модули и маяки
 * [Modules](ModulesAndBeacons.md#modules)
 * [Beacons](ModulesAndBeacons.md#beacons)
