@@ -2,6 +2,7 @@ module.exports = {
 
   title: 'Awesome Factorio',
   description: 'How to build an awesome factory?',
+  base: '/AwesomeFactorio/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -20,7 +21,7 @@ module.exports = {
 
   themeConfig: {
     logo: '/assets/img/logo.svg',
-    repo: 'AwesomeFactorio',
+    repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
