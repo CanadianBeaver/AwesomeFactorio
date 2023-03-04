@@ -27,6 +27,7 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     displayAllHeaders: true,
+    smoothScroll: true,
     locales: {
       '/': {
         selectText: 'Languages',
@@ -44,6 +45,7 @@ module.exports = {
       }
     },
 
+    sidebar: 'auto',
 
   },
 
@@ -52,9 +54,6 @@ module.exports = {
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    '@vuepress/active-header-links',
-    'vuepress-plugin-smooth-scroll',
-    '@vuepress/search'
+    '@vuepress/plugin-medium-zoom'
   ]
 }
