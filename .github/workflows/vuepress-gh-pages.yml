@@ -24,20 +24,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-#      - name: Setup Pages
-#        uses: actions/configure-pages@v2
-      - name: Setup pnpm environment
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-          run_install: true
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
-      - name: Build VuePress site
-        run: pnpm Articles:build --dest .build
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Build Articles
+        run: npm run Articles:build -- --dest .build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
