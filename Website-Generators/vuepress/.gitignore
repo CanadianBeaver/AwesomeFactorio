@@ -7,4 +7,5 @@
 # Generated files by VuePress
 .temp
 .cache
+package-lock.json
 

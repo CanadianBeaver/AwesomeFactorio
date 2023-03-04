@@ -7,4 +7,5 @@
 # Generated files by Docusaurus
 .docusaurus
 .cache-loader
+package-lock.json
 
