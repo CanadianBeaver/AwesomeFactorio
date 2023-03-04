@@ -1,6 +1,14 @@
 ---
 home: true
+heroImage: assets/img/factorio-card.jpg
 tagline: How to build an awesome factory?
+features:
+  - title: Fast
+    details: Fast development
+  - title: Easy
+    details: Easy production
+  - title: Over 9000
+    details: science
 ---
 
 
