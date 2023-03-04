@@ -11,22 +11,10 @@ features:
     details: science
 ---
 
-
 The core
-* [Game Strategy](GameStrategy.md)
 * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
-Electric system
-* [Basic power](BasicPower.md)
-* [Nuclear power](NuclearPower.md)
-
-Belts and Inserters
-* [Belts](BeltsAndInserters.md#belts)
-* [Inserters](BeltsAndInserters.md#inserters)
-
-Oil refining
-* [Oil refining](OilRefining.md)
-
-Modules and Beacons
-* [Modules](ModulesAndBeacons.md#modules)
-* [Beacons](ModulesAndBeacons.md#beacons)
+[Power production](PowerProduction/PowerProduction.md)
+* [Steam power](PowerProduction/SteamPower.md)
+* [Solar power](PowerProduction/SolarPower.md)
+* [Nuclear power](PowerProduction/NuclearPower.md)
