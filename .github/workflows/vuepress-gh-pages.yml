@@ -37,7 +37,7 @@ jobs:
           node-version: 18
           cache: pnpm
       - name: Build VuePress site
-        run: pnpm Articles:build -- --dest .build
+        run: pnpm Articles:build --dest .build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
