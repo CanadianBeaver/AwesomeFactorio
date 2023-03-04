@@ -28,9 +28,9 @@ jobs:
 #        uses: actions/configure-pages@v2
       - name: Setup pnpm environment
         uses: pnpm/action-setup@v2
-          with:
-            version: 7
-            run_install: true
+        with:
+          version: 7
+          run_install: true
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
