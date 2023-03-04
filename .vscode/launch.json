@@ -3,10 +3,9 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "VuePress",
+            "name": "VuePress for Articles",
             "request": "launch",
-            "command": "npm run dev",
-            "cwd": "${workspaceFolder}\\Website-Generators\\vuepress"
+            "command": "npm run Articles:dev -- --open",
         }
     ]
 }

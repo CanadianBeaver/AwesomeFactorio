@@ -21,28 +21,27 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./Website-Generators/vuepress
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
+#      - name: Setup Pages
+#        uses: actions/configure-pages@v2
+       - name: Setup pnpm environment
+         uses: pnpm/action-setup@v2
+         with:
+           version: 7
+           run_install: true
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-          cache: yarn
-          cache-dependency-path: Website-Generators/vuepress
-      - name: Install dependencies
-        run: yarn --cwd Website-Generators/vuepress install --frozen-lockfile --non-interactive
-      - name: Build
-        run: yarn --cwd Website-Generators/vuepress deploy
+          node-version: 18
+          cache: pnpm
+      - name: Build VuePress site
+        run: pnpm Articles:build -- --dest .build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: Website-Generators/vuepress/build
+          path: .build
 
   # Deployment job
   deploy:

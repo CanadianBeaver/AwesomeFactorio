@@ -2,8 +2,12 @@
   "name": "AwesomeFactorio",
   "description": "How to build an awesome factory? It is over 9,000 science packs per minute...",
   "scripts": {
-
+    "Articles:dev": "vuepress dev Articles",
+    "Articles:build": "vuepress build Articles"
   },
   "author": "Radu Martin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.61"
+  }
 }

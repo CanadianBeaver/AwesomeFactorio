@@ -9,9 +9,33 @@
             "command": "./scripts/publish-MyGameStart-mod-localy.cmd",
             "problemMatcher": [],
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind": "none",
+                "isDefault": false
             }
         },
+        {
+            "label": "VuePress for Articles",
+            "type": "npm",
+            "script": "Articles:build -- --dest .build",
+            "promptOnClose": false,
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "VuePress build Articles"
+        },
+        {
+            "label": "VuePress for Articles",
+            "type": "npm",
+            "script": "Articles:dev -- --open",
+            "promptOnClose": false,
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "VuePress test Articles"
+        }
     ]
 }
