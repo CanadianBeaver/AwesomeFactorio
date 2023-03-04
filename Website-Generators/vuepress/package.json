@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src --host localhost --port 8089 --open",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build src --dest build"
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build src --dest build",
+    "deploy": "vuepress build src --dest build"
   },
   "devDependencies": {
     "vuepress": "^1.5.3"
