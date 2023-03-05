@@ -4,6 +4,10 @@ module.exports = {
     description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
     base: '/AwesomeFactorio/',
 
+    head: [
+      ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+    ],
+
     locales: {
       '/': {
         lang: 'en-US',
