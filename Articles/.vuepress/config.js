@@ -65,6 +65,7 @@ module.exports = {
       '@vuepress/plugin-back-to-top',
       '@vuepress/plugin-medium-zoom',
       '@vuepress/search',
-      '@vuepress/active-header-links'
+      '@vuepress/active-header-links',
+      ['vuepress-plugin-code-copy', true]
     ]
   }
