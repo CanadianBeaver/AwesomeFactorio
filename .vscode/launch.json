@@ -5,7 +5,7 @@
             "type": "node-terminal",
             "name": "VuePress for Articles",
             "request": "launch",
-            "command": "npm run Articles:dev",
+            "command": "npm run Articles:dev -- --open",
         }
     ]
 }
