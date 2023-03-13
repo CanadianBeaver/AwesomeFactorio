@@ -70,6 +70,7 @@ module.exports = {
       '@vuepress/plugin-medium-zoom',
       '@vuepress/search',
       '@vuepress/active-header-links',
-      ['vuepress-plugin-code-copy', true]
+      'vuepress-plugin-code-copy',
+      'vuepress-plugin-right-anchor'
     ]
   }
