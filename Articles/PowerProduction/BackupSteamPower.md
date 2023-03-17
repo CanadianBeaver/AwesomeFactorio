@@ -16,8 +16,8 @@ When the accumulator has less than 5 percents, the power switch turns on, but wh
 
 The following video demonstrates all discussed ideas:
 
-[![How to set Steam and Nuclear power plants to backup power](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)](http://www.youtube.com/watch?v=FfmslzAyOsc)
+[![How to set up Steam and Nuclear power plants for backup power](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)](http://www.youtube.com/watch?v=FfmslzAyOsc)
 
 ### Source
 
-https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example
+[Factorio tutorial](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)

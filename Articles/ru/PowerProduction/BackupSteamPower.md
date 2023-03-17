@@ -26,4 +26,4 @@
 
 ### Ссылка на первоисточник
 
-https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example
+[Factorio tutorial](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)
