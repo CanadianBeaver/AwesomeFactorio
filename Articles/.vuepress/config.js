@@ -38,7 +38,8 @@ module.exports = {
               children: [
                 '/PowerProduction/SteamPower',
                 '/PowerProduction/SolarPower',
-                '/PowerProduction/NuclearPower'
+                '/PowerProduction/NuclearPower',
+                '/PowerProduction/BackupSteamPower',
               ]
             },
             '/LoadingAndUnloadingTrains'
@@ -55,7 +56,8 @@ module.exports = {
               children: [
                 '/ru/PowerProduction/SteamPower',
                 '/ru/PowerProduction/SolarPower',
-                '/ru/PowerProduction/NuclearPower'
+                '/ru/PowerProduction/NuclearPower',
+                '/ru/PowerProduction/BackupSteamPower',
               ]
             },
             '/ru/LoadingAndUnloadingTrains'

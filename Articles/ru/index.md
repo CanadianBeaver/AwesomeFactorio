@@ -17,3 +17,4 @@ features:
 * [Паровая энергия](PowerProduction/SteamPower.md)
 * [Солнечная энергия](PowerProduction/SolarPower.md)
 * [Ядерная энергия](PowerProduction/NuclearPower.md)
+* [Переводим паровые электростанции в резерв](PowerProduction/BackupSteamPower.md)

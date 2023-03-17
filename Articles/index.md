@@ -17,3 +17,4 @@ The core
 * [Steam power](PowerProduction/SteamPower.md)
 * [Solar power](PowerProduction/SolarPower.md)
 * [Nuclear power](PowerProduction/NuclearPower.md)
+* [Backup steam power](PowerProduction/BackupSteamPower.md)
