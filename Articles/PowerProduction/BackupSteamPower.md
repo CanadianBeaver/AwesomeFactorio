@@ -1,6 +1,10 @@
 # Backup steam and nuclear power plants
 
+This blueprint based on reading the charge level on accumulator.
+
 ![Backup steam power](../images/PowerProduction/BackupSteamPower.02.png)
+
+When the accumulator has less than 5 percents, the power switch turns on, but when the accumulator has more than 60 percents, it turns off.
 
 ::: details Blueprint
 ```blueprint
