@@ -1,6 +1,6 @@
 # Backup steam and nuclear power plants
 
-![Backup steam power](../images/PowerProduction/BackupSteamPower.01.png)
+![Backup steam power](../images/PowerProduction/BackupSteamPower.02.png)
 
 ::: details Blueprint
 ```blueprint
