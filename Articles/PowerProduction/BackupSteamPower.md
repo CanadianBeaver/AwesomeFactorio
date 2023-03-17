@@ -13,3 +13,7 @@
 The following video demonstrates all discussed ideas:
 
 [![How to set Steam and Nuclear power plants to backup power](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)](http://www.youtube.com/watch?v=FfmslzAyOsc)
+
+### Source
+
+https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example
