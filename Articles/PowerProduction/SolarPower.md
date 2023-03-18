@@ -110,4 +110,4 @@ Big solar plant with optimal ratio
 
 The following video demonstrates all discussed ideas:
 
-[![Solar panels and accumulators](http://img.youtube.com/vi/L1Ys5Uwmias/0.jpg)](http://www.youtube.com/watch?v=L1Ys5Uwmias)
+[![Solar panels and accumulators](http://img.youtube.com/vi/oK32IE75AoA/0.jpg)](http://www.youtube.com/watch?v=oK32IE75AoA)
