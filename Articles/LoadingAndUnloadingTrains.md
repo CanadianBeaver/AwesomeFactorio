@@ -82,4 +82,4 @@ The mining of uranium ore (`Uranium ore`) requires sulfuric acid (`Sulfuric acid
 
 The following video demonstrates all discussed ideas:
 
-[![Loading and Unloading Trains](http://img.youtube.com/vi/ec5NaSu1XUw/0.jpg)](http://www.youtube.com/watch?v=ec5NaSu1XUw)
+[![Loading and Unloading Trains](http://img.youtube.com/vi/gXBgfwMp__I/0.jpg)](http://www.youtube.com/watch?v=gXBgfwMp__I)
