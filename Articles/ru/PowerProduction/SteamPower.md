@@ -14,4 +14,4 @@
 
 Детальный разбор производства паровой энергии смотрите на YouTube канале.
 
-[![Паровая энергия](http://img.youtube.com/vi/rzjGF7IRPB4/0.jpg)](http://www.youtube.com/watch?v=rzjGF7IRPB4)
+[![Паровая энергия](http://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)](http://www.youtube.com/watch?v=RQ80eZAnZ1Q)
