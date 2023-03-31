@@ -49,7 +49,7 @@ module.exports = {
           label: 'Русский',
           sidebar: [
             {
-              title: 'Производство энергии',
+              title: 'Производство электроэнергии',
               path: '/ru/PowerProduction/PowerProduction',
               collapsable: false,
               sidebarDepth: 0,
