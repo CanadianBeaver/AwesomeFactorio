@@ -9,9 +9,7 @@
 В общем, собсно сабж.
 
 ::: warning И тут дисклаймер
-Чертеж не мой, я его подгядел где-то в этих ваших интернетах, если некто чувствует непреодолимые амбиции в отношении авторских прав, то пишите письма, озвучу ваши права.
-
-А вообще, [первоисточник где-то здесь](https://www.google.com/search?client=opera&q=2xN+Nuclear+Power&sourceid=opera&ie=UTF-8&oe=UTF-8).
+Чертеж не мой, я его подгядел где-то в этих ваших интернетах, если некто чувствует непреодолимые амбиции в отношении авторских прав, то пишите письма, озвучу ваши права. А вообще, [первоисточник где-то здесь](https://www.google.com/search?client=opera&q=2xN+Nuclear+Power&sourceid=opera&ie=UTF-8&oe=UTF-8).
 :::
 
 ![Huge nuclear power plant](../../images/PowerProduction/HugeNuclearPowerPlant.jpg)
