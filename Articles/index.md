@@ -18,3 +18,4 @@ The core
 * [Solar power](PowerProduction/SolarPower.md)
 * [Nuclear power](PowerProduction/NuclearPower.md)
 * [Backup steam power](PowerProduction/BackupSteamPower.md)
+* [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)

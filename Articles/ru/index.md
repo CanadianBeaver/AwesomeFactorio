@@ -18,3 +18,4 @@ features:
 * [Солнечная энергия](PowerProduction/SolarPower.md)
 * [Ядерная энергия](PowerProduction/NuclearPower.md)
 * [Переводим паровые электростанции в резерв](PowerProduction/BackupSteamPower.md)
+* [Большая ядерная электростанция](PowerProduction/HugeNuclearPowerPlant.md)

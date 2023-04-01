@@ -32,6 +32,8 @@ Here are demonstrates three nuclear power plants based on the simple design.
 ```
 :::
 
+[Sheet for Nuclear Power](https://factoriocheatsheet.com/#nuclear-power)
+
 ## More details
 
 The following video demonstrates all discussed ideas:

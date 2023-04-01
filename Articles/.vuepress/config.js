@@ -40,6 +40,7 @@ module.exports = {
                 '/PowerProduction/SolarPower',
                 '/PowerProduction/NuclearPower',
                 '/PowerProduction/BackupSteamPower',
+                '/PowerProduction/HugeNuclearPowerPlant',
               ]
             },
             '/LoadingAndUnloadingTrains'
@@ -58,6 +59,7 @@ module.exports = {
                 '/ru/PowerProduction/SolarPower',
                 '/ru/PowerProduction/NuclearPower',
                 '/ru/PowerProduction/BackupSteamPower',
+                '/ru/PowerProduction/HugeNuclearPowerPlant',
               ]
             },
             '/ru/LoadingAndUnloadingTrains'

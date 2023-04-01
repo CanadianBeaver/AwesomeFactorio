@@ -106,6 +106,8 @@ Big solar plant with optimal ratio
 ```
 :::
 
+[Sheet for Basic Power](https://factoriocheatsheet.com/#basic-power)
+
 ## More details
 
 The following video demonstrates all discussed ideas:
