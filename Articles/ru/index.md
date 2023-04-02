@@ -11,7 +11,7 @@ features:
 ---
 
 * Основы
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
+  * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains)
 
 * [Производство электроэнергии](PowerProduction)
   * [Паровая энергия](PowerProduction/SteamPower)
