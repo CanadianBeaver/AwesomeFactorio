@@ -10,12 +10,12 @@ features:
     details: science
 ---
 
-The core
-* [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+* The core
+  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
-[Power production](PowerProduction/PowerProduction.md)
-* [Steam power](PowerProduction/SteamPower.md)
-* [Solar power](PowerProduction/SolarPower.md)
-* [Nuclear power](PowerProduction/NuclearPower.md)
-* [Backup steam power](PowerProduction/BackupSteamPower.md)
-* [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)
+* [Power production](PowerProduction/PowerProduction.md)
+  * [Steam power](PowerProduction/SteamPower.md)
+  * [Solar power](PowerProduction/SolarPower.md)
+  * [Nuclear power](PowerProduction/NuclearPower.md)
+  * [Backup steam power](PowerProduction/BackupSteamPower.md)
+  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)
