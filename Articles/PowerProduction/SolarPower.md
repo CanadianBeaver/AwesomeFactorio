@@ -107,9 +107,3 @@ Big solar plant with optimal ratio
 :::
 
 [Sheet for Basic Power](https://factoriocheatsheet.com/#basic-power)
-
-## More details
-
-The following video demonstrates all discussed ideas:
-
-[![Solar panels and accumulators](http://img.youtube.com/vi/oK32IE75AoA/0.jpg)](http://www.youtube.com/watch?v=oK32IE75AoA)

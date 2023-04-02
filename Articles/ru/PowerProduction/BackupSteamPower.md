@@ -18,12 +18,12 @@
 ```
 :::
 
+## Ссылка на первоисточник
+
+[Factorio tutorial](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)
+
 ## Больше подробностей
 
 Детальный разбор смотрите на YouTube канале.
 
 [![Переводим паровые и атомные электростанции в резерв](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)](http://www.youtube.com/watch?v=FfmslzAyOsc)
-
-### Ссылка на первоисточник
-
-[Factorio tutorial](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)

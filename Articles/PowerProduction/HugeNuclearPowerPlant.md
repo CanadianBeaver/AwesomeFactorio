@@ -10,8 +10,3 @@ This is a good blueprint for stackable nuclear power plants. Blueprint is not mi
 ```
 :::
 
-## More details
-
-The following video demonstrates all discussed ideas:
-
-[![Huge nuclear power plant](http://img.youtube.com/vi/Hf8DQ72IHZI/0.jpg)](http://www.youtube.com/watch?v=Hf8DQ72IHZI)

@@ -77,9 +77,3 @@ The mining of uranium ore (`Uranium ore`) requires sulfuric acid (`Sulfuric acid
 0eNrNVFuO2yAU3Up0v/EIg7GN19Df+aqiiNjERcIQYcg0iryA7qPdWFdSIGmSzkMz89eviPs495x7j3OCrQ5y75Tx0J1A9dbM0H09waxGI3SK+eNeQgfKywkQGDGll7a9naxXBwkLAmUG+R26ckHvNgYnjApTYd19J1nWCKTxyit5np8fx40J01a6CP3aZAR7O8cWa9K4CMNp+8A4bRiCI3QFwzyOsE5FMHEuww8p2VttXepxKUI5KVnd1rxsKK44J3XDmrYksXDMHZi1LaENrpqSs4pWrME0p7cxjUCkooq3OAPFn7KqaU0iVt02bElLeaaGXNXsdFBD8STGSO6lnIq9K4ewV/DpFb8XbrRv4jPyoXUpc4gh62KRCVqnW839NzkEfTnW7SbpXd7lz176CwdfrBiUGVfF6vHsg1XyAYInofwmem/I9M6gEXIvnNxcbBQPhu4tFctDNG065qUtqdopN/vN5zyYPO9F+gAIxhhdBgufLAK/f/yCZVlnZ19lPBr9fwt5qeInZCM+4yLMcCOTvfgpNrnjRmcOehec6gvRx/C/my3f3Ow6+Snr6u7+jBBosZU6Lfu24NXVVggO0s2ZHWnLquGkqSmvWVUtyx9pL5Wh
 ```
 :::
-
-## More details
-
-The following video demonstrates all discussed ideas:
-
-[![Loading and Unloading Trains](http://img.youtube.com/vi/gXBgfwMp__I/0.jpg)](http://www.youtube.com/watch?v=gXBgfwMp__I)

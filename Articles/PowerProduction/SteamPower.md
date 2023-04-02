@@ -21,9 +21,3 @@ The following blueprint is useful for produce electricity from `Solid fuel`. Her
 :::
 
 [Sheet for Basic Power](https://factoriocheatsheet.com/#basic-power)
-
-## More details
-
-The following video demonstrates all discussed ideas:
-
-[![Steam Power](http://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)](http://www.youtube.com/watch?v=RQ80eZAnZ1Q)
