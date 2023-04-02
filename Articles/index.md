@@ -11,6 +11,7 @@ features:
 ---
 
 * The core
+  * [How to start new game?](HowToStartNewGame)
   * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
 
 * [Power production](PowerProduction)

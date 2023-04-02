@@ -31,6 +31,10 @@ module.exports = {
           label: 'English',
           sidebar: [
             {
+              title: 'How to start new game?',
+              path: '/HowToStartNewGame',
+            },
+            {
               title: 'Power production',
               path: '/PowerProduction',
               collapsable: false,
@@ -49,6 +53,10 @@ module.exports = {
         '/ru/': {
           label: 'Русский',
           sidebar: [
+            {
+              title: 'Как начать играть?',
+              path: '/ru/HowToStartNewGame',
+            },
             {
               title: 'Производство электроэнергии',
               path: '/ru/PowerProduction',

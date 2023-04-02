@@ -11,6 +11,7 @@ features:
 ---
 
 * Основы
+  * [Как начать играть?](HowToStartNewGame)
   * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains)
 
 * [Производство электроэнергии](PowerProduction)
