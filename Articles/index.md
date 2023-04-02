@@ -11,11 +11,11 @@ features:
 ---
 
 * The core
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+  * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
 
-* [Power production](PowerProduction/PowerProduction.md)
-  * [Steam power](PowerProduction/SteamPower.md)
-  * [Solar power](PowerProduction/SolarPower.md)
-  * [Nuclear power](PowerProduction/NuclearPower.md)
-  * [Backup steam power](PowerProduction/BackupSteamPower.md)
-  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)
+* [Power production](PowerProduction)
+  * [Steam power](PowerProduction/SteamPower)
+  * [Solar power](PowerProduction/SolarPower)
+  * [Nuclear power](PowerProduction/NuclearPower)
+  * [Backup steam power](PowerProduction/BackupSteamPower)
+  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant)

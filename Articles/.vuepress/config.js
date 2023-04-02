@@ -32,7 +32,7 @@ module.exports = {
           sidebar: [
             {
               title: 'Power production',
-              path: '/PowerProduction/PowerProduction',
+              path: '/PowerProduction',
               collapsable: false,
               sidebarDepth: 0,
               children: [
@@ -51,7 +51,7 @@ module.exports = {
           sidebar: [
             {
               title: 'Производство электроэнергии',
-              path: '/ru/PowerProduction/PowerProduction',
+              path: '/ru/PowerProduction',
               collapsable: false,
               sidebarDepth: 0,
               children: [

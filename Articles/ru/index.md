@@ -11,12 +11,12 @@ features:
 ---
 
 * Основы
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+  * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
 
-* [Производство электроэнергии](PowerProduction/PowerProduction.md)
-  * [Паровая энергия](PowerProduction/SteamPower.md)
-  * [Эффективность топлива для производства паровой энергии](PowerProduction/EfficientFuelForSteamPower.md)
-  * [Солнечная энергия](PowerProduction/SolarPower.md)
-  * [Ядерная энергия](PowerProduction/NuclearPower.md)
-  * [Переводим паровые и ядерные электростанции в резерв](PowerProduction/BackupSteamPower.md)
-  * [Большая ядерная электростанция](PowerProduction/HugeNuclearPowerPlant.md)
+* [Производство электроэнергии](PowerProduction)
+  * [Паровая энергия](PowerProduction/SteamPower)
+  * [Эффективность топлива для производства паровой энергии](PowerProduction/EfficientFuelForSteamPower)
+  * [Солнечная энергия](PowerProduction/SolarPower)
+  * [Ядерная энергия](PowerProduction/NuclearPower)
+  * [Переводим паровые и ядерные электростанции в резерв](PowerProduction/BackupSteamPower)
+  * [Большая ядерная электростанция](PowerProduction/HugeNuclearPowerPlant)
