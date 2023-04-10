@@ -35,3 +35,9 @@
 И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры, разбор полётов [в этом вашем тубе](https://www.youtube.com/watch?v=RQ80eZAnZ1Q&list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL).
 
 ![Чертежи в игре](../../images/PowerProduction/PowerProduction.01.png)
+
+## Больше подробностей
+
+Детальный разбор общих вопросов производства электроэнергии смотрите на YouTube канале.
+
+[![Общие вопросы производства энергии](http://img.youtube.com/vi/W_Qp5dzhLe0/0.jpg)](http://www.youtube.com/watch?v=W_Qp5dzhLe0)
