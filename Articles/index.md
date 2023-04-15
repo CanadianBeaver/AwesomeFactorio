@@ -12,6 +12,10 @@ features:
 
 * The core
   * [How to start new game?](HowToStartNewGame)
+
+* [Mining resources](MiningResources)
+  * [Crude oil and water](MiningResources/CrudeOilAndWater)
+  * [Uranium ore](MiningResources/UraniumOre)
   * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
 
 * [Power production](PowerProduction)

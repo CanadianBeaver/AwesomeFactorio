@@ -35,6 +35,17 @@ module.exports = {
               path: '/HowToStartNewGame',
             },
             {
+              title: 'Mining Resources',
+              path: '/MiningResources',
+              collapsable: false,
+              sidebarDepth: 0,
+              children: [
+                '/MiningResources/CrudeOilAndWater',
+                '/MiningResources/UraniumOre',
+                '/LoadingAndUnloadingTrains'
+              ]
+            },
+            {
               title: 'Power production',
               path: '/PowerProduction',
               collapsable: false,
@@ -56,6 +67,17 @@ module.exports = {
             {
               title: 'Как начать играть?',
               path: '/ru/HowToStartNewGame',
+            },
+            {
+              title: 'Добыча ресурсов',
+              path: '/ru/MiningResources',
+              collapsable: false,
+              sidebarDepth: 0,
+              children: [
+                '/ru/MiningResources/CrudeOilAndWater',
+                '/ru/MiningResources/UraniumOre',
+                '/ru/LoadingAndUnloadingTrains'
+              ]
             },
             {
               title: 'Производство электроэнергии',
