@@ -71,7 +71,7 @@
 [Кое-что ещё, но не очень много](https://wiki.factorio.com/Mining)
 :::
 
-И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Resources.zip), чертежи в книге игры, разбор полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4KL5HZqJnKbtlvfdKMYzCs2).
+И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Resources.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4KL5HZqJnKbtlvfdKMYzCs2).
 
 ![Чертежи в игре](../../images/MiningResources/MiningResources.01.png)
 
@@ -79,4 +79,4 @@
 
 Детальный разбор добычи ресурсов смотрите на YouTube канале.
 
-[![Добыча ресурсов](http://img.youtube.com/vi/аааааааааааааа/0.jpg)](http://www.youtube.com/watch?v=ааааааааааааа)
+[![Добыча ресурсов](http://img.youtube.com/vi/ZI2aVerqCT4/0.jpg)](http://www.youtube.com/watch?v=ZI2aVerqCT4)
