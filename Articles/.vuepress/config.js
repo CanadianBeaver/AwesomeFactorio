@@ -57,8 +57,7 @@ module.exports = {
                 '/PowerProduction/BackupSteamPower',
                 '/PowerProduction/HugeNuclearPowerPlant',
               ]
-            },
-            '/LoadingAndUnloadingTrains'
+            }
           ]
         },
         '/ru/': {
@@ -92,8 +91,7 @@ module.exports = {
                 '/ru/PowerProduction/BackupSteamPower',
                 '/ru/PowerProduction/HugeNuclearPowerPlant',
               ]
-            },
-            '/ru/LoadingAndUnloadingTrains'
+            }
           ]
         }
       }
