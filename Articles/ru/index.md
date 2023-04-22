@@ -14,7 +14,7 @@ features:
   * [Как начать играть?](HowToStartNewGame)
 
 * [Добыча ресурсов](MiningResources)
-  * [Добыча нефти и воды](MiningResources/CrudeOilAndWater)
+  * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio)
   * [Добыча урана](MiningResources/UraniumOre)
   * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains)
 

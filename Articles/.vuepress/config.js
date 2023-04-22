@@ -40,7 +40,7 @@ module.exports = {
               collapsable: false,
               sidebarDepth: 0,
               children: [
-                '/MiningResources/CrudeOilAndWater',
+                '/MiningResources/Autotorio',
                 '/MiningResources/UraniumOre',
                 '/LoadingAndUnloadingTrains'
               ]
@@ -74,7 +74,7 @@ module.exports = {
               collapsable: false,
               sidebarDepth: 0,
               children: [
-                '/ru/MiningResources/CrudeOilAndWater',
+                '/ru/MiningResources/Autotorio',
                 '/ru/MiningResources/UraniumOre',
                 '/ru/LoadingAndUnloadingTrains'
               ]

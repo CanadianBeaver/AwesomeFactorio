@@ -14,7 +14,7 @@ features:
   * [How to start new game?](HowToStartNewGame)
 
 * [Mining resources](MiningResources)
-  * [Crude oil and water](MiningResources/CrudeOilAndWater)
+  * [Autotorio](MiningResources/Autotorio)
   * [Uranium ore](MiningResources/UraniumOre)
   * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
 
