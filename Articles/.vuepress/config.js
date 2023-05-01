@@ -2,7 +2,7 @@ module.exports = {
     lang: 'en-US',
     title: 'Awesome Factorio',
     description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
-    base: '/AwesomeFactorio/',
+    base: '/',
 
     head: [
       ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
