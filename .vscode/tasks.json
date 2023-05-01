@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Publish MyGameStart localy",
+            "label": "Publish MyGameStart mod localy",
             "type": "shell",
             "command": "./scripts/publish-MyGameStart-mod-localy.cmd",
             "problemMatcher": [],
