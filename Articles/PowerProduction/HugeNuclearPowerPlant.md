@@ -2,7 +2,7 @@
 
 This is a good blueprint for stackable nuclear power plants. Blueprint is not mine, [it was found somewhere in Internet](https://www.google.com/search?client=opera&q=2xN+Nuclear+Power&sourceid=opera&ie=UTF-8&oe=UTF-8).
 
-![Huge nuclear power plant](../images/PowerProduction/HugeNuclearPowerPlant.jpg)
+![Huge nuclear power plant](../images/PowerProduction/HugeNuclearPowerPlant.png)
 
 ::: details Blueprint
 ```blueprint
