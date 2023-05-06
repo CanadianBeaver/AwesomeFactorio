@@ -20,6 +20,7 @@ features:
 
 * [Power production](PowerProduction)
   * [Steam power](PowerProduction/SteamPower)
+  * [Efficient fuel for Steam power](PowerProduction/EfficientFuelForSteamPower)
   * [Solar power](PowerProduction/SolarPower)
   * [Nuclear power](PowerProduction/NuclearPower)
   * [Backup steam power](PowerProduction/BackupSteamPower)

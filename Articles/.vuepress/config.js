@@ -52,6 +52,7 @@ module.exports = {
               sidebarDepth: 0,
               children: [
                 '/PowerProduction/SteamPower',
+                '/PowerProduction/EfficientFuelForSteamPower',
                 '/PowerProduction/SolarPower',
                 '/PowerProduction/NuclearPower',
                 '/PowerProduction/BackupSteamPower',
