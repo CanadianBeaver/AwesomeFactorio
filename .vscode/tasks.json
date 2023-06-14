@@ -4,16 +4,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Publish MyGameStart mod localy",
-            "type": "shell",
-            "command": "./scripts/publish-MyGameStart-mod-localy.cmd",
-            "problemMatcher": [],
-            "group": {
-                "kind": "none",
-                "isDefault": false
-            }
-        },
-        {
             "label": "VuePress for Articles",
             "type": "npm",
             "script": "Articles:build -- --dest .build",
