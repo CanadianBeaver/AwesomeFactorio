@@ -3,7 +3,7 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "VitePress for Articles",
+            "name": "VitePress debug",
             "request": "launch",
             "command": "npm run docs:dev",
         }
