@@ -1,4 +1,4 @@
-# Basic power
+# Power production
 
 [More information](https://wiki.factorio.com/Power_production).
 

@@ -3,10 +3,9 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "VuePress for Articles",
+            "name": "VitePress for Articles",
             "request": "launch",
-            "command": "npm run Articles:dev",
-            "nodeVersionHint": 16,
+            "command": "npm run docs:dev",
         }
     ]
 }

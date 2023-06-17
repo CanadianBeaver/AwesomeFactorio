@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a VuePress site to GitHub Pages
-name: VuePress to GitHub Pages
+# Sample workflow for building and deploying a VitePress site to GitHub Pages
+name: VitePress to GitHub Pages
 
 on:
   #pull_request:
@@ -33,11 +33,11 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build Articles
-        run: npm run Articles:build -- --dest .build
+        run: npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: .build
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
