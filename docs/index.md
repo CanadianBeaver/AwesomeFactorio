@@ -11,17 +11,17 @@ features:
 ---
 
 * The core
-  * [How to start new game?](HowToStartNewGame)
+  * [How to start new game?](HowToStartNewGame.md)
 
-* [Mining resources](MiningResources)
-  * [Autotorio](MiningResources/Autotorio)
-  * [Uranium ore](MiningResources/UraniumOre)
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains)
+* [Mining resources](MiningResources/index.md)
+  * [Autotorio](MiningResources/Autotorio.md)
+  * [Uranium ore](MiningResources/UraniumOre.md)
+  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
 
-* [Power production](PowerProduction)
-  * [Steam power](PowerProduction/SteamPower)
-  * [Efficient fuel for Steam power](PowerProduction/EfficientFuelForSteamPower)
-  * [Solar power](PowerProduction/SolarPower)
-  * [Nuclear power](PowerProduction/NuclearPower)
-  * [Backup steam power](PowerProduction/BackupSteamPower)
-  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant)
+* [Power production](PowerProduction/index.md)
+  * [Steam power](PowerProduction/SteamPower.md)
+  * [Efficient fuel for Steam power](PowerProduction/EfficientFuelForSteamPower.md)
+  * [Solar power](PowerProduction/SolarPower.md)
+  * [Nuclear power](PowerProduction/NuclearPower.md)
+  * [Backup steam power](PowerProduction/BackupSteamPower.md)
+  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)
