@@ -1,3 +1,3 @@
-# How to start new game?
+# How to start a new game?
 
 TBD

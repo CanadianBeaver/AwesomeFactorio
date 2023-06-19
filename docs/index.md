@@ -9,7 +9,7 @@ hero:
     alt: Awesome Factorio
   actions:
     - theme: brand
-      text: How to start new game?
+      text: How to start a new game?
       link: HowToStartNewGame
     - theme: brand
       text: Mining resources
