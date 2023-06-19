@@ -8,10 +8,9 @@ package-lock.json
 # Generated files by VuePress
 .vuepress/.temp
 .vuepress/.cache
-.vuepress/dist
 
 # Generated files by VitePress
-docs/.vitepress/cache
+.vitepress/cache
 
 # Misc
 .DS_Store
