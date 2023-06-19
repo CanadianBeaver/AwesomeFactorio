@@ -104,12 +104,6 @@ module.exports = {
       '@vuepress/back-to-top',
       '@vuepress/medium-zoom',
       '@vuepress/search',
-      'vuepress-plugin-clean-urls',
-      {
-        normalSuffix: '/',
-        indexSuffix: '/',
-        notFoundPath: '/404.html',
-      },
       'vuepress-plugin-code-copy',
       'vuepress-plugin-smooth-scroll'
     ]
