@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: images/factorio-card.jpg
+heroImage: ../images/factorio-card.jpg
 actionText: Как начать играть?
 actionLink: HowToStartNewGame.md
 features:
