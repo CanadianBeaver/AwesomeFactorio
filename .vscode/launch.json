@@ -3,10 +3,9 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "VuePress",
+            "name": "VuePress Debug",
             "request": "launch",
-            "command": "npm run dev",
-            "nodeVersionHint": 16,
+            "command": "npm run dev"
         }
     ]
 }

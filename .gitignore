@@ -6,9 +6,9 @@ package-lock.json
 .build
 
 # Generated files by VuePress
-docs/.vuepress/.temp
-docs/.vuepress/.cache
-docs/.vuepress/dist
+.vuepress/.temp
+.vuepress/.cache
+.vuepress/dist
 
 # Generated files by VitePress
 docs/.vitepress/cache
