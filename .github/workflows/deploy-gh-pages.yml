@@ -32,8 +32,8 @@ jobs:
           node-version: 16
       - name: Install dependencies
         run: npm install
-      - name: Build Articles
-        run: npm run Articles:build -- --dest .build
+      - name: Build pages
+        run: npm run build -- --dest .build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

@@ -20,7 +20,7 @@ module.exports = {
     },
 
     themeConfig: {
-      logo: '/assets/img/logo.svg',
+      logo: '/assets/logo.svg',
       displayAllHeaders: true,
       editLinks: false,
       lastUpdated: false,
@@ -100,11 +100,7 @@ module.exports = {
     },
 
     plugins: [
-      '@vuepress/plugin-back-to-top',
-      '@vuepress/plugin-medium-zoom',
       '@vuepress/search',
       '@vuepress/active-header-links',
-      'vuepress-plugin-code-copy',
-      'vuepress-plugin-right-anchor'
     ]
   }

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: assets/img/factorio-card.jpg
+heroImage: assets/factorio-card.jpg
 features:
   - title: Fast
     details: Fast development

@@ -6,11 +6,12 @@ package-lock.json
 .build
 
 # Generated files by VuePress
-*/.vuepress/.temp
-*/.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/.cache
+docs/.vuepress/dist
 
 # Generated files by VitePress
-*/.vitepress/cache
+docs/.vitepress/cache
 
 # Misc
 .DS_Store
