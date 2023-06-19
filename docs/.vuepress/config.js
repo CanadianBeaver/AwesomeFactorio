@@ -20,7 +20,7 @@ module.exports = {
     },
 
     themeConfig: {
-      logo: '/assets/logo.svg',
+      logo: '/images/logo.svg',
       displayAllHeaders: true,
       editLinks: false,
       lastUpdated: false,
@@ -106,18 +106,5 @@ module.exports = {
       '@vuepress/search',
       'vuepress-plugin-code-copy',
       'vuepress-plugin-smooth-scroll'
-    ],
-
-    chainWebpack: config => {
-      config.module
-        .rule('files')
-        .test(/\.(pdf|zip|txt)$/)
-        .use('file-loader')
-        .loader('file-loader')
-        .options({
-          name: '[path][name].[ext]',
-          limit: 10000,
-          esModule: false,
-        });
-    }
+    ]
   }
