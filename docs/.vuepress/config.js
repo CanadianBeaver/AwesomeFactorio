@@ -100,7 +100,9 @@ module.exports = {
     },
 
     plugins: [
-      '@vuepress/search',
       '@vuepress/active-header-links',
+      '@vuepress/back-to-top',
+      '@vuepress/medium-zoom',
+      '@vuepress/search'
     ]
   }
