@@ -9,8 +9,9 @@ export default defineConfig({
   description: "How to build an awesome factory? It is over 9,000 science packs per minute...",
   base: "/",
   cleanUrls: true,
-  srcDir: "./docs",
-  ignoreDeadLinks: true,
+  srcDir: "docs",
+  outDir: ".build",
+  ignoreDeadLinks: false,
 
   locales: {
     root: {
