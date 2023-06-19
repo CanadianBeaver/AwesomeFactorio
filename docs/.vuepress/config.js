@@ -110,6 +110,7 @@ module.exports = {
         indexSuffix: '/',
         notFoundPath: '/404.html',
       },
-      'vuepress-plugin-code-copy'
+      'vuepress-plugin-code-copy',
+      'vuepress-plugin-smooth-scroll'
     ]
   }
