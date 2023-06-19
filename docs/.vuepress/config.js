@@ -103,6 +103,12 @@ module.exports = {
       '@vuepress/active-header-links',
       '@vuepress/back-to-top',
       '@vuepress/medium-zoom',
-      '@vuepress/search'
+      '@vuepress/search',
+      'vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404.html',
+      },
     ]
   }
