@@ -1,6 +1,8 @@
 ---
 home: true
 heroImage: assets/factorio-card.jpg
+actionText: Как начать играть?
+actionLink: HowToStartNewGame.md
 features:
   - title: Быстро
     details: ну сравнительно
@@ -9,9 +11,6 @@ features:
   - title: Дофига
     details: 100500 и больше научных пакетов
 ---
-
-* Основы
-  * [Как начать играть?](HowToStartNewGame.md)
 
 * [Добыча ресурсов](MiningResources/index.md)
   * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio.md)

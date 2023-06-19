@@ -1,6 +1,8 @@
 ---
 home: true
 heroImage: assets/factorio-card.jpg
+actionText: How to start a new game?
+actionLink: HowToStartNewGame.md
 features:
   - title: Fast
     details: Fast development
@@ -9,9 +11,6 @@ features:
   - title: Over 9000
     details: science
 ---
-
-* The core
-  * [How to start new game?](HowToStartNewGame.md)
 
 * [Mining resources](MiningResources/index.md)
   * [Autotorio](MiningResources/Autotorio.md)
