@@ -5,7 +5,7 @@ hero:
   text: Как построить классную фабрику?
   tagline: Это 100500 научных пакетов в минуту...
   image:
-    src: images/factorio-card.jpg
+    src: ../images/factorio-card.jpg
     alt: Awesome Factorio
   actions:
     - theme: brand
