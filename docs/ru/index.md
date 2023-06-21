@@ -16,6 +16,7 @@ features:
   * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio.md)
   * [Добыча урана](MiningResources/UraniumOre.md)
   * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains.md)
+  * [Плавка ресурсов](RawResourcesProcessing/index.md)
 
 * [Производство электроэнергии](PowerProduction/index.md)
   * [Паровая энергия](PowerProduction/SteamPower.md)

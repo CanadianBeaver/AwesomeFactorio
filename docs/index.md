@@ -16,6 +16,7 @@ features:
   * [Autotorio](MiningResources/Autotorio.md)
   * [Uranium ore](MiningResources/UraniumOre.md)
   * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+  * [Raw resources processing](RawResourcesProcessing/index.md)
 
 * [Power production](PowerProduction/index.md)
   * [Steam power](PowerProduction/SteamPower.md)
