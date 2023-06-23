@@ -20,20 +20,34 @@
 
 ### Начальная база на 45 научных пакетов в минуту
 
-[Расчёты по базе на 45 научных пакетов в минуту](https://kirkmcdonald.github.io/calc.html#zip=bVDbagQxCP2bPCVld7vTpQP5GOs4ray5YMzD/n0TaAudFkU8F1HcwCCew4hXpzVeHc6SOMeL27tmQIrNiCR8IfdGYnGHZsEUcqtFLUzOsVFqEbqVBMYlh4ZMGSlUwPu6r4uX8s7NGI/Ki8cPSowgR+V88d1Y2B5H5ebT5EH/KIuvWraO/91w82109JvW9bp4BZZhOD0tHhB76gJWdJ7gWxHQYc0k35i38Y8B5+jJpbFOqEUteCcbTrW1Pv/kJw==), требуется 127 мегаватт, **не включая** расходы на манипуляторы, подсветку ночью, радары, дронстанции и прочее. 148 паровых двигателей от 74 бойлеров (34 на угле и 40 на твёрдом топливе) могут производить примерно 133 мегаватт энергии. Расчётные данные потребления электроэнергии сходятся с экспериментом:
+[Расчёты по базе на 45 научных пакетов в минуту](https://kirkmcdonald.github.io/calc.html#zip=bVDbagQxCP2bPCVld7vTpQP5GOs4ray5YMzD/n0TaAudFkU8F1HcwCCew4hXpzVeHc6SOMeL27tmQIrNiCR8IfdGYnGHZsEUcqtFLUzOsVFqEbqVBMYlh4ZMGSlUwPu6r4uX8s7NGI/Ki8cPSowgR+V88d1Y2B5H5ebT5EH/KIuvWraO/91w82109JvW9bp4BZZhOD0tHhB76gJWdJ7gWxHQYc0k35i38Y8B5+jJpbFOqEUteCcbTrW1Pv/kJw==), требуется 127 мегаватт, **не включая** расходы на манипуляторы, подсветку ночью, радары, дронстанции и прочее. 148 паровых двигателей от 74 бойлеров (34 на угле и 40 на твёрдом топливе) могут производить примерно 133 мегаватт энергии.
+
+Расчётные данные потребления электроэнергии сходятся с экспериментом:
 
 ![До запуска спутника](../../images/PowerProduction/PowerProduction.02.png)
 
 ::: tip Итого, по минимуму:
 Первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на половине конвейера твёрдого топлива из 40 или 50 бойлеров, пару сотен солнечных панелей и может быть какое-то количество аккумуляторных блоков на всякий случай.
+
+| Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
+| ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
+| 360 ![solid-fue](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
+| | | | 500 ![solar-panel](../../images/icons/solar-panel.png) | 420 ![accumulator](../../images/icons/accumulator.png) | 21 | Солнечная энергия |
+
 :::
 
 ### Начальная база на 75 научных пакетов в минуту
 
-Для справки рассмотрим [расчёты по базе на 75 научных пакетов в минуту](https://kirkmcdonald.github.io/calc.html#zip=dZDdigMxCIXfJleTZUpbSgN5GOs4u1LzgzEX+/abgbZXWRTxnE9Q3MAgnvyIu9MaLw6PkjjHs9u7ZkCKzYjEv5R7kFjcoZk3hdxqUfOH59gotQjdSgLjkn1DpozkK+AzaLhdFynf3IxxgvCHEiPIBHVjYfudkHQA0BmqWraO/9zRRksTX4El7GH9ui6A2FMXsKLDOS2tCOgYzSRvzdt4ypAa7uvq0tgn1KIWfJKNSbVQz5/8Aw==), иногда можно играть и в такую базу, если быстро выйти на железную дорогу. Такой вариант потребует более 256 мегаватт, не включая прочие расходы. Закладываем полный конвейер твёрдого топлива, что даёт 100 бойлеров, плюс начальный конвейер на угле, который на 34 бойлера, итого 268 паровых двигателей, которые могут производить примерно 241 мегаватт энергии. Этого маловато, в такой конфигурации ближе к запуску спутника нужно будет напирать на солнечную энергетику, включая аккумуляторные блоки для снабжения в ночное время. Если играть на обычных настройках карты, без твиков на огромные залежи ресурсов, нефти может не хватить и без сжижения угля или просто дополнительных угольных электростанций обойтись будет затруднительно. Напомню, что [сжижения угля предпочтительней](EfficientFuelForSteamPower.html#уголек-супротив-твердого-топлива).
+Для справки рассмотрим [расчёты по базе на 75 научных пакетов в минуту](https://kirkmcdonald.github.io/calc.html#zip=dZDdigMxCIXfJleTZUpbSgN5GOs4u1LzgzEX+/abgbZXWRTxnE9Q3MAgnvyIu9MaLw6PkjjHs9u7ZkCKzYjEv5R7kFjcoZk3hdxqUfOH59gotQjdSgLjkn1DpozkK+AzaLhdFynf3IxxgvCHEiPIBHVjYfudkHQA0BmqWraO/9zRRksTX4El7GH9ui6A2FMXsKLDOS2tCOgYzSRvzdt4ypAa7uvq0tgn1KIWfJKNSbVQz5/8Aw==), иногда можно играть и в такую базу, если быстро выйти на железную дорогу. Такой вариант потребует более 256 мегаватт, не включая прочие расходы. Закладываем полный конвейер твёрдого топлива, что даёт 100 бойлеров, плюс начальный конвейер на угле, который на 34 бойлера. Итого 268 паровых двигателей, которые могут производить примерно 241 мегаватт энергии. Этого маловато, в такой конфигурации ближе к запуску спутника нужно будет напирать на солнечную энергетику, включая аккумуляторные блоки для снабжения в ночное время. Если играть на обычных настройках карты, без твиков на огромные залежи ресурсов, нефти может не хватить и без сжижения угля или просто дополнительных угольных электростанций обойтись будет затруднительно. Напомню, что [сжижения угля предпочтительней](EfficientFuelForSteamPower.html#уголек-супротив-твердого-топлива).
 
 ::: tip Итого, если ресурсов вокруг хватает:
 Первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на полном конвейере твёрдого топлива из 100 бойлеров и где-то полторы тыщи солнечных панелей вместе с более чем тыщей аккумуляторных блоков.
+| Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
+| ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
+| 900 ![solid-fue](../../images/icons/solid-fuel.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 5 ![offshore-pump](../../images/icons/offshore-pump.png) | 100 ![boiler](../../images/icons/boiler.png) | 200 ![steam-engine](../../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
+| | | | 1500 ![solar-panel](../../images/icons/solar-panel.png) | 1260 ![accumulator](../../images/icons/accumulator.png) | 63 | Солнечная энергия |
 :::
 
 ## Большие корованы ракет
