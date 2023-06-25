@@ -114,5 +114,15 @@ module.exports = {
     '@vuepress/search',
     'vuepress-plugin-code-copy',
     'vuepress-plugin-smooth-scroll'
-  ]
+  ],
+
+  markdown: {
+    plugins: {
+       'markdown-it-multimd-table': {
+            multiline:  true,
+            rowspan:    true,
+            headerless: true
+          }
+      }
+  }
 }

@@ -33,7 +33,6 @@
 | 360 ![solid-fue](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
 | | | | 500 ![solar-panel](../../images/icons/solar-panel.png) | 420 ![accumulator](../../images/icons/accumulator.png) | 21 | Солнечная энергия |
 | | | | | | ~155 | Итого |
-
 :::
 
 ### Начальная база на 75 научных пакетов в минуту
@@ -43,10 +42,15 @@
 ::: tip Итого, если ресурсов вокруг хватает:
 Первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на полном конвейере твёрдого топлива из 100 бойлеров и где-то полторы тыщи солнечных панелей вместе с более чем тыщей аккумуляторных блоков.
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
-| ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
 | 900 ![solid-fue](../../images/icons/solid-fuel.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 5 ![offshore-pump](../../images/icons/offshore-pump.png) | 100 ![boiler](../../images/icons/boiler.png) | 200 ![steam-engine](../../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
 | | | | 1500 ![solar-panel](../../images/icons/solar-panel.png) | 1260 ![accumulator](../../images/icons/accumulator.png) | 63 | Солнечная энергия |
+| | | | | | ~300 | Итого |
+|Произвести такое количество солнечных панелей и аккумуляторных блоков может быть затруднительным, если мы хотим запустить спутник за 8 часов. Налегайте на ещё одну электростанцию на твёрдом топливе и дополнительных заводов по сжижению угля. Заменим солнечную энергию:|||||||
+| | | | 500 ![solar-panel](../../images/icons/solar-panel.png) | 420 ![accumulator](../../images/icons/accumulator.png) | 21 | Солнечная энергия |
+| 360 ![solid-fue](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
+| | | | | | ~330 | Итого |
 :::
 
 ## Большие корованы ракет

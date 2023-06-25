@@ -13,6 +13,7 @@
     "@vuepress/plugin-back-to-top": "^1.9.9",
     "@vuepress/plugin-medium-zoom": "^1.9.9",
     "@vuepress/plugin-search": "^1.9.9",
+    "markdown-it-multimd-table": "^4.2.2",
     "vuepress": "^1.5.3",
     "vuepress-plugin-smooth-scroll": "^0.0.10"
   },
