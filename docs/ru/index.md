@@ -3,13 +3,6 @@ home: true
 heroImage: ../images/factorio-card.jpg
 actionText: Как начать играть?
 actionLink: HowToStartNewGame.md
-features:
-  - title: Быстро
-    details: ну сравнительно
-  - title: Просто
-    details: смотря как роботы летают
-  - title: Дофига
-    details: 100500 и больше научных пакетов
 ---
 
 * [Добыча ресурсов](MiningResources/index.md)

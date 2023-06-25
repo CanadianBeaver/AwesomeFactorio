@@ -3,13 +3,6 @@ home: true
 heroImage: images/factorio-card.jpg
 actionText: How to start a new game?
 actionLink: HowToStartNewGame.md
-features:
-  - title: Fast
-    details: Fast development
-  - title: Easy
-    details: Easy production
-  - title: Over 9000
-    details: science
 ---
 
 * [Mining resources](MiningResources/index.md)
