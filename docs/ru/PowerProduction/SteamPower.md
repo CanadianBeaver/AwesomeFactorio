@@ -1,8 +1,22 @@
 # Паровая энергия
 
-Производство электроэнергии из пара, путем сжигания угля (`Coal`), древесины (`Wood`) или [какого-то топлива](https://wiki.factorio.com/Fuel), в игре реализованно элементарно, поэтому [пишу инструкции для школьников](https://habr.com/ru/companies/itsumma/articles/551622/). Бойлеры (`Boiler`), паровые двигатели (`Steam engine`), насосы (`Offshore pump`), твёрдотопливные манипуляторы (`Burner inserter`), именно твёрдотопливные манипуляторы, обычные конвейеры (`Transport belt`), которые жёлтые. И конечно же уголь (`Coal`), потом твёрдое топливо (`Solid fuel`) для второй электростанции, достаточно всего парочки электростанций. Жизнь паровых электростанций яркая, но не долгая, после запуска первого спутника, они уходят постепенно в историю, ну или в резерв, уступая место солнечной энергии.
+::: warning Осторожно, не для всех
+Производство электроэнергии из пара, путем сжигания угля, твёрдого топлива или [какого-то иного топлива](https://wiki.factorio.com/Fuel) в игре реализованно элементарно, поэтому [пишу инструкции для школьников](https://habr.com/ru/companies/itsumma/articles/551622/).
+:::
 
-Нужно помнить наизусть следующее: 1 насос способен залить водой 20 бойлеров, каждый бойлер производит пар ровно на 2 паровых двигателя, каждый паровой двигатель производит 900 киловатт энергии. То есть, **на одном насосе можно разместить 40 паровых двигателей и всё это выдаёт 36 мегаватта** под полной загрузкой топливом. Обычно ставят два насоса с каждой стороны конвейера подающего топливо для питания бойлеров, то есть 40 бойлеров, 80 паровых двигателей, 72 мегаватта максимум. И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов. Другие типы топлива, кроме древесины (`Wood`) разумеется, такой проблемой не обладают. Использовать красные конвейеры (`Fast transport belt`) или голубые (`Express transport belt`) любят разные там любители, *"но у нас таких нет, у нас все нормальные ребята"*.
+::: tip Вся статья, кратко
+Бойлеры (`Boiler`), паровые двигатели (`Steam engine`), насосы (`Offshore pump`), твёрдотопливные манипуляторы (`Burner inserter`), именно твёрдотопливные манипуляторы, обычные конвейеры (`Transport belt`), которые жёлтые и конечно же уголь (`Coal`), потом твёрдое топливо (`Solid fuel`) для второй электростанции, достаточно всего парочки электростанций. Жизнь паровых электростанций яркая, но не долгая. После запуска первого спутника, они уходят постепенно в историю, ну или в [резерв](BackupSteamPower.md), уступая место [солнечной энергии](SolarPower.md).
+:::
+
+::: danger Нужно помнить наизусть
+1 насос способен залить водой 20 бойлеров, каждый бойлер производит пар ровно на 2 паровых двигателя, каждый паровой двигатель производит 900 киловатт энергии. То есть, **на одном насосе можно разместить 40 паровых двигателей и всё это выдаёт 36 мегаватта**, под полной загрузкой топливом.
+:::
+
+Бойлеры рационально размещать с обоих сторон конвейера подающего топливо. Потребуется два насоса с каждой стороны конвейера, то есть имеем электростанцию на 40 бойлеров, 80 паровых двигателей, 72 мегаватта максимум. Топливо подаём с одной стороны (красная стрелка), воду с другой (голубая стрелка).
+
+![Typical steam power](../../images/PowerProduction/SteamPower.04.png)
+
+И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#basic-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины (`Wood`) разумеется, такой проблемой не обладают.
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -10,6 +24,10 @@
 | 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) |   34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
 | 360 ![solid-fuel](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) |   40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
 | 900 ![solid-fuel](../../images/icons/solid-fuel.png) | 100% ![transport-bel](../../images/icons/transport-belt.png) | 5 ![offshore-pump](../../images/icons/offshore-pump.png) |   100 ![boiler](../../images/icons/boiler.png) | 200 ![steam-engine](../../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
+
+Почему не рассматриваем другие виды топлива? - [потому](EfficientFuelForSteamPower.md).
+
+Использовать красные конвейеры (`Fast transport belt`) или голубые (`Express transport belt`) любят разные там любители, *"но у нас таких нет, у нас все нормальные ребята"*. Если любители всё-таки читают, поясняю. Быстрые конвейеры угля, или два обычных конвейера, нужны, чтобы преодолеть ограничение на 34 бойлера. Но такой объем угля нужно ещё где-то добыть, а в начале игры это практически не реально, как и осилить производство быстрых конвейеров. Когда же, вы осилите добычу угля где-то на стороне, его транспортировку и так далее, эффективней будет уже сжижать уголь в твёрдое топливо (`Coal liquefaction`), поскольку у твёрдого топлива намного большая энергоёмкость, [пруф](EfficientFuelForSteamPower.md#уголек-супротив-твердого-топлива). При этом обычный конвейер твёрдого топлива способен питать аж 100 бойлеров, что больше чем 2 насоса. Как-то так.
 
 ::: tip Важно
 Используйте только твёрдотопливные манипуляторы для загрузки топлива в бойлеры, другие манипуляторы дороже в производстве и содержании, [пруф](https://youtu.be/RQ80eZAnZ1Q?list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL&t=529).
@@ -33,7 +51,7 @@
 
 ## Чертёж паровой электростанции на твёрдом топливе
 
-Тут всё то же самое, только 40 бойлеров, что является максимумом для 2 насосов. Максимальное производство 72 мегаватт, минус питание твёрдотопливных манипуляторов.
+Тут всё то же самое, только 40 бойлеров, что является максимумом для 2 насосов. Максимальное производство 72 мегаватт, минус питание твёрдотопливных манипуляторов. Приводить картинку не буду, она по сути похожа, сразу чертёж:
 
 ```blueprint
 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
@@ -48,6 +66,8 @@
 ![До запуска спутника](../../images/PowerProduction/PowerProduction.02.png)
 
 После запуска первого спутника, можно полностью переходить на производство солнечной энергии, переводя паровые электростанции в резерв. Потребуется не менее 3,400 солнечных панелей и 2,856 аккумуляторных блоков для начала, что даст около 143 мегаватт энергии.
+
+![До запуска спутника](../../images/PowerProduction/PowerProduction.06.png)
 
 ## Больше подробностей
 
