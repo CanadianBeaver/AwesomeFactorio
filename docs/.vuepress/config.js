@@ -110,7 +110,7 @@ module.exports = {
   plugins: [
     '@vuepress/active-header-links',
     '@vuepress/back-to-top',
-    '@vuepressmedium-zoom',
+    '@vuepress/medium-zoom',
     '@vuepress/search',
     'vuepress-plugin-code-copy',
     'vuepress-plugin-smooth-scroll'
