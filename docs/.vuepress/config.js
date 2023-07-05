@@ -48,6 +48,11 @@ module.exports = {
           {
             title: 'Raw resources processing',
             path: '/RawResourcesProcessing/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+
+            ]
           },
           {
             title: 'Power production',
@@ -86,6 +91,11 @@ module.exports = {
           {
             title: 'Плавка ресурсов',
             path: '/ru/RawResourcesProcessing/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+
+            ]
           },
           {
             title: 'Производство электроэнергии',
