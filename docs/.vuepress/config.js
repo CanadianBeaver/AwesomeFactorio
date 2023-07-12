@@ -1,16 +1,18 @@
 module.exports = {
-  lang: 'en-US',
-  title: 'Awesome Factorio',
-  description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
+  lang: 'ru-RU',
   base: '/',
+  title: 'Прекрасная Фактория',
+  description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
 
   head: [
     ['link', { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
 
   locales: {
-    '/': {
+    '/en/': {
       lang: 'en-US',
+      title: 'Awesome Factorio',
+      description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
     },
     '/ru/': {
       lang: 'ru-RU',
@@ -27,27 +29,27 @@ module.exports = {
     displayAllHeaders: true,
     smoothScroll: true,
     locales: {
-      '/': {
+      '/en/': {
         label: 'English',
         sidebar: [
           {
             title: 'How to start new game?',
-            path: '/HowToStartNewGame',
+            path: '/en/HowToStartNewGame',
           },
           {
             title: 'Mining Resources',
-            path: '/MiningResources',
+            path: '/en/MiningResources',
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              '/MiningResources/Autotorio',
-              '/MiningResources/UraniumOre',
-              '/LoadingAndUnloadingTrains'
+              '/en/MiningResources/Autotorio',
+              '/en/MiningResources/UraniumOre',
+              '/en/LoadingAndUnloadingTrains'
             ]
           },
           {
             title: 'Raw resources processing',
-            path: '/RawResourcesProcessing/',
+            path: '/en/RawResourcesProcessing/',
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -56,16 +58,16 @@ module.exports = {
           },
           {
             title: 'Power production',
-            path: '/PowerProduction',
+            path: '/en/PowerProduction',
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              '/PowerProduction/SteamPower',
-              '/PowerProduction/EfficientFuelForSteamPower',
-              '/PowerProduction/SolarPower',
-              '/PowerProduction/NuclearPower',
-              '/PowerProduction/BackupSteamPower',
-              '/PowerProduction/HugeNuclearPowerPlant'
+              '/en/PowerProduction/SteamPower',
+              '/en/PowerProduction/EfficientFuelForSteamPower',
+              '/en/PowerProduction/SolarPower',
+              '/en/PowerProduction/NuclearPower',
+              '/en/PowerProduction/BackupSteamPower',
+              '/en/PowerProduction/HugeNuclearPowerPlant'
             ]
           }
         ]

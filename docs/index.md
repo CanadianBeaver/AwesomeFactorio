@@ -1,20 +1,20 @@
 ---
 home: true
 heroImage: images/factorio-card.jpg
-actionText: How to start a new game?
-actionLink: HowToStartNewGame.md
+actionText: Как начать играть?
+actionLink: ru/HowToStartNewGame.md
 ---
 
-* [Mining resources](MiningResources/index.md)
-  * [Autotorio](MiningResources/Autotorio.md)
-  * [Uranium ore](MiningResources/UraniumOre.md)
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
-  * [Raw resources processing](RawResourcesProcessing/index.md)
+* [Добыча ресурсов](ru/MiningResources/index.md)
+  * [Строительство шахтёрских аванпостов на автомате](ru/MiningResources/Autotorio.md)
+  * [Добыча урана](ru/MiningResources/UraniumOre.md)
+  * [Погрузка и разгрузка поездов](ru/LoadingAndUnloadingTrains.md)
+  * [Плавка ресурсов](ru/RawResourcesProcessing/index.md)
 
-* [Power production](PowerProduction/index.md)
-  * [Steam power](PowerProduction/SteamPower.md)
-  * [Efficient fuel for Steam power](PowerProduction/EfficientFuelForSteamPower.md)
-  * [Solar power](PowerProduction/SolarPower.md)
-  * [Nuclear power](PowerProduction/NuclearPower.md)
-  * [Backup steam power](PowerProduction/BackupSteamPower.md)
-  * [Huge nuclear power plant](PowerProduction/HugeNuclearPowerPlant.md)
+* [Производство электроэнергии](ru/PowerProduction/index.md)
+  * [Паровая энергия](ru/PowerProduction/SteamPower.md)
+  * [Эффективность топлива для производства паровой энергии](ru/PowerProduction/EfficientFuelForSteamPower.md)
+  * [Солнечная энергия](ru/PowerProduction/SolarPower.md)
+  * [Ядерная энергия](ru/PowerProduction/NuclearPower.md)
+  * [Переводим паровые и ядерные электростанции в резерв](ru/PowerProduction/BackupSteamPower.md)
+  * [Большая ядерная электростанция](ru/PowerProduction/HugeNuclearPowerPlant.md)
