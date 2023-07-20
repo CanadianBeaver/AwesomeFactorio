@@ -44,16 +44,8 @@ module.exports = {
             children: [
               '/en/MiningResources/Autotorio',
               '/en/MiningResources/UraniumOre',
-              '/en/LoadingAndUnloadingTrains'
-            ]
-          },
-          {
-            title: 'Raw resources processing',
-            path: '/en/RawResourcesProcessing/',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-
+              '/en/LoadingAndUnloadingTrains',
+              '/en/RawResourcesProcessing/'
             ]
           },
           {
@@ -87,16 +79,8 @@ module.exports = {
             children: [
               '/ru/MiningResources/Autotorio',
               '/ru/MiningResources/UraniumOre',
-              '/ru/LoadingAndUnloadingTrains'
-            ]
-          },
-          {
-            title: 'Плавка ресурсов',
-            path: '/ru/RawResourcesProcessing/',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-
+              '/ru/LoadingAndUnloadingTrains',
+              '/ru/RawResourcesProcessing/'
             ]
           },
           {
