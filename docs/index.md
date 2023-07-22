@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: images/factorio-card.jpg
-actionText: Как начать играть?
-actionLink: ru/HowToStartNewGame.md
+<!--actionText: Как начать играть?
+actionLink: ru/HowToStartNewGame.md -->
 ---
 
 * [Добыча ресурсов](ru/MiningResources/index.md)

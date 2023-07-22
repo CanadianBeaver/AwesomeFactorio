@@ -32,10 +32,10 @@ module.exports = {
       '/en/': {
         label: 'English',
         sidebar: [
-          {
+/*          {
             title: 'How to start new game?',
             path: '/en/HowToStartNewGame',
-          },
+          },*/
           {
             title: 'Mining Resources',
             path: '/en/MiningResources',
@@ -67,10 +67,10 @@ module.exports = {
       '/ru/': {
         label: 'Русский',
         sidebar: [
-          {
+/*          {
             title: 'Как начать играть?',
             path: '/ru/HowToStartNewGame',
-          },
+          },*/
           {
             title: 'Добыча ресурсов',
             path: '/ru/MiningResources',
