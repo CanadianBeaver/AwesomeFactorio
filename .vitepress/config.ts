@@ -4,7 +4,7 @@ import { sidebar_ru } from './sidebar.ru'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: "en-US",
+  lang: "ru-RU",
   title: "Awesome Factorio",
   description: "How to build an awesome factory? It is over 9,000 science packs per minute...",
   base: "/",
@@ -14,13 +14,6 @@ export default defineConfig({
   ignoreDeadLinks: false,
 
   locales: {
-    root: {
-      label: 'English',
-      lang: 'en',
-      themeConfig: {
-        sidebar: sidebar_en
-      }
-    },
     ru: {
       label: 'Русский',
       lang: 'ru',
@@ -29,6 +22,16 @@ export default defineConfig({
       description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
       themeConfig: {
         sidebar: sidebar_ru
+      }
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      dir: '/en/',
+      title: "Awesome Factorio",
+      description: "How to build an awesome factory? It is over 9,000 science packs per minute...",
+      themeConfig: {
+        sidebar: sidebar_en
       }
     }
   },

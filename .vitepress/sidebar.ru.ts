@@ -1,13 +1,14 @@
 export const sidebar_ru = [
-  {
+/*  {
     text: 'Как начать играть?', link: 'ru/HowToStartNewGame'
-  },
+  },*/
   {
     text: 'Добыча ресурсов', link: 'ru/MiningResources/',
     items: [
       { text: 'Строительство шахтёрских аванпостов на автомате', link: 'ru/MiningResources/Autotorio' },
       { text: 'Добыча урана', link: 'ru/MiningResources/UraniumOre' },
-      { text: 'Погрузка и разгрузка поездов', link: 'ru/LoadingAndUnloadingTrains' }
+      { text: 'Погрузка и разгрузка поездов', link: 'ru/LoadingAndUnloadingTrains' },
+      { text: 'Плавка ресурсов', link: 'ru/RawResourcesProcessing/' }
     ]
   },
   {

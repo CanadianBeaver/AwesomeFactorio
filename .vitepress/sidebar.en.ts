@@ -1,24 +1,25 @@
 export const sidebar_en = [
+/*  {
+    text: 'How to start new game?', link: 'en/HowToStartNewGame'
+  },*/
   {
-    text: 'How to start new game?', link: 'HowToStartNewGame'
-  },
-  {
-    text: 'Mining resources', link: 'MiningResources/',
+    text: 'Mining resources', link: 'en/MiningResources/',
     items: [
-      { text: 'Autotorio', link: 'MiningResources/Autotorio' },
-      { text: 'Uranium ore', link: 'MiningResources/UraniumOre' },
-      { text: 'Loading and Unloading Trains', link: 'LoadingAndUnloadingTrains' }
+      { text: 'Autotorio', link: 'en/MiningResources/Autotorio' },
+      { text: 'Uranium ore', link: 'en/MiningResources/UraniumOre' },
+      { text: 'Loading and Unloading Trains', link: 'en/LoadingAndUnloadingTrains' },
+      { text: 'Raw resources processing', link: 'en/RawResourcesProcessing/' }
     ]
   },
   {
-    text: 'Power production', link: 'PowerProduction/',
+    text: 'Power production', link: 'en/PowerProduction/',
     items: [
-      { text: 'Steam power', link: 'PowerProduction/SteamPower' },
-      { text: 'Efficient fuel for Steam power', link: 'PowerProduction/EfficientFuelForSteamPower' },
-      { text: 'Solar power', link: 'PowerProduction/SolarPower' },
-      { text: 'Nuclear power', link: 'PowerProduction/NuclearPower' },
-      { text: 'Backup steam and nuclear power plants', link: 'PowerProduction/BackupSteamPower' },
-      { text: 'Huge nuclear power plant', link: 'PowerProduction/HugeNuclearPowerPlant' }
+      { text: 'Steam power', link: 'en/PowerProduction/SteamPower' },
+      { text: 'Efficient fuel for Steam power', link: 'en/PowerProduction/EfficientFuelForSteamPower' },
+      { text: 'Solar power', link: 'en/PowerProduction/SolarPower' },
+      { text: 'Nuclear power', link: 'en/PowerProduction/NuclearPower' },
+      { text: 'Backup steam and nuclear power plants', link: 'en/PowerProduction/BackupSteamPower' },
+      { text: 'Huge nuclear power plant', link: 'en/PowerProduction/HugeNuclearPowerPlant' }
     ]
   }
 ]
