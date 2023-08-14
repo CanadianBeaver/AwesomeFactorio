@@ -43,8 +43,8 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               '/en/MiningResources/Autotorio',
-              '/en/MiningResources/UraniumOre',
               '/en/LoadingAndUnloadingTrains',
+              '/en/MiningResources/UraniumOre',
               '/en/RawResourcesProcessing/'
             ]
           },
@@ -78,8 +78,8 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               '/ru/MiningResources/Autotorio',
-              '/ru/MiningResources/UraniumOre',
               '/ru/LoadingAndUnloadingTrains',
+              '/ru/MiningResources/UraniumOre',
               '/ru/RawResourcesProcessing/'
             ]
           },
