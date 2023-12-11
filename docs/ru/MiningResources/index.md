@@ -64,7 +64,7 @@
 
 ### Исчё один самый роботизированный чертеж
 
-А вот следующий чертёж будет хорош, на высоких уровнях продуктивности добычи (`Mining productivity`, о чём говорилось выше). Тут исправлены проблемы предыдущего чертежа, а количество выходных линий хватит на несколько погрузочных аутпостов (вокзалов).
+А вот следующий чертёж будет хорош, на высоких уровнях продуктивности добычи (`Mining productivity`, о чём говорилось выше). На обычных параметрах карты, можно начинать использовать на уровнях продуктивности 60+ или даже чуть раньше. В чертеже исправлены проблемы предыдущего чертежа, а количество выходных линий хватит на несколько погрузочных аутпостов (вокзалов).
 
 ![Второй самый роботизированный чертеж](../../images/MiningResources/MiningResources.07.jpg)
 
@@ -72,6 +72,9 @@
 0eNqllk2P2jAQhv/KyFJvCSIkIR/Hbntr1UN7K1UVwhCsOnZqO9UixH/vJFkFtGRZ5FwAk/H7zDszsXxiW9Fio7m0LD+xHZpS88ZyJVnOntQ/1EWFOaTxIvmwkR9RWPiCsrIHaFDDJ82FyCHbyM+FobB4IynoCLb4w2UF9oBAirySsNeq7tdPqm6KklS4HB8WcgdG8OpgxRHUfm/Q2nF/hzBgVb8SuLd9uO6iPQhhSykZ2gRKI5QFkbgFcjPEm6KmDwLiAn4cOOmQO4Gmf9htJcXRTY+CbWtB49+W65cwoSiVlzDitHKHutKKvqGr3ZDBYiOZx3ippGH5zxPrfBWiK6k9Nki15BZripCUEK1QYEmplH7NJTn1ezQ7kwKpP7M8OP/yGErLLcdBsF8cf8u23qKmgIvUc0OZGv8qL79LiWCNMnxo5YmRqB8s09Ui9tiR9gch/STgjnyWQ1DkjcnKprWUzg125YgNLtjYARs6YpcXbOqAjd7p1yQzGplR8Jq5moDEszt5y3nA23o+dvk2VrX2DW7iUtPlHa/rCUjqAgkvkOiRxmWz34UodKlgsHRwl2R33E2VMLicMDXueFv7I6xRAt+11r3mU7LzT5Db/B8Y9yB0GYmrYU8eGYkgmn1Q3YIecRfP566dZnHtMovpHbeTs5jMP6wyJ3vp7GmNV07gbHZD4/h9MF0y+ntJfnUL9JgoSJ/++7pewLf+NgbfRdE/ovugGaY/pd5lqyQJkyxOo/P5Pxc/YXE=
 ```
 
+Выглядит примерно так (все добывающие буры работают без ожидания свободного места):
+
+![Второй самый роботизированный чертеж в действии](../../images/MiningResources/MiningResources.06.png)
 
 ## Больше подробностей
 
@@ -79,6 +82,8 @@
 [Много разных чертежей](https://www.reddit.com/r/factorio/comments/ig96gm/big_book_of_mining_blueprints), есть интересные варианты
 
 [Кое-что ещё, но не очень много](https://wiki.factorio.com/Mining)
+
+[Расчёт количества буров в зависимости от уровня продуктивности добычи](https://factoriocheatsheet.com/#mining)
 :::
 
 И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Resources.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4KL5HZqJnKbtlvfdKMYzCs2).
