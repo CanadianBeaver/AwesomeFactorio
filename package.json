@@ -1,6 +1,7 @@
 {
   "name": "awesomefactorio",
   "description": "How to build an awesome factory? It is over 9,000 science packs per minute...",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev --open",
     "docs:build": "vitepress build",
