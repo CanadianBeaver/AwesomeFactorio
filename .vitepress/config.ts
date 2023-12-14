@@ -9,15 +9,15 @@ export default defineConfig({
   description: "How to build an awesome factory? It is over 9,000 science packs per minute...",
   base: "/",
   cleanUrls: true,
-  srcDir: "docs",
+  srcDir: "./docs",
   outDir: ".build",
   ignoreDeadLinks: false,
 
   locales: {
     ru: {
       label: 'Русский',
-      lang: 'ru',
-      dir: '/ru/',
+      lang: 'ru-RU',
+      link: '/ru/',
       title: 'Прекрасная Фактория',
       description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
       themeConfig: {
@@ -26,8 +26,8 @@ export default defineConfig({
     },
     en: {
       label: 'English',
-      lang: 'en',
-      dir: '/en/',
+      lang: 'en-US',
+      link: '/en/',
       title: "Awesome Factorio",
       description: "How to build an awesome factory? It is over 9,000 science packs per minute...",
       themeConfig: {
