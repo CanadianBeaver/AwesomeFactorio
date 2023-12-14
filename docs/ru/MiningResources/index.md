@@ -56,7 +56,7 @@
 ```blueprint
 0eNqdVm2K2zAQvYoR9J8dLDt2HF+iB+guJR8iFTiyseXSEAJJtqWUXVp6gFJ6g92lhpBs3StIN+rIyaaB2GysP1Ekzbz35klje46GUU6SlDKOwjkak2yU0oTTmKEQiZ+iFFu5lLdyLTaiCI2+3bFfXTHxQxSG+Au7v+Un9Ss2cm3AsJPf1FCKB8j5LDaGvJFLcS/+iPvOFYPEX3INC6WKl3cGQN+ILew/QSgEFRC/T4dJaaqlUuHdy+8K/wkit3IFUtS/nbxT+89KTnQeJYhHSP0qv1QZwPBwkAOTjlFVV6NffhQlRAGmXAFeKR5BSAG0OwVRqEUlffW/ElHsxQAhVLCs9JewfdsxkIkyNkgsHluTlI6Vxx9QiG0TzVAYLExERzHLUPhmjjI6YYNIRfBZQsB+yskU8tlgqmYkIiOe0pE1pYyyiTVOaRQhhcDGRGEurk1EGKeckj1gNZm9Zfl0SFIIOELlkJFO0hhGa0giDiRJnNH9qVcCg45XKbQ7HjCMaQrc1W7XPKpjSc6B/4zHacHjHngcDR73yJNNB1FkHQ1K4og0U7kVFSN08m4Y56myyjexd13D0H3B/EYO76ycGnSvLbrfhO7UoPvt3Hk+8O65O66J/Tp3em31Y7upAL8GPtC4rr7GNepr8HjNPHHOG4hU07c07EAXXHLgGGv0XaBhGNZp8J6WY25bx7ymuupuGG7d38EJfB2gp/dI6l/edFizr7F9+WMP9zRaAmOtEw407hJ2X6aCd2H1+gxPvm9MFA0AGdZeQ1Sc8QyW3pM02/dUgLu9vtPz+44duM5i8Q+oP2uL
 ```
-::: warning Маленькое замечание
+:::warning Маленькое замечание
 Данный чертёж предполагает размещение разного количества буров на каждую линию (сторону) одного конвейера, поэтому когда у вас будет прокачанный уровень продуктивности добычи (`Mining productivity`, исследование такое), такой чертёж уже не айс. Например, на 65 уровне продуктивности добычи нужно всего лишь 12 электрических буров (по 6 с каждой стороны), чтобы полностью заполнить экспресс-конвейер (`Express transport belt`, голубой который) добываемым ресурсом.
 
 ![Самый роботизированный чертеж](../../images/MiningResources/MiningResources.05.png)
@@ -78,7 +78,7 @@
 
 ## Больше подробностей
 
-::: tip Это интересно:
+:::tip Это интересно:
 [Много разных чертежей](https://www.reddit.com/r/factorio/comments/ig96gm/big_book_of_mining_blueprints), есть интересные варианты
 
 [Кое-что ещё, но не очень много](https://wiki.factorio.com/Mining)
