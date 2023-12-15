@@ -41,8 +41,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'youtube', link: 'https://www.youtube.com/@AwesomeFactorio' },
-      { icon: 'twitter', link: 'https://t.me/AwesomeFactorio' },
-      { icon: 'github', link: 'https://github.com/CanadianBeaver/AwesomeFactorio' },
+      //{ icon: 'twitter', link: 'https://t.me/AwesomeFactorio' },
+      //{ icon: 'github', link: 'https://github.com/CanadianBeaver/AwesomeFactorio' },
     ],
 
     search: {
