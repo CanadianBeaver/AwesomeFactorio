@@ -13,6 +13,10 @@ export default defineConfig({
   outDir: ".build",
   ignoreDeadLinks: false,
 
+  sitemap: {
+    hostname: 'https://awesomefactorio.yrfle.com'
+  },
+
   locales: {
     ru: {
       label: 'Русский',
