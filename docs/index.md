@@ -1,20 +1,26 @@
 ---
-home: true
-heroImage: images/factorio-card.jpg
-<!--actionText: Как начать играть?
-actionLink: ru/HowToStartNewGame.md -->
+layout: home
+
+hero:
+  name: Awesome Factorio
+  text: How to build an awesome factory?
+  tagline: It is over 9,000 science packs per minute...
+  image:
+    src: /images/factorio-card.jpg
+    alt: Awesome Factorio
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /ru/HowToStartNewGame
+    - theme: alt
+      text: View on YouTube
+      link: https://www.youtube.com/@AwesomeFactorio
+
+features:
+  - icon: 🛠️
+    title: Добыча ресурсов
+    link: /ru/MiningResources/
+  - icon: 🛠️
+    title: Производство электроэнергии
+    link: /ru/PowerProduction/
 ---
-
-* [Добыча ресурсов](ru/MiningResources/index.md)
-  * [Строительство шахтёрских аванпостов на автомате](ru/MiningResources/Autotorio.md)
-  * [Добыча урана](ru/MiningResources/UraniumOre.md)
-  * [Погрузка и разгрузка поездов](ru/LoadingAndUnloadingTrains.md)
-  * [Плавка ресурсов](ru/RawResourcesProcessing/index.md)
-
-* [Производство электроэнергии](ru/PowerProduction/index.md)
-  * [Паровая энергия](ru/PowerProduction/SteamPower.md)
-  * [Эффективность топлива для производства паровой энергии](ru/PowerProduction/EfficientFuelForSteamPower.md)
-  * [Солнечная энергия](ru/PowerProduction/SolarPower.md)
-  * [Ядерная энергия](ru/PowerProduction/NuclearPower.md)
-  * [Переводим паровые и ядерные электростанции в резерв](ru/PowerProduction/BackupSteamPower.md)
-  * [Большая ядерная электростанция](ru/PowerProduction/HugeNuclearPowerPlant.md)
