@@ -32,10 +32,10 @@ module.exports = {
       '/en/': {
         label: 'English',
         sidebar: [
-/*          {
+          {
             title: 'How to start new game?',
             path: '/en/HowToStartNewGame',
-          },*/
+          },
           {
             title: 'Mining Resources',
             path: '/en/MiningResources',
@@ -67,10 +67,10 @@ module.exports = {
       '/ru/': {
         label: 'Русский',
         sidebar: [
-/*          {
+          {
             title: 'Как начать играть?',
             path: '/ru/HowToStartNewGame',
-          },*/
+          },
           {
             title: 'Добыча ресурсов',
             path: '/ru/MiningResources',
@@ -114,18 +114,18 @@ module.exports = {
 
   markdown: {
     plugins: {
-       'markdown-it-multimd-table': {
-            multiline:  true,
-            rowspan:    true,
-            headerless: true
-          }
+      'markdown-it-multimd-table': {
+        multiline: true,
+        rowspan: true,
+        headerless: true
       }
+    }
   },
 
   head: [
     ['script', {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-P1GFSP4DQK',
-        async: true
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-P1GFSP4DQK',
+      async: true
     }],
     ['script', {}, `
         window.dataLayer = window.dataLayer || [];
