@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: ../images/factorio-card.jpg
-<!--actionText: How to start a new game?
-actionLink: HowToStartNewGame.md-->
+actionText: How to start a new game?
+actionLink: HowToStartNewGame.md
 ---
 
 * [Mining resources](MiningResources/index.md)
   * [Autotorio](MiningResources/Autotorio.md)
   * [Uranium ore](MiningResources/UraniumOre.md)
-  * [Loading and Unloading Trains](LoadingAndUnloadingTrains.md)
+  * [Loading and Unloading Trains](LoadingAndUnloadingTrains/index.md)
   * [Raw resources processing](RawResourcesProcessing/index.md)
 
 * [Power production](PowerProduction/index.md)

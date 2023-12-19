@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: images/factorio-card.jpg
-<!--actionText: Как начать играть?
-actionLink: ru/HowToStartNewGame.md -->
+actionText: Как начать играть?
+actionLink: ru/HowToStartNewGame.md
 ---
 
 * [Добыча ресурсов](ru/MiningResources/index.md)
   * [Строительство шахтёрских аванпостов на автомате](ru/MiningResources/Autotorio.md)
   * [Добыча урана](ru/MiningResources/UraniumOre.md)
-  * [Погрузка и разгрузка поездов](ru/LoadingAndUnloadingTrains.md)
+  * [Погрузка и разгрузка поездов](ru/LoadingAndUnloadingTrains/index.md)
   * [Плавка ресурсов](ru/RawResourcesProcessing/index.md)
 
 * [Производство электроэнергии](ru/PowerProduction/index.md)

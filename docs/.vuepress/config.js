@@ -43,9 +43,17 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               '/en/MiningResources/Autotorio',
-              '/en/LoadingAndUnloadingTrains',
               '/en/MiningResources/UraniumOre',
               '/en/RawResourcesProcessing/'
+            ]
+          },
+          {
+            title: 'Loading and Unloading trains',
+            path: '/en/LoadingAndUnloadingTrains/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/en/LoadingAndUnloadingTrains/SyncUnloading'
             ]
           },
           {
@@ -78,9 +86,17 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               '/ru/MiningResources/Autotorio',
-              '/ru/LoadingAndUnloadingTrains',
               '/ru/MiningResources/UraniumOre',
               '/ru/RawResourcesProcessing/'
+            ]
+          },
+          {
+            title: 'Погрузка и разгрузка поездов',
+            path: '/ru/LoadingAndUnloadingTrains/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/ru/LoadingAndUnloadingTrains/SyncUnloading'
             ]
           },
           {
