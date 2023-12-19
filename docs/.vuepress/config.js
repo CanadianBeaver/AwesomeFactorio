@@ -26,7 +26,6 @@ module.exports = {
     displayAllHeaders: true,
     editLinks: false,
     lastUpdated: false,
-    displayAllHeaders: true,
     smoothScroll: true,
     locales: {
       '/en/': {
@@ -116,7 +115,6 @@ module.exports = {
         ]
       }
     }
-
   },
 
   plugins: [
@@ -124,8 +122,7 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/search',
-    'vuepress-plugin-code-copy',
-    'vuepress-plugin-smooth-scroll'
+    'vuepress-plugin-code-copy'
   ],
 
   markdown: {

@@ -14,8 +14,7 @@
     "@vuepress/plugin-medium-zoom": "^1.9.9",
     "@vuepress/plugin-search": "^1.9.9",
     "markdown-it-multimd-table": "^4.2.2",
-    "vuepress": "^1.5.3",
-    "vuepress-plugin-smooth-scroll": "^0.0.10"
+    "vuepress": "^1.9.9"
   },
   "dependencies": {
     "vuepress-plugin-code-copy": "^1.0.6"
