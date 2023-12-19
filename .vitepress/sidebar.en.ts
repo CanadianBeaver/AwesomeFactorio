@@ -7,8 +7,13 @@ export const sidebar_en = [
     items: [
       { text: 'Autotorio', link: '/en/MiningResources/Autotorio' },
       { text: 'Uranium ore', link: '/en/MiningResources/UraniumOre' },
-      { text: 'Loading and Unloading Trains', link: '/en/LoadingAndUnloadingTrains' },
       { text: 'Raw resources processing', link: '/en/RawResourcesProcessing/' }
+    ]
+  },
+  {
+    text: 'Loading and Unloading Trains', link: '/en/LoadingAndUnloadingTrains/',
+    items: [
+      { text: 'Synched inserters', link: '/en/LoadingAndUnloadingTrains/SyncUnloading' },
     ]
   },
   {

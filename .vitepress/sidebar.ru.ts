@@ -7,8 +7,13 @@ export const sidebar_ru = [
     items: [
       { text: 'Строительство шахтёрских аванпостов на автомате', link: '/ru/MiningResources/Autotorio' },
       { text: 'Добыча урана', link: '/ru/MiningResources/UraniumOre' },
-      { text: 'Погрузка и разгрузка поездов', link: '/ru/LoadingAndUnloadingTrains' },
       { text: 'Плавка ресурсов', link: '/ru/RawResourcesProcessing/' }
+    ]
+  },
+  {
+    text: 'Погрузка и разгрузка поездов', link: '/ru/LoadingAndUnloadingTrains/',
+    items: [
+      { text: 'Синхронизация манипуляторов при разгрузке предметов', link: '/ru/LoadingAndUnloadingTrains/SyncUnloading' },
     ]
   },
   {
