@@ -34,6 +34,16 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "npm clean install",
+            "type": "shell",
+            "command": "npm clean-install",
+            "promptOnClose": false,
+            "group": {
+                "kind": "none",
+                "isDefault": false
+            }
         }
     ]
 }
