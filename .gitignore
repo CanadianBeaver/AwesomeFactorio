@@ -1,16 +1,4 @@
-# Dependencies
-/node_modules
-package-lock.json
-
-# Production
-.build
-
-# Generated files by VuePress
-.vuepress/.temp
-.vuepress/.cache
-
-# Generated files by VitePress
-.vitepress/cache
+/package-lock.json
 
 # Misc
 .DS_Store

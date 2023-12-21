@@ -3,9 +3,10 @@
     "configurations": [
         {
             "type": "node-terminal",
-            "name": "VuePress Debug",
+            "name": "Docusaurus run",
             "request": "launch",
-            "command": "npm run dev"
+            "cwd": "${workspaceRoot}/website",
+            "command": "npm run start"
         }
     ]
 }

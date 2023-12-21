@@ -2,10 +2,31 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "VuePress Stage",
+            "label": "Docusaurus install",
+            "type": "shell",
+            "command": "npm install"
+        },
+        {
+            "label": "Docusaurus build",
             "type": "npm",
-            "script": "stage",
+            "script": "build",
             "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceRoot}/website",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Docusaurus clear",
+            "type": "npm",
+            "script": "clear",
+            "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceRoot}/website",
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
