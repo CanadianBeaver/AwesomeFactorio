@@ -12,7 +12,7 @@
             }
         },
         {
-            "label": "npm install",
+            "label": "npm clean install",
             "type": "shell",
             "command": "npm clean-install",
             "promptOnClose": false,
