@@ -4,7 +4,10 @@
         {
             "label": "Docusaurus install",
             "type": "shell",
-            "command": "npm install"
+            "command": "npm install",
+            "options": {
+                "cwd": "${workspaceRoot}/website"
+            },
         },
         {
             "label": "Docusaurus build",
@@ -12,7 +15,7 @@
             "script": "build",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceRoot}/website",
+                "cwd": "${workspaceRoot}/website"
             },
             "group": {
                 "kind": "build",
@@ -25,7 +28,7 @@
             "script": "clear",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceRoot}/website",
+                "cwd": "${workspaceRoot}/website"
             },
             "group": {
                 "kind": "build",
