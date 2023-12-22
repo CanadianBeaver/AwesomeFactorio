@@ -27,6 +27,7 @@ module.exports = {
     locales: {
       '/': {
         label: 'Русский',
+        nav: [{ text: 'Blog', link: '/blog/' }],
         sidebar: [
           {
             title: 'Как начать играть?',
