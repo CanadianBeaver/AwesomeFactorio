@@ -121,7 +121,7 @@
 [Кое-что ещё, но не очень много](https://wiki.factorio.com/Power_production)
 :::
 
-И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL). Чертежи также есть во вложенных статьях.
+И вот вам [сохранёнка со всеми няшками](../saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL). Чертежи также есть во вложенных статьях.
 
 ![Чертежи в игре](../images/PowerProduction/PowerProduction.01.png)
 
