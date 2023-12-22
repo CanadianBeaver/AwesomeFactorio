@@ -26,33 +26,33 @@
 
 ## Этап первый или космический спутник своими руками
 
-Производство энергии на начальном этапе игры заключаются в строительстве достаточного количества бойлеров ![Boiler](../../images/icons/boiler.png)`Boiler`, паровых двигателей ![Steam engine](../../images/icons/steam-engine.png)`Steam engine` и снабжение их углём ![Coal](../../images/icons/coal.png)`Coal`, не забывая при этом про насосы ![Offshore pump](../../images/icons/offshore-pump.png)`Offshore pump` подающие воду ![Water](../../images/icons/water.png)`Water` в бойлеры из ближайших луж. По мере возможностей и без особого спеха производим солнечные панели ![Solar panel](../../images/icons/solar-panel.png)`Solar panel` и устанавливаем их в пустых участках разрастающейся базы.
+Производство энергии на начальном этапе игры заключаются в строительстве достаточного количества бойлеров ![Boiler](../images/icons/boiler.png)`Boiler`, паровых двигателей ![Steam engine](../images/icons/steam-engine.png)`Steam engine` и снабжение их углём ![Coal](../images/icons/coal.png)`Coal`, не забывая при этом про насосы ![Offshore pump](../images/icons/offshore-pump.png)`Offshore pump` подающие воду ![Water](../images/icons/water.png)`Water` в бойлеры из ближайших луж. По мере возможностей и без особого спеха производим солнечные панели ![Solar panel](../images/icons/solar-panel.png)`Solar panel` и устанавливаем их в пустых участках разрастающейся базы.
 
 Основная цель на первые часы игры это освоить добычу близлежащих ресурсов (кроме нефти и урана), построить плавильню (включая стальные балки), хоть как-то запустить науку (красную и зелёную), а также построить маленький заводик по производству всего самого необходимого. Энергии на это хватит от одной электростанции на угле. Потом можно будет выйти за пределы базы и освоить добычу нефти. Тут стоит начать возводить вторую электростанцию, на твёрдом топливе. Далее наша цель робототехника и собственно строительство оставшейся базы по подготовленным заранее чертежам, с наукой и няшками.
 
 :::tip Это важно
-Одним конвейером ![Transport belt](../../images/icons/transport-belt.png)`Transport belt` угля можно питать [34 бойлера, что даёт (аж?) 61.2 мегаватт энергии](SteamPower.md). Этого достаточно, чтобы пережить продвинутую переработку нефти ![Advanced oil processing](../../images/icons/advanced-oil-processing.png)`Advanced oil processing` и даже дожить до начала строительства дронстанций ![Roboport](../../images/icons/roboport.png)`Roboport`.
+Одним конвейером ![Transport belt](../images/icons/transport-belt.png)`Transport belt` угля можно питать [34 бойлера, что даёт (аж?) 61.2 мегаватт энергии](SteamPower.md). Этого достаточно, чтобы пережить продвинутую переработку нефти ![Advanced oil processing](../images/icons/advanced-oil-processing.png)`Advanced oil processing` и даже дожить до начала строительства дронстанций ![Roboport](../images/icons/roboport.png)`Roboport`.
 :::
 
-Каждый работающий бойлер [загрязняет природу](https://wiki.factorio.com/Pollution) на 30/m. Что бы это не значило, это много, поэтому паровые электростанции являются источником сильного загрязнения, что привлекает местную фауну. Имеет смысл огораживать паровые электростанции стенами ![Wall](../../images/icons/wall.png)`Wall` и защищаться турелями ![Gun turret](../../images/icons/gun-turret.png)`Gun turret` по периметру.
+Каждый работающий бойлер [загрязняет природу](https://wiki.factorio.com/Pollution) на 30/m. Что бы это не значило, это много, поэтому паровые электростанции являются источником сильного загрязнения, что привлекает местную фауну. Имеет смысл огораживать паровые электростанции стенами ![Wall](../images/icons/wall.png)`Wall` и защищаться турелями ![Gun turret](../images/icons/gun-turret.png)`Gun turret` по периметру.
 
-![Много бойлеров и паровых двигателей](../../images/PowerProduction/SteamPower.02.png)
+![Много бойлеров и паровых двигателей](../images/PowerProduction/SteamPower.02.png)
 
-Начинайте производить твердое топливо ![Solid fuel](../../images/icons/solid-fuel.png)`Solid fuel` как можно скорее. Тут напомню, что производить твёрдое топливо лучше всего из дизельного топлива ![Light oil](../../images/icons/light-oil.png)`Light oil`, [пруф](https://youtu.be/avZhWqnDwHI?t=66). Сразу после открытия продвинутой переработки нефти ![Advanced oil processing](../../images/icons/advanced-oil-processing.png)`Advanced oil processing` добавляйте бойлеры на твердом топливе и паровые двигатели в процесс производства энергии. Это желательно сделать до запуска дронов, иначе можно попасть в блэкаут по части электроснабжения, когда дроны начнут возводить оставшуюся часть базы (надеюсь вы играете по заготовленным чертежам?). А ещё, можно хапнуть проблем с электроснабжением и раньше, в зависимости от того как вы строите. Поэтому не откладывайте строительство электростанции на твёрдом топливе.
+Начинайте производить твердое топливо ![Solid fuel](../images/icons/solid-fuel.png)`Solid fuel` как можно скорее. Тут напомню, что производить твёрдое топливо лучше всего из дизельного топлива ![Light oil](../images/icons/light-oil.png)`Light oil`, [пруф](https://youtu.be/avZhWqnDwHI?t=66). Сразу после открытия продвинутой переработки нефти ![Advanced oil processing](../images/icons/advanced-oil-processing.png)`Advanced oil processing` добавляйте бойлеры на твердом топливе и паровые двигатели в процесс производства энергии. Это желательно сделать до запуска дронов, иначе можно попасть в блэкаут по части электроснабжения, когда дроны начнут возводить оставшуюся часть базы (надеюсь вы играете по заготовленным чертежам?). А ещё, можно хапнуть проблем с электроснабжением и раньше, в зависимости от того как вы строите. Поэтому не откладывайте строительство электростанции на твёрдом топливе.
 
-![Ещё больше бойлеров и паровых двигателей](../../images/PowerProduction/SteamPower.03.png)
+![Ещё больше бойлеров и паровых двигателей](../images/PowerProduction/SteamPower.03.png)
 
-Солнечные панели ![Solar panel](../../images/icons/solar-panel.png)`Solar panel` строим сразу как завершим соответсвующее исследование ![Solar energy (research)](../../images/icons/solar-energy.png)`Solar energy (research)`. Но без фанатизма, ресурсов они требуют много, выхлоп дают маленький. Массовое производство солнечных панелей можно освоить после запуска спутника, а полный переход на солнечную энергию и того позже. Одного заводика, первого ![Assembling machine 1](../../images/icons/assembling-machine-1.png)`Assembling machine 1`, где-то в конце других заводов, производящих всё первое необходимое для жизни, вполне хватит для начала.
+Солнечные панели ![Solar panel](../images/icons/solar-panel.png)`Solar panel` строим сразу как завершим соответсвующее исследование ![Solar energy (research)](../images/icons/solar-energy.png)`Solar energy (research)`. Но без фанатизма, ресурсов они требуют много, выхлоп дают маленький. Массовое производство солнечных панелей можно освоить после запуска спутника, а полный переход на солнечную энергию и того позже. Одного заводика, первого ![Assembling machine 1](../images/icons/assembling-machine-1.png)`Assembling machine 1`, где-то в конце других заводов, производящих всё первое необходимое для жизни, вполне хватит для начала.
 
-![Производим солнечные панели](../../images/PowerProduction/PowerProduction.04.png)
+![Производим солнечные панели](../images/PowerProduction/PowerProduction.04.png)
 
-По мере возможностей производите аккумуляторные блоки ![Accumulator](../../images/icons/accumulator.png)`Accumulator` и устанавливайте их так же как и солнечные панели, в пустых участках разрастающейся базы. Начинать их производство нужно примерно вместе с фиолетовой наукой ![Production science pack](../../images/icons/production-science-pack.png)`Production science pack`, которую исследуем после желтой науки ![Utility science pack](../../images/icons/utility-science-pack.png)`Utility science pack`. Да, жёлтую науку предпочтительней открывать перед фиолетовой и производство дронов мы запускаем как можно раньше. Хотя опять-таки, есть карты с исключением, особенно когда без сжижения угля ![Coal liquefaction](../../images/icons/coal-liquefaction.png)`Coal liquefaction` вообще никак, тогда фиолетовая вэлком.
+По мере возможностей производите аккумуляторные блоки ![Accumulator](../images/icons/accumulator.png)`Accumulator` и устанавливайте их так же как и солнечные панели, в пустых участках разрастающейся базы. Начинать их производство нужно примерно вместе с фиолетовой наукой ![Production science pack](../images/icons/production-science-pack.png)`Production science pack`, которую исследуем после желтой науки ![Utility science pack](../images/icons/utility-science-pack.png)`Utility science pack`. Да, жёлтую науку предпочтительней открывать перед фиолетовой и производство дронов мы запускаем как можно раньше. Хотя опять-таки, есть карты с исключением, особенно когда без сжижения угля ![Coal liquefaction](../images/icons/coal-liquefaction.png)`Coal liquefaction` вообще никак, тогда фиолетовая вэлком.
 
-![Производим солнечные панели и аккумуляторные блоки](../../images/PowerProduction/PowerProduction.05.png)
+![Производим солнечные панели и аккумуляторные блоки](../images/PowerProduction/PowerProduction.05.png)
 
-Если имеются проблемы с производством твёрдого топлива из нефти, то после открытия фиолетовой науки `Production science pack` можно открыть сжижение угля ![Coal liquefaction](../../images/icons/coal-liquefaction.png)`Coal liquefaction`, но одной электростанции из 40 бойлеров на твёрдом топливе в дополнение к угольной, обычно хватает для снабжения базы из 45 научных пакетов в минуту и запуска первого спутника. Нефти для производства нужного твёрдого топлива обычно тоже хватает из близлежащего месторождения (вы же подбирали карту так, чтобы не строить поезда для транспортировки нефти?). Также, можно выделить какое-то пространство рядом с базой и размещать солнечные панели уже большими группами и даже какое-то количество аккумуляторных блоков.
+Если имеются проблемы с производством твёрдого топлива из нефти, то после открытия фиолетовой науки `Production science pack` можно открыть сжижение угля ![Coal liquefaction](../images/icons/coal-liquefaction.png)`Coal liquefaction`, но одной электростанции из 40 бойлеров на твёрдом топливе в дополнение к угольной, обычно хватает для снабжения базы из 45 научных пакетов в минуту и запуска первого спутника. Нефти для производства нужного твёрдого топлива обычно тоже хватает из близлежащего месторождения (вы же подбирали карту так, чтобы не строить поезда для транспортировки нефти?). Также, можно выделить какое-то пространство рядом с базой и размещать солнечные панели уже большими группами и даже какое-то количество аккумуляторных блоков.
 
-![А теперь много солнечных панелей](../../images/PowerProduction/SolarPower.04.png)
+![А теперь много солнечных панелей](../images/PowerProduction/SolarPower.04.png)
 
 Теперь обратим внимание на конкретные варианты первой фабрики для запуска спутника, среди которых существуют и множество [различных макаронных фабрик](https://factorioprints.com/top). В силу имеющихся в игре соотношений, основные расклады включают всего [два рабочих варианта](https://factoriocheatsheet.com/#science): на 45 научных пакетов в минуту и на 75 научных пакетов в минуту. Есть ещё вариант на 30 пакетов, но [это нам не нужно](https://neolurk.org/wiki/%D0%9D%D0%B5_%D0%BD%D1%83%D0%B6%D0%B5%D0%BD).
 
@@ -66,15 +66,15 @@
 
 [Расчёты по базе на 45 научных пакетов в минуту](https://kirkmcdonald.github.io/calc.html#zip=bVDbagQxCP2bPCVld7vTpQP5GOs4ray5YMzD/n0TaAudFkU8F1HcwCCew4hXpzVeHc6SOMeL27tmQIrNiCR8IfdGYnGHZsEUcqtFLUzOsVFqEbqVBMYlh4ZMGSlUwPu6r4uX8s7NGI/Ki8cPSowgR+V88d1Y2B5H5ebT5EH/KIuvWraO/91w82109JvW9bp4BZZhOD0tHhB76gJWdJ7gWxHQYc0k35i38Y8B5+jJpbFOqEUteCcbTrW1Pv/kJw==), требуется 127 мегаватт, **не включая** расходы на манипуляторы, подсветку ночью, радары, дронстанции, модули и прочее. Расчётные данные потребления электроэнергии сходятся с экспериментом. На картинке производим и потребляем 45 научных пакетов в минуту, плюс немного модулей эффективности для экономии энергии:
 
-![До запуска спутника](../../images/PowerProduction/PowerProduction.02.png)
+![До запуска спутника](../images/PowerProduction/PowerProduction.02.png)
 
 Таким образом, у нас имеется первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на половине конвейера твёрдого топлива из 40 или 50 бойлеров, пару сотен солнечных панелей и может быть какое-то количество аккумуляторных блоков на всякий случай. Вот собственно всё что нам нужно, чтобы запустить спутник на любой карте.
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
-| 360 ![solid-fue](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
-| | | | 500 ![solar-panel](../../images/icons/solar-panel.png) | 420 ![accumulator](../../images/icons/accumulator.png) | 21 | Солнечная энергия |
+| 900 ![coal](../images/icons/coal.png) | 100% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) | 34 ![boiler](../images/icons/boiler.png) | 72 ![steam-engine](../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
+| 360 ![solid-fue](../images/icons/solid-fuel.png) | 40% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) | 40 ![boiler](../images/icons/boiler.png) | 80 ![steam-engine](../images/icons/steam-engine.png) | 72 | Максимум на насосах |
+| | | | 500 ![solar-panel](../images/icons/solar-panel.png) | 420 ![accumulator](../images/icons/accumulator.png) | 21 | Солнечная энергия |
 | | | | | | ~155 | Итого |
 
 ### Начальная база на 75 научных пакетов в минуту
@@ -86,28 +86,28 @@
 Если ресурсов вокруг хватает, то первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на полном конвейере твёрдого топлива из 100 бойлеров и где-то полторы тыщи солнечных панелей вместе с более чем тыщей аккумуляторных блоков.
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 900 ![coal](../../images/icons/coal.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 34 ![boiler](../../images/icons/boiler.png) | 72 ![steam-engine](../../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
-| 900 ![solid-fue](../../images/icons/solid-fuel.png) | 100% ![transport-belt](../../images/icons/transport-belt.png) | 5 ![offshore-pump](../../images/icons/offshore-pump.png) | 100 ![boiler](../../images/icons/boiler.png) | 200 ![steam-engine](../../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
-| | | | 1500 ![solar-panel](../../images/icons/solar-panel.png) | 1260 ![accumulator](../../images/icons/accumulator.png) | 63 | Солнечная энергия |
+| 900 ![coal](../images/icons/coal.png) | 100% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) | 34 ![boiler](../images/icons/boiler.png) | 72 ![steam-engine](../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
+| 900 ![solid-fue](../images/icons/solid-fuel.png) | 100% ![transport-belt](../images/icons/transport-belt.png) | 5 ![offshore-pump](../images/icons/offshore-pump.png) | 100 ![boiler](../images/icons/boiler.png) | 200 ![steam-engine](../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
+| | | | 1500 ![solar-panel](../images/icons/solar-panel.png) | 1260 ![accumulator](../images/icons/accumulator.png) | 63 | Солнечная энергия |
 | | | | | | ~300 | Итого |
 |Произвести такое количество солнечных панелей и аккумуляторных блоков может быть затруднительным, если мы хотим запустить спутник за 8 часов. Налегайте на ещё одну электростанцию на твёрдом топливе и дополнительных заводов по сжижению угля. Заменим солнечную энергию:|||||||
-| | | | 500 ![solar-panel](../../images/icons/solar-panel.png) | 420 ![accumulator](../../images/icons/accumulator.png) | 21 | Солнечная энергия |
-| 360 ![solid-fue](../../images/icons/solid-fuel.png) | 40% ![transport-belt](../../images/icons/transport-belt.png) | 2 ![offshore-pump](../../images/icons/offshore-pump.png) | 40 ![boiler](../../images/icons/boiler.png) | 80 ![steam-engine](../../images/icons/steam-engine.png) | 72 | Максимум на насосах |
+| | | | 500 ![solar-panel](../images/icons/solar-panel.png) | 420 ![accumulator](../images/icons/accumulator.png) | 21 | Солнечная энергия |
+| 360 ![solid-fue](../images/icons/solid-fuel.png) | 40% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) | 40 ![boiler](../images/icons/boiler.png) | 80 ![steam-engine](../images/icons/steam-engine.png) | 72 | Максимум на насосах |
 | | | | | | ~330 | Итого |
 
 Отдельно отмечу, что вариант на 75 научных пакетов выглядит вкуснее по сравнению с 45, но его реализация требует решения дополнительных проблем. И как мы видим, производство энергии является одной из них. Решение этих проблем может варьироваться от карты к карте и зависеть от режима игры.
 
 ## Этап второй и корованы ракет
 
-После запуска первого спутника мы хотим играть дальше, ведь так? Поэтому нужно постепенно переходить на солнечную энергию, переводя паровые электростанции в резерв. Думаем про экологию и не дразним кусак загрязнением, а также волнуемся за [Грету Тунберг](https://ru.wikipedia.org/wiki/Thunberga_greta). Также стоит освоить добычу урановой руды ![Uranium ore](../../images/icons/uranium-ore.png)`Uranium ore` и готовиться производить урановые топливные элементы ![Uranium fuel cell](../../images/icons/uranium-fuel-cell.png)`Uranium fuel cell` для ядерных реакторов ![Nuclear reactor](../../images/icons/nuclear-reactor.png)`Nuclear reactor` через очень долгий процесс обогащения Коварекса ![Kovarex enrichment process](../../images/icons/kovarex-enrichment-process.png)`Kovarex enrichment process`. Ядерные электростанции стоит рассматривать как резервные, в помощь к большим солнечно-аккумуляторным полям.
+После запуска первого спутника мы хотим играть дальше, ведь так? Поэтому нужно постепенно переходить на солнечную энергию, переводя паровые электростанции в резерв. Думаем про экологию и не дразним кусак загрязнением, а также волнуемся за [Грету Тунберг](https://ru.wikipedia.org/wiki/Thunberga_greta). Также стоит освоить добычу урановой руды ![Uranium ore](../images/icons/uranium-ore.png)`Uranium ore` и готовиться производить урановые топливные элементы ![Uranium fuel cell](../images/icons/uranium-fuel-cell.png)`Uranium fuel cell` для ядерных реакторов ![Nuclear reactor](../images/icons/nuclear-reactor.png)`Nuclear reactor` через очень долгий процесс обогащения Коварекса ![Kovarex enrichment process](../images/icons/kovarex-enrichment-process.png)`Kovarex enrichment process`. Ядерные электростанции стоит рассматривать как резервные, в помощь к большим солнечно-аккумуляторным полям.
 
 Можно вообще отказаться от ядерных электростанций, многие так и поступают. Солнечные панели и аккумуляторные блоки в количествах от милльёна и больше хватит всем и на всё. Некоторым хватает и ста тыщъ чтобы закончить игру, игра начинает тормозить на больших базах и изрядно заколёбывает.
 
-![Как-то так](../../images/PowerProduction/SolarPower.05.png)
+![Как-то так](../images/PowerProduction/SolarPower.05.png)
 
 Альтернативно, можно пойти путём полного перехода на ядерную энергию, но в таком случае затруднительно контролировать грамотный расход урановых топливных элементов, [но это не точно](NuclearPower.md#начнем-с-теории).
 
-![Грамотный расход урановых топливных элементов](../../images/PowerProduction/PowerProduction.03.png)
+![Грамотный расход урановых топливных элементов](../images/PowerProduction/PowerProduction.03.png)
 
 Много рассказывать об этом не смысла. Просто стройте солнечные электростанции или ядерные по мере необходимости.
 
@@ -121,9 +121,9 @@
 [Кое-что ещё, но не очень много](https://wiki.factorio.com/Power_production)
 :::
 
-И вот вам [сохранёнка со всеми няшками](../../saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL). Чертежи также есть во вложенных статьях.
+И вот вам [сохранёнка со всеми няшками](../saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры, разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4ILjgq3RQfSdaBsdfC877kL). Чертежи также есть во вложенных статьях.
 
-![Чертежи в игре](../../images/PowerProduction/PowerProduction.01.png)
+![Чертежи в игре](../images/PowerProduction/PowerProduction.01.png)
 
 Детальный разбор общих вопросов производства электроэнергии смотрите на YouTube канале.
 

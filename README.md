@@ -7,3 +7,7 @@ https://canadianbeaver.github.io/AwesomeFactorio
 Here you can find detailed documentation with blueprints and intriguing YouTube videos.
 
 https://www.youtube.com/@AwesomeFactorio/videos
+
+Github documentation
+
+https://github.com/CanadianBeaver/AwesomeFactorio/tree/main/docs
