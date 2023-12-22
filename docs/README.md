@@ -5,13 +5,13 @@ actionText: Как начать играть?
 actionLink: HowToStartNewGame
 ---
 
-* [Добыча ресурсов](MiningResources/index.md)
+* [Добыча ресурсов](MiningResources/RERADME.md)
   * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio.md)
   * [Добыча урана](MiningResources/UraniumOre.md)
-  * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains/index.md)
-  * [Плавка ресурсов](RawResourcesProcessing/index.md)
+  * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains/README.md)
+  * [Плавка ресурсов](RawResourcesProcessing/README.md)
 
-* [Производство электроэнергии](PowerProduction/index.md)
+* [Производство электроэнергии](PowerProduction/README.md)
   * [Паровая энергия](PowerProduction/SteamPower.md)
   * [Эффективность топлива для производства паровой энергии](PowerProduction/EfficientFuelForSteamPower.md)
   * [Солнечная энергия](PowerProduction/SolarPower.md)
