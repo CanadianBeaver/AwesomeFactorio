@@ -1,7 +1,6 @@
 ---
 home: true
-heroImage: ../images/factorio-card.jpg
+heroImage: factorio-card.jpg
 actionText: How to start a new game?
-actionLink: HowToStartNewGame.md
+actionLink: HowToStartNewGame
 ---
-

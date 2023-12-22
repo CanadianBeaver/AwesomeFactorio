@@ -1,33 +1,73 @@
 module.exports = {
   lang: 'ru-RU',
   base: '/',
-  title: 'Прекрасная Фактория',
-  description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
+  title: 'Awesome Factorio',
+  description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
 
   head: [
     ['link', { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
 
   locales: {
+    '/': {
+      lang: 'ru-RU',
+      description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
+    },
     '/en/': {
       lang: 'en-US',
-      title: 'Awesome Factorio',
-      description: 'How to build an awesome factory? It is over 9,000 science packs per minute...',
-    },
-    '/ru/': {
-      lang: 'ru-RU',
-      title: 'Прекрасная Фактория',
-      description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
     }
   },
 
   themeConfig: {
-    logo: '/images/logo.svg',
+    logo: '/logo.svg',
     displayAllHeaders: true,
     editLinks: false,
     lastUpdated: false,
     smoothScroll: true,
     locales: {
+      '/': {
+        label: 'Русский',
+        sidebar: [
+          {
+            title: 'Как начать играть?',
+            path: '/HowToStartNewGame',
+          },
+          {
+            title: 'Добыча ресурсов',
+            path: '/MiningResources/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/MiningResources/Autotorio',
+              '/MiningResources/UraniumOre',
+              '/RawResourcesProcessing/'
+            ]
+          },
+          {
+            title: 'Погрузка и разгрузка поездов',
+            path: '/LoadingAndUnloadingTrains/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/LoadingAndUnloadingTrains/SyncUnloading'
+            ]
+          },
+          {
+            title: 'Производство электроэнергии',
+            path: '/PowerProduction/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/PowerProduction/SteamPower',
+              '/PowerProduction/EfficientFuelForSteamPower',
+              '/PowerProduction/SolarPower',
+              '/PowerProduction/NuclearPower',
+              '/PowerProduction/BackupSteamPower',
+              '/PowerProduction/HugeNuclearPowerPlant'
+            ]
+          }
+        ]
+      },
       '/en/': {
         label: 'English',
         sidebar: [
@@ -37,7 +77,7 @@ module.exports = {
           },
           {
             title: 'Mining Resources',
-            path: '/en/MiningResources',
+            path: '/en/MiningResources/',
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -57,7 +97,7 @@ module.exports = {
           },
           {
             title: 'Power production',
-            path: '/en/PowerProduction',
+            path: '/en/PowerProduction/',
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -67,49 +107,6 @@ module.exports = {
               '/en/PowerProduction/NuclearPower',
               '/en/PowerProduction/BackupSteamPower',
               '/en/PowerProduction/HugeNuclearPowerPlant'
-            ]
-          }
-        ]
-      },
-      '/ru/': {
-        label: 'Русский',
-        sidebar: [
-          {
-            title: 'Как начать играть?',
-            path: '/ru/HowToStartNewGame',
-          },
-          {
-            title: 'Добыча ресурсов',
-            path: '/ru/MiningResources',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              '/ru/MiningResources/Autotorio',
-              '/ru/MiningResources/UraniumOre',
-              '/ru/RawResourcesProcessing/'
-            ]
-          },
-          {
-            title: 'Погрузка и разгрузка поездов',
-            path: '/ru/LoadingAndUnloadingTrains/',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              '/ru/LoadingAndUnloadingTrains/SyncUnloading'
-            ]
-          },
-          {
-            title: 'Производство электроэнергии',
-            path: '/ru/PowerProduction',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              '/ru/PowerProduction/SteamPower',
-              '/ru/PowerProduction/EfficientFuelForSteamPower',
-              '/ru/PowerProduction/SolarPower',
-              '/ru/PowerProduction/NuclearPower',
-              '/ru/PowerProduction/BackupSteamPower',
-              '/ru/PowerProduction/HugeNuclearPowerPlant'
             ]
           }
         ]
