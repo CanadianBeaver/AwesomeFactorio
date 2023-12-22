@@ -27,7 +27,7 @@ const sidebars: SidebarsConfig = {
       label: 'Добыча ресурсов',
       link: {
         type: 'doc',
-        id: 'MiningResources/index',
+        id: 'MiningResources/README',
       },
       items: []
     },
@@ -36,7 +36,7 @@ const sidebars: SidebarsConfig = {
       label: 'Производство энергии',
       link: {
         type: 'doc',
-        id: 'PowerProduction/index',
+        id: 'PowerProduction/README',
       },
       items: []
     }
@@ -48,7 +48,7 @@ const sidebars: SidebarsConfig = {
       label: 'Производство энергии',
       link: {
         type: 'doc',
-        id: 'PowerProduction/index',
+        id: 'PowerProduction/README',
       },
       items: [
         'PowerProduction/SteamPower',
@@ -67,7 +67,7 @@ const sidebars: SidebarsConfig = {
       label: 'Добыча ресурсов',
       link: {
         type: 'doc',
-        id: 'MiningResources/index',
+        id: 'MiningResources/README',
       },
       items: [
         'MiningResources/Autotorio',
@@ -79,7 +79,7 @@ const sidebars: SidebarsConfig = {
       label: 'Плавка ресурсов',
       link: {
         type: 'doc',
-        id: 'RawResourcesProcessing/index',
+        id: 'RawResourcesProcessing/README',
       },
       items: []
     },
@@ -88,7 +88,7 @@ const sidebars: SidebarsConfig = {
       label: 'Погрузка и разгрузка',
       link: {
         type: 'doc',
-        id: 'LoadingAndUnloadingTrains/index',
+        id: 'LoadingAndUnloadingTrains/README',
       },
       items: ['LoadingAndUnloadingTrains/SyncUnloading']
     }

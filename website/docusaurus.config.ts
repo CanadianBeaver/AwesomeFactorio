@@ -36,7 +36,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: '../docs/ru',
+          path: '../docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
