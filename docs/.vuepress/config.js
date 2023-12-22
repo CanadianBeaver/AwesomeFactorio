@@ -27,7 +27,10 @@ module.exports = {
     locales: {
       '/': {
         label: 'Русский',
-        nav: [{ text: 'Blog', link: '/blog/' }],
+        nav: [
+          { text: 'Blog', link: '/blog/' },
+          { text: 'Youtube', link: 'https://www.youtube.com/@AwesomeFactorio' },
+        ],
         sidebar: [
           {
             title: 'Как начать играть?',
@@ -71,6 +74,9 @@ module.exports = {
       },
       '/en/': {
         label: 'English',
+        nav: [
+          { text: 'Youtube', link: 'https://www.youtube.com/@AwesomeFactorio' },
+        ],
         sidebar: [
           {
             title: 'How to start new game?',
