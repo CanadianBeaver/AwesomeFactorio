@@ -21,7 +21,7 @@ const config: Config = {
   projectName: 'AwesomeFactorio', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -158,7 +158,18 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        background: {
+          light: 'rgb(240, 240, 240)',
+          dark: 'rgb(50, 50, 50)'
+        }
+      }
+    }
   } satisfies Preset.ThemeConfig,
+
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")]
 
 };
 
