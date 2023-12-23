@@ -159,13 +159,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     zoom: {
-      selector: '.markdown :not(em) > img',
-      config: {
-        background: {
-          light: 'rgb(240, 240, 240)',
-          dark: 'rgb(50, 50, 50)'
-        }
-      }
+      selector: '.markdown :not(em) > img'
     }
   } satisfies Preset.ThemeConfig,
 
