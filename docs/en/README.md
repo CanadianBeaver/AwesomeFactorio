@@ -1,10 +1,3 @@
----
-home: true
-heroImage: ../factorio-banner.jpg
-actionText: How to start a new game?
-actionLink: HowToStartNewGame
----
-
 * [Mining resources](MiningResources/README.md)
   * [Autotorio](MiningResources/Autotorio.md)
   * [Uranium ore](MiningResources/UraniumOre.md)

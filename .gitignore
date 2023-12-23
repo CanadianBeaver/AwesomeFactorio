@@ -1,4 +1,8 @@
+# Dependencies
 /package-lock.json
+
+# Production
+.build
 
 # Misc
 .DS_Store
