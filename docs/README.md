@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: factorio-card.jpg
+heroImage: factorio-banner.jpg
 actionText: Как начать играть?
 actionLink: HowToStartNewGame
 ---
