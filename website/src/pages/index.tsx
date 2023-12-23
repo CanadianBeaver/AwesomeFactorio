@@ -6,6 +6,8 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+import banner from './factorio-banner.jpg';
+
 import thumbnail1 from './production.png';
 import thumbnail2 from './logistics.png';
 import thumbnail3 from './intermediate-products.png';
@@ -13,7 +15,7 @@ import thumbnail3 from './intermediate-products.png';
 type FeatureItem = {
   title: string;
   description: JSX.Element;
-  logo: React.ComponentType<React.ComponentProps<'img'>>;
+  logo: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -70,7 +72,7 @@ function HomepageFeatures(){
           ))}
         </div>
         <div className="text--center">
-          <img src="factorio-banner.jpg" />
+          <img src={banner} />
         </div>
       </div>
     </section>

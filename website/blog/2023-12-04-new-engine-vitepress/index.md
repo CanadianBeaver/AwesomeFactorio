@@ -2,9 +2,7 @@
 title: Новый дизайн
 description: This is my first post.
 slug: new-vitepress-engine
-tags: [engine, vitepress, design]
-image: screenshot.png
-hide_table_of_contents: false
+tags: [website, design]
 ---
 
 Давно присматриваюсь к `vitepress` на предмет использования в качестве нового движка для сайта. Получается неплохо, но есть и проблемы.
