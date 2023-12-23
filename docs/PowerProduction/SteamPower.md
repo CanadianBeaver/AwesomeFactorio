@@ -24,10 +24,10 @@
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| | | 1 ![offshore-pump](../images/icons/offshore-pump.png) | 20 ![boiler](../images/icons/boiler.png) | 40 ![/steam-engine](../images/icons/steam-engine.png) | 36 | Максимум на насосе |
-| 900 ![coal](../images/icons/coal.png) | 100% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) |   34 ![boiler](../images/icons/boiler.png) | 72 ![steam-engine](../images/icons/steam-engine.png) | 61.2 | Максимум на угле |
-| 360 ![solid-fuel](../images/icons/solid-fuel.png) | 40% ![transport-belt](../images/icons/transport-belt.png) | 2 ![offshore-pump](../images/icons/offshore-pump.png) |   40 ![boiler](../images/icons/boiler.png) | 80 ![steam-engine](../images/icons/steam-engine.png) | 72 | Максимум на насосах |
-| 900 ![solid-fuel](../images/icons/solid-fuel.png) | 100% ![transport-bel](../images/icons/transport-belt.png) | 5 ![offshore-pump](../images/icons/offshore-pump.png) |   100 ![boiler](../images/icons/boiler.png) | 200 ![steam-engine](../images/icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
+| | | 1 ![offshore-pump](../icons/offshore-pump.png) | 20 ![boiler](../icons/boiler.png) | 40 ![/steam-engine](../icons/steam-engine.png) | 36 | Максимум на насосе |
+| 900 ![coal](../icons/coal.png) | 100% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   34 ![boiler](../icons/boiler.png) | 72 ![steam-engine](../icons/steam-engine.png) | 61.2 | Максимум на угле |
+| 360 ![solid-fuel](../icons/solid-fuel.png) | 40% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   40 ![boiler](../icons/boiler.png) | 80 ![steam-engine](../icons/steam-engine.png) | 72 | Максимум на насосах |
+| 900 ![solid-fuel](../icons/solid-fuel.png) | 100% ![transport-bel](../icons/transport-belt.png) | 5 ![offshore-pump](../icons/offshore-pump.png) |   100 ![boiler](../icons/boiler.png) | 200 ![steam-engine](../icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
 
 Почему не рассматриваем другие виды топлива? - [потому](EfficientFuelForSteamPower.md).
 
