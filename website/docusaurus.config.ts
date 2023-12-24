@@ -2,6 +2,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+import { rehypeExtendedTable } from 'rehype-extended-table';
+
 const config: Config = {
   title: 'Awesome Factorio',
   tagline: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
@@ -41,11 +43,13 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
+          rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
           path: './blog',
           showReadingTime: true,
-          blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio'
+          blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
+          rehypePlugins: [rehypeExtendedTable]
         },
         theme: {
           customCss: './src/css/custom.css',

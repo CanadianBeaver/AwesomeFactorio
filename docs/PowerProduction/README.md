@@ -90,7 +90,7 @@
 | 900 *![solid-fue](../icons/solid-fuel.png)* | 100% *![transport-belt](../icons/transport-belt.png)* | 5 *![offshore-pump](../icons/offshore-pump.png)* | 100 *![boiler](../icons/boiler.png)* | 200 *![steam-engine](../icons/steam-engine.png)* | 180 | Максимум на твёрдом топливе |
 | | | | 1500 *![solar-panel](../icons/solar-panel.png)* | 1260 *![accumulator](../icons/accumulator.png)* | 63 | Солнечная энергия |
 | | | | | | ~300 | Итого |
-|Произвести такое количество солнечных панелей и аккумуляторных блоков может быть затруднительным, если мы хотим запустить спутник за 8 часов. Налегайте на ещё одну электростанцию на твёрдом топливе и дополнительных заводов по сжижению угля. Заменим солнечную энергию:|||||||
+|>|>|>|>|>|>|Произвести такое количество солнечных панелей и аккумуляторных блоков может быть затруднительным, если мы хотим запустить спутник за 8 часов. Налегайте на ещё одну электростанцию на твёрдом топливе и дополнительных заводов по сжижению угля. Заменим солнечную энергию:|
 | | | | 500 *![solar-panel](../icons/solar-panel.png)* | 420 *![accumulator](../icons/accumulator.png)* | 21 | Солнечная энергия |
 | 360 *![solid-fue](../icons/solid-fuel.png)* | 40% *![transport-belt](../icons/transport-belt.png)* | 2 *![offshore-pump](../icons/offshore-pump.png)* | 40 *![boiler](../icons/boiler.png)* | 80 *![steam-engine](../icons/steam-engine.png)* | 72 | Максимум на насосах |
 | | | | | | ~330 | Итого |
