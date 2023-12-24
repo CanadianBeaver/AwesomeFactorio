@@ -30,3 +30,7 @@ h1.hero__title {
   letter-spacing: .25rem;
   font-size: 500%;
 }
+
+.markdown em>img {
+  vertical-align: middle;
+}
