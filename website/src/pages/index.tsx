@@ -20,29 +20,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Легко строить по готовым чертежам',
-    logo:  thumbnail1,
+    title: 'Расскажем как построить фабрику',
+    logo: thumbnail1,
     description: (
       <>
-        но трудно чертежи подготовить заранее
+
       </>
     ),
   },
   {
-    title: 'Быстро строить роботами',
+    title: 'Покажем много разных чертежей',
     logo: thumbnail2,
     description: (
       <>
-        если есть готовые чертежи
+
       </>
     ),
   },
   {
-    title: 'Красота прежде всего',
+    title: 'Спалим любой процессор',
     logo: thumbnail3,
     description: (
       <>
-        красота чертежей, потом всё остальное
+        ...даже 7950X3D
       </>
     ),
   }
@@ -62,7 +62,7 @@ function Feature({ title, logo, description }: FeatureItem) {
   );
 }
 
-function HomepageFeatures(){
+function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
