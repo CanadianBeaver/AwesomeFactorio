@@ -4,7 +4,7 @@
   * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains/README.md)
   * [Плавка ресурсов](RawResourcesProcessing/README.md)
 
-* [Производство электроэнергии](PowerProduction/README.md)
+* [Производство энергии](PowerProduction/README.md)
   * [Паровая энергия](PowerProduction/SteamPower.md)
   * [Эффективность топлива для производства паровой энергии](PowerProduction/EfficientFuelForSteamPower.md)
   * [Солнечная энергия](PowerProduction/SolarPower.md)
