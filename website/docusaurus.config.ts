@@ -24,6 +24,7 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
+  onDuplicateRoutes: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -55,6 +56,7 @@ const config: Config = {
       {
         docs: {
           path: '../docs',
+          exclude: ['README.md'],
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
@@ -124,16 +126,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Разделы',
           items: [
-            { label: 'Начало', to: '/HowToStartNewGame', }
+            { label: 'Начало', to: '/HowToStartNewGame', },
+            { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
           ],
         },
         {
+
           items: [
             { label: 'Ресурсы', to: '/MiningResources', },
-            { label: 'Плавка', to: '/RawResourcesProcessing', },
-            { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
+            { label: 'Плавка', to: '/RawResourcesProcessing', }
           ],
         },
         {
