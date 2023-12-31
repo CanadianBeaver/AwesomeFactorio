@@ -57,7 +57,7 @@ module.exports = {
             ]
           },
           {
-            title: 'Производство электроэнергии',
+            title: 'Производство энергии',
             path: '/PowerProduction/',
             collapsable: false,
             sidebarDepth: 0,
