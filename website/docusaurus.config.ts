@@ -110,7 +110,6 @@ const config: Config = {
           ],
         },
         {
-          title: '_',
           items: [
             { label: 'Ресурсы', to: '/MiningResources', },
             { label: 'Плавка', to: '/RawResourcesProcessing', },
@@ -118,7 +117,6 @@ const config: Config = {
           ],
         },
         {
-          title: '_',
           items: [
             { label: 'Энергия', to: '/PowerProduction', },
           ],

@@ -28,8 +28,17 @@ header.hero {
 
 h1.hero__title {
   font-family: 'Russo One';
-  letter-spacing: .25rem;
+  letter-spacing: .2rem;
   font-size: 500%;
+  -webkit-text-stroke: 1px var(--ifm-color-primary-darkest);
+  text-transform: uppercase;
+}
+
+p.hero__subtitle {
+  /*font-family: 'Russo One';
+  letter-spacing: .25rem;*/
+  font-weight: bold;
+  text-shadow: 0px 0px 4px var(--ifm-color-primary-darkest);
 }
 
 .markdown em>img {
