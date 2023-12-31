@@ -1,7 +1,7 @@
 export const sidebar_en = [
-/*  {
+  {
     text: 'How to start new game?', link: 'en/HowToStartNewGame'
-  },*/
+  },
   {
     text: 'Mining resources', link: '/en/MiningResources/',
     items: [

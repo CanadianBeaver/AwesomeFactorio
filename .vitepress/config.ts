@@ -17,11 +17,14 @@ export default defineConfig({
     hostname: 'https://awesomefactorio.yrfle.com'
   },
 
+  rewrites: {
+    '(.*)/README.md': '(.*)/index.md'
+  },
+
   locales: {
-    ru: {
+    root: {
       label: 'Русский',
       lang: 'ru-RU',
-      link: '/ru/',
       title: 'Прекрасная Фактория',
       description: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
       themeConfig: {

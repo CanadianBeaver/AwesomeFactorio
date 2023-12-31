@@ -6,12 +6,12 @@ hero:
   text: How to build an awesome factory?
   tagline: It is over 9,000 science packs per minute...
   image:
-    src: /images/factorio-card.jpg
+    src: /factorio-card.jpg
     alt: Awesome Factorio
   actions:
     - theme: brand
       text: Get Started
-      link: /ru/HowToStartNewGame
+      link: HowToStartNewGame
     - theme: alt
       text: View on YouTube
       link: https://www.youtube.com/@AwesomeFactorio
@@ -19,8 +19,8 @@ hero:
 features:
   - icon: 🛠️
     title: Добыча ресурсов
-    link: /ru/MiningResources/
+    link: /MiningResources/
   - icon: 🛠️
     title: Производство электроэнергии
-    link: /ru/PowerProduction/
+    link: /PowerProduction/
 ---
