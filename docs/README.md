@@ -1,20 +1,26 @@
 ---
-home: true
-heroImage: factorio-banner.jpg
-actionText: Как начать играть?
-actionLink: HowToStartNewGame
+layout: home
+
+hero:
+  name: Awesome Factorio
+  text: Как построить классную фабрику?
+  tagline: Это 100500 научных пакетов в минуту...
+  image:
+    src: factorio-banner.jpg
+    alt: Awesome Factorio
+  actions:
+    - theme: brand
+      text: Как начать?
+      link: HowToStartNewGame
+    - theme: alt
+      text: View on YouTube
+      link: https://www.youtube.com/@AwesomeFactorio
+
+features:
+  - icon: 🛠️
+    title: Добыча ресурсов
+    link: /MiningResources/
+  - icon: 🛠️
+    title: Производство электроэнергии
+    link: /PowerProduction/
 ---
-
-* [Добыча ресурсов](MiningResources/README.md)
-  * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio.md)
-  * [Добыча урана](MiningResources/UraniumOre.md)
-  * [Погрузка и разгрузка поездов](LoadingAndUnloadingTrains/README.md)
-  * [Плавка ресурсов](RawResourcesProcessing/README.md)
-
-* [Производство электроэнергии](PowerProduction/README.md)
-  * [Паровая энергия](PowerProduction/SteamPower.md)
-  * [Эффективность топлива для производства паровой энергии](PowerProduction/EfficientFuelForSteamPower.md)
-  * [Солнечная энергия](PowerProduction/SolarPower.md)
-  * [Ядерная энергия](PowerProduction/NuclearPower.md)
-  * [Переводим паровые и ядерные электростанции в резерв](PowerProduction/BackupSteamPower.md)
-  * [Большая ядерная электростанция](PowerProduction/HugeNuclearPowerPlant.md)

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ../factorio-banner.jpg
+heroImage: /factorio-banner.jpg
 actionText: How to start a new game?
 actionLink: HowToStartNewGame
 ---

@@ -1,6 +1,6 @@
 export const sidebar_ru = [
   {
-    text: 'Как начать играть?', link: 'ru/HowToStartNewGame'
+    text: 'Как начать играть?', link: '/HowToStartNewGame'
   },
   {
     text: 'Добыча ресурсов', link: '/MiningResources/',
