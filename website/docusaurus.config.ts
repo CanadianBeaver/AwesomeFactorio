@@ -30,7 +30,23 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ru',
-    locales: ['ru'],
+    locales: ['ru', 'en'],
+    localeConfigs: {
+      ru: {
+        label: 'Русский',
+        direction: 'ltr',
+        htmlLang: 'ru-RU',
+        calendar: 'gregory',
+        path: 'ru',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+    },
   },
 
   presets: [
@@ -83,21 +99,25 @@ const config: Config = {
           position: 'left',
           label: 'Энергия',
         },
+        /*{
+          type: 'localeDropdown',
+          position: 'right'
+        },*/
         {
           type: 'search',
           position: 'right',
         },
         { to: '/blog', label: 'Blog', position: 'right' },
-        {
+        /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
           label: 'GitHub',
           position: 'right',
-        },
+        },*/
         {
           href: 'https://www.youtube.com/@AwesomeFactorio',
           label: 'Youtube',
           position: 'right',
-        },
+        }
       ],
     },
     footer: {
