@@ -17,7 +17,7 @@ export const sidebar_ru = [
     ]
   },
   {
-    text: 'Производство электроэнергии', link: '/PowerProduction/',
+    text: 'Производство энергии', link: '/PowerProduction/',
     items: [
       { text: 'Паровая энергия', link: '/PowerProduction/SteamPower' },
       { text: 'Эффективность топлива для производства паровой энергии', link: '/PowerProduction/EfficientFuelForSteamPower' },
