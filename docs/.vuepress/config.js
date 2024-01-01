@@ -124,7 +124,7 @@ module.exports = {
   plugins: [
     '@vuepress/active-header-links',
     '@vuepress/back-to-top',
-    '@vuepress/medium-zoom',
+    [ '@vuepress/medium-zoom', { selector: '.theme-default-content :not(em) > img' } ],
     '@vuepress/search',
     'vuepress-plugin-code-copy'
   ],
