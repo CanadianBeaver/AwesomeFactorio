@@ -31,7 +31,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ru',
-    locales: ['ru', 'en'],
+    locales: ['ru'] /*, 'en'],
     localeConfigs: {
       ru: {
         label: 'Русский',
@@ -47,7 +47,7 @@ const config: Config = {
         calendar: 'gregory',
         path: 'en',
       },
-    },
+    },*/
   },
 
   presets: [
@@ -64,7 +64,7 @@ const config: Config = {
           rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
-          path: './blog',
+          path: '../blog',
           showReadingTime: true,
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           rehypePlugins: [rehypeExtendedTable]
