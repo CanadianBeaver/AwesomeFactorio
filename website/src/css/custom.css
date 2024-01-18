@@ -22,6 +22,16 @@
   --ifm-font-family-base: 'Open Sans';
 }
 
+:root {
+  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-menu-color-active: var(--ifm-color-primary-dark);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-dark);
+}
+
+.table-of-contents__link.toc-highlight.table-of-contents__link--active {
+  color: var(--ifm-color-primary-dark);
+}
+
 header.hero {
   background-color: var(--ifm-color-primary);
 }
