@@ -1,10 +1,3 @@
----
-home: true
-heroImage: factorio-banner.jpg
-actionText: Как начать играть?
-actionLink: HowToStartNewGame
----
-
 * [Добыча ресурсов](MiningResources/README.md)
   * [Строительство шахтёрских аванпостов на автомате](MiningResources/Autotorio.md)
   * [Добыча урана](MiningResources/UraniumOre.md)

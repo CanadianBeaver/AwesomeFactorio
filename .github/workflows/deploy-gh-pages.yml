@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a VuePress site to GitHub Pages
-name: VuePress to GitHub Pages
+name: Publish website to GitHub Pages
 
 on:
   #pull_request:
@@ -26,16 +26,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Copy saved games
-        run: cp -R docs/saves docs/.vuepress/public/saves
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
+          cache: npm
+          cache-dependency-path: website
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+        working-directory: website
       - name: Build pages
         run: npm run build
+        working-directory: website
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
