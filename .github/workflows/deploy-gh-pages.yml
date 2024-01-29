@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a VuePress site to GitHub Pages
+# Sample workflow for building and deploying a Docusaurus site to GitHub Pages
 name: Publish website to GitHub Pages
 
 on:
