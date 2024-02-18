@@ -23,6 +23,14 @@
 Потребуется 48 каменных печей *![Stone furnace](../icons/stone-furnace.png)* `Stone furnace` или 24 стальных печей *![Steel furnace](../icons/steel-furnace.png)* `Steel furnace` чтобы полностью опустошить жёлтый конвейер железной или медной руды *![Transport belt](../icons/transport-belt.png)* `Transport belt`. Столько же печей потребуется, чтобы заполнить такой же конвейер выплавленными железными или медными плитами.
 
 Из всего вышеперечисленного следует, что **любой работающий дизайн для плавки руды на каменных печах и обычном конвейере, можно превратить в дизайн на стальных печах и быстром конвейере простым улучшением печей и конвейера**.
+
+```blueprint title="Upgrade planer для печей и манипуляторов"
+0eNqNUdsKwjAM/RXJ8wY6hV3+wycRqRpHYUtLm4ky+u+mbIOBl/nUk/ZcekgPna2duuLJNooIHVQ9eGTWVPuIW2UtOoGHHm7OtPGOnxahAiTW/IQESLVxPndODFJNHh2LU0iAzQ/+nKjpig+o1iFZjPFsCNObhKkLLoZ4Rmzm7DFpF46CL4aGal7XpJqZj2Zsf1YbfTbxxwvqD7LsD9lb0VG7/Uv7tXYcIreaVp9Oq0+gUWcUU9gPL6uh92oq4IVyl0MbkgrFZpeXWV5kZb4uyhBezDnGNw==
+```
+
+```blueprint title="Upgrade planer для конвейеров"
+0eNqFkN0KgzAMhV9l5FpBZaD2PXY1xuhmlEKbljYbE+m7r8UJg4G7O/n5csJZ4OEmLwe8Oi2J0INYICCzoilkbaRz6JM8LzB6a3KPZ4cgAIkVz1AASZNr9pKCs57LG2qGWADbnfVRBi5/GUUDvkBU8ZL03dJqHdREUn9dU4xmz/pzpo7FX3j/kSZecpEJsYVVbmEVoGXaT5PTOjlkOqT+M4WmLCW+q49t37Rd07dV18f4BmG3fcA=
+```
 :::
 
 ## Самое начало
