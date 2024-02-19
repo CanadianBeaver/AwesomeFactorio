@@ -13,20 +13,20 @@
 :::
 
 :::warning На самом деле нужно помнить совсем другое
-Одним конвейером `Transport belt` угля можно питать **34 бойлера** `Boiler`, которые дают пар для **68 паровых двигателей** `Steam engine`, которые **вырабатывают 61.2 мегаватт энергии**.
+Одним конвейером `Transport belt` угля `Coal` можно питать **только 34 бойлера** `Boiler`, которые дают пар для **68 паровых двигателей** `Steam engine`, которые **вырабатывают 61.2 мегаватт энергии** (за вычетом энергии для питания манипуляторов загружающие топливо в бойлеры).
 :::
 
-Бойлеры рационально размещать с обеих сторон конвейера подающего топливо. Потребуется два насоса с каждой стороны конвейера, то есть имеем электростанцию на 40 бойлеров, 80 паровых двигателей, 72 мегаватта максимум. Топливо подаём с одной стороны (красная стрелка), воду с другой (голубая стрелка). Обратите внимание, как располагать деревянные опоры ЛЭП `Small electric pole`.
+Представим, что у нас есть простой конвейер подающий топливо, в начале игры это будет только жёлтый `Transport belt` и уголь `Coal`. Тогда бойлеры рационально размещать с обеих сторон конвейера подающего топливо. Также можно разместить два насоса с каждой стороны конвейера. Топливо подаём с одной стороны (красная стрелка), воду с другой (голубая стрелка). Обратите внимание, как располагать деревянные опоры ЛЭП `Small electric pole` - нужно раздвигать паровые двигатели, а не бойлеры.
 
 ![Typical steam power](../images/PowerProduction/SteamPower.04.png)
 
-И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#basic-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины `Wood` разумеется, такой проблемой не обладают.
+И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#basic-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины `Wood` разумеется, такой проблемой не обладают. Далее привожу расходы топлива для паровой электростанции.
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| | | 1 ![offshore-pump](../icons/offshore-pump.png) | 20 ![boiler](../icons/boiler.png) | 40 ![/steam-engine](../icons/steam-engine.png) | 36 | Максимум на насосе |
-| 900 ![coal](../icons/coal.png) | 100% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   34 ![boiler](../icons/boiler.png) | 72 ![steam-engine](../icons/steam-engine.png) | 61.2 | Максимум на угле |
-| 360 ![solid-fuel](../icons/solid-fuel.png) | 40% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   40 ![boiler](../icons/boiler.png) | 80 ![steam-engine](../icons/steam-engine.png) | 72 | Максимум на насосах |
+| | | 1 ![offshore-pump](../icons/offshore-pump.png) | 20 ![boiler](../icons/boiler.png) | 40 ![/steam-engine](../icons/steam-engine.png) | 36 | Максимум на одном насосе |
+| 900 ![coal](../icons/coal.png) | 100% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   34 ![boiler](../icons/boiler.png) | 72 ![steam-engine](../icons/steam-engine.png) | 61.2 | Максимум на одном конвейере угля |
+| 360 ![solid-fuel](../icons/solid-fuel.png) | 40% ![transport-belt](../icons/transport-belt.png) | 2 ![offshore-pump](../icons/offshore-pump.png) |   40 ![boiler](../icons/boiler.png) | 80 ![steam-engine](../icons/steam-engine.png) | 72 | Максимум на двух насосах |
 | 900 ![solid-fuel](../icons/solid-fuel.png) | 100% ![transport-bel](../icons/transport-belt.png) | 5 ![offshore-pump](../icons/offshore-pump.png) |   100 ![boiler](../icons/boiler.png) | 200 ![steam-engine](../icons/steam-engine.png) | 180 | Максимум на твёрдом топливе |
 
 Почему не рассматриваем другие виды топлива? - [потому](EfficientFuelForSteamPower.md).
