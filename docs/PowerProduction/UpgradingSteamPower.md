@@ -1,6 +1,6 @@
 # Улучшаем угольную электростанцию
 
-Наша первая электростанция всегда будет [паровой электростанцией на угле](SteamPower.md#%D1%87%D0%B5%D1%80%D1%82%D1%91%D0%B6-%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8), так устроена игра. [Вторую паровую электростанцию](SteamPower.md#%D1%87%D0%B5%D1%80%D1%82%D1%91%D0%B6-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8-%D0%BD%D0%B0-%D1%82%D0%B2%D1%91%D1%80%D0%B4%D0%BE%D0%BC-%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B5) можно строить на `Solid fuel` (твёрдом топливе), производя твёрдое топливо из `Light oil` (дизельного топлива) через `Advanced oil processing` (продвинутая переработка нефти). После открытия `Production science pack` (фиолетовая наука или Производственный исследовательский пакет) станет доступна технология `Coal Liquefaction` (Сжижение угля), что позволяет переводить уголь в твёрдое топливо перед сжиганием его в бойлерах и повысить таким образом эффективность паровой электростанции.
+Наша первая электростанция всегда будет [паровой электростанцией на угле](SteamPower.md#%D1%87%D0%B5%D1%80%D1%82%D1%91%D0%B6-%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8), так устроена игра. [Вторую паровую электростанцию можно на твёрдом топливе](SteamPower.md#%D1%87%D0%B5%D1%80%D1%82%D1%91%D0%B6-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8-%D0%BD%D0%B0-%D1%82%D0%B2%D1%91%D1%80%D0%B4%D0%BE%D0%BC-%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B5), производя его из дизельного топлива *![Light oil](../icons/light-oil.png)* `Light oil` через продвинутую переработку нефти *![Advanced oil processing](../icons/advanced-oil-processing.png)* `Advanced oil processing`. Всё бы ничего, но первая электростанция у нас остаётся на угле. Однако, после открытия производственного исследовательского пакета *![Production science pack](../icons/production-science-pack.png)* `Production science pack` (фиолетовая наука) станет доступна технология сжижение угля *![Coal Liquefaction](../icons/coal-liquefaction.png)* `Coal liquefaction`, что позволяет переводить уголь в твёрдое топливо перед сжиганием его в бойлерах и повысить таким образом эффективность первой паровой электростанции.
 
 :::tip Вся статья, кратко
 Возьмём обычную паровую электростанцию на угле и добавим сжижения для угля, которым будем питать исходную электростанцию
@@ -8,7 +8,7 @@
 
 ## Предварительный расчёт
 
-Для питания паровой электростанции состоящей из 40 бойлеров (максимум на двух насосах) требуется примерно 360 единиц твёрдого топлива. Наша первая электростанция питающаяся полным конвейером угля состоит из 34 бойлеров. С учетом потребностей в паре для сжижения угля и в воде для `Heavy oil cracking` (Переработка мазута в дизельное топливо) можно рассчитывать примерно на 38 бойлеров, плюс один бойлер будет производить пар для сжижения угля. [Примерный расчёт](https://kirkmcdonald.github.io/calc.html#zip=bY3LCkIxDET/pisDvhAs9GNCb9obTJvah+Df27pxI4EMzJxMNuzoTjDnbmpxV+PXSpzd2RTnFcVwp9RcU+ENwiCx1V5uR5N0G0Lty4Dwc1BA31mzLXTYCV9vUBbwFf2Dc1zurwNC1TSv4t4X9S8s1KsKjQQR2wLWo6kf) плюс/минус колдовство и практическая пригонка говорят, что нам потребуется:
+Для питания паровой электростанции состоящей из 40 бойлеров (максимум на двух насосах) требуется примерно 360 единиц твёрдого топлива. Наша первая электростанция питающаяся полным конвейером угля состоит из 34 бойлеров. С учетом потребностей в паре для сжижения угля и в воде для переработки мазута в дизельное топливо *![Heavy oil cracking](../icons/heavy-oil-cracking.png)* `Heavy oil cracking` можно рассчитывать примерно на 38 бойлеров, плюс один бойлер будет производить пар для сжижения угля. [Примерный расчёт](https://kirkmcdonald.github.io/calc.html#zip=bY3LCkIxDET/pisDvhAs9GNCb9obTJvah+Df27pxI4EMzJxMNuzoTjDnbmpxV+PXSpzd2RTnFcVwp9RcU+ENwiCx1V5uR5N0G0Lty4Dwc1BA31mzLXTYCV9vUBbwFf2Dc1zurwNC1TSv4t4X9S8s1KsKjQQR2wLWo6kf), плюс/минус колдовство и практическая пригонка говорят, что нам потребуется:
 
 | Чего | Чего-чего? | Сколько | Зачем? | Примечание |
 | :---: | :---: | ---: | :---: | --- |
@@ -17,9 +17,11 @@
 | *![steam-engine](../icons/steam-engine.png)* | Паровой двигатель | 76 | *![big-electric-pole](../icons/big-electric-pole.png)* | Выработка липестричества, где-то 68 с половиной мегаватт |
 | *![boiler](../icons/boiler.png)* | Бойлер | 1 | *![steam](../icons/steam.png)* | Производим пар для сжижения угля |
 | *![oil-refinery](../icons/oil-refinery.png)* | Нефтезавод | 4 | *![coal-liquefaction](../icons/coal-liquefaction.png)* | Сжижаем уголь |
-| *![chemical-plant](../icons/chemical-plant.png)* | Химзавод | 1 | *![solid-fuel-from-petroleum-gas](../icons/solid-fuel-from-petroleum-gas.png)* | Производим твёрдое топливо из попутного газа |
-| *![chemical-plant](../icons/chemical-plant.png)* | Химзавод | 3 | *![heavy-oil-cracking](../icons/heavy-oil-cracking.png)* | Производим дизельное топливо из мазута |
+| *![chemical-plant](../icons/chemical-plant.png)* | Химзавод | 1 | *![solid-fuel-from-petroleum-gas](../icons/solid-fuel-from-petroleum-gas.png)* | Уничтожаем попутный газ полностью |
+| *![chemical-plant](../icons/chemical-plant.png)* | Химзавод | 3 | *![heavy-oil-cracking](../icons/heavy-oil-cracking.png)* | Производим дизельное топливо из лишнего мазута |
 | *![chemical-plant](../icons/chemical-plant.png)* | Химзавод | 12 | *![solid-fuel-from-light-oil](../icons/solid-fuel-from-light-oil.png)* | Производим твёрдое топливо из дизельного |
+
+При такой конфигурации завода у нас не будет оставаться лишнего попутного газа и мазута, то есть превращаем всё в твёрдое топливо и производим электричество из пара.
 
 ## Само творение
 
