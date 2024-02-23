@@ -131,4 +131,4 @@
 
 Детальный разбор общих вопросов производства энергии смотрите на YouTube канале.
 
-[![Общие вопросы производства энергии](http://img.youtube.com/vi/W_Qp5dzhLe0/0.jpg)](http://www.youtube.com/watch?v=W_Qp5dzhLe0)
+[*![Общие вопросы производства энергии](http://img.youtube.com/vi/W_Qp5dzhLe0/0.jpg)*](http://www.youtube.com/watch?v=W_Qp5dzhLe0)

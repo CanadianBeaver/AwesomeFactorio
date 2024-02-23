@@ -115,4 +115,4 @@
 
 [Сохранёнка со всеми чертежами](../saves/AwesomeFactorio%20-%20Resources.zip), смотрите в книге игры. А также детальный разбор плавки руды и меди на YouTube канале.
 
-[![Паровая энергия](http://img.youtube.com/vi/XXXXXXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXXXXXX)
+[*![Паровая энергия](http://img.youtube.com/vi/XXXXXXXXX/0.jpg)*](http://www.youtube.com/watch?v=XXXXXXXXX)

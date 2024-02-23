@@ -22,4 +22,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[![Переводим паровые и атомные электростанции в резерв](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)](http://www.youtube.com/watch?v=FfmslzAyOsc)
+[*![Переводим паровые и атомные электростанции в резерв](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](http://www.youtube.com/watch?v=FfmslzAyOsc)

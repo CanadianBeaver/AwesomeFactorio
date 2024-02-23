@@ -31,4 +31,4 @@
 
 Для тех кто не читает, детальный разбор большой ядерной электростанции смотрите на YouTube канале.
 
-[![Большая ядерная электростанция](http://img.youtube.com/vi/Hf8DQ72IHZI/0.jpg)](http://www.youtube.com/watch?v=Hf8DQ72IHZI)
+[*![Большая ядерная электростанция](http://img.youtube.com/vi/Hf8DQ72IHZI/0.jpg)*](http://www.youtube.com/watch?v=Hf8DQ72IHZI)

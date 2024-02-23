@@ -92,4 +92,4 @@
 
 Детальный разбор добычи ресурсов смотрите на YouTube канале.
 
-[![Добыча ресурсов](http://img.youtube.com/vi/ZI2aVerqCT4/0.jpg)](http://www.youtube.com/watch?v=ZI2aVerqCT4)
+[*![Добыча ресурсов](http://img.youtube.com/vi/ZI2aVerqCT4/0.jpg)*](http://www.youtube.com/watch?v=ZI2aVerqCT4)

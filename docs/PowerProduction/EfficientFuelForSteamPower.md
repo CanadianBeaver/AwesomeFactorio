@@ -60,4 +60,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
- [![Эффективность топлива для производства паровой энергии](http://img.youtube.com/vi/avZhWqnDwHI/0.jpg)](http://www.youtube.com/watch?v=avZhWqnDwHI)
+ [*![Эффективность топлива для производства паровой энергии](http://img.youtube.com/vi/avZhWqnDwHI/0.jpg)*](http://www.youtube.com/watch?v=avZhWqnDwHI)
