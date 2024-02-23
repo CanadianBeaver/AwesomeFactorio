@@ -160,10 +160,10 @@ const config: Config = {
               label: 'Блог',
               to: '/blog',
             },
-            {
+            /*{
               label: 'GitHub',
               href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-            },
+            },*/
             {
               label: 'Youtube',
               href: 'https://www.youtube.com/@AwesomeFactorio',
