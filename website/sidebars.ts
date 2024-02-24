@@ -26,14 +26,23 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'PowerProduction/SteamPower',
-        'PowerProduction/EfficientFuelForSteamPower',
         'PowerProduction/SolarPower',
         'PowerProduction/NuclearPower',
-        'PowerProduction/BackupSteamPower',
-        'PowerProduction/UpgradingSteamPower',
         'PowerProduction/HugeNuclearPowerPlant'
       ]
     },
+    {
+      type: 'category',
+      label: 'Сопутствующие вопросы',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'PowerProduction/EfficientFuelForSteamPower',
+        'PowerProduction/BackupSteamPower',
+        'PowerProduction/UpgradingSteamPower'
+      ]
+    }
   ],
 
   miningSidebar: [
