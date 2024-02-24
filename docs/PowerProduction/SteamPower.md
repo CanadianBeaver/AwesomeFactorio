@@ -18,16 +18,16 @@
 
 Представим, что у нас есть простой конвейер подающий топливо, в начале игры это будет только жёлтый `Transport belt` и уголь `Coal`. Тогда бойлеры рационально размещать с обеих сторон конвейера подающего топливо. Также можно разместить два насоса с каждой стороны конвейера. Топливо подаём с одной стороны (красная стрелка), воду с другой (голубая стрелка). Обратите внимание, как располагать деревянные опоры ЛЭП `Small electric pole` - нужно раздвигать паровые двигатели, а не бойлеры.
 
-![Typical steam power](../images/PowerProduction/SteamPower.04.png)
+![Typical steam power](../_images/PowerProduction/SteamPower.04.png)
 
 И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#basic-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины `Wood` разумеется, такой проблемой не обладают. Далее привожу расходы топлива для паровой электростанции.
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| | | 1 *![offshore-pump](../icons/offshore-pump.png)* | 20 *![boiler](../icons/boiler.png)* | 40 *![/steam-engine](../icons/steam-engine.png)* | 36 | Максимум на одном насосе |
-| 900 *![coal](../icons/coal.png)* | 100% *![transport-belt](../icons/transport-belt.png)* | 2 *![offshore-pump](../icons/offshore-pump.png)* |   34 *![boiler](../icons/boiler.png)* | 72 *![steam-engine](../icons/steam-engine.png)* | 61.2 | Максимум на одном конвейере угля |
-| 360 *![solid-fuel](../icons/solid-fuel.png)* | 40% *![transport-belt](../icons/transport-belt.png)* | 2 *![offshore-pump](../icons/offshore-pump.png)* |   40 *![boiler](../icons/boiler.png)* | 80 *![steam-engine](../icons/steam-engine.png)* | 72 | Максимум на двух насосах |
-| 900 *![solid-fuel](../icons/solid-fuel.png)* | 100% *![transport-bel](../icons/transport-belt.png)* | 5 *![offshore-pump](../icons/offshore-pump.png)* |   100 *![boiler](../icons/boiler.png)* | 200 *![steam-engine](../icons/steam-engine.png)* | 180 | Максимум на твёрдом топливе |
+| | | 1 *![offshore-pump](../_icons/offshore-pump.png)* | 20 *![boiler](../_icons/boiler.png)* | 40 *![/steam-engine](../_icons/steam-engine.png)* | 36 | Максимум на одном насосе |
+| 900 *![coal](../_icons/coal.png)* | 100% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* |   34 *![boiler](../_icons/boiler.png)* | 72 *![steam-engine](../_icons/steam-engine.png)* | 61.2 | Максимум на одном конвейере угля |
+| 360 *![solid-fuel](../_icons/solid-fuel.png)* | 40% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* |   40 *![boiler](../_icons/boiler.png)* | 80 *![steam-engine](../_icons/steam-engine.png)* | 72 | Максимум на двух насосах |
+| 900 *![solid-fuel](../_icons/solid-fuel.png)* | 100% *![transport-bel](../_icons/transport-belt.png)* | 5 *![offshore-pump](../_icons/offshore-pump.png)* |   100 *![boiler](../_icons/boiler.png)* | 200 *![steam-engine](../_icons/steam-engine.png)* | 180 | Максимум на твёрдом топливе |
 
 Почему не рассматриваем другие виды топлива? - [потому](EfficientFuelForSteamPower.md).
 
@@ -51,7 +51,7 @@
 следует раздвигать пристыкованные паровые двигатели
 :::
 
-![Basic steam power](../images/PowerProduction/SteamPower.01.png)
+![Basic steam power](../_images/PowerProduction/SteamPower.01.png)
 
 ```blueprint
 0eNqdXMtu40YQ/BWBZ2kxPZxHj4855BYkQA45BItAtrleAhIl6JFdw/C/h5KDtdcaWtUF7B5sWMXuaVazeqbEp+Z2dey2u344NDdPzX23v9v120O/GZqbJsknP/vtr/msDbNfNv2q2+3ns6SzPw/dcj3rhod+6Mbf+NnvX77sv2523Wx7XG/H36yX3/v1cT3bDOO/bvbYrVabb7PbbnVo5k1/txn2zc3fT82+fxiWq9N1D4/bbrxgf+jW418My/Xpp9vzJZvn8SPDffe9uZHn+dUP7U+xLV5ie/NRD3z09rgbut2iH/bd7vDThVvg04fdcthvN7vD4pzn64fD8+d50w2H/tB3L3mff3j8Zziub8fL3Mhr8OvlarXoVt3dYdffLbabVTdeYLvZ9y8VeWpGvBjdpzhvHkfk0H6K44WGrn/4ers57k7w7Vzi51O8767ipyKtXKB9d4H7fjeGdP6LUIFurQmkjxKQuQ+1BEK9xpfwwf+Aj+/D9xXgCANnG3B6fytXlkKmAFMFMFM1jEgNdZIGFezXBQ7IOhQq7ICELQ5Y42QpmohlJcJ0uLUCikfvtVhs95q0KHIKRmScePIDWSHkaGwc4TX0XGscQWqNQxJBcCyBbGC4QjcIycMMhcsRMSNE9I7CThC2GEgOFc57juQZqaFvCZJjYQcjYZL/iDDtPLqqVICfiCkaE3il4rbfXqH4CbGGwT0FC3SnKYWtEHa5lvubak3k3jq7CIqCVKYVe5MEkT3eJC8RawRrW6ZKl9hVLRuoBnzS5MBSRCpwBwWe8CYJFi5TTfIy3GoN1d4kwbCLXQlhyMHZlVCEFHIQWgnF2ggV5ylXZyhPsBzLoDWwHNLKIVBkgSbWEDmWt9BSJCpwDwWeDSzHCqccy1uohoVgORR2dLQUqjFmVFY51RgTxa6FwAw8roXOiDUM7kkI7QhEjn/Q2B4jroUmc0+EFoLmpJiJLokhq6FLQsNGpGa6CM10yXFdMkGbY0IFDg2MyRu6JFS41HJdMiE1TIHokljYkdBCGHKya6EEieSUeS1ULjv7KK1KW+vsSe0sBzMoOMsTpJYzycSChJs5JkIDdaaOHSI0UOcWZzlWuBw4lheohtHOcjDsxGuhCmNGaSXO1yiTs10MgSkoLobOiDUM6lGYoOlaqe3NBG05qOBiaCp39XYxlKBpRluiTWLIwdAmoXFDubEueShcaqxL0Fin1J5mgmZdVUObxApXqDZ5uRS1GhZHtEko7CJ2MQQie0IMQSq5tLQYSvGytY/aSqTUWnsJBM2xFKKB5pBeLomjOXTcWTgqQmNvoY4XEjSul2KgOVQ4cY7jOeRlECcE0cHAPS2IaqwZ9ZV4rR4tu5ZQRGASwSCJUl0WiKNOHFLGvBfcEzFh4NmgiibTV0IWFaw8hWiYGDRkapEpyCrZhJrxEjTjiXiuH2MeC6H2OJNioXMTX8LMHBINPRm8NxLRNUHoTOgjEFrtAil7DLrQCinLZa8fBZeEqoFSvLMzHkwCcrjIFGTdacaRMgsWMEXKDM3D4qmTh+wwcAMn0eolqolkwQqZ7YxHA1daJ9W4c9JdEkOdPMUulMAs3phirgqlM2QVhHpAZmgCl5baBc0eA29xoTSdPuGuzqAxlfBXo9AGh3XGppKWGv9yxErFuTtzwFaD2v/MmM86cLNgxmzRweDwBO+NQFitUWjCa41CE2brjOnowLutc81tPQovyXXDdSAc12gWBst1xlR6IFmJea4Dx0psAo/UsUTGJvDIfRMiQ74FiYYzevDeiITxGoXmnddV8ozKS7RqvpZIuK/RLAz26zxhQZbIPSGxrYRI7ZBmbNiPBgf2ZPqJsGArNlQlwoONQhtM2IrNJYkaARUbARNnw1aHrQa1K6rYgJm4aVAdtuoGAyh6bxBWbBSa8GKD0JkwYysmpDPvxtaaG3tUXlKqfmzJhCEbzcLgyFZMpmeSlS0WMMdKbATP1FmFYiN45r4poS226oYDfPTeIHzZILTyxuwqeUbl5V3Vmi1KeLPRLAzmbJ0wKItyT0hsL0GpTVLFpn01+LOn0ycM2ooNVUo4tFFog0VbsVFHqRFQsRGwcNZQxQ6hC7UtqtiAWbhv4SpkEpFisIeC90YhjNooNOHURqEJq3bBhHThvdpacZ6elJf3VeupFMKujWZh8GsXSKZ7R23MKPZFYseREvsGtOPODRU6CPbOQEqset5xR/hasEISrm00cN62XSXPqLy8r44Z3hHGbTQLg3O7TLiXvaOekEWwt0dQXCwOAzeYtyfTF8K9XaChygth30ahDf7tAo06XjgDd/FYwFbCvbkbat8Z9X6ScEJtkhaP3XOGgRCtJWfpLpAXxXvC0w0G7glTNwptdZGGH+81KxUX6en2m9gG8v7qGX6Un7CrID8bRheHzeJhtzkO9x9zJ2IljAbwMA1eX+mr5xIxXk/fqkWTu1auiY0H79WwGK+FS1ORFwNcvAr3zg+DRRcd9jB945PZ/P/Wx8XprY8fhQpje2IdosMe1G9sMlcDf12USkP+PH958+PNm1dnzpvVcuzu4+9mvx7H++7+/3dk/rH5du6g/3a7/cvtrxJy8TnF8b/k5+f/AKJJp4U=
@@ -73,11 +73,11 @@
 
 Расчётные данные потребления электроэнергии сходятся с экспериментом:
 
-![До запуска спутника](../images/PowerProduction/PowerProduction.02.png)
+![До запуска спутника](../_images/PowerProduction/PowerProduction.02.png)
 
 После запуска первого спутника, можно полностью переходить на производство солнечной энергии, переводя паровые электростанции в резерв. Потребуется не менее 3,400 солнечных панелей и 2,856 аккумуляторных блоков для начала, что даст около 143 мегаватт энергии.
 
-![До запуска спутника](../images/PowerProduction/PowerProduction.06.png)
+![До запуска спутника](../_images/PowerProduction/PowerProduction.06.png)
 
 ## Больше подробностей
 
