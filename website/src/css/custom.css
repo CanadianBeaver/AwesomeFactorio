@@ -56,3 +56,7 @@ p.hero__subtitle.addStroke {
 .markdown h1 {
   font-size: 2.5rem;
 }
+
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
+  font-size: 2rem !important;
+}

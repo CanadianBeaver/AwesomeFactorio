@@ -1,5 +1,5 @@
 ---
-title: Улучшаем первую паровую электростанцию
+title: Улучшаем первую паровую электростанцию уменьшая потребление угля
 tags: [power production, steam energy]
 ---
 
@@ -21,4 +21,4 @@ tags: [power production, steam energy]
 
 ![Путь науки](./screenshot2.png)
 
-[Статья тут](/PowerProduction/UpgradingSteamPower)
+ [Статья тут](/PowerProduction/UpgradingSteamPower).
