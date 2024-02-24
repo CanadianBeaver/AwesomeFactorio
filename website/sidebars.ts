@@ -8,27 +8,11 @@ const sidebars: SidebarsConfig = {
       label: 'Начало',
       link: {
         type: 'doc',
-        id: 'HowToStartNewGame',
+        id: 'HowToStartNewGame/README',
       },
-      items: []
-    },
-    {
-      type: 'category',
-      label: 'Добыча ресурсов',
-      link: {
-        type: 'doc',
-        id: 'MiningResources/README',
-      },
-      items: []
-    },
-    {
-      type: 'category',
-      label: 'Производство энергии',
-      link: {
-        type: 'doc',
-        id: 'PowerProduction/README',
-      },
-      items: []
+      items: [
+        'HowToStartNewGame/BurnerDevices',
+      ]
     }
   ],
 

@@ -154,7 +154,7 @@ const config: Config = {
         },
         */
         {
-          title: 'Ещё',
+          //title: 'Ещё',
           items: [
             {
               label: 'Блог',
@@ -171,7 +171,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AwesomeFactorio.`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`,
     },
     prism: {
       theme: prismThemes.github,
