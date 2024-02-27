@@ -36,6 +36,7 @@ const sidebars: SidebarsConfig = {
       label: 'Сопутствующие вопросы',
       link: {
         type: 'generated-index',
+        slug: 'PowerProduction/Questions'
       },
       items: [
         'PowerProduction/EfficientFuelForSteamPower',
