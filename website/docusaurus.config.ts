@@ -4,6 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 import { rehypeExtendedTable } from 'rehype-extended-table';
 
+//import { remarkFactorioIcons } from './src/remark/remark-factorio-icons';
+const remarkFactorioIcons = require('./src/remark/remark-factorio-icons');
+
 const config: Config = {
   title: 'Awesome Factorio',
   tagline: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
@@ -56,12 +59,14 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons],
           rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
           path: '../blog',
           showReadingTime: true,
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons],
           rehypePlugins: [rehypeExtendedTable]
         },
         theme: {
