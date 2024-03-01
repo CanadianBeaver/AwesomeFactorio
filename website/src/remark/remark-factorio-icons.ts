@@ -17,6 +17,7 @@ const IconNames: string[] = [
   'Battery research',
   'Beacon',
   'Big electric pole',
+  'Blueprint',
   'Boiler',
   'Burner inserter',
   'Burner mining drill',
@@ -25,6 +26,7 @@ const IconNames: string[] = [
   'Centrifuge',
   'Chemical plant',
   'Chemical science pack',
+  'Cliff explosives',
   'Circuit network',
   'Coal liquefaction',
   'Coal',
@@ -72,12 +74,15 @@ const IconNames: string[] = [
   'Long-handed inserter',
   'Lubricant',
   'Medium electric pole',
+  'Mining productivity',
   'Nuclear fuel',
   'Nuclear reactor',
+  'Nuclear power',
   'Offshore pump',
   'Oil refinery',
   'Oil processing',
   'Petroleum gas',
+  'Personal roboport',
   'Pipe to ground',
   'Pipe',
   'Plastic bar',
@@ -119,6 +124,7 @@ const IconNames: string[] = [
   'Substation',
   'Sulfuric acid',
   'Speed module',
+  'Spidertron',
   'Tank',
   'Train stop',
   'Transport belt',
@@ -136,6 +142,8 @@ const IconNames: string[] = [
   'Splitter',
   'Fast splitter',
   'Express splitter',
+  'Logistic robot',
+  'Construction robot'
 ];
 
 interface Options {
