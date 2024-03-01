@@ -67,7 +67,9 @@ const config: Config = {
           showReadingTime: true,
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           beforeDefaultRemarkPlugins: [remarkFactorioIcons],
-          rehypePlugins: [rehypeExtendedTable]
+          rehypePlugins: [rehypeExtendedTable],
+          blogSidebarTitle: 'Все записи',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
