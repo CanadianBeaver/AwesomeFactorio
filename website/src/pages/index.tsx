@@ -88,11 +88,13 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle addStroke">{siteConfig.tagline}</p>
+        {/*
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/HowToStartNewGame">
             Как начать играть?
           </Link>
         </div>
+        */}
       </div>
     </header>
   );
