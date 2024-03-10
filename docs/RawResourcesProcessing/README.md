@@ -17,51 +17,57 @@
 Скорость выплавки стальной балки равняется скорости выплавки требуемых железных плит, но чтобы получить полностью заполненный конвейер стальных балок, нужны пять полностью заполненных конвейеров железных плит. Камни плавятся в соотношении 2 к 1, то есть без зазоров на конвейере можно расплавить только красный конвейер камней в жёлтый конвейер каменных блоков. Остальные ресурсы плавятся в соотношении один к одному. [Все соотношения тут](https://factoriocheatsheet.com/#material-processing).
 :::
 
-:::warning Нужно помнить наизусть
-Железная руда `Iron ore`, медная руда `Copper ore` и камни `Stone` плавятся с одинаковой скоростью.
-
-Потребуется 48 каменных печей *![Stone furnace](../_icons/stone-furnace.png)* `Stone furnace` или 24 стальных печей *![Steel furnace](../_icons/steel-furnace.png)* `Steel furnace` чтобы полностью опустошить жёлтый конвейер железной или медной руды *![Transport belt](../_icons/transport-belt.png)* `Transport belt`. Столько же печей потребуется, чтобы заполнить такой же конвейер выплавленными железными или медными плитами.
-
-Из всего вышеперечисленного следует, что **любой работающий дизайн для плавки руды на каменных печах и обычном конвейере, можно превратить в дизайн на стальных печах и быстром конвейере простым улучшением печей и конвейера**.
-
-```blueprint title="Upgrade planer для печей и манипуляторов"
-0eNqNUdsKwjAM/RXJ8wY6hV3+wycRqRpHYUtLm4ky+u+mbIOBl/nUk/ZcekgPna2duuLJNooIHVQ9eGTWVPuIW2UtOoGHHm7OtPGOnxahAiTW/IQESLVxPndODFJNHh2LU0iAzQ/+nKjpig+o1iFZjPFsCNObhKkLLoZ4Rmzm7DFpF46CL4aGal7XpJqZj2Zsf1YbfTbxxwvqD7LsD9lb0VG7/Uv7tXYcIreaVp9Oq0+gUWcUU9gPL6uh92oq4IVyl0MbkgrFZpeXWV5kZb4uyhBezDnGNw==
-```
-
-```blueprint title="Upgrade planer для конвейеров"
-0eNqFkN0KgzAMhV9l5FpBZaD2PXY1xuhmlEKbljYbE+m7r8UJg4G7O/n5csJZ4OEmLwe8Oi2J0INYICCzoilkbaRz6JM8LzB6a3KPZ4cgAIkVz1AASZNr9pKCs57LG2qGWADbnfVRBi5/GUUDvkBU8ZL03dJqHdREUn9dU4xmz/pzpo7FX3j/kSZecpEJsYVVbmEVoGXaT5PTOjlkOqT+M4WmLCW+q49t37Rd07dV18f4BmG3fcA=
-```
-:::
-
 ## Самое начало
 
-Существует множество различных дизайнов, различной степени правильности или не правильности, самодельных и научно обоснованных... Короче, существует один правильный чертёж плавки всего и вся и множество не кошерных чертежей.
+Начав игру будут доступны только ограниченные возможности по добыче и плавке ресурсов. Придётся таскать между твёрдотопливными бурами `Burner mining drill` и каменными печами `Stone furnace` всё что можно в рюкзаке `Toolbelt`, а именно уголь `Coal`, руду `Iron ore` `Copper ore`, даже древесину `Wood`, которая тоже сгодиться в качестве [топлива](https://wiki.factorio.com/Fuel). Какая-то автоматизация по доставке угля от места добычи к паровой электростанции появиться где-то на двадцатой минуте игры. Первую полноценную плавильню можно будет запустить ещё позже, примерно на тридцатой минуте игры. Много рассказывать тут нечего, особых чертежей не предусмотрено, просто ставьте каменные печи по краям ресурсных пятен и мучайтесь туда-сюда. Всё описано в [добыче ресурсов](../MiningResources/README.md#добыча-твёрдотопливный-бурами).
 
-Начнём с каменных и стальных печей. Дизайны как для стальных, так и для каменных печей идентичны. Нужно помнить, что такие печи в отличие от электрических потребляют топливо. Уголь (для работы печей) и руду (для плавки) лучше подавать на одном конвейере, соответственно, половина конвейера это железная или медная руда, вторая половина конвейера это уголь или другое топливо. Смотрим красные стрелки на рисунке. Выгрузка выплавленных железных `Iron plate` или медных `Copper plate` плит осуществляется на один конвейер, с каждой стороны которого находятся плавильные печи. Смотрим синюю стрелку.
+## Основы теории плавления металлов и прочих минералов
 
-![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.01.png)
+Наука сия в *Factorio* весьма скучна. Нужно просто помнить соотношения плавки к транспортировке и просто копипастить, без особого осмысления, предлагаемые чертежи `Blueprint`. Кому скучно переходите к [следующей главе](#чертежи-для-плавки-руд), а для задротов и очкариков я продолжу.
+
+Итак, мы имеем на входе уголь (или любое другое топливо) и добываемый ресурс (руды или камни), на выходе выплавленные предметы (плиты, балки или каменные блоки). У нас нет особых скоростных ограничений по поставке входных ресурсов, как и выходных, печи плавят не спешно и вдумчиво, с очень интересной анимацией за которой можно наблюдать часами. А значить, мы можем организовать поставку топлива на одной половине конвейера и поставку ресурсов на другой половине того же конвейера (синяя стрелка). Так же как на одном конвейере можно организовать выгрузку выплавленного из печей (красная стрелка).
 
 :::tip По поводу пол конвейеров
 Пол конвейера называется линией, то есть каждый конвейер состоит из двух линий по которым подаются ресурсы. Это важно помнить, когда будете искать разные там балансеры `balancer` или `tu balancer`, которые нужны для перемешивания ресурсов идущие на разных конвейерах. Но есть особые, линейные балансеры `line balancer`, которые перемешивают ещё и ресурсы на разных линиях конвейеров.
 :::
 
-С электрическими печами всё сложнее, или проще. Заменять их особо нечем, топлива не требуют, подавать питание нужно по проводам. Тут тоже из всех дизайнов, правильный только один, там где подача ресурсов и их выгрузка происходят внутри кузницы, так сказать. По синей стрелке на рисунке ресурсы подаются, по красной выгружаются плиты.
+![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.00.png)
 
-![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.04.png)
+Теперь этот же чертёж можно продублировать снизу с разворотом и получить выгрузку выплавленного чего-то на полный конвейер. Получаем добротную плавильню со всеми няшками.
 
-Откровенно говоря, дизайн электрических печей не айс, там ещё деревянные опоры ЛЭП присутствуют... Но это самый маленький и удаленький из возможных, остальные хуже. Я долго им пользовался и пользуюсь до сих пор.
+![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.01.png)
 
-## Чертежи для плавки руд
+Альтернативно, можно подавать ресурсы посередине, а выгружать по сторонам. Но так не делайте, очевидно что это ересь и за такое всем выдающим себя за инженеров в аду выделен отдельный котёл.
 
-Рассмотрим уже конкретные чертежи для плавки железной и медной руды и получения соответствующих плит, железных и медных.
+![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.10.png)
 
 :::tip Не стоит пренебрегать твёрдотопливными манипуляторами
 Твёрдотопливные манипуляторы `Burner inserter`, по сравнению с обычными `Inserter`, намного дешевле в производстве и не требуют электрической энергии. Они не сжигают топливо во время простоя, хотя и потребляют больше энергии во время работы. Также их можно произвести гораздо быстрее других манипуляторов. В начале игры старайтесь использовать именно твёрдотопливные манипуляторы везде, где это возможно и невозможно. [Пруф](../HowToStartNewGame/BurnerDevices.md).
 :::
 
-Стоит учитывать, что предлагаемые чертежи стыкуются по вертикали. С одной стороны подаются ресурсы, с обратной получаем выплавленные ресурсы. Уголь и для каменных и стальных печей подаётся сверху и проходит через все линии плавки. Типичная картина рассматриваемых чертежей:
+:::info Нужно помнить наизусть
+Железная руда `Iron ore`, медная руда `Copper ore` и камни `Stone` плавятся с одинаковой скоростью. Потребуется 48 каменных печей `Stone furnace` или 24 стальных печей `Steel furnace` чтобы полностью опустошить жёлтый конвейер железной или медной руды `Transport belt`. Столько же печей потребуется, чтобы заполнить такой же конвейер выплавленными железными `Iron plate` или медными `Copper plate` плитами. Стальные балки `Steel plate` плавятся в пять раз медленнее чем железные плиты `Iron plate`, но требую пять плит для выплавки, то есть любая печь выплавляющая железные плиты загружает полностью одну такую же печь плавящую стальные балки.
+
+Исследуйте это: https://factoriocheatsheet.com/#material-processing
+
+А далее, из всего вышеперечисленного следует, что **любой работающий дизайн для плавки руды на каменных печах и обычном конвейере, можно превратить в дизайн на стальных печах и быстром конвейере простым улучшением печей и конвейера**. Можно также улучшить и твёрдотопливные манипуляторы, [если использовались](../HowToStartNewGame/BurnerDevices.md).  То есть: `Stone furnace` **=>** `Steel furnace`, `Transport belt` **=>** `Fast transport belt`, `Burner inserter` **=>** `Inserter`. Про экспресс-конвейеры `Express transport belt` даже не задумываемся, до запуска первого спутника он не нужен, ресурсов банально не хватит.
+
+Также не забываем про необходимый уголь `Coal` для плавки ресурсов. Половины конвейера обычно хватает, чтобы запустить спутник на базе из 45 научных пакетов в минуту.
+:::
+
+:::note Задача
+С учётом вышесказанного получается, что нам нужно организовать плавильню длиной в 24-е печи (каменные или стальные) по каждой стороне выгружаемого конвейера (обычного или быстрого).
+
+С камнями исключение, их лучше всего плавить 24-мя стальными печами с быстрого конвейера выгружая на обычный, то есть по 12 стальных печей с каждой стороны. Анонимоусы подсказывают, что при правильной организации игры, плавить камни в больших плавильнях из стальных печей вам не придётся. Каменных блоков нужно будет плавить не так уж и много да и в основном с открытием фиолетовой науки, а тогда будут доступны уже и электрические печи. В начале игры можно и ручками поработать, опять-таки исключение для игр типа миров смерти, там камни понадобятся в начале игры для массовых стен и чёрной науки.
+:::
+
+Существует множество дизайнов, различной степени правильности или не правильности, самодельных и научно обоснованных... Короче, существует один правильный чертёж плавки всего и вся и множество не кошерных чертежей. Рассмотрим далее только кошерные, картина маслом:
 
 ![Типичная картина](../_images/RawResourcesProcessing/RawProcessing.06.png)
+
+## Чертежи для плавки руд
+
+Стоит учитывать, что предлагаемые чертежи стыкуются по вертикали и по горизонтали, если чертежи вращать и переворачивать. С одной стороны подаются ресурсы, с обратной получаем выплавленные предметы. Уголь, и для каменных и для стальных печей, подаётся сверху и проходит через все линии плавки, но учётом верчения чертежей можно как угодно организовывать подачу угля, как и ресурсов.
 
 ### Чертёж первого уровня, каменные печи с твёрдотопливными манипуляторами
 
@@ -73,7 +79,7 @@
 
 ### Чертёж второго уровня, стальные печи на быстрых конвейерах
 
-Получить такой чертёж из предыдущего проще простого. Заменяем каменные печи на стальные. Заменяем обычные конвейеры на быстрые, но не везде, ориентируйтесь по маркерам на постоянных комбинаторах. Заменяем твёрдотопливные манипуляторы на обычные. Проводим электроэнергию, подаём ещё один конвейер ресурсов на вход и вуаля.
+Получить такой чертёж из предыдущего проще простого. Заменяем каменные печи на стальные. Заменяем обычные конвейеры на быстрые, но не везде, ориентируйтесь по маркерам на постоянных комбинаторах. Заменяем твёрдотопливные манипуляторы на обычные. Проводим электроэнергию, подаём ещё один простой конвейер ресурсов на вход и вуаля.
 
 ![Плавим стальными печами](../_images/RawResourcesProcessing/RawProcessing.03.png)
 
@@ -104,6 +110,17 @@
 ```blueprint
 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
 ```
+
+## Что это?
+
+Дизайны как для стальных, так и для каменных печей идентичны. Нужно помнить, что такие печи в отличие от электрических потребляют топливо. Уголь (для работы печей) и руду (для плавки) лучше подавать на одном конвейере, соответственно, половина конвейера это железная или медная руда, вторая половина конвейера это уголь или другое топливо. Смотрим красные стрелки на рисунке. Выгрузка выплавленных железных `Iron plate` или медных `Copper plate` плит осуществляется на один конвейер, с каждой стороны которого находятся плавильные печи. Смотрим синюю стрелку.
+
+
+С электрическими печами всё сложнее, или проще. Заменять их особо нечем, топлива не требуют, подавать питание нужно по проводам. Тут тоже из всех дизайнов, правильный только один, там где подача ресурсов и их выгрузка происходят внутри кузницы, так сказать. По синей стрелке на рисунке ресурсы подаются, по красной выгружаются плиты.
+
+![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.04.png)
+
+Откровенно говоря, дизайн электрических печей не айс, там ещё деревянные опоры ЛЭП присутствуют... Но это самый маленький и удаленький из возможных, остальные хуже. Я долго им пользовался и пользуюсь до сих пор.
 
 ## Что ещё
 

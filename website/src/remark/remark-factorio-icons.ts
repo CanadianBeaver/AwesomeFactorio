@@ -126,6 +126,7 @@ const IconNames: string[] = [
   'Speed module',
   'Spidertron',
   'Tank',
+  'Toolbelt',
   'Train stop',
   'Transport belt',
   'Uranium fuel cell',
