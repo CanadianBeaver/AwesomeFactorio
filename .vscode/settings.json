@@ -4,5 +4,14 @@
     "markdownlint.config": {
         "MD033": false,
         "MD037": false
-    }
+    },
+    "spellright.language": [
+        "en",
+        "ru"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
