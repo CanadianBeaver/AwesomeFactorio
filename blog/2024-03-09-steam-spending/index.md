@@ -39,7 +39,7 @@ tags: [steam energy, power production, production, coal liquefaction]
 
 Ваш ютуб:
 
-[*![Тестируем расход пара разной температуры при сжижении угля](http://img.youtube.com/vi/dhULdGCg3Ms/0.jpg)*](https://youtube.com/shorts/dhULdGCg3Ms?feature=share)
+[*![Тестируем расход пара разной температуры при производстве энергии.](http://img.youtube.com/vi/dhULdGCg3Ms/0.jpg)*](https://youtube.com/shorts/dhULdGCg3Ms?feature=share)
 
 ## На самом деле
 
