@@ -1,17 +1,5 @@
 # Плавка ресурсов
 
-:::danger
-Статья пишется прямо сейчас, возможны неточности и конкретные изменения
-:::
-
-:::info Капитан очевидность
-В игре пресутсвуют [три типа плавильных печей](https://wiki.factorio.com/Furnace): каменные `Stone furnace`, стальные `Steel furnace` и электрические `Electric furnace`. Каменные печи доступны сразу, одна даже будет в рюкзаке при старте игры. Стальные печи появятся чуть позже, освоить их использование возможно до момента [первого выхода с базы](../HowToStartNewGame/README.md#первый-выход-с-базы), то есть в течении первых часов игры. Электрические же печи массово вводим в эксплуатацию [после запуска первого спутника](../HowToStartNewGame/README.md#после-запуска-спутника), до массового производства вторых модулей эффективности `Efficiency module 2` проку в электрической плавке немного. Хотя, внедрить несколько электрических штучек для плавки камней `Stone` и стальных балок `Steel plate` можно с открытием фиолетовой науки, она же производственный исследовательский пакет `Production science pack`.
-:::
-
-:::warning Будет много картинок
-и не только
-:::
-
 :::info Плавятся не все ресурсы, а только:
 * железная руда `Iron ore` в железные плиты `Iron plate`,
 * медная руда `Copper ore` в медные плиты `Copper plate`,
@@ -19,17 +7,25 @@
 * а также железные плиты `Iron plate` в стальные балки `Steel plate`.
 :::
 
+:::warning Будет много картинок и не только
+Статья напичкана всякими подробностями от которых можно [впасть в объятия Морфея](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%B5%D0%B9)
+:::
+
+:::info Капитан очевидность
+В игре пресутсвуют [три типа плавильных печей](https://wiki.factorio.com/Furnace): каменные `Stone furnace`, стальные `Steel furnace` и электрические `Electric furnace`. Каменные печи доступны сразу, одна даже будет в рюкзаке при старте игры. Стальные печи появятся чуть позже, освоить их использование возможно до момента [первого выхода с базы](../HowToStartNewGame/README.md#первый-выход-с-базы), то есть в течении первых часов игры. Электрические же печи массово вводим в эксплуатацию [после запуска первого спутника](../HowToStartNewGame/README.md#после-запуска-спутника), до массового производства вторых модулей эффективности `Efficiency module 2` проку в электрической плавке немного. Хотя, внедрить несколько электрических штучек для плавки камней `Stone` и стальных балок `Steel plate` можно с открытием фиолетовой науки, она же производственный исследовательский пакет `Production science pack`.
+:::
+
 ## Самое начало
 
-Начав игру будут доступны только ограниченные возможности по добыче и плавке ресурсов. Придётся таскать всё что можно в рюкзаке `Toolbelt` между твёрдотопливными бурами `Burner mining drill` и каменными печами `Stone furnace`, а именно уголь `Coal`, руду `Iron ore` `Copper ore`, камни `Stone`, даже древесину `Wood`, которая может сгодиться в качестве [топлива](https://wiki.factorio.com/Fuel). Какая-то автоматизация по доставке угля от места добычи к паровой электростанции появиться где-то на двадцатой или тридцатой минуте игры. Много рассказывать тут нечего, особых чертежей не предусмотрено, просто ставьте каменные печи по краям ресурсных пятен и мучайтесь туда-сюда. Всё описано в [добыче ресурсов](../MiningResources/README.md#добыча-твёрдотопливный-бурами). А вот первую полноценную кузницу можно будет запустить ещё позже, примерно на тридцатой или сороковой минуте игры. Типичное начало любой игры *Factorio*:
+Начав игру будут доступны только ограниченные возможности по добыче и плавке ресурсов. Придётся таскать всё что можно в рюкзаке `Toolbelt` между твёрдотопливными бурами `Burner mining drill` и каменными печами `Stone furnace`, а именно уголь `Coal`, всякую руду как `Iron ore` и `Copper ore`, камни `Stone`, даже древесину `Wood`, которая может сгодиться в качестве [топлива](https://wiki.factorio.com/Fuel). Какая-то автоматизация по доставке угля от места добычи к паровой электростанции появиться где-то на двадцатой или тридцатой минуте игры. Много рассказывать тут нечего, особых чертежей не предусмотрено, просто ставьте каменные печи по краям ресурсных пятен и мучайтесь туда-сюда. Всё описано в [добыче ресурсов](../MiningResources/README.md#добыча-твёрдотопливный-бурами). А вот первую полноценную кузницу можно будет запустить ещё позже, примерно на тридцатой или сороковой минуте игры. Типичное начало любой игры *Factorio*:
 
 ![Плавка в начале игры](../_images/MiningResources/MiningResources.02.png)
 
 ## Теория плавления ресурсов и кузницы
 
-Наука сия в *Factorio* весьма скучна. Нужно просто помнить соотношения плавки к транспортировке и просто копипастить, без особого осмысления, предлагаемые чертежи `Blueprint`. Кому скучно переходите к [следующей главе](#чертежи-для-плавки-руд), а для задротов и очкариков продолжим копаться.
+Наука сия в *Factorio* весьма скучна. Нужно просто помнить соотношения плавки к транспортировке и просто копипастить предлагаемые чертежи `Blueprint` без особого осмысления. Кому скучно переходите к [следующей главе](#чертежи-для-плавки-руд), там будут готовые чертежи, а для задротов и очкариков продолжим копаться.
 
-Итак, мы имеем на входе уголь (или любое другое топливо) и добываемый ресурс (руды или камни). На выходе имеем выплавленные предметы (плиты, балки или каменные блоки). У нас нет особых скоростных ограничений по поставке входных ресурсов, как и выходных. Печи плавят не спешно и вдумчиво, с очень интересной анимацией за которой можно наблюдать часами. А значить, мы можем организовать поставку топлива на одной половине конвейера, а поставку ресурсов на другой половине того же конвейера (синяя стрелка на картинке). Манипуляторы сгодятся любые, даже твёрдотопливные, чтобы загружать и топливо и ресурсы. С другой стороны печей организовываем выгрузку выплавленного (красная стрелка).
+Итак, мы имеем на входе уголь (или любое другое топливо) и добываемый ресурс (руды или камни). На выходе имеем выплавленные предметы (плиты, балки или каменные блоки). У нас нет особых скоростных ограничений по поставке входных ресурсов, как и выходных (кроме ситуации с камнями, о чём позже). Печи плавят не спешно и вдумчиво, с очень интересной анимацией за которой можно наблюдать часами. А значить, мы можем организовать поставку топлива на одной половине конвейера, а поставку ресурсов на другой половине того же конвейера (синяя стрелка на картинке). Манипуляторы сгодятся любые, даже твёрдотопливные, чтобы загружать и топливо и ресурсы. С другой стороны печей организовываем выгрузку выплавленного (красная стрелка). Визуализируем:
 
 ![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.00.png)
 
@@ -37,11 +33,11 @@
 Пол конвейера называется линией, то есть каждый конвейер состоит из двух линий по которым подаются ресурсы. Это важно помнить, когда будете искать разные там балансеры (`balancer` или `tu balancer`), которые нужны для перемешивания ресурсов идущие на разных конвейерах. Но есть особые, линейные балансеры `line balancer`, которые перемешивают ещё и ресурсы на разных линиях конвейеров. [Подробности](../HowToStartNewGame/Balancers.md).
 :::
 
-Теперь этот же чертёж можно продублировать снизу с разворотом и получить выгрузку выплавленного чего-то на полный конвейер. Получаем добротную кузницу со всеми няшками, которую можно продолжать вы разные стороны.
+Теперь этот же чертёж можно продублировать снизу с разворотом и получить выгрузку выплавленного чего-то на полный конвейер. Получаем эйдос добротной кузницы:
 
 ![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.01.png)
 
-Альтернативно, можно подавать ресурсы посередине, а выгружать по сторонам с последующим объединением выгружающих конвейеров где-то в конце. Но так не делайте, очевидно что это ересь и за такое всем выдающим себя за инженеров в аду выделен отдельный котёл.
+Альтернативно, можно подавать ресурсы и посередине, а выгружать по сторонам с последующим объединением выгружающих конвейеров где-то в конце. Но так не делайте, очевидно что это ересь и за такое всем выдающим себя за инженеров в аду выделен отдельный котёл. Следующее от лукавого:
 
 ![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.10.png)
 
@@ -119,6 +115,16 @@
 0eNqFkN0KgzAMhV9l5FphOvHvPXY1ZHQzSqGmpc3GRPrua3HCYODuTn6+nHAWeJjRih6vRgkitNAu4JBZ0uiinoQxaIO8LDBYPcUezwahBSSWPEMCJKZYsxXkjLac3lAx+ARY76wPwnH6y0jq8QXt0XdB3zWt1k6OJNTXNck47Vl/zmQ++QvvP5L7LhaRaLew0i2sBJQI+2FyXieHSLvQf4bQpKbA11lRNXlVF82pbErv32HIfcI=
 ```
 
+:::info К чему бы придраться?
+
+Может показаться, что опоры ЛЭП установлены не оптимально, ведь любой школьник знает как ставить правильно, по одной на три печи с симметрией, а загружающие манипуляторы должны быть всегда установлены с ближнего края загрузки:
+
+![Плавим печами](../_images/RawResourcesProcessing/RawProcessing.17.png)
+
+Однако, хотя школьники и правы, но предлагаемый чертёж не увеличивает количество ЛЭП. А вот киллерфича тут такая, что сдвоенные манипуляторы легче прокликать [манипулятором типа мышь](https://duckduckgo.com/?q=%D0%BC%D0%B0%D0%BD%D0%B8%D0%BF%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80+%D1%82%D0%B8%D0%BF%D0%B0+%D0%BC%D1%8B%D1%88%D1%8C+%D1%81+%D1%88%D0%B0%D1%80%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%BC+%D0%BC%D0%B0%D0%BD%D0%B8%D0%BF%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BE%D0%BC) (аж на пол процента?). Это даст больше времени на другие дела, а кликать кузницу придётся полностью, роботов не будет.
+
+:::
+
 ## Чертежи для плавки железной руды в стальные балки
 
 Для плавки стальных балок `Steel plate` нам придётся задвоить как-то плавильные печи. Это можно сделать двумя способами. Можно поставить печи в два ряда, на первом ряде будем плавить железную руду, на втором будем выплавлять стальные балки. А можно взять предыдущий чертёж и продублировать его ещё один раз. То есть сначала плавим железную руду и складируем на конвейер, а потом плавим железные плиты отдельно. В силу определённых причин, второй подход ересь, не забываем про котлы в аду для плохих инженеров:
@@ -150,6 +156,40 @@
 ![Исправленная ошибка подачи угля](../_images/RawResourcesProcessing/RawProcessing.09.png)
 
 Также можно заметить, что в печи плавящие непосредственно стальные балки загрузка топлива происходит посредством обособленных твёрдотопливных манипуляторов, которые не стоит улучшать.
+
+## Плавим камушки
+
+Тут по сложнее, как указывалось выше камни `Stone` не плавятся один к одному, а значить наши твёрдотопливные манипуляторы уже не будут успевать загружать и камни и топливо. Точнее успевают то будут, но и работать также будут постоянно, а это значить что профта нэма. В плане стальных печей, не успевать будут уже и обычные манипуляторы. Потребуются либо быстрые манипуляторы `Fast inserter`, либо бонус вместимости манипулятора `Inserter capacity bonus`, [второго уровня, который даёт +1 всем манипуляторам](https://wiki.factorio.com/Inserter_capacity_bonus_(research)).
+
+:::info Как же поступить?
+
+Да просто забить на эту фигню. До запуска первого спутника камней плавить нужно как кот наплакал. Расчёты даже самой тяжёлой базы на [75 научных пакетов в минуту показывают](https://kirkmcdonald.github.io/calc.html#zip=bZDdasMwDIXfJlf2RZtlYQY/jKaomYj/kOWL7ulnj1JoNnQQ9vnQQfYGCv5ie31MUvzbhKNFTn6ebk0SIPmqRME+bhMrxeqhaY6gnJOtyJSQbAE83M0tJuSdqzKeybvBL4qMEM7kcjVNObDez2Q1cfggf8hiiuSt4X87rKb2E73a4tZlin0kUPWfoEpyd5V+dTUsI6Zvfbg6O5pNYRLktFvJLW3VRtjhmxM9sGQ8SHuyqCvzU6a20H+qPx6Qt+HR0A8=), что нужно плавить менее полтора простого конвейера камней. Причём выплавленные каменные блоки идут только на фиолетовую и военную науку, которые вместе не встречаются, кроме нескольких исследований, не связанных с запуском спутника (квэст: какие это исследования?). То есть, когда этот вопрос начнёт реально заботить, будут и бонусы и электропечи и всё остальное.
+
+:::
+
+Далее привожу чертежи, начнём с самого не нужного, который вы точно никогда не будете использовать:
+
+![Самый не нужный чертёж в игре](../_images/RawResourcesProcessing/RawProcessing.18.png)
+
+```blueprint
+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
+```
+
+Ещё один не нужный чертёж:
+
+![Самый не нужный чертёж в игре](../_images/RawResourcesProcessing/RawProcessing.19.png)
+
+```bluprint
+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
+```
+
+И наконец, чертёж для плавки камней, который будете использовать всего один раз за всю игру:
+
+![Тоже не очень нужный чертёж в игре](../_images/RawResourcesProcessing/RawProcessing.20.png)
+
+```blueprint
+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
+```
 
 ## После запуска первого спутника
 
