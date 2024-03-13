@@ -8,7 +8,7 @@
 :::
 
 :::warning Будет много картинок и не только
-Статья напичкана всякими подробностями от которых можно [впасть в объятия Морфея](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%B5%D0%B9)
+Статья напичкана всякими подробностями от которых можно [впасть в объятия Морфея](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%B5%D0%B9).
 :::
 
 :::info Капитан очевидность
@@ -253,10 +253,12 @@
 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
 ```
 
-Конечно, маяки дают экономию входных ресурсов, но хватит ли электричества? Свои расчёты публикуйте в комментариях к видео, как говориться подымайте индекс интересности на канале ютуба.
+Конечно, маяки дают экономию входных ресурсов, но хватит ли электричества? Свои расчёты публикуйте в комментариях к видео, как говориться подымайте индекс интересности на [канале ютуба](https://www.youtube.com/@AwesomeFactorio).
 
+<!--
 ## Что ещё есть в Youtube?
 
 [Сохранёнка со всеми чертежами](../_saves/AwesomeFactorio%20-%20Resources.zip), пошукайте оныне в книге игры. А также детальный разбор на YouTube канале:
 
 [*![Паровая энергия](http://img.youtube.com/vi/XXXXXXXXX/0.jpg)*](http://www.youtube.com/watch?v=XXXXXXXXX)
+-->
