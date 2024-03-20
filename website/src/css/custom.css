@@ -64,3 +64,14 @@ p.hero__subtitle.addStroke {
 .title_f1Hy {
   font-size: 2rem !important;
 }
+
+img[src*='#left'] {
+  float: left;
+  max-width: 25%;
+}
+
+img[src*='#right'] {
+  float: right;
+  max-width: 25%;
+}
+
