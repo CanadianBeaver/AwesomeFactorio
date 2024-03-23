@@ -1,5 +1,5 @@
 ---
-title: Проверка расходовния пара произведённого разными способами
+title: Проверка расходования пара произведённого разными способами
 tags: [steam energy, power production, production, coal liquefaction]
 ---
 
