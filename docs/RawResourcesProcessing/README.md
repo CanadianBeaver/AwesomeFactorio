@@ -286,10 +286,8 @@
 
 Конечно, маяки дают экономию входных ресурсов, но хватит ли электричества? Свои расчёты публикуйте в комментариях к видео, как говориться подымайте индекс интересности на [канале ютуба](https://www.youtube.com/@AwesomeFactorio).
 
-<!--
-## Что ещё есть в Youtube?
+## Что ещё бы посмотреть? Есть твой тюб, есть сохранёнка...
 
-[Сохранёнка со всеми чертежами](../_saves/AwesomeFactorio%20-%20Resources.zip), пошукайте оныне в книге игры. А также детальный разбор на YouTube канале:
+[Сохранёнка со всеми чертежами](../_saves/AwesomeFactorio%20-%20Resources.zip), все чертежи в книге игры. А также детальный разбор на YouTube канале:
 
-[*![Паровая энергия](http://img.youtube.com/vi/XXXXXXXXX/0.jpg)*](http://www.youtube.com/watch?v=XXXXXXXXX)
--->
+[*![Плавим ресурсы](http://img.youtube.com/vi/z7HcOThwafg/0.jpg)*](http://www.youtube.com/watch?v=z7HcOThwafg)
