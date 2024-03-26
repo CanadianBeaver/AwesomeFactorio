@@ -118,7 +118,7 @@ const config: Config = {
           position: 'right',
         },*/
         {
-          href: 'https://www.youtube.com/@AwesomeFactorio',
+          href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
           label: 'Youtube',
           position: 'right',
         }
@@ -173,7 +173,7 @@ const config: Config = {
             },*/
             {
               label: 'Youtube',
-              href: 'https://www.youtube.com/@AwesomeFactorio',
+              href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
             }
           ],
         },
