@@ -67,11 +67,11 @@ p.hero__subtitle.addStroke {
 
 img[src*='#left'] {
   float: left;
-  max-width: 25%;
+  max-width: 20%;
 }
 
 img[src*='#right'] {
   float: right;
-  max-width: 25%;
+  max-width: 20%;
 }
 
