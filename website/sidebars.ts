@@ -16,36 +16,6 @@ const sidebars: SidebarsConfig = {
     }
   ],
 
-  powerSidebar: [
-    {
-      type: 'category',
-      label: 'Производство энергии',
-      link: {
-        type: 'doc',
-        id: 'PowerProduction/README',
-      },
-      items: [
-        'PowerProduction/SteamPower',
-        'PowerProduction/SolarPower',
-        'PowerProduction/NuclearPower',
-        'PowerProduction/HugeNuclearPowerPlant'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Сопутствующие вопросы',
-      link: {
-        type: 'generated-index',
-        slug: 'PowerProduction/Questions'
-      },
-      items: [
-        'PowerProduction/EfficientFuelForSteamPower',
-        'PowerProduction/BackupSteamPower',
-        'PowerProduction/UpgradingSteamPower'
-      ]
-    }
-  ],
-
   miningSidebar: [
     {
       type: 'category',
@@ -78,6 +48,51 @@ const sidebars: SidebarsConfig = {
       items: ['LoadingAndUnloadingTrains/SyncUnloading']
     }
   ],
+
+  powerSidebar: [
+    {
+      type: 'category',
+      label: 'Производство энергии',
+      link: {
+        type: 'doc',
+        id: 'PowerProduction/README',
+      },
+      items: [
+        'PowerProduction/SteamPower',
+        'PowerProduction/SolarPower',
+        'PowerProduction/NuclearPower',
+        'PowerProduction/HugeNuclearPowerPlant'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Сопутствующие вопросы',
+      link: {
+        type: 'generated-index',
+        slug: 'PowerProduction/Questions'
+      },
+      items: [
+        'PowerProduction/EfficientFuelForSteamPower',
+        'PowerProduction/BackupSteamPower',
+        'PowerProduction/UpgradingSteamPower'
+      ]
+    }
+  ],
+
+  additionalSidebar: [
+    {
+      type: 'category',
+      label: 'Дополнительное чтиво',
+      link: {
+        type: 'generated-index',
+        slug: 'Additionals',
+      },
+      items: [
+        'Additionals/NerdsVsGeeks',
+      ]
+    }
+  ],
+
 
 };
 
