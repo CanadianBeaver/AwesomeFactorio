@@ -36,7 +36,7 @@ const sidebars: SidebarsConfig = {
         type: 'doc',
         id: 'RawResourcesProcessing/README',
       },
-      items: []
+      items: ['RawResourcesProcessing/BigOreFoundry']
     },
     {
       type: 'category',
