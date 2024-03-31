@@ -36,7 +36,7 @@ const sidebars: SidebarsConfig = {
         type: 'doc',
         id: 'RawResourcesProcessing/README',
       },
-      items: ['RawResourcesProcessing/BigOreFoundry']
+      items: [/*'RawResourcesProcessing/BigOreFoundry'*/]
     },
     {
       type: 'category',
@@ -84,12 +84,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Дополнительное чтиво',
       link: {
-        type: 'generated-index',
-        slug: 'Additionals',
+        type: 'doc',
+        id: 'Additionals/NerdsVsGeeks'
       },
-      items: [
-        'Additionals/NerdsVsGeeks',
-      ]
+      items: [ ]
     }
   ],
 
