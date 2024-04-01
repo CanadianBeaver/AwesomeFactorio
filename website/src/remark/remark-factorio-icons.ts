@@ -149,7 +149,17 @@ const IconNames: string[] = [
   'Fast splitter',
   'Express splitter',
   'Logistic robot',
-  'Construction robot'
+  'Construction robot',
+  'Signal 0',
+  'Signal 1',
+  'Signal 2',
+  'Signal 3',
+  'Signal 4',
+  'Signal 5',
+  'Signal 6',
+  'Signal 7',
+  'Signal 8',
+  'Signal 9'
 ];
 
 interface Options {
