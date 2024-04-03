@@ -103,12 +103,12 @@ const config: Config = {
           position: 'left',
           label: 'Энергия',
         },
-        /*{
+        {
           type: 'docSidebar',
           sidebarId: 'additionalSidebar',
           position: 'left',
           label: 'Чё исчё?',
-        },*/
+        },
         /*{
           type: 'localeDropdown',
           position: 'right'

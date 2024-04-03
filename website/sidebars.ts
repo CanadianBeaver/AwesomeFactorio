@@ -82,12 +82,21 @@ const sidebars: SidebarsConfig = {
   additionalSidebar: [
     {
       type: 'category',
-      label: 'Дополнительное чтиво',
+      label: 'Про FPS, UPS и производительность игры',
+      link: {
+        type: 'doc',
+        id: 'Additionals/FPSandUPS',
+      },
+      items: []
+    },
+    {
+      type: 'category',
+      label: 'Нерды против Гиков',
       link: {
         type: 'doc',
         id: 'Additionals/NerdsVsGeeks'
       },
-      items: [ ]
+      items: []
     }
   ],
 
