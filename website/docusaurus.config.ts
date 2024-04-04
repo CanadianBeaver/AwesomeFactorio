@@ -87,6 +87,21 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        docsRouteBasePath: '/',
+        docsDir: '../docs',
+        blogDir: '../blog',
+        highlightSearchTermsOnTargetPage: true,
+        hashed: true,
+        language: ["en", "ru"],
+      }),
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'factorio-card.jpg',
