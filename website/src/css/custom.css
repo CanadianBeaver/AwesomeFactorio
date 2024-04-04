@@ -46,7 +46,8 @@ h1.hero__title.addStroke {
 
 p.hero__subtitle.addStroke {
   font-weight: bold;
-  text-shadow: 0px 0px 4px var(--ifm-color-primary-darkest);
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 2px var(--ifm-color-primary-darkest);
 }
 
 .markdown em>img {

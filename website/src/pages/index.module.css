@@ -9,6 +9,8 @@
   position: relative;
   overflow: hidden;
   background-color: var(--ifm-color-primary-dark);
+  background-image: url("background.png");
+  background-repeat: repeat;
 }
 
 @media screen and (max-width: 996px) {

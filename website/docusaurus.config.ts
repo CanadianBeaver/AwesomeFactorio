@@ -181,11 +181,11 @@ const config: Config = {
             },
             {
               label: 'RSS',
-              to: '/blog/rss.xml',
+              to: 'pathname:///blog/rss.xml',
             },
             {
               label: 'Atom',
-              to: '/blog/atom.xml',
+              to: 'pathname:///blog/atom.xml',
             }
           ],
         },
