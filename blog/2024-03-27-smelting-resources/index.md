@@ -1,6 +1,6 @@
 ---
 title: Средние опоры ЛЭП в чертежах плавки стальных балок
-tags: [smelting resources, resources, furnace, stone furnace, small electric pole, medium electric pole ]
+tags: [smelting resources, resources, furnace, stone furnace, small electric pole, medium electric pole]
 ---
 
 После публикации видеоролика о [плавке ресурсов в Factorio](http://www.youtube.com/watch?v=z7HcOThwafg) поступило предложение от [одного из зрителей](https://www.youtube.com/@Evgeny_Pilyavsky) о замене деревянных опор ЛЭП `Small electric pole` на средние `Medium electric pole`. Рассматриваю предложенный вариант исполнения и анализирую плюсы и минусы такого предложения.

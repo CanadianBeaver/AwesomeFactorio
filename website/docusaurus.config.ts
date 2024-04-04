@@ -65,11 +65,17 @@ const config: Config = {
         blog: {
           path: '../blog',
           showReadingTime: true,
+          blogTitle: 'Блог про игру',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           beforeDefaultRemarkPlugins: [remarkFactorioIcons],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
           blogSidebarCount: 'ALL',
+          feedOptions: {
+            title: 'Блог про игру Factorio',
+            description: 'Делюсь прогрессом и достижениями в игре Factorio',
+            copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -173,6 +179,18 @@ const config: Config = {
               label: 'Блог',
               to: '/blog',
             },
+            {
+              label: 'RSS',
+              to: '/blog/rss.xml',
+            },
+            {
+              label: 'Atom',
+              to: '/blog/atom.xml',
+            }
+          ],
+        },
+        {
+          items: [
             /*{
               label: 'GitHub',
               href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
@@ -181,7 +199,7 @@ const config: Config = {
               label: 'Youtube',
               href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
             }
-          ],
+          ]
         },
       ],
       copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`,
