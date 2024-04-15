@@ -71,3 +71,6 @@
 И вот вам [сохранёнка со всеми чертежами](../_saves/AwesomeFactorio%20-%20Resources.zip), которые в книге игры. Но в ролике на Youtube всё разжёвано и показано с большими интересностями. Заходите:
 
 [*![Плавим ресурсы](http://img.youtube.com/vi/e3mbmKIWLns/0.jpg)*](http://www.youtube.com/watch?v=e3mbmKIWLns)
+
+Дополнительные материалы:
+* [Синхронизация манипуляторов при разгрузке предметов](../LoadingAndUnloadingTrains/SyncUnloading.md)
