@@ -35,7 +35,7 @@ const IconNames: string[] = [
   'Copper ore',
   'Copper plate',
   'Crude oil resource',
-  'Crude pil',
+  'Crude oil',
   'Decider combinator',
   'Electric energy distribution 1',
   'Electric energy distribution 2',
