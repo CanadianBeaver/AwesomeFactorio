@@ -60,8 +60,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'PowerProduction/SteamPower',
         'PowerProduction/SolarPower',
-        'PowerProduction/NuclearPower',
-        'PowerProduction/HugeNuclearPowerPlant'
+        'PowerProduction/NuclearPower'
       ]
     },
     {
@@ -74,7 +73,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'PowerProduction/EfficientFuelForSteamPower',
         'PowerProduction/BackupSteamPower',
-        'PowerProduction/UpgradingSteamPower'
+        'PowerProduction/UpgradingSteamPower',
+        'PowerProduction/HugeNuclearPowerPlant'
       ]
     }
   ],
