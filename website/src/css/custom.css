@@ -80,9 +80,17 @@ article h1 {
 img[src*='#left'] {
   float: left;
   max-width: 20%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
 }
 
 img[src*='#right'] {
   float: right;
   max-width: 20%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
 }
