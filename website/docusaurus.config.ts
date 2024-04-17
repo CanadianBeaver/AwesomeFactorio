@@ -213,6 +213,10 @@ const config: Config = {
             {
               label: 'Youtube',
               href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
+            },
+            {
+              label: 'Send e-mail',
+              href: 'mailto:factorio@yrfle.com',
             }
           ]
         },
