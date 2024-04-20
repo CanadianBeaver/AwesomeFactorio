@@ -97,7 +97,16 @@ const sidebars: SidebarsConfig = {
         id: 'Additionals/NerdsVsGeeks'
       },
       items: []
-    }
+    },
+    {
+      type: 'category',
+      label: 'Параландия',
+      link: {
+        type: 'doc',
+        id: 'Additionals/Paraland',
+      },
+      items: []
+    },
   ],
 
 
