@@ -1,0 +1,5 @@
+{"rule":"Punct_and_spaces","sentence":"^\\Q:::tip Вся статья, кратко Параландия существует :::\\E$"}
+{"rule":"RU_SIMPLE_REPLACE","sentence":"^\\QFPS же Frames Per Second, чё означает количество кадров в секунду, которые ваша система способна отображать во время игры.\\E$"}
+{"rule":"RU_SIMPLE_REPLACE","sentence":"^\\QА чё за FPS?\\E$"}
+{"rule":"RU_SIMPLE_REPLACE","sentence":"^\\QЧё за UPS?\\E$"}
+{"rule":"MORFOLOGIK_RULE_RU_RU","sentence":"^\\QБольший эффект даст новая видюха, но нынче это запредельно дорого.\\E$"}
