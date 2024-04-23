@@ -174,16 +174,16 @@ interface Options {
 }
 
 const plugin: Plugin<[Options]> = (options) => {
-  async function transformer(tree, vfile) {
+  async function transformer(tree: any, vfile: any) {
 
     const visited = new Set();
 
-    function checkNode(node): boolean {
+    function checkNode(node: any): boolean {
       if (visited.has(node) || node.type !== "inlineCode" || !node.value) return false;
       return IconNames.includes(node.value);
     }
 
-    visit(tree, checkNode, (node, index, parent) => {
+    visit(tree, checkNode, (node, index: any, parent) => {
 
       if (!parent) return;
       visited.add(node);
