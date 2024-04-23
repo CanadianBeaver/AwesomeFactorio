@@ -15,16 +15,14 @@
 :::tip Идея
 Снести паровую электростанцию нафиг, чтобы не загрязняла природу своими выбросами по ночам.
 
-А если всё-таки сохранить на случай перебоев в работе солнечной электростанции? Можно соединить какой-нибудь аккумуляторный блок `Accumulator` красным `Red wire` или зелёным `Green wire` сигнальным кабелем с насосами `Offshore pump` подающими воду `Water` на бойлеры `Boiler` и включать насосы только если заряд на аккумуляторном блоке опускается меньше какого-то значения, например 50%.
+А если всё-таки сохранить паровую электростанцию на случай перебоев в работе солнечной электростанции? Можно соединить какой-нибудь аккумуляторный блок `Accumulator` красным `Red wire` или зелёным `Green wire` сигнальным кабелем с насосами `Offshore pump` подающими воду `Water` на бойлеры `Boiler` и включать насосы только если заряд на аккумуляторном блоке опускается меньше какого-то значения, например 50%.
 :::
 
 Реализация идеи с насосами, проста как всё в мире *Factorio*:
 
 ![Backup steam power](../_images/PowerProduction/BackupSteamPower.03.png)
 
-Чертёж первой линии бойлеров с установленными параметрами:
-
-```bleuprint
+```bleuprint title="Чертёж первой линии бойлеров с установленными параметрами:"
 0eNrVlsuOozAQRf/Fa2hhXgHUm/mOURTxqBBLYFt+RB1F/HvbRAPpbjPBs5sNwuA6Vfe6bPmOmkEDF4QqVN0RaRmVqPp9R5L0tB7sN3XjgCpEFIwoQLQe7UgqqMcQaE8ooClAhHbwgSo8HQMEVBFF4MGZB7cT1WMDwkxYCHXb6lEPtWLCYDmTJoZRm9BwwiwrA3QzLziKDd6UpQQbTg1c6isxEWYa04prdfpR6JUIpc2XtdZ5RvgLTQ8ShdamkjYG20cvAOhztaRDVTwdJxPwQ0G8cNn5LC9MQMj1yJ0asrfsjwr8lm3oaIloNVEn869b4s9ESD9tM1yq2i5kFtnRyGsx21uhdz/t+Em3HScbXiQeXuD/1IutPkjXvGM9DCEMBidIG3I2gMuBPFodiGYHKJD+0jAt7FbBydGRJVuycMLhVZNZrAOSf4GEioW9YJp2Tlz6vcqOiIdRBuSAH3zg8V/gsQNevJaPX8ovfVcqzf9hpXDkPhxdnbB4XBZ7XMB4NzorPdHrcdYwMoD7LM63kK6GwImv31nyregvdqdB6fQ73VM59jIj2+1zevD0Od+Pjj3R6w5stKAgQkIlCLXhyNp7h130woseb9OdvbLuTSVqKjkTKmxgUC/axMLtVWO+lFRPd5gAXUHIh5oCp4cyPhRpmeRlPk2fiBPnbA==
 ```
 
@@ -40,7 +38,7 @@
 
 ![Backup steam power](../_images/PowerProduction/BackupSteamPower.02.png)
 
-```blueprint
+```blueprint title="Чертёж c вундершнягой:"
 0eNrFV9tu2zAM/ZVATxtgF/E1FwwDiv7AHva2FYYiM4kAWTYkuW0Q5N9H2blbSeNsXV8MC5KORB7ykFqTmaihUlwaMl2THDRTvDK8lGRKfi5hUJWvoAaVKvOa4Q/Xg1IODE4ovliageY5DL5s/wsqxAAEMKM4w50Cvv6WBxBWSl0XJyAC5juM9tcBQTzC7VYy/bUmmi8kFfaqZlUB3pEbKHCFpIUdNQf5+pUbtiQb3ChzeCPTYPPsEZCGGw4tTjNYZbIuZqBwwR5Bl4Iqv6ISBMJWpeatM9YEceL0IfHIikz9NIoeks3G6yCFNyJFB6TQjRTdiDR5Fyl2+6cDlRyA0Hfoc6NKkc1gSV94qewixhWruclwLt/vnHOlTdZh5oUrU1NxIKdd4SvISQuvDbVhN7SDoqKKGnsK+U427bzEMOAN82sS2I/desQex1GA1O1uZcehpXqhAGRnJU4h7lM9PJ+ZeOSVK2j+h3b/Ux10dkenixCpdWOGVhg0b06FBofzk739O4t9tHbGZWNth4NofKAzQDo9kuOprF0RulmZc2FA3ZQgVGsoZoLLhV9QtuQS/Khlo7ZUBEcp470LtstTf14rSRk4gcI+QAWX9mq54kI40aIb0Epug2yOtqmVEyRG+hxMpYdItTLk729lZcjB1OScKQmog7OybqiYPDuOGB2IYKwuauEOgngPPLyQiGVtqrpH0j1ezCl3rgxPsyo4sqUZJ+fz6FGHveMzlwpaVA5zR6eedABN+nFzLNQOblIXN9bm7Rk5MKxJ6mqixqM9Rzem6Rb1IJ76DvV8PNXOtCueXu/gaEOgwa1WWZMu2VyVRcYl4uykrU/8jBqBDG/U7EvREwT9GJl8CiPbeqbBotzl9L+kb19Q+5PnImd4XlCvp/6VgtstzVeCIr4Z52K4hP1KbRL941L7LkGdGosmc53Z87btw+0pFl/yQtRPKtPoXfEN4n6OTeMP7WFmWODxWvd2LdoALXyQC2wQ7u5YZM0EYFOugDLrg3t7lSVQ48MbW1K5uGDThW4lSO4rV+HkE8tVciZ33/6v3H1krUp7P9fCsU03KwE2JKZHL3GPCDrD3VPyo3k57x9sL5giLWfjIB5NwlGaJuN0PN5s/gC6ZFC7
 ```
 
@@ -50,11 +48,11 @@
 Cолнечная электростанция находится в одной электрической сети с потребителями, а паровые электростанции в другой электрической сети. Паровые электростанции отделены от потребителей и солнечной электростанции выключателем питания. Если заряд аккумуляторных блоков падает ниже какого-то значения (5%), то значить у нас нехватка электричества в сети потребителей и нужна подпитка от паровых электростанций. В этом случае нужно включать выключатель питания и подключать паровые электростанции к генерации электричества. Если же заряд аккумуляторных блоков поднимается выше какого-то значения (60%), то значить у нас с электричеством всё в порядке и подпитка от паровых электростанций не нужна. В этом случае нужно выключать выключатель питания и отсоединять паровые электростанции. Означенными процентными значениями можно баловаться как душеньке угодно.
 :::
 
-Рядом с аккумуляторным блоком имеются два сравнивающих комбинатора `Decider combinator`, выполняющие роль генератора сигналов. В зависимости от уровня заряда на аккумуляторном блоке, они подают сигналы в логическую сеть. Когда заряд аккумуляторного блока опускается сильно низко в сеть отправляется сигнал квасного квадрата, сопоставимого с низким уровнем заряда. А когда заряд аккумуляторного блока возвращается к нормальному состоянию в сеть отправляется сигнал зелёного квадрата, сопоставимого с высоким уровнем заряда.
+Рядом с аккумуляторным блоком имеются два сравнивающих комбинатора `Decider combinator`, выполняющие роль генератора сигналов. В зависимости от уровня заряда на аккумуляторном блоке, они подают сигналы в логическую сеть. Когда заряд аккумуляторного блока опускается сильно низко в сеть отправляется сигнал красного квадрата, сопоставимого с низким уровнем заряда. А когда заряд аккумуляторного блока возвращается к нормальному состоянию в сеть отправляется сигнал зелёного квадрата, сопоставимого с высоким уровнем заряда.
 
 Эти сигналы подаются на вход `вундершняги`, которая управляет выключателем питания `Power switch` в зависимости от того, какой сигнал пришел последним. Да, `вундершняга` типа всё помнит и если последним сигналом был сигнал красного квадрата, она "включает" выключатель питания и начинается забор электричества от паровой электростанции для зарядки аккумуляторных блоков. Если последним сигналом был сигнал зелёного квадрата, то выключатель питания отключается и зарядка аккумуляторных блоков от паровой электростанции прекращается. Обратите внимание как выставлено условие и выход на `вундершняге`, *Condition* и *Output*, они собственно и управляют выключателем питания.
 
-Ещё можно увидеть постоянный комбинатор `Constant combinator` рядом с выключателем питания `Power switch`. Он нужен для того, чтобы выключатель питания работал постоянно, без учёта чего там `вундершняга` понапридумывает. Через него можно управлять выключателем питания в ручную и его можно убрать с чертежа без ущерба для всех.
+Ещё можно увидеть постоянный комбинатор `Constant combinator` рядом с выключателем питания `Power switch` и который включает выключатель питания. Он нужен для того, чтобы выключатель питания работал постоянно, без учёта чего там `вундершняга` понапридумывает. Через него можно включать выключатель питания в ручную и его можно убрать с чертежа без ущерба для всех.
 
 [Взято отсюда](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)
 
