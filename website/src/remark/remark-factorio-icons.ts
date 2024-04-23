@@ -164,7 +164,9 @@ const IconNames: string[] = [
   'Signal 6',
   'Signal 7',
   'Signal 8',
-  'Signal 9'
+  'Signal 9',
+  'Green wire',
+  'Red wire'
 ];
 
 interface Options {
