@@ -139,6 +139,8 @@ const IconNames: string[] = [
   'Transport belt',
   'Uranium fuel cell',
   'Uranium ore',
+  'Uranium-235',
+  'Uranium-238',
   'Utility science pack',
   'Wall',
   'Water',
