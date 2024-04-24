@@ -14,14 +14,14 @@
 
 | Чего? | Чего-чего? | Сколько? | Зачем? | Примечание |
 | :---: | :---: | ---: | :---: | --- |
-| *![offshore-pump](../_icons/offshore-pump.png)* | Насос | 2 | *![water](../_icons/water.png)* | Водица для всего |
-| *![boiler](../_icons/boiler.png)* | Бойлер | 39 | *![steam](../_icons/steam.png)* | Пар для паровых двигателей |
-| *![steam-engine](../_icons/steam-engine.png)* | Паровой двигатель | 77-78 | *![big-electric-pole](../_icons/big-electric-pole.png)* | Выработка липестричества, где-то 68 с половиной мегаватт |
-| *![boiler](../_icons/boiler.png)* | Бойлер | 1 | *![steam](../_icons/steam.png)* | Производим пар для сжижения угля |
-| *![oil-refinery](../_icons/oil-refinery.png)* | Нефтезавод | 4 | *![coal-liquefaction](../_icons/coal-liquefaction.png)* | Сжижаем уголь |
-| *![chemical-plant](../_icons/chemical-plant.png)* | Химзавод | 1 | *![solid-fuel-from-petroleum-gas](../_icons/solid-fuel-from-petroleum-gas.png)* | Производим твёрдое топливо и уничтожаем попутный газ полностью |
-| *![chemical-plant](../_icons/chemical-plant.png)* | Химзавод | 3 | *![heavy-oil-cracking](../_icons/heavy-oil-cracking.png)* | Производим дизельное топливо из лишнего мазута |
-| *![chemical-plant](../_icons/chemical-plant.png)* | Химзавод | 12 | *![solid-fuel-from-light-oil](../_icons/solid-fuel-from-light-oil.png)* | Производим твёрдое топливо из дизельного |
+| `!Offshore pump` | Насос | 2 | `!Water` | Водица для всего |
+| `!Boiler` | Бойлер | 39 | `!Steam` | Пар для паровых двигателей |
+| `!Steam engine` | Паровой двигатель | 77-78 | `!Big electric pole` | Выработка липестричества, где-то 68 с половиной мегаватт |
+| `!Boiler` | Бойлер | 1 | `!Steam` | Производим пар для сжижения угля |
+| `!Oil refinery` | Нефтезавод | 4 | `!Coal liquefaction` | Сжижаем уголь |
+| `!Chemical plant` | Химзавод | 1 | `!Solid fuel from petroleum gas` | Производим твёрдое топливо и уничтожаем попутный газ полностью |
+| `!Chemical plant` | Химзавод | 3 | `!Heavy oil cracking` | Производим дизельное топливо из лишнего мазута |
+| `!Chemical plant` | Химзавод | 12 | `!Solid fuel from light oil` | Производим твёрдое топливо из дизельного |
 
 При такой конфигурации паровой электростанции у нас не будет оставаться лишнего попутного газа и мазута, то есть превращаем всё в твёрдое топливо и производим электричество из пара.
 

@@ -26,12 +26,12 @@
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| | | 1 *![offshore-pump](../_icons/offshore-pump.png)* | 20 *![boiler](../_icons/boiler.png)* | 40 *![/steam-engine](../_icons/steam-engine.png)* | 36 | Максимум на одном насосе |
-| 900 *![coal](../_icons/coal.png)* | 100% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* |   34 *![boiler](../_icons/boiler.png)* | 72 *![steam-engine](../_icons/steam-engine.png)* | 61.2 | Максимум на одном конвейере угля |
-| 360 *![solid-fuel](../_icons/solid-fuel.png)* | 40% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* |   40 *![boiler](../_icons/boiler.png)* | 80 *![steam-engine](../_icons/steam-engine.png)* | 72 | Максимум на двух насосах |
-| 540 *![solid-fuel](../_icons/solid-fuel.png)* | 60% *![transport-bel](../_icons/transport-belt.png)* | 3 *![offshore-pump](../_icons/offshore-pump.png)* |   60 *![boiler](../_icons/boiler.png)* | 120 *![steam-engine](../_icons/steam-engine.png)* | 108 | Максимум на трёх насосах |
-| 720 *![solid-fuel](../_icons/solid-fuel.png)* | 80% *![transport-bel](../_icons/transport-belt.png)* | 4 *![offshore-pump](../_icons/offshore-pump.png)* |   80 *![boiler](../_icons/boiler.png)* | 180 *![steam-engine](../_icons/steam-engine.png)* | 144 | Максимум на четырёх насосах |
-| 900 *![solid-fuel](../_icons/solid-fuel.png)* | 100% *![transport-bel](../_icons/transport-belt.png)* | 5 *![offshore-pump](../_icons/offshore-pump.png)* |   100 *![boiler](../_icons/boiler.png)* | 200 *![steam-engine](../_icons/steam-engine.png)* | 180 | Максимум на твёрдом топливе |
+| | | 1 `!Offshore pump` | 20 `!Boiler` | 40 `!Steam engine` | 36 | Максимум на одном насосе |
+| 900 `!Coal` | 100% `!Transport belt` | 2 `!Offshore pump` |   34 `!Boiler` | 72 `!Steam engine` | 61.2 | Максимум на одном конвейере угля |
+| 360 `!Solid fuel` | 40% `!Transport belt` | 2 `!Offshore pump` |   40 `!Boiler` | 80 `!Steam engine` | 72 | Максимум на двух насосах |
+| 540 `!Solid fuel` | 60% `!Transport belt` | 3 `!Offshore pump` |   60 `!Boiler` | 120 `!Steam engine` | 108 | Максимум на трёх насосах |
+| 720 `!Solid fuel` | 80% `!Transport belt` | 4 `!Offshore pump` |   80 `!Boiler` | 180 `!Steam engine` | 144 | Максимум на четырёх насосах |
+| 900 `!Solid fuel` | 100% `!Transport belt` | 5 `!Offshore pump` |   100 `!Boiler` | 200 `!Steam engine` | 180 | Максимум на твёрдом топливе |
 
 Последняя строчка приводится для справки, строить электростанцию на 100 бойлеров является ошибкой. Такая электростанция занимает огромное место, да и питать её водой с одной стороны затруднительно, а значить дизайн будет так себе. Просто разбейте большую электростанцию на две-три поменьше. Да и предпоследнюю строчку тоже (четыре насоса) лучше разбить на две электростанции. Использование больше двух насосов запирает проход через электростанцию, без удаления/восстановления какой-то трубы рядом с насосами пройти будет невозможно.
 

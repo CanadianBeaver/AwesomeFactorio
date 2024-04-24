@@ -88,9 +88,9 @@
 
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 900 *![coal](../_icons/coal.png)* | 100% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* | 34 *![boiler](../_icons/boiler.png)* | 72 *![steam-engine](../_icons/steam-engine.png)* | 61.2 | Максимум на угле |
-| 360 *![solid-fue](../_icons/solid-fuel.png)* | 40% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* | 40 *![boiler](../_icons/boiler.png)* | 80 *![steam-engine](../_icons/steam-engine.png)* | 72 | Максимум на насосах |
-| | | | 500 *![solar-panel](../_icons/solar-panel.png)* | 420 *![accumulator](../_icons/accumulator.png)* | 21 | Солнечная энергия |
+| 900 `!Coal` | 100% `!Transport belt` | 2 `!Offshore pump` | 34 `!Boiler` | 72 `!Steam engine` | 61.2 | Максимум на угле |
+| 360 `!Solid fuel` | 40% `!Transport belt` | 2 `!Offshore pump` | 40 `!Boiler` | 80 `!Steam engine` | 72 | Максимум на насосах |
+| | | | 500 `!Solar panel` | 420 `!Accumulator` | 21 | Солнечная энергия |
 | | | | | | ~155 | Итого |
 
 ### Начальная база на 75 научных пакетов в минуту
@@ -102,13 +102,13 @@
 Если ресурсов вокруг хватает, то первоначальная электростанция на полном конвейере угля состоящая из 34 бойлеров с полным комплектом паровых двигателей, электростанция на полном конвейере твёрдого топлива из 100 бойлеров и где-то полторы тыщи солнечных панелей вместе с более чем тыщей аккумуляторных блоков.
 | Топливо | Конвейер | Насосы | Бойлеры | Двигатели | Мегаватты | Примечание |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 900 *![coal](../_icons/coal.png)* | 100% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* | 34 *![boiler](../_icons/boiler.png)* | 72 *![steam-engine](../_icons/steam-engine.png)* | 61.2 | Максимум на угле |
-| 900 *![solid-fue](../_icons/solid-fuel.png)* | 100% *![transport-belt](../_icons/transport-belt.png)* | 5 *![offshore-pump](../_icons/offshore-pump.png)* | 100 *![boiler](../_icons/boiler.png)* | 200 *![steam-engine](../_icons/steam-engine.png)* | 180 | Максимум на твёрдом топливе |
-| | | | 1500 *![solar-panel](../_icons/solar-panel.png)* | 1260 *![accumulator](../_icons/accumulator.png)* | 63 | Солнечная энергия |
+| 900 `!Coal` | 100% `!Transport belt` | 2 `!Offshore pump` | 34 `!Boiler` | 72 `!Steam engine` | 61.2 | Максимум на угле |
+| 900 `!Solid fuel` | 100% `!Transport belt` | 5 `!Offshore pump` | 100 `!Boiler` | 200 `!Steam engine` | 180 | Максимум на твёрдом топливе |
+| | | | 1500 `!Solar panel` | 1260 `!Accumulator` | 63 | Солнечная энергия |
 | | | | | | ~300 | Итого |
 |>|>|>|>|>|>|Произвести такое количество солнечных панелей и аккумуляторных блоков может быть затруднительным, если мы хотим запустить спутник за 8 часов. Налегайте на ещё одну электростанцию на твёрдом топливе и дополнительных заводов по сжижению угля. Заменим солнечную энергию на адекватные значения:|
-| | | | 500 *![solar-panel](../_icons/solar-panel.png)* | 420 *![accumulator](../_icons/accumulator.png)* | 21 | Солнечная энергия |
-| 360 *![solid-fue](../_icons/solid-fuel.png)* | 40% *![transport-belt](../_icons/transport-belt.png)* | 2 *![offshore-pump](../_icons/offshore-pump.png)* | 40 *![boiler](../_icons/boiler.png)* | 80 *![steam-engine](../_icons/steam-engine.png)* | 72 | Максимум на насосах |
+| | | | 500 `!Solar panel` | 420 `!Accumulator` | 21 | Солнечная энергия |
+| 360 `!Solid fuel` | 40% `!Transport belt` | 2 `!Offshore pump` | 40 `!Boiler` | 80 `!Steam engine` | 72 | Максимум на насосах |
 | | | | | | ~330 | Итого |
 
 Есть также смысл рассмотреть [улучшение первой паровой электростанции](UpgradingSteamPower.md).

@@ -180,7 +180,9 @@ const plugin: Plugin<[Options]> = (options) => {
 
     function checkNode(node: any): boolean {
       if (visited.has(node) || node.type !== "inlineCode" || !node.value) return false;
-      return IconNames.includes(node.value);
+      let search = node.value;
+      if (search.startsWith('!')) search = search.substring(1);
+      return IconNames.includes(search);
     }
 
     visit(tree, checkNode, (node, index: any, parent) => {
@@ -191,8 +193,10 @@ const plugin: Plugin<[Options]> = (options) => {
       if (index > 0 && parent.children[index - 1].type === 'emphasis' && parent.children[index - 1].children.length > 0 && parent.children[index - 1].children[0].type === 'image') return;
       if (index > 1 && parent.children[index - 1].type === 'text' && parent.children[index - 1].value === ' ' && parent.children[index - 2].type === 'emphasis' && parent.children[index - 2].children.length > 0 && parent.children[index - 2].children[0].type === 'image') return;
 
+      let deleteNode = node.value.startsWith('!') ? 1 : 0;
       let iconName = node.value;
-      let rootDir = path.relative(vfile.dirname, '../docs/_icons');
+      if (deleteNode == 1) iconName = iconName.substring(1);
+      let rootDir = path.relative(vfile.dirname, 'factorio_icons');
       let iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
 
       let iconNode = {
@@ -211,7 +215,7 @@ const plugin: Plugin<[Options]> = (options) => {
         value: " "
       };
 
-      parent.children.splice(index, 0, iconNode, spaceNode);
+      parent.children.splice(index, deleteNode, iconNode, spaceNode);
     });
   }
   return transformer;
