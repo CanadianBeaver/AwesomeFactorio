@@ -29,50 +29,51 @@
 
 А вот тут чертежи будут и не один как прежде. Начнём от простого к сложному, а потом к ещё сложнейшему.
 
-### Самый ручной чертеж
+### Самый ручной чертёж
 
 Чертёж хорош тем, что легко возводится руками в четыре простых движений, ну может в пять и стыкается по всем направлениям. Такое можно строить с самого начала игры и даже роботами без зазрения совести. Можно использовать для добычи урановой руды, если добавить трубы в промежутках между бурами с той стороны, где проведена линия электропередач. Короче, маст хэв на все случаи жизни, рекомендую научиться строить его руками, это не сложно, [тут инструкция](https://youtu.be/ZI2aVerqCT4?t=854).
 
-*![Самый ручной чертеж](../_images/MiningResources/MiningResources.04.jpg)*
+*![Самый ручной чертёж](../_images/MiningResources/MiningResources.04.jpg)*
 
-```blueprint
+```blueprint title="Самый ручной чертёж"
 0eNqdl91q2zAUx1/FCAYdOCWS/BH7NXa5lJEPkwkc2djuWCmBtrvZKFtht7voXmCQtU3Xr2SvIL/RjtwSxuxtR7pIgqTjn/45On8f+5CM0/0kL4SsSHxIpkk5KUReiUySmKhztVF39VF9Wp+oG7WKnTDaDZ4N5VCqz7D0Q13A95W6qU/q4/rMqT+qe7VSD/BZwxXL+kit1SYeSrrrqHMYbSDwTF0C60ItdaSj7oCwhuFK3apVfTSUDGK/QtQVLDw49XErpJlXPztxIOME1u/V9/rUUV/UN3Xu7IDOpboGOXrp1lEP8H/eN9Tb50PJtbYuZVoAYPRE/an+oBPgwMQ7nQ/YX20cHQCxN9uNG3FrALT/mFo6O42Aa435hyLiklKO8l6V9WaFmOpTeUvi0CUHJGZ04RIxyWRJ4peHpBQzOUp1RHWQJ3BgokrmcL0czfUoSZNJVYhJby6kkLPetBBpSjRBThNg0sWeSxJZiUokj8BmcPBK7s/HSQEB/0G5JM9K8VgsjUq66zc64Re2mYoCrmpW2cJt0dmWXhUjWeZZUfXGSVq1sfwJ2/8T63Vgualo/2+igw66ZyyaYUT7xliKwQa2B+hjDjDc0sv5KE172z3yLE3abPbE5g1bJmL2epztF7ryaLjXwR8YJ8XDJCUyxnIMlvZtC8/DFB6lxrIDlGxzG/oorrUPQ1Q6PNvSHmBKm5obcoDKSmDMDVFcSy/SftuMoctZlx2puR8p6o5NzR0ZYbjM2pFt3V01yOz7I0M1SHNrUlS3YdwcjOo3zLPOOEdl3LfOOKqjMXN7UlTPYaE5GNV1mIUpUX2BmZuSohoDt3dlgKkRbu/KCFMjnFneakPscw+3sCeq+3Dzp1eKaj/ctz7TCHWmFr5EtQhu7kvW0dPgPap59Yp/e5t2SToCEsy9EPO8qYw3SVE+1tWAemHEwiBi/QFni8UvURyXDA==
 ```
 
-### Самый основной чертеж
+### Самый основной чертёж
 
 Этот чертёж по сложнее, но также стыкуется, подходит без проблем для добычи урановой руды, имеет немного большее покрытие чем предыдущий (хотя и сомнительно). Руками строить сложновато, но посильно. Обходиться дороже предыдущего из-за подземных конвейеров. В основном используется [после запуска первого спутника](../HowToStartNewGame/README.md#после-запуска-спутника) на добывающих аутпостах `Mining outpost`, по-русски слышал вариант перевода как `шахтёрский аванпост`, где строится роботами из рюкзака играющего.
 
-*![Самый основной чертеж](../_images/MiningResources/MiningResources.05.jpg)*
+*![Самый основной чертёж](../_images/MiningResources/MiningResources.05.jpg)*
 
-```blueprint
+```blueprint title="Самый основной чертёж"
 0eNqdVe2K2kAUfZUwUGghionRaH72NWopfgwyECdhMikVCexuWdqypX2A/pA+QMG12nV1dV/h5o16Z1yCbQwb/RGGmXvmnDNnbpIJ6fkxDQXjkngTMqBRX7BQsoATj8AUdrBOL9Kb9ApWsDRggQu36Q3MYZZ+S7/AEu4NeMTFOSwRdw1b2KWXCu0ZrUbVfdHhHQ4/06v0AkErLCxhk37VkDnsvA63qgZMVRUx3+E3yiA3oh4MDdrBRgka8AN+wdR4CXdY/YPqqoTaD+jtM6zV5FWH24VkGrJVNuFeWf3H9YGUWuzwejHPbfpRBaL3GyqNA6/6kFtE5vVgZhoImcHaSD9pMX2qOdq/xslC8SkYhoJ6OwNVLjVe0c3RWWbhCbA3AjOU1gd5xOoCnw0uKF8L3LlSRlZwtz/sArNT+7dKM28QSYhJIt4NKzKoDAUbqIb4QDzXJGPitROTsH7AI+K9mZCIDXnXVwA5Dim2CpN0hNt5d6Rm1Kd9KVi/MmKc8WFlIJjvE8XABxQpreStSSiXTDK6J9ST8Tsej3pUIOAZKpOEQcT2bapNWtWGtokjygyYwF26aidmjt3O2KXo8igMhKz0qC/ztPUn2tr/tM4R2npGG+MxxVAEOD5DnPPrmFmkPIwlOaLjnBpOo0iseYS9cW70Tpnomxn7iA5YPKpkImHg0+KccEyO0LnnRuGUiaJ1cp80yvRJ+4w+cYr7JIhlQaNYtXPv0i1zl5Z1cj5umXys09/PZine+rnd4pbpFss52XYrbxs/jPpb6h38mE3id5EI1153I9bH+Xsqov29tCzHbdtus23XWnU7Sf4Cgl8+qA==
 ```
 
-### Самый роботизированный чертеж
+### Самый роботизированный чертёж
 
 А вот и чудо роботизации. Чертёж не плох, имеет хорошее покрытие, имеет большее количество выходных конвейеров чем любой предыдущий. Но при этом, не стыкуется по вертикали, не подходит для добычи урановой руды, безумно дорог из-за подземных конвейеров, не ровно выровнены выходные конвейеры, имеет разное количество буров на стороны конвейера, руками такое чудо строить трудно. Деревянные опоры ЛЭП `Small electric pole`, можно заменить на средние `Medium electric pole`.
 
-*![Самый роботизированный чертеж](../_images/MiningResources/MiningResources.06.jpg)*
+*![Самый роботизированный чертёж](../_images/MiningResources/MiningResources.06.jpg)*
 
-```blueprint
+```blueprint title="Самый роботизированный чертёж"
 0eNqdVm2K2zAQvYoR9J8dLDt2HF+iB+guJR8iFTiyseXSEAJJtqWUXVp6gFJ6g92lhpBs3StIN+rIyaaB2GysP1Ekzbz35klje46GUU6SlDKOwjkak2yU0oTTmKEQiZ+iFFu5lLdyLTaiCI2+3bFfXTHxQxSG+Au7v+Un9Ss2cm3AsJPf1FCKB8j5LDaGvJFLcS/+iPvOFYPEX3INC6WKl3cGQN+ILew/QSgEFRC/T4dJaaqlUuHdy+8K/wkit3IFUtS/nbxT+89KTnQeJYhHSP0qv1QZwPBwkAOTjlFVV6NffhQlRAGmXAFeKR5BSAG0OwVRqEUlffW/ElHsxQAhVLCs9JewfdsxkIkyNkgsHluTlI6Vxx9QiG0TzVAYLExERzHLUPhmjjI6YYNIRfBZQsB+yskU8tlgqmYkIiOe0pE1pYyyiTVOaRQhhcDGRGEurk1EGKeckj1gNZm9Zfl0SFIIOELlkJFO0hhGa0giDiRJnNH9qVcCg45XKbQ7HjCMaQrc1W7XPKpjSc6B/4zHacHjHngcDR73yJNNB1FkHQ1K4og0U7kVFSN08m4Y56myyjexd13D0H3B/EYO76ycGnSvLbrfhO7UoPvt3Hk+8O65O66J/Tp3em31Y7upAL8GPtC4rr7GNepr8HjNPHHOG4hU07c07EAXXHLgGGv0XaBhGNZp8J6WY25bx7ymuupuGG7d38EJfB2gp/dI6l/edFizr7F9+WMP9zRaAmOtEw407hJ2X6aCd2H1+gxPvm9MFA0AGdZeQ1Sc8QyW3pM02/dUgLu9vtPz+44duM5i8Q+oP2uL
 ```
+
 :::warning Маленькое замечание
 Данный чертёж предполагает размещение разного количества буров на каждую линию (сторону) одного конвейера, поэтому когда у вас будет прокачанный уровень продуктивности добычи `Mining productivity`, исследование такое, такой чертёж уже не айс. Например, на 65 уровне продуктивности добычи нужно всего лишь 12 электрических буров (по 6 с каждой стороны), чтобы полностью заполнить экспресс-конвейер `Express transport belt`, голубой который добываемым ресурсом.
 
-*![Самый роботизированный чертеж](../_images/MiningResources/MiningResources.05.png)*
+*![Самый роботизированный чертёж](../_images/MiningResources/MiningResources.05.png)*
 :::
 
 Пользовать такое творение есть смысл на месторождениях ресурсов для увеличения количества выходных конвейеров. Приемлемым временем применения является время чуть позже после запуска первого спутника и ещё какое-то время пока уровень продуктивности добычи не развит.
 
-### Исчё один самый роботизированный чертеж
+### Исчё один самый роботизированный чертёж
 
 А вот следующий чертёж будет хорош на высоких уровнях продуктивности добычи `Mining productivity`, о чём говорилось выше. На обычных параметрах карты, можно начинать использовать на уровнях продуктивности 45+ баба ягодка опять или даже чуть раньше. В чертеже исправлены проблемы предыдущего чертежа, а количество выходных линий хватит на несколько погрузочных вокзалов на добывающих шахтерских аванпостах.
 
-*![Второй самый роботизированный чертеж](../_images/MiningResources/MiningResources.07.jpg)*
+*![Второй самый роботизированный чертёж](../_images/MiningResources/MiningResources.07.jpg)*
 
-```blueprint
+```blueprint title="Второй самый роботизированный чертёж"
 0eNqllk2P2jAQhv/KyFJvCSIkIR/Hbntr1UN7K1UVwhCsOnZqO9UixH/vJFkFtGRZ5FwAk/H7zDszsXxiW9Fio7m0LD+xHZpS88ZyJVnOntQ/1EWFOaTxIvmwkR9RWPiCsrIHaFDDJ82FyCHbyM+FobB4IynoCLb4w2UF9oBAirySsNeq7tdPqm6KklS4HB8WcgdG8OpgxRHUfm/Q2nF/hzBgVb8SuLd9uO6iPQhhSykZ2gRKI5QFkbgFcjPEm6KmDwLiAn4cOOmQO4Gmf9htJcXRTY+CbWtB49+W65cwoSiVlzDitHKHutKKvqGr3ZDBYiOZx3ippGH5zxPrfBWiK6k9Nki15BZripCUEK1QYEmplH7NJTn1ezQ7kwKpP7M8OP/yGErLLcdBsF8cf8u23qKmgIvUc0OZGv8qL79LiWCNMnxo5YmRqB8s09Ui9tiR9gch/STgjnyWQ1DkjcnKprWUzg125YgNLtjYARs6YpcXbOqAjd7p1yQzGplR8Jq5moDEszt5y3nA23o+dvk2VrX2DW7iUtPlHa/rCUjqAgkvkOiRxmWz34UodKlgsHRwl2R33E2VMLicMDXueFv7I6xRAt+11r3mU7LzT5Db/B8Y9yB0GYmrYU8eGYkgmn1Q3YIecRfP566dZnHtMovpHbeTs5jMP6wyJ3vp7GmNV07gbHZD4/h9MF0y+ntJfnUL9JgoSJ/++7pewLf+NgbfRdE/ovugGaY/pd5lqyQJkyxOo/P5Pxc/YXE=
 ```
 
