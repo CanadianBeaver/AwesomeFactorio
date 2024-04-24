@@ -13,7 +13,7 @@
 [Примерный расчёт](https://kirkmcdonald.github.io/calc.html#zip=dY5LDsIwDERvkxVeUGBBpBzGStzWwolDPki9PQ0sygZ5ZI3sp9EEbOjOsM/dlOyuxo8VObnJzJ3EVRUOMKzJziuK4Uax/txtsZfbZKKGLlQ/DAg/O83oG2uymSwNnVbC1wbKAr6gf3Bajt+RB3PRuCcsaxvsfyRTKyrUIyxYD2wU+Npdbw==), плюс/минус колдовство и практическая пригонка говорят, что нам потребуется:
 
 | Чего? | Чего-чего? | Сколько? | Зачем? | Примечание |
-| :---: | :---: | ---: | :---: | --- |
+| :---: | :--- | ---: | :---: | --- |
 | `!Offshore pump` | Насос | 2 | `!Water` | Водица для всего |
 | `!Boiler` | Бойлер | 39 | `!Steam` | Пар для паровых двигателей |
 | `!Steam engine` | Паровой двигатель | 77-78 | `!Big electric pole` | Выработка липестричества, где-то 68 с половиной мегаватт |
