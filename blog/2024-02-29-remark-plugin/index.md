@@ -46,7 +46,7 @@ const plugin: Plugin<[Options]> = (options) => {
       if (index > 1 && parent.children[index - 1].type === 'text' && parent.children[index - 1].value === ' ' && parent.children[index - 2].type === 'emphasis' && parent.children[index - 2].children.length > 0 && parent.children[index - 2].children[0].type === 'image') return;
 
       let iconName = node.value;
-      let rootDir = path.relative(vfile.dirname, '../docs/_icons');
+      let rootDir = path.relative(vfile.dirname, 'factorio_icons');
       let iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
 
       let iconNode = {
