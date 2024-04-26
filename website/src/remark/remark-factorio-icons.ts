@@ -117,6 +117,8 @@ const IconNames: string[] = [
   'Solid fuel from petroleum gas',
   'Solid fuel',
   'Stack inserter',
+  'Biter',
+  'Spitter',
   'Steam engine',
   'Steam turbine',
   'Steam',
