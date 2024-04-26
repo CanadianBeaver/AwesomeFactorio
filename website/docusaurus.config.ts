@@ -26,7 +26,7 @@ const config: Config = {
   projectName: 'AwesomeFactorio', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenAnchors: 'warn', // TODO: change to throw when error will be fixed in new docusaurus
+  onBrokenAnchors: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
 
