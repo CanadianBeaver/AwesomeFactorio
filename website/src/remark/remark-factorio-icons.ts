@@ -45,6 +45,7 @@ const IconNames: string[] = [
   'Electric furnace',
   'Electric mining drill',
   'Electronic circuit',
+  'Electric energy accumulators',
   'Engine unit',
   'Engine',
   'Fast inserter',
