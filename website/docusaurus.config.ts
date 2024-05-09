@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 import { rehypeExtendedTable } from 'rehype-extended-table';
 
-//import { remarkFactorioIcons } from './src/remark/remark-factorio-icons';
 const remarkFactorioIcons = require('./src/remark/remark-factorio-icons');
+const remarkFactorioSaves = require('./src/remark/remark-factorio-saves');
 
 const config: Config = {
   title: 'Awesome Factorio',
@@ -59,7 +59,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
-          beforeDefaultRemarkPlugins: [remarkFactorioIcons],
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
@@ -67,7 +67,7 @@ const config: Config = {
           showReadingTime: true,
           blogTitle: 'Блог про игру',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
-          beforeDefaultRemarkPlugins: [remarkFactorioIcons],
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
           blogSidebarCount: 'ALL',

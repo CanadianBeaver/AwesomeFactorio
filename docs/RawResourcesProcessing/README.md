@@ -290,7 +290,7 @@
 
 ## Что ещё бы посмотреть? Есть ТвойТюб, есть сохранёнка...
 
-[Сохранёнка со всеми чертежами](../_saves/AwesomeFactorio%20-%20Resources.zip), все чертежи в книге игры. А также детальный разбор на YouTube канале:
+[Сохранёнка со всеми чертежами](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip), все чертежи в книге игры. А также детальный разбор на YouTube канале:
 
 [*![Плавим ресурсы](http://img.youtube.com/vi/z7HcOThwafg/0.jpg)*](http://www.youtube.com/watch?v=z7HcOThwafg)
 

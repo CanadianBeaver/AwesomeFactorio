@@ -101,7 +101,7 @@
 
 ## Больше подробностей
 
-И вот вам [сохранёнка со всеми няшками](../_saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры. Надеюсь в курсе как открыть книгу чертежей? *Подсказка: кнопка бэ.*
+И вот вам [сохранёнка со всеми няшками](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры. Надеюсь в курсе как открыть книгу чертежей? *Подсказка: кнопка бэ.*
 
 ![Upgraded steam power](../_images/PowerProduction/UpgradingSteamPower.03.png)
 
