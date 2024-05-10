@@ -7,6 +7,6 @@ tags: [resources, trains, unloading]
 
 <!-- truncate -->
 
-Это всё касается правильного понимания как работает выгрузка. [Сама статья тут](/LoadingAndUnloadingTrains/SyncUnloading/).
+Это всё касается правильного понимания как работает выгрузка. [Сама статья тут](pathname:///LoadingAndUnloadingTrains/SyncUnloading).
 
 [*![Тестируем выгрузку для поездов](http://img.youtube.com/vi/tvv_Oarf9n0/0.jpg)*](https://youtube.com/shorts/tvv_Oarf9n0)

@@ -3,7 +3,7 @@ title: Большой литейный завод
 tags: [smelting resources, resources, furnace, electric furnace, beacons, modules]
 ---
 
-Готова новая статья, теперь строим огромные литейные заводы, с маяками и модулями, правда только для плавки руды, [читайте и просвещайтесь](/RawResourcesProcessing/BigOreFoundry).
+Готова новая статья, теперь строим огромные литейные заводы, с маяками и модулями, правда только для плавки руды, [читайте и просвещайтесь](pathname:///RawResourcesProcessing/BigOreFoundry).
 
 <!-- truncate -->
 

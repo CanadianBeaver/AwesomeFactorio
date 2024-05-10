@@ -13,7 +13,9 @@ tags: [design, website]
 https://awesomefactorio.yrfle.com/assets/files/myfile-1b5ddfaede831bdb645b145312fa83de.zip
 ```
 
-[Поморочил голову разработчикам](https://github.com/facebook/docusaurus/discussions/10071) на ломаном ынглыше и получил ответ. Потом написал ещё один маленький плагин для сайта, который хостит файлы в *static* без никаких хэшей и ассетов:
+Можно было бы на всё плюнуть и использовать [*static assests*](https://docusaurus.io/docs/static-assets), но мы простых костылей не ищем, нам подавай костыли кошерные. Хотя по правде говоря просто хотелось сохранить рабочие ссылки на файлы сохранёнок как в репозитории на github, так на веб-сайте.
+
+[Поморочил голову разработчикам](https://github.com/facebook/docusaurus/discussions/10071) на ломаном ынглыше и получил ответ. Потом написал ещё один маленький плагин для сайта, который использует хостенные файлы из *static* без никаких хэшей и ассетов:
 
 ```javascript
 import { Plugin } from 'unified';
@@ -44,4 +46,4 @@ export default plugin;
 * [Первая сохранёнка](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip)
 * [Вторая сохранёнка](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip)
 
-Скоро будет больше...
+Скоро будет больше и решил собрать отдельную страничку для всех [будущих сохранёнок тута](pathname:///Additionals/SavedGames).

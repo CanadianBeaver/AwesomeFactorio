@@ -23,6 +23,19 @@
             }
         },
         {
+            "label": "Docusaurus serve",
+            "type": "npm",
+            "script": "serve",
+            "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceRoot}/website"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
             "label": "Docusaurus clear",
             "type": "npm",
             "script": "clear",
