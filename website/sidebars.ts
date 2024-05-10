@@ -110,6 +110,15 @@ const sidebars: SidebarsConfig = {
       },
       items: []
     },
+    {
+      type: 'category',
+      label: 'Сохранёнки разных игр',
+      link: {
+        type: 'doc',
+        id: 'Additionals/SavedGames',
+      },
+      items: []
+    }
   ],
 
 
