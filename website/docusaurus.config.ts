@@ -126,6 +126,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'circuitNetworkSidebar',
+          position: 'left',
+          label: 'Логистическая сеть',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'additionalSidebar',
           position: 'left',
           label: 'Чё исчё?',

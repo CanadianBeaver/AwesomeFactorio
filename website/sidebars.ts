@@ -82,6 +82,21 @@ const sidebars: SidebarsConfig = {
     }
   ],
 
+  circuitNetworkSidebar: [
+    {
+      type: 'category',
+      label: 'Логическая сеть и комбинаторы',
+      link: {
+        type: 'doc',
+        id: 'CircuitNetwork/README',
+      },
+      items: [
+        'CircuitNetwork/Writing',
+        'CircuitNetwork/SimpleExamples'
+      ]
+    }
+  ],
+
   additionalSidebar: [
     {
       type: 'category',
@@ -119,8 +134,7 @@ const sidebars: SidebarsConfig = {
       },
       items: []
     }
-  ],
-
+  ]
 
 };
 
