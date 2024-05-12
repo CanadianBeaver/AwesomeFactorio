@@ -92,7 +92,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'CircuitNetwork/Writing',
-        'CircuitNetwork/SimpleExamples'
+        //'CircuitNetwork/SimpleExamples'
       ]
     }
   ],
@@ -125,6 +125,15 @@ const sidebars: SidebarsConfig = {
       },
       items: []
     },
+    /*{
+      type: 'category',
+      label: 'Надписи на полях',
+      link: {
+        type: 'doc',
+        id: 'Additionals/Labelling',
+      },
+      items: []
+    },*/
     {
       type: 'category',
       label: 'Сохранёнки разных игр',
