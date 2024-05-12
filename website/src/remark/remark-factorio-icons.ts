@@ -168,6 +168,11 @@ const IconNames: string[] = [
   'Signal 7',
   'Signal 8',
   'Signal 9',
+  'Signal black',
+  'Signal green',
+  'Signal anything',
+  'Signal each',
+  'Signal everything',
   'Green wire',
   'Red wire'
 ];
