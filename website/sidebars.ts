@@ -92,7 +92,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'CircuitNetwork/Writing',
-        //'CircuitNetwork/SimpleExamples'
+        'CircuitNetwork/SimpleExamples'
       ]
     }
   ],
