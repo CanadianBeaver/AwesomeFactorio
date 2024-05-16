@@ -15,12 +15,12 @@
 :::tip Идея
 Снести паровую электростанцию нафиг, чтобы не загрязняла природу своими выбросами по ночам.
 
-А если всё-таки сохранить паровую электростанцию на случай перебоев в работе солнечной электростанции? Например, можно соединить какой-нибудь аккумуляторный блок `Accumulator` красным `Red wire` или зелёным `Green wire` сигнальным кабелем с насосами `Offshore pump` подающими воду `Water` на бойлеры `Boiler` и включать насосы только если заряд на аккумуляторном блоке опускается меньше какого-то значения, например 50%.
+А если всё-таки сохранить паровую электростанцию на случай перебоев в работе солнечной электростанции? Например, можно соединить какой-нибудь аккумуляторный блок `Accumulator` красным `Red wire` или зелёным `Green wire` сигнальным проводом с насосами `Offshore pump` подающими воду `Water` на бойлеры `Boiler` и включать насосы только если заряд на аккумуляторном блоке опускается меньше какого-то значения, например 50%.
 :::
 
 Реализация такой идеи с насосами, проста как всё в мире *Factorio*:
 
-![Backup steam power](../_images/PowerProduction/BackupSteamPower.03.png)
+![Backup steam power](../CircuitNetwork/images/SimpleExamples.04.jpg)
 
 ```bleuprint title="Чертёж первой линии бойлеров с установленными параметрами:"
 0eNrVlsuOozAQRf/Fa2hhXgHUm/mOURTxqBBLYFt+RB1F/HvbRAPpbjPBs5sNwuA6Vfe6bPmOmkEDF4QqVN0RaRmVqPp9R5L0tB7sN3XjgCpEFIwoQLQe7UgqqMcQaE8ooClAhHbwgSo8HQMEVBFF4MGZB7cT1WMDwkxYCHXb6lEPtWLCYDmTJoZRm9BwwiwrA3QzLziKDd6UpQQbTg1c6isxEWYa04prdfpR6JUIpc2XtdZ5RvgLTQ8ShdamkjYG20cvAOhztaRDVTwdJxPwQ0G8cNn5LC9MQMj1yJ0asrfsjwr8lm3oaIloNVEn869b4s9ESD9tM1yq2i5kFtnRyGsx21uhdz/t+Em3HScbXiQeXuD/1IutPkjXvGM9DCEMBidIG3I2gMuBPFodiGYHKJD+0jAt7FbBydGRJVuycMLhVZNZrAOSf4GEioW9YJp2Tlz6vcqOiIdRBuSAH3zg8V/gsQNevJaPX8ovfVcqzf9hpXDkPhxdnbB4XBZ7XMB4NzorPdHrcdYwMoD7LM63kK6GwImv31nyregvdqdB6fQ73VM59jIj2+1zevD0Od+Pjj3R6w5stKAgQkIlCLXhyNp7h130woseb9OdvbLuTSVqKjkTKmxgUC/axMLtVWO+lFRPd5gAXUHIh5oCp4cyPhRpmeRlPk2fiBPnbA==
