@@ -50,7 +50,7 @@
 
 ![Так плавить нельзя](../_images/RawResourcesProcessing/RawProcessing.10.png)
 
-Но есть одно но, если стыковать несколько таких вариантов и совмещать их по конвейерам на которые производится выгрузка, то можно нивелировать тлетворное влияние лукавого. Такой вариант выглядит не очень, но при определённых обстоятельствах сойдёт:
+Но есть одно "но", если стыковать несколько таких вариантов и совмещать их по конвейерам на которые производится выгрузка, то можно нивелировать тлетворное влияние лукавого. Такой вариант выглядит не очень, но при определённых обстоятельствах сойдёт:
 
 ![А вот так плавить можно](../_images/RawResourcesProcessing/RawProcessing.21.png)
 
@@ -115,6 +115,7 @@
 ```
 
 :::tip Обратите внимание
+
 Подавать ресурсы лучше на двух жёлтых конвейерах `Transport belt`. В начале игры, пока со всем всё туго и нужно экономить, лучше использовать два обычных конвейера вместо одного быстрого `Fast transport belt`. До запуска первого спутника экономия пространства ничто по сравнению с экономией ресурсов.
 
 ![Сравнение затрат конвейеров](../_images/HowToStartNewGame/Belts.01.png)
@@ -122,6 +123,7 @@
 Просто сравните: за три железные руды можно поставить параллельно две единицы обычного конвейера, которые дадут пропускную способность одного быстрого конвейера, который стоит аж одиннадцать железных руд, плюс время на его создание.
 
 Улучшать разделитель `Splitter` подающий ресурсы для плавки не нужно, он вполне справляется с двумя простыми конвейерами. А вот в конце чертежа, имеет смысл раскошелится на быстрый разделитель `Fast splitter`, который выдаст два простых конвейера выплавленного и которые обходятся гораздо дешевле одного быстрого конвейера.
+
 :::
 
 Важным подспорьем в обновлении с каменных печей становятся роботы `Construction robot`, с ними обновиться так вообще как два пальца об чертёж. Вот планы обновления:
@@ -202,7 +204,7 @@
 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
 ```
 
-:::warning Большой варнинг на счёт манипуляторов
+:::warning Большой варнинг насчёт манипуляторов
 Твёрдотопливные манипуляторы не справятся даже в самом простом случае, камней нужно загружать много. Для нормальной работы этого и следующего чертежа нужен бонус вместимости манипулятора второго уровня `Inserter capacity bonus` или быстрее манипуляторы `Fast inserter` загружающие камни в печи.
 :::
 
