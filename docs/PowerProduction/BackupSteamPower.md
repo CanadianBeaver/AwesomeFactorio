@@ -65,3 +65,5 @@ Cолнечная электростанция находится в одной 
 Детальный разбор смотрите на YouTube канале.
 
 [*![Переводим паровые и атомные электростанции в резерв](http://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](http://www.youtube.com/watch?v=FfmslzAyOsc)
+
+[*![А тут простой костыль для перевода паровой электростанции в резерв](http://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](http://www.youtube.com/watch?v=Nfm9Njib4tE)
