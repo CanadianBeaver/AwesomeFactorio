@@ -2,26 +2,48 @@
 
 В начале игры *паровая энергия* єсмѣ наше всё. Вменяемые альтернативы появляются только тогда, когда удаётся накопить пару тыщ солнечных панелей `Solar panel` и чуть меньше тыщ аккумуляторных блоков `Accumulator`. До запуска [первого спутника](../HowToStartNewGame/README.md) про солнечную энергетику можно вспоминать от случая к случаю не возлагая на неё больших надежд. Но даже если солнечных панелей и хватает чтобы полностью покрыть потребности в электричестве и даже зарядить аккумуляторные блоки, **в ночное время всё равно запускается выработка энергии из пара `Steam`**, что приводит к сжиганию угля `Coal` или твердого топлива `Solid fuel`, [другие типы топливо надеюсь не используете](EfficientFuelForSteamPower.md#твёрдое-топливо-супротив-ракетного).
 
-Почему так происходит? А потому, что электроснабжение в *Factorio* осуществляется на основании приоритетов, где каждый источник энергии имеет свой приоритет. Высший приоритет имеют солнечные панели `Solar panel`. Далее следуют паровые двигатели `Steam engine` и паровые турбины `Steam turbine`. И на последнем месте аккумуляторные блоки `Accumulator`. [Пруф](https://wiki.factorio.com/Electric_system).
+## Откуда берётся электричество
+
+Электроснабжение в *Factorio* осуществляется на основании приоритетов, где каждый источник энергии имеет свой приоритет. Высший приоритет имеют солнечные панели `Solar panel`. Далее следуют паровые двигатели `Steam engine` и паровые турбины `Steam turbine`. И на последнем месте аккумуляторные блоки `Accumulator`. [Пруф](https://wiki.factorio.com/Electric_system).
 
 :::info То бишь
 Первым кандидатом на выработку электричества всегда выступают солнечные панели, и если производимой ими электроэнергии хватает для снабжения всего и вся, то дальше наши полномочия всё. Паровые двигатели и паровые турбины останавливаются, аккумуляторные блоки из поставщиков превращаются в потребителей и начинается их зарядка. Если же электричества от солнечных панелей не хватает или на дворе у нас *"тиха украинская ночь, прозрачно небо, звёзды блещут"*, то вот тогда *Factorio* берёт следующего кандидата на основании приоритетов. А на втором месте, вслед за солнечными панелями, следуют паровые двигатели и паровые турбины. У них одинаковый приоритет и соответственно производство электричества из пара будет равномерно распределено между всем паровыми агрегатами. И только в самом конце, если уже ничего не помогло, будут изъяты все остатки энергии из аккумуляторных блоков, у которых самый низкий приоритет:
 
 ```mermaid
-flowchart LR;
-    Solarpanel(Solar Panel):::solarpanel-->Steamengine(Steam Engine):::steampanel;
-    Solarpanel-->Steamturbine(Steam Turbine):::steampanel;
-    Steamengine-->Accumulator(Accumulator):::accumulatorpanel;
-    Steamturbine-->Accumulator;
-    classDef solarpanel color:#dedeff
-    classDef solarpanel fill:#9999ff
-    classDef solarpanel stroke:#9999ff
-    classDef steampanel color:#333333
-    classDef steampanel fill:#999999
-    classDef steampanel stroke:#999999
-    classDef accumulatorpanel color:#333399
-    classDef accumulatorpanel fill:#9999cc
-    classDef accumulatorpanel stroke:#9999cc
+stateDiagram
+    direction LR
+    First : Наивысший приоритет
+    Second : Обычный приоритет
+    Third : Наимениший приоритет
+    SolarPanel : Solar Panel
+    SteamEngine : Steam Engine
+    SteamTurbine : Steam Turbine
+    Accumulator : Accumulator
+    state First {
+        direction LR
+        SolarPanel
+    }
+    state Second {
+        direction LR
+        SteamEngine
+        SteamTurbine
+    }
+    state Third {
+        direction LR
+        Accumulator
+    }
+    First --> Second
+    Second --> Third
+
+    classDef solarpanel color:#dedeff,fill:#9999ff,stroke:#9999ff
+    classDef steampanel color:#333333,fill:#999999,stroke:#999999
+    classDef accumulatorpanel color:#333399,fill:#9999cc,stroke:#9999cc
+    classDef panel color:#666,fill:#efefef,stroke:#999,font-weight:100,stroke-width:1px
+
+    class SolarPanel solarpanel
+    class SteamEngine, SteamTurbine steampanel
+    class Accumulator accumulatorpanel
+    class First, Second, Third panel
 ```
 
 :::
