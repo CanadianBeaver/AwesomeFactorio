@@ -14,7 +14,7 @@ stateDiagram
     direction LR
     First : Наивысший приоритет
     Second : Обычный приоритет
-    Third : Наимениший приоритет
+    Third : Наименьший приоритет
     SolarPanel : Solar Panel
     SteamEngine : Steam Engine
     SteamTurbine : Steam Turbine
