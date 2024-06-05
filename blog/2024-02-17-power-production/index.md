@@ -1,6 +1,6 @@
 ---
 title: Улучшаем первую паровую электростанцию уменьшая потребление угля
-tags: [power production, steam energy]
+tags: [power production, steam energy, backup steam power]
 ---
 
 Первая паровая электростанция всегда строиться на угле `Coal`, потому как ничего лучшего на момент начала игры не предвидится. Эта электростанция доживает до запуска первого спутника, а потом либо [переводится в резерв](pathname:///PowerProduction/BackupSteamPower) либо сносится нафиг. А что, если [уголёк заменить на твёрдое топливо](pathname:///PowerProduction/EfficientFuelForSteamPower#уголёк-супротив-твёрдого-топлива)?
