@@ -20,6 +20,12 @@
 0eNqdUltuwyAQvMt+kyh23lyliixsNslKNliwjmpFHKAH6cV6koLdpmmSfqQ/INhhZmfYM5R1h60jwyDPQJU1HuTLGTwdjKrTHfctggRibECAUU06sVPGt9bxpMSaIQggo/EVZBZ2AtAwMeHINBz6wnRNiS4C/uIQ0Fofn1mTVCPVJM+mSwE9yNV8uowSmhxWI2AhILbKztZFiUd1IuvSq4pc1REXsaYvVHtynos7Qydy3MWbSz8jYoIndD0fyRySrRQIq5TOINm0yilOYvDx9j4AviTRqLLGQpNPO0h2Hf5UHSpdHJXRqTWOkcRs9qr2V5DvwohtrI4ks7EDM9r2qfssLQeHaK7TJQ0yD7sQgrhLPP9P4vmTid/avzH3yP/vhB7Zz56xnw324/QNkyqvBltA/FI/uMg32WK9zdeb1XY2ny1C+ASpXw5K
 ```
 
+Другим примером можем быть управление движением предметов на конвейере, если имеется их достаточное количество. Это позволяет накапливать предметы для производства и отбирать их с конвейера при перепроизводстве. Для этого достаточно соединить два сочления конвейера цветным проводом, зелёным например. Первое сочление (красная стрелка) ставим на считывание количества предметов. На втором сочлении задаём условие движения конвейера (зелёная стрелка).
+
+![Другой простой пример с конвейером](./images/CircuitNetwork.03.jpg)
+
+Таким образом, мы будем производить модули продуктивности `Productivity module` и складывать в сундуки разные микросхемы, только если их производится в переизбытке. А где-то сверху можно разместить производство, требующее и зелёных `Electronic circuit` и красных микросхем `Advanced circuit`, например производство синих микросхем `Processing unit`.
+
 Схема позволяет удерживать движение предметов на конвейере для безостановочного производства и складировать произведённые излишки в сундуки.
 
 ## Запуск производства при достаточном количестве предметов
