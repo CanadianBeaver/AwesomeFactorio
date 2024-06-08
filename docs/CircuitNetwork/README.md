@@ -36,11 +36,13 @@
 
 ## Простой пример с комбинаторами
 
+Комбинаторами можно сделать много чего интересного, но для простой демонстрации трудно что-то придумать. Всё простое делается обычными сигнальными проводами, без комбинаторов. Попробую привести пример управления потоками жидкости, хотя такой пример и для сундуков тоже подходит.
+
 Допустим мы хотим держать какое-то минимальное количество жидкости в цистерне `Storage tank` и расходовать её при заполнении цистерны. Для этого понадобиться всего два комбинатора и помпа `Pump`. Первый, сравнивающий комбинатор `Decider combinator`, будет открывать помпу если количество жидкости скопилось больше, скажем 20K единиц в цистерне. Второй, арифметический комбинатор `Arithmetic combinator` будет вычитать количество жидкости, которую можно слить при переполнении, пусть это будем 15K.
 
 ![Простой пример с жидкостью](./images/CircuitNetwork.04.jpg)
 
- То есть, мы сливаем жидкость из цистерны как только её накопится больше двадцати тысяч и останавливаем слив, как только стало пять тысяч единиц.
+То есть, мы сливаем жидкость из цистерны как только её накопится больше двадцати тысяч и останавливаем слив, как только стало пять тысяч единиц. Для примера с сундуками вместо цистерны, управлять нужно поведением выгружающего манипулятора, вместо помпы.
 
  ```blueprint title="Чертёж для дизельного топлива (можно менять на любое другое)"
  0eNqdld2OmzAQhd9lLitYgSHZhItKfY5qhQhMyKhgW/6JGkV+99rQQrbANt0bJOPxmeGbM+YOp86iVMQNFHegWnANxfc7aGp51YV35iYRCiCDPUTAqz6stBGqajE2Ff8BLgLiDf6EInVvESA3ZAhHnWFxK7ntT6h8wKQgSfrjIm6VsLzxylJof0zwkNNLHdLDyy6CGxTxPktfdj5JQwrrMYS5aKHNZm3byxVFlmzq7SPwn26U6MoTXqorCRVO1aRqS6b0e80kdSalTbkAdCVlrH8zMxoi4m+BT+DqWXnISVj0slKVCTngK7hxn4+16CCZhkerEPkjRGqg8Ej+FBWWzL05t8Iim6qoFJlLj4bq2Oc9ER/yruA+zriT93DydTiz8sxHfxaQxqBRzpzSXZJ4VkKiJzWUAV/8UWGNtCvi585SM0t31F5MLKgDt4VXYfME3AjYc8HpRify9ZlZcSd7aMDgz8+aYquU3VRKgzU1qD52BEveO2LNA7+FnjPAdo8eB4QlQ+P/GpLtzv9j7uTNF2e5Kc9K9CVxrwHFueo0/ocxsoUxovVO5B9aJlv0aUNma6z3z1+fLJ+6x46L6y5kHm704uEHEMEVlR7v10Oavx7Z62F/TLIkd+4XkTUSgA==
