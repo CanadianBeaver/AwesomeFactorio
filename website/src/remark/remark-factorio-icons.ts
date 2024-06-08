@@ -174,7 +174,12 @@ const IconNames: string[] = [
   'Signal each',
   'Signal everything',
   'Green wire',
-  'Red wire'
+  'Red wire',
+  'Buffer chest',
+  'Storage chest',
+  'Active provider chest',
+  'Passive provider chest',
+  'Requester chest'
 ];
 
 interface Options {

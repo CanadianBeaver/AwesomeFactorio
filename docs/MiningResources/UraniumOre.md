@@ -14,7 +14,7 @@
 0eNqdVe2K2kAUfZUwUGghionRaH72NWopfgwyECdhMikVCexuWdqypX2A/pA+QMG12nV1dV/h5o16Z1yCbQwb/RGGmXvmnDNnbpIJ6fkxDQXjkngTMqBRX7BQsoATj8AUdrBOL9Kb9ApWsDRggQu36Q3MYZZ+S7/AEu4NeMTFOSwRdw1b2KWXCu0ZrUbVfdHhHQ4/06v0AkErLCxhk37VkDnsvA63qgZMVRUx3+E3yiA3oh4MDdrBRgka8AN+wdR4CXdY/YPqqoTaD+jtM6zV5FWH24VkGrJVNuFeWf3H9YGUWuzwejHPbfpRBaL3GyqNA6/6kFtE5vVgZhoImcHaSD9pMX2qOdq/xslC8SkYhoJ6OwNVLjVe0c3RWWbhCbA3AjOU1gd5xOoCnw0uKF8L3LlSRlZwtz/sArNT+7dKM28QSYhJIt4NKzKoDAUbqIb4QDzXJGPitROTsH7AI+K9mZCIDXnXVwA5Dim2CpN0hNt5d6Rm1Kd9KVi/MmKc8WFlIJjvE8XABxQpreStSSiXTDK6J9ST8Tsej3pUIOAZKpOEQcT2bapNWtWGtokjygyYwF26aidmjt3O2KXo8igMhKz0qC/ztPUn2tr/tM4R2npGG+MxxVAEOD5DnPPrmFmkPIwlOaLjnBpOo0iseYS9cW70Tpnomxn7iA5YPKpkImHg0+KccEyO0LnnRuGUiaJ1cp80yvRJ+4w+cYr7JIhlQaNYtXPv0i1zl5Z1cj5umXys09/PZine+rnd4pbpFss52XYrbxs/jPpb6h38mE3id5EI1153I9bH+Xsqov29tCzHbdtus23XWnU7Sf4Cgl8+qA==
 ```
 
-Да и [самый ручной чертеж](../MiningResources/README.md#самый-ручной-чертёж) тоже подойдёт. Тут нужно чтобы электрические буры `Electric mining drill` были соединены какими-нибудь сторонами, чтобы серная кислота `Sulfuric acid` проходила от бура к буру и сквозь них. Если не получается, буры можно соединить трубами, но это не кошерно. Соединены должны быть именно центральные клетки на сторонах электрических буров, куда не выгружается руда.
+Да и [самый ручной чертеж](../MiningResources/README.md#самый-ручной-чертёж) тоже подойдёт. Тут нужно чтобы электрические буры `Electric mining drill` были соединены какими-нибудь сторонами, чтобы серная кислота `Sulfuric acid` проходила от бура к буру и сквозь них. Если не получается, буры можно соединить трубами, но это не кошерно. Соединены должны быть именно центральные клетки на сторонах электрических буров, куда не выгружается урановая руда.
 
 *![Как соединять электрические буры](../_images/MiningResources/UraniumOre.01.png)*
 
@@ -22,7 +22,7 @@
 
 ![Обычное дело при добыче урановой руды](../_images/MiningResources/MiningResources.03.png)
 
-И под конец, урановая руда `Uranium ore` является единственным сыпучим ресурсом, который нельзя добывать киркой, которая [стальной инструмент](https://wiki.factorio.com/Steel_axe/ru) `Steel axe`.
+И под конец, урановая руда `Uranium ore` является единственным сыпучим ресурсом, который нельзя добывать киркой, которая [стальной инструмент](https://wiki.factorio.com/Steel_axe/ru) `Steel axe`. Также, уран и ядерную энергетику в *Factorio* добавили в самом конце цикла разработки и добавили аля тяп-ляп, поэтому существует огромный дисбаланс с добычей урановой руды. И хорошо, что этот дисбаланс в пользу игрока, поэтому проблем с добычей урана никогда не происходит, хватает двух-трёх добывающих аванпостов для огромнейшей базы с кучей ядерных электростанций и 1000+ поездов.
 
 ## Вопросы *from Dummies*
 

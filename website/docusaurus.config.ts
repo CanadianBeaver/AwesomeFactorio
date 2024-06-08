@@ -48,6 +48,10 @@ const config: Config = {
     },
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
@@ -100,6 +104,7 @@ const config: Config = {
         language: ["en", "ru"],
       }),
     ],
+    '@docusaurus/theme-mermaid'
   ],
 
   themeConfig: {

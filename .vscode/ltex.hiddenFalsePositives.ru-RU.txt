@@ -3,6 +3,7 @@
 {"rule":"RU_SIMPLE_REPLACE","sentence":"^\\QА чё за FPS?\\E$"}
 {"rule":"RU_SIMPLE_REPLACE","sentence":"^\\QЧё за UPS?\\E$"}
 {"rule":"MORFOLOGIK_RULE_RU_RU","sentence":"^\\QБольший эффект даст новая видюха, но нынче это запредельно дорого.\\E$"}
+{"rule":"DotOrCase","sentence":"^\\Q:::warning Маяки должны быть сдвинуты на одну клетку относительно печей Обратите внимание как размещены маяки относительно печей.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qжелезная руда \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q в железные плиты \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q,\nмедная руда \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q в медные плиты \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q,\nкамни \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q в каменные блоки \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q,\nа также железные плиты \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q в стальные балки \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
 {"rule":"MORFOLOGIK_RULE_RU_RU","sentence":"^\\QКому скучно переходите к следующей главе, там будут готовые чертежи, а задротов и очкариков виллкоммен тута.\\E$"}
 {"rule":"MORFOLOGIK_RULE_RU_RU","sentence":"^\\QВспоминаем как мы обновлялись на стальные печи, тут усё то же самое, простые конвейеры прилагаются.\\E$"}
