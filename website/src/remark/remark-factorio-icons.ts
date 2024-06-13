@@ -179,7 +179,10 @@ const IconNames: string[] = [
   'Storage chest',
   'Active provider chest',
   'Passive provider chest',
-  'Requester chest'
+  'Requester chest',
+  'Programmable speaker',
+  'Military science pack',
+  'Space science pack'
 ];
 
 interface Options {
