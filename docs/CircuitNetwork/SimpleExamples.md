@@ -26,6 +26,10 @@
 
 ![Другой простой пример с конвейером](./images/CircuitNetwork.03.jpg)
 
+```blueprint title="Чертёж с настроенными значениями"
+0eNrFk0tOwzAQhu8ya7dqQvrygougKnLiaWspsaPxpKKqfAAOwsU4CXZSoJSXBAs2scYz/v+Zz84JqqbHjoxlkCcwtbMe5N0JvNlZ1aQ9PnYIEgxjCwKsalPEpKzvHPGkwoYhCDBW4z3ILGwEoGXDBkelITiWtm8rpFjwlYaAzvl4zNnkGqUmxWI6F3AEuVxP59FCG8J6LCgExFaZXFNWuFcH4yidqg3VveEy5vSr1NaQ5/KHgZQ+KFujnpwl0kgJBqtEJk9B2ylSnIzgdkifzdCqqsFSG59WkFvVeHxLEypd7pXVqSuONCIWpv6i4mV/LG2dxsRx8LfjwD71naXPjhDtJVejY3thE0IQH1jnv2C9mv0z6+KK9dPD43e036P8DPbVffyZdjbQjs98mEpe/EECDkh+QJGvsmK5zperxXp2MytCeAY4aTJm
+```
+
 Таким образом, мы будем производить модули продуктивности `Productivity module` и складывать в сундуки разные микросхемы, только если их производится в переизбытке. А где-то сверху можно разместить производство, требующее и зелёных `Electronic circuit` и красных микросхем `Advanced circuit`, например производство синих микросхем `Processing unit`, как на рисунке. Схема позволяет удерживать движение предметов на конвейере для безостановочного производства и складировать произведённые излишки в сундуки.
 
 ## Светошумовая сигнализация
