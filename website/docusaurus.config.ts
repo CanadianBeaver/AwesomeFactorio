@@ -133,7 +133,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'circuitNetworkSidebar',
           position: 'left',
-          label: 'Логистическая сеть',
+          label: 'Логическая сеть',
         },
         {
           type: 'docSidebar',
