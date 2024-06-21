@@ -244,7 +244,10 @@ const config: Config = {
     }
   } satisfies Preset.ThemeConfig,
 
-  plugins: [require.resolve("docusaurus-plugin-image-zoom")]
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
+  ]
 
 };
 
