@@ -83,10 +83,7 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        googleTagManager: {
-          containerId: 'G-P1GFSP4DQK,GTM-TVJLMXS7'
-        },
+        }
       } satisfies Preset.Options,
     ],
   ],
