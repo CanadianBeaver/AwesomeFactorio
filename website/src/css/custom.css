@@ -84,6 +84,10 @@ img[src*='#left'] {
   border-radius: 12px;
   border-color: var(--ifm-color-primary-darkest);
   border-style: solid;
+  margin-right: 12px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 img[src*='#right'] {
@@ -93,4 +97,22 @@ img[src*='#right'] {
   border-radius: 12px;
   border-color: var(--ifm-color-primary-darkest);
   border-style: solid;
+  margin-left: 12px;
+  margin-bottom: 6px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
+
+img[src*='#right50'] {
+  float: right;
+  max-width: 30%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
