@@ -85,8 +85,7 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         googleTagManager: {
-          containerId: 'GTM-TVJLMXS7'
-          //containerId: 'G-P1GFSP4DQK'
+          containerId: 'G-P1GFSP4DQK'
         },
       } satisfies Preset.Options,
     ],
