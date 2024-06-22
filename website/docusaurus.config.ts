@@ -164,7 +164,7 @@ const config: Config = {
       links: [
         {
           items: [
-            { label: 'Начало', to: '/HowToStartNewGame', },
+            /*{ label: 'Начало', to: '/HowToStartNewGame', },*/
             { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
           ],
         },
@@ -242,7 +242,7 @@ const config: Config = {
 
   plugins: [
     require.resolve("docusaurus-plugin-image-zoom"),
-    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
+    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344', webvisor: true }],
   ]
 
 };
