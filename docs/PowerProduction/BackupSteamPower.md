@@ -82,7 +82,7 @@ stateDiagram
 
 Предлагаю собственно чертёж `вундершняги`, которая совместно с другими комбинаторами управляет работой выключателя питания.
 
-![Backup steam power](../_images/PowerProduction/BackupSteamPower.02.png)
+![Backup steam power](../_images/PowerProduction/BackupSteamPower.01.png)
 
 ```blueprint title="Чертёж c вундершнягой:"
 0eNrFV9uOmzAQ/ZXIT60EVSCEhKiqtNof6EPf2hVyzCSxZAyyze5GUf69Y8h1MRtIL/uCsGwfe+bMnBnvyFJUUCouDVnsSAaaKV4aXkiyID82MCqLF1CjUhVZxfCH61EhRwYnFF9vzEjzDEafDv85FWIEAphRnOFOAZ9/yTMIK6Su8isQAasjRvPrgCAe4XYrWfzcEc3Xkgp7VbMtAe/IDeS4QtLcjuqDfP3CDduQPW6UGbySRbB/8ghIww2HBqcebFNZ5UtQuOCEoAtBlV9SCQJhy0Lzxhk7gjj+NPwy9ciWLJLoy3S/91pAYU+gKLkBNOkLFB+Bpm6gyO0cB1LQ4MToN/S3UYVIl7Chz7xQdg3jilXcpDiXnTauuNImbbHyzJWpqDgT06zwFWSkgdeG2pAb20FeUkWNPYV8I/tmXmII8Jr1HQnsx269YI7jKMAbH29lx6Glea0AZGslTiHuYzV+O5N45IUrqP/Hdv9jFbR2T64XIVLjxRStMGjeigoNDt9PT/YfLfbR2iWXtbWO8JodyURW8ZQMD2XNgtBNyooLA6pXblCtIV8KLtd+TtmGS/AnDRmVZSK4yBbvJtgxRf1VpSRl4AQKhwDlXNqrZYoL4USb9EAruI2xFdqmtk6QCNlzEBWfA9UqkH+6lVUgF1HxNVESUAGXRVUzkTw5TpideWCsyivRFQKHLJx1ZGFRmbIakHEPnQnlTpTxdUoF1l8Oc+ZvHCZoXro0ZX7pJwdOMtDxZ910OD52Od5adDgiA4alRr2fg1FyIKBnBh5Az7Ko79DFh2tVjNuy6A1mvuG3xi23aZ0J6UoVecol4hxFa0hwzC7cWwdH3A4Wj4Q91Tq4gRZ2hF4QDCR09gGEHgqdBotyF2d/yP6p0g7n3sXduHelbdfkd2Ii6o3TJURBOLDGRuFfrbE3/d8qrmgx16k979A29E/AqMsJk4EyOglv6HIQDXTrJPiHrcsS6zre6t5mRRuguQ9yjX3B3Y2KrJgAbMQVUGZdcG+LsgFqfHhlGyrXHTZ1NCnBtO8r5cRF0sFufF9NnH9gTZy+EcWv/1cUe3dL7xTAcc8CNxv89qt5tsJiQ21x8ab3iKBL3Lwg3+s3+On194yp11A4D6JZEs7mcTKejKP9/jdULWp6
@@ -103,6 +103,26 @@ stateDiagram
 [Взято отсюда](https://wiki.factorio.com/Tutorial:Circuit_network_cookbook#Backup_steam_example)
 
 Вот собственно и всё. Мы получили чертёж, который позволяет отключать паровые электростанции, если аккумуляторные блоки заряжены и включать паровые электростанции, если аккумуляторные блоки разряжены.
+
+## А ведь можно творить и по другому
+
+У аффтара всё хорошо с математикой или он что-то курил, когда писал про `вундершнягу`? Ведь схему можно сократить на один комбинатор! Зачем нам комбинаторы задающие пределы срабатывания для выключателя питания, когда их можно объединить математическим сложением?
+
+![Backup steam power](../_images/PowerProduction/BackupSteamPower.02.png)
+
+А ведь действительно таки можно и вот чертёж реализующий идею с математикой.
+
+```blueprint
+0eNq1V9tuozAQ/Rc/rqAKlxASrVaq+hmrCjlmklgyBvnSNqr49x1DC2lwGpLdfYlkMGc8c+accd7JVlhoFJeGbN4JZ7XUZPP7nWi+l1S4Z+bYANkQbqAiAZG0citdC6rChkoQpA0IlyW8kU3UPgcEpOGGQw/TLY6FtNUWFG7wAgSkqTV+U0sXD3HS7GEZkCPZhFmSPCzbNpggxTORkhEp9iMlM5HWV5HSAampX0GF+pUbdphCLUcgrB2W3KhaFFs40BdeK7eJccUsNwW+K4cvd1xpU0yIeeHKWCpOuOl2hApK0sNrQx29C7eoGqqocVHIL9L27yUwF0M70Mj97BWAPOWPl8hddJJy9wDz/TyoW8ftM+I92cXkS4z8yhV0i4XrkScbTTbFXzchVF+/Ao9vMK8dFRo8VV8OiX+mGmKaWy67NCfFT/KRxwh5DEiJUVm/I/bTsePCgJolDKo1VFvB5T6sKDtwCWHS02AdB9GJVoKrYCDwYIqzcGeVpAy8QPEtQBWX7mil4kJ40ZIZaDV33bXD3NTRC5IifR6msrFFKypEOJyqqQV4mFqfMyWB7w/b2nZURItnT4zVyARjtrLC3wXpgLy4IMHamsbeILfHG9V0Jp7IlcyTTz7mo7g5VGCwXt/1d5oPmZ13d+bPdAQe/UbfbzgaHEox+k7o/K5uAH2nOwb5gZ/eU94L9XVxr1S3t6Z45u5LXKzP+lfQqvEQsPrath4gZ4i3KOF0HnqUkPmEEEW3+eIy+ce+eHUuTQwRBwPXhYv34fXz5ZReoCyKb6t0llwnL7mtsFn6XwfOFt0Yj3XviNEGaBWC3KOb3z1epGUC8OqkgDJXg3sHywGoCeGNHajcX8jpwmiJxrtXCYyXePuaZZLxeiYjH6h/55CPXy9ky7ML2c87fHFQU3MsumIVO1VXBZeI8qmj+b6ZT2wz8Ott9a2h5hM/Db6TrdO964PNyZ+RgLygAHpG8ihdreNVnq0XySJt2z/Y9EC6
+```
+
+У нас по-прежнему остаётся сравнивающий комбинатор `Decider combinator`, проверяющий минимальный заряд аккумуляторного блока и выдающий сигнал `Signal red` выключателю питания если заряд упал меньше 5%. А вот остальные комбинаторы, вместе с вундершнягой, заменяет один арифметический комбинатор `Arithmetic combinator`, который "добавляет" необходимую разницу в заряде до отключения резервной паровой электростанции. В данном случае со знаком минус. Тут нужно понимать, что мы указываем со знаком минус именно разницу, которую потом нужно сложить с минимальным значением срабатывания. То есть `5%+(-1*-55%)`, что и означает, зарядку аккумуляторного блока максимум до 60%.
+
+## Сравнение двух чертежей
+
+Довольно сложно сравнить эти два чертежа, так как они сильно похожи. Чертёж с `вундершнягой` обладает простым и понятным интерфейсом. У нас есть комбинатор для минимального срабатывания, отдельно комбинатор для отключения и даже если по ходу игры забыли как всё тут работает, без проблем можно вспомнить просто посмотрев на условия и значения. Второй чертёж, что с арифметическим комбинатом, не так прост в настройке, зато потребляет на целый киловатт энергии меньше. Играя в долгую это может порадовать и [нердов и гиков](../Additionals/NerdsVsGeeks.md), а вот у нормальных игроков может случиться нервный тик разбираясь не на трезвую голову как тут всё устроено.
+
+"Думайте сами, решайте сами, иметь или не иметь..."
 
 ## Больше подробностей
 

@@ -170,6 +170,8 @@ const IconNames: string[] = [
   'Signal 9',
   'Signal black',
   'Signal green',
+  'Signal red',
+  'Signal yellow',
   'Signal anything',
   'Signal each',
   'Signal everything',
