@@ -8,10 +8,10 @@
 
 В этой сохранёнке собраны чертежи для строительства электростанций на всех стадиях игры, от простых до сложных.
 
-⏳ [Power production](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip)
+💾 [Power production](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip)
 
 ## Набор чертежей для добычи и плавки ресурсов
 
 В этой сохранёнке собраны чертежи для строительства добывающих аванпостов и плавильных кузниц.
 
-⏳ [Resources](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip)
+💾 [Resources](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip)
