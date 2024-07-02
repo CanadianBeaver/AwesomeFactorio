@@ -39,4 +39,4 @@ export default function CodeBlockWrapper(props: Props): JSX.Element {
 
 И вуаля, теперь блоки чертежей более заметны, причём работает для всего сайта и не портит другие блоки:
 
-![выделение чертежей](./screenshot.01.png)
+![выделение чертежей](./screenshot.jpg)

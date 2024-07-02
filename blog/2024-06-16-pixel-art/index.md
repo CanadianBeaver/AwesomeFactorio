@@ -11,7 +11,7 @@ tags: [circuit network]
 
 И вуаля, картина маслом:
 
-![pixel art в Factorio](./screenshot.01.png)
+*![pixel art в Factorio](./screenshot.png)*
 
 Подробности [в статье про комбинаторы](pathname:///CircuitNetwork/Writing).
 
