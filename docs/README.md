@@ -1,3 +1,5 @@
+# Оглавление
+
 * [Как начать играть](HowToStartNewGame/README.md)
   * [Твердотопливные чудеса](HowToStartNewGame/BurnerDevices.md)
 
@@ -20,3 +22,4 @@
 * [Логистические сети](CircuitNetwork/README.md)
   * [Простые примеры](CircuitNetwork/SimpleExamples.md)
   * [Метки на постоянных комбинаторах](CircuitNetwork/Writing.md)
+  * [Комбинаторы](CircuitNetwork/Combinators.md)
