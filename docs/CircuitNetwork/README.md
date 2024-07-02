@@ -52,4 +52,4 @@
 
 В [*WiKi* у *Factorio*](https://wiki.factorio.com/Tutorial:Combinator_tutorial) есть множество неплохих примеров, изучить которые безусловно полезно. Хотя там такой задроцкий материал, что без горячительного не разобраться. Лучше у меня читайте и подписывайтесь на мой [YouTube](https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1). А вот ещё материалы:
 
-[*![Примеры логических сетей на комбинаторах](http://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=wzzepgeYcpw)
+[*![Примеры логических сетей на комбинаторах](http://img.youtube.com/vi/wzzepgeYcpw/0.jpg)*](http://www.youtube.com/watch?v=wzzepgeYcpw)
