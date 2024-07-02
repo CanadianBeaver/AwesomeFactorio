@@ -58,4 +58,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Простые примеры логических сетей.](http://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=vixfnONzSgU&t=1082)
+[*![Простые примеры логических сетей](http://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=vixfnONzSgU&t=1082)
