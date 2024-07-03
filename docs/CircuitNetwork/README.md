@@ -44,9 +44,11 @@
 
 То есть, мы сливаем жидкость из цистерны как только её накопится больше двадцати тысяч и останавливаем слив, как только стало пять тысяч единиц. Для примера с сундуками вместо цистерны, управлять нужно поведением выгружающего манипулятора, вместо помпы.
 
- ```blueprint title="Чертёж для дизельного топлива (можно менять на любое другое)"
- 0eNqdld2OmzAQhd9lLitYgSHZhItKfY5qhQhMyKhgW/6JGkV+99rQQrbANt0bJOPxmeGbM+YOp86iVMQNFHegWnANxfc7aGp51YV35iYRCiCDPUTAqz6stBGqajE2Ff8BLgLiDf6EInVvESA3ZAhHnWFxK7ntT6h8wKQgSfrjIm6VsLzxylJof0zwkNNLHdLDyy6CGxTxPktfdj5JQwrrMYS5aKHNZm3byxVFlmzq7SPwn26U6MoTXqorCRVO1aRqS6b0e80kdSalTbkAdCVlrH8zMxoi4m+BT+DqWXnISVj0slKVCTngK7hxn4+16CCZhkerEPkjRGqg8Ej+FBWWzL05t8Iim6qoFJlLj4bq2Oc9ER/yruA+zriT93DydTiz8sxHfxaQxqBRzpzSXZJ4VkKiJzWUAV/8UWGNtCvi585SM0t31F5MLKgDt4VXYfME3AjYc8HpRify9ZlZcSd7aMDgz8+aYquU3VRKgzU1qD52BEveO2LNA7+FnjPAdo8eB4QlQ+P/GpLtzv9j7uTNF2e5Kc9K9CVxrwHFueo0/ocxsoUxovVO5B9aJlv0aUNma6z3z1+fLJ+6x46L6y5kHm704uEHEMEVlR7v10Oavx7Z62F/TLIkd+4XkTUSgA==
+ ```blueprint title="Чертёж для воды (меняйте жидкость на любую другую)"
+0eNqdVNuOmzAQ/Zd5rGAFDuTCQ6V+R7VCDkyyo4Jt+ZI2ivj32lBBtjHbdF+QBo+P55wzMzc4dg6VJmGhugE1Uhiovt/A0FnwLvyzV4VQAVnsIQHB+xAZKzU/Y2q5+AFDAiRa/AVVPrwmgMKSJZxwxuBaC9cfUfuEGUG5Xnk8JY1PliK85AFYmSVwhSo9FC+lx21JYzOdbxPw1Vktu/qIb/xCUodLDenGka39WTsjnUgbWz9wuJC2zv9ZaIwZ6bdAIVD3dLwOWQh6xTW34Q34CsN0LqZaTIDMw+esEcU9T2qhKpO5qBCy4XXw9x+kYIsUpLySMj1r6UQbEaXYv5RrsrAI9CbuU0RtNgNvRuDPksxXSBZzJVyTfevRUpN6cY8kRnEjXA9LSe+ZFvEGWICXHjCfbQKDAaNeeiEvs8z3g1Tou2EsA774q9JZ5SLgp85Ru0D/5NarMKy1j8b2ieZJgD2XvGZCOdfTYkMt6o8dKLN3DsQ0/4PznOBxTe4HjmWjyH8N3brK/5hjdfWFOWHrk5Z9TcJjQHXincH/MKJ4MCKJT8LmQ4uKB4tWYNbM2z6/JspiNo49bM/w8LjDq7uVn8AFtZn2yD4vdge22+9Zvtlth+E3uQIOkA==
  ```
+
+ [Ещё разные примеры с комбинаторами](./Combinators.md).
 
 ## Больше подробностей
 
