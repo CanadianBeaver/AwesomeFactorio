@@ -2,7 +2,7 @@
 
 :::info Капитан Ачевидность *![Капитан Ачевидность](./images/CaptainObvious.jpeg#right)*
 
-В игре пресутсвуют [три типа плавильных печей](https://wiki.factorio.com/Furnace): каменные `Stone furnace`, стальные `Steel furnace` и электрические `Electric furnace`. Каменные печи доступны сразу, одна даже будет в рюкзаке при старте игры. Стальные печи появятся чуть позже, освоить их использование возможно до момента [первого выхода с базы](../HowToStartNewGame/README.md#первый-выход-с-базы), то есть в течении первых часов игры. Электрические же печи станут доступны исчё позже, внедрить несколько электрических штучек, особенно для плавки камней `Stone`, можно будет с открытием фиолетовой науки, она же производственный исследовательский пакет `Production science pack`. Массовый же переход на них производим [после запуска первого спутника](../HowToStartNewGame/README.md#после-запуска-спутника). До наличия достаточного количества ресурсов (дофига нужно) для производства вторых модулей эффективности `Efficiency module 2` проку в электрической плавке немного.
+В игре присутствуют [три типа плавильных печей](https://wiki.factorio.com/Furnace): каменные `Stone furnace`, стальные `Steel furnace` и электрические `Electric furnace`. Каменные печи доступны сразу, одна даже будет в рюкзаке при старте игры. Стальные печи появятся чуть позже, освоить их использование возможно до момента [первого выхода с базы](../HowToStartNewGame/README.md#первый-выход-с-базы), то есть в течении первых часов игры. Электрические же печи станут доступны исчё позже, внедрить несколько электрических штучек, особенно для плавки камней `Stone`, можно будет с открытием фиолетовой науки, она же производственный исследовательский пакет `Production science pack`. Массовый же переход на них производим [после запуска первого спутника](../HowToStartNewGame/README.md#после-запуска-спутника). До наличия достаточного количества ресурсов (дофига нужно) для производства вторых модулей эффективности `Efficiency module 2` проку в электрической плавке немного.
 :::
 
 :::warning Будет много картинок и не только
@@ -10,10 +10,12 @@
 :::
 
 :::info Плавятся не все ресурсы, а только:
+
 * железная руда `Iron ore` в железные плиты `Iron plate`,
 * медная руда `Copper ore` в медные плиты `Copper plate`,
 * камни `Stone` в каменные блоки `Stone brick`,
 * а также железные плиты `Iron plate` в стальные балки `Steel plate`.
+
 :::
 
 ## Самое начало
@@ -48,7 +50,7 @@
 
 ![Так плавить нельзя](./images/RawProcessing.10.jpg)
 
-Но есть одно но, если стыковать несколько таких вариантов и совмещать их по конвейерам на которые производится выгрузка, то можно нивелировать тлетворное влияние лукавого. Такой вариант выглядит не очень, но при определённых обстоятельствах сойдёт:
+Но есть одно "но", если стыковать несколько таких вариантов и совмещать их по конвейерам на которые производится выгрузка, то можно нивелировать тлетворное влияние лукавого. Такой вариант выглядит не очень, но при определённых обстоятельствах сойдёт:
 
 ![А вот так плавить можно](./images/RawProcessing.21.jpg)
 
@@ -113,6 +115,7 @@
 ```
 
 :::tip Обратите внимание
+
 Подавать ресурсы лучше на двух жёлтых конвейерах `Transport belt`. В начале игры, пока со всем всё туго и нужно экономить, лучше использовать два обычных конвейера вместо одного быстрого `Fast transport belt`. До запуска первого спутника экономия пространства ничто по сравнению с экономией ресурсов.
 
 ![Сравнение затрат конвейеров](../HowToStartNewGame/images/Belts.01.jpg)
@@ -120,6 +123,7 @@
 Просто сравните: за три железные руды можно поставить параллельно две единицы обычного конвейера, которые дадут пропускную способность одного быстрого конвейера, который стоит аж одиннадцать железных руд, плюс время на его создание.
 
 Улучшать разделитель `Splitter` подающий ресурсы для плавки не нужно, он вполне справляется с двумя простыми конвейерами. А вот в конце чертежа, имеет смысл раскошелится на быстрый разделитель `Fast splitter`, который выдаст два простых конвейера выплавленного и которые обходятся гораздо дешевле одного быстрого конвейера.
+
 :::
 
 Важным подспорьем в обновлении с каменных печей становятся роботы `Construction robot`, с ними обновиться так вообще как два пальца об чертёж. Вот планы обновления:
@@ -148,7 +152,7 @@
 
 ![Так стальные балки плавить нельзя](./images/RawProcessing.05.jpg)
 
-### Чертёж первого уровня, каменные печи с твёрдотопливными манипуляторами
+### Чертёж первого уровня, тоже каменные печи с твёрдотопливными манипуляторами
 
 А вот собственно и кошерная кузница стальных балок, берите и пользуйтесь:
 
@@ -158,7 +162,7 @@
 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
 ```
 
-### Чертёж второго уровня, стальные печи на быстрых конвейерах
+### Чертёж второго уровня, тоже стальные печи на быстрых конвейерах
 
 Улучшим кузницу до стальных печей, усё как и прежде. Заменяем старое на новое, проводим липестричество по краям, подаем ещё один конвейер ресурсов и всё.
 
@@ -206,7 +210,7 @@
 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
 ```
 
-:::warning Большой варнинг на счёт манипуляторов
+:::warning Большой варнинг насчёт манипуляторов
 Твёрдотопливные манипуляторы не справятся даже в самом простом случае, камней нужно загружать много. Для нормальной работы этого и следующего чертежа нужен бонус вместимости манипулятора второго уровня `Inserter capacity bonus` или быстрее манипуляторы `Fast inserter` загружающие камни в печи.
 :::
 
@@ -294,11 +298,14 @@
 *Нерды* выступают за обязательное следование канонам инженерии и правилу "что требует меньше ресурсов, то есть труЪ". *Гики* напротив, утверждают, что "чертежи должны быть оптимизированы под математику *Factorio*" и не важно насколько они противоречат аксиомам инженерии. Обычный игрок, не доходит до таких пограничных состояний. А вот задроты, как правило, начинают свой путь с нердов и постепенно склоняются в сторону гиков, по мере разрастания их убогой базы. [Детали подобных расстройств тут](../Additionals/NerdsVsGeeks.md).
 :::
 
-## Что ещё бы посмотреть? Есть ТвойТюб, есть сохранёнка...
+## Что ещё бы посмотреть?
+
+Есть ТвойТюб, есть сохранёнка...
 
 [Сохранёнка со всеми чертежами](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip), все чертежи в книге игры. А также детальный разбор на YouTube канале:
 
 [*![Плавим ресурсы](http://img.youtube.com/vi/z7HcOThwafg/0.jpg)*](http://www.youtube.com/watch?v=z7HcOThwafg)
 
 Дополнительные материалы:
+
 * [Средние опоры ЛЭП в чертежах плавки стальных балок](/blog/2024/03/27/smelting-resources)

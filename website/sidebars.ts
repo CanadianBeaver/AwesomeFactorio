@@ -52,7 +52,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Погрузка и разгрузка',
+      label: 'Маяки и модули',
+      link: {
+        type: 'doc',
+        id: 'RawResourcesProcessing/BeaconsAndModules',
+      },
+      items: []
+    },
+    {
+      type: 'category',
+      label: 'Погрузка и разгрузка поездов',
       link: {
         type: 'doc',
         id: 'LoadingAndUnloadingTrains/README',
