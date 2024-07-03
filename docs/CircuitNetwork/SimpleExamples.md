@@ -1,13 +1,15 @@
 # Простые примеры
 
 :::tip Вся статья, кратко
-Здесь собраны простые примеры логических сетей, без комбинаторов и прочей лабуды, только красные `!Red wire` и зелёные `!Green wire` сигнальные провода, только чешский *hardcore*.
+Здесь собраны простые примеры логических сетей, без комбинаторов и прочей лабуды. Только сигнальные провода, только красные `!Red wire` и зелёные `!Green wire`, только чешский *hardcore*.
 :::
 
 Использовать эти чертежи можно на любом этапе игры, с самого начала и до запуска [корованов ракет](../PowerProduction/README.md#этап-второй-и-корованы-ракет).
 
-:::info Удивительное
-Готовые чертежи, содержащие сигнальные провода, можно строить без [исследования логической сети](https://wiki.factorio.com/Circuit_network_(research)) `Circuit network`. Цветные провода появятся из ни откуда, даже если вы ещё не можете их производить из-за отсутствия исследования.
+:::info Удивительное рядом *![Сюрприз](./images/Surprize.01.jpg#right)*
+Готовые чертежи, содержащие сигнальные провода, можно строить без [исследования логической сети](https://wiki.factorio.com/Circuit_network_(research)) `Circuit network`. Цветные сигнальные провода из чертежа появятся в игре из ни откуда, даже если вы ещё не можете их производить из-за отсутствия исследования.
+
+Только не говорите об этом чешским разработчикам, у них и так полно репортов десятилетней давности на исправление. Поговорите об этом лучше с чешскими девушками, которые всегда готовы вас послушать в интернетах.
 :::
 
 Создавать логические сети без комбинаторов весело и прикольно. Одним сигнальным проводом соединяем два элемента игры. Первый подсоединившийся отсылает в сеть своё состояние, режим чтения. Второй присоединившийся как-то реагирует на полученное состояние, режим действия. Профффит.
@@ -68,7 +70,7 @@
 0eNrVlsuOozAQRf/Fa2hhXgHUm/mOURTxqBBLYFt+RB1F/HvbRAPpbjPBs5sNwuA6Vfe6bPmOmkEDF4QqVN0RaRmVqPp9R5L0tB7sN3XjgCpEFIwoQLQe7UgqqMcQaE8ooClAhHbwgSo8HQMEVBFF4MGZB7cT1WMDwkxYCHXb6lEPtWLCYDmTJoZRm9BwwiwrA3QzLziKDd6UpQQbTg1c6isxEWYa04prdfpR6JUIpc2XtdZ5RvgLTQ8ShdamkjYG20cvAOhztaRDVTwdJxPwQ0G8cNn5LC9MQMj1yJ0asrfsjwr8lm3oaIloNVEn869b4s9ESD9tM1yq2i5kFtnRyGsx21uhdz/t+Em3HScbXiQeXuD/1IutPkjXvGM9DCEMBidIG3I2gMuBPFodiGYHKJD+0jAt7FbBydGRJVuycMLhVZNZrAOSf4GEioW9YJp2Tlz6vcqOiIdRBuSAH3zg8V/gsQNevJaPX8ovfVcqzf9hpXDkPhxdnbB4XBZ7XMB4NzorPdHrcdYwMoD7LM63kK6GwImv31nyregvdqdB6fQ73VM59jIj2+1zevD0Od+Pjj3R6w5stKAgQkIlCLXhyNp7h130woseb9OdvbLuTSVqKjkTKmxgUC/axMLtVWO+lFRPd5gAXUHIh5oCp4cyPhRpmeRlPk2fiBPnbA==
 ```
 
-Схема так себе, хотя и подходит на начальном этапе игры [для отключения паровых электростанций](../PowerProduction/BackupSteamPower.md#простой-костыль) если достаточно производимой электроэнергии от солнечных панелей.
+Схема подходит для [перевода паровых электростанций в резерв](../PowerProduction/BackupSteamPower.md#простой-костыль) как дополнение к солнечным панелям. К сожалению, совершено не подходит для отключения ядерных электростанций.
 
 ## Управление производством нефти
 
@@ -124,4 +126,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Простые примеры логических сетей.](http://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=vixfnONzSgU)
+[*![Простые примеры логических сетей](http://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=vixfnONzSgU)

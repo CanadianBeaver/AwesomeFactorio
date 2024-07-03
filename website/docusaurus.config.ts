@@ -83,10 +83,7 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        googleTagManager: {
-          containerId: 'G-P1GFSP4DQK',
-        },
+        }
       } satisfies Preset.Options,
     ],
   ],
@@ -167,7 +164,7 @@ const config: Config = {
       links: [
         {
           items: [
-            { label: 'Начало', to: '/HowToStartNewGame', },
+            /*{ label: 'Начало', to: '/HowToStartNewGame', },*/
             { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
           ],
         },
@@ -243,7 +240,10 @@ const config: Config = {
     }
   } satisfies Preset.ThemeConfig,
 
-  plugins: [require.resolve("docusaurus-plugin-image-zoom")]
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
+  ]
 
 };
 

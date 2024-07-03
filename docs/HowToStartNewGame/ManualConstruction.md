@@ -14,14 +14,14 @@ keywords:
 
 ## Добыча ресурсов
 
-![ddddddddddddddddd](../_images/MiningResources/MiningResources.04.jpg)
+![ddddddddddddddddd](../MiningResources/images/MiningResources.04.jpg)
 
 ## Солнечные панели
 
-![dddddddddddddddddd](../_images/PowerProduction/SolarPower.01.jpg)
+![dddddddddddddddddd](../PowerProduction/images/SolarPower.01.jpg)
 
-![dddddddddddddddddd](../_images/PowerProduction/SolarPower.03.jpg)
+![dddddddddddddddddd](../PowerProduction/images/SolarPower.03.jpg)
 
-![dddddddddddddddddd](../_images/PowerProduction/SolarPower.07.jpg)
+![dddddddddddddddddd](../PowerProduction/images/SolarPower.07.jpg)
 
-![dddddddddddddddddd](../_images/PowerProduction/SolarPower.08.jpg)
+![dddddddddddddddddd](../PowerProduction/images/SolarPower.08.jpg)
