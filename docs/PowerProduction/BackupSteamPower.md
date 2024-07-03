@@ -130,7 +130,7 @@ stateDiagram
 
 ## Больше подробностей
 
-Детальный разбор смотрите на YouTube канале.
+Качайте [сохранёнку с игрой](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip), а также смотрите детальные разборы на YouTube канале:
 
 [*![Простой костыль для перевода паровой электростанции в резерв](http://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](http://www.youtube.com/watch?v=Nfm9Njib4tE)
 
