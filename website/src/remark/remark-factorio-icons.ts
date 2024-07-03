@@ -188,7 +188,10 @@ const IconNames: string[] = [
   'Requester chest',
   'Programmable speaker',
   'Military science pack',
-  'Space science pack'
+  'Space science pack',
+  'Submachine gun',
+  'Piercing rounds magazine',
+  'Grenade'
 ];
 
 interface Options {
