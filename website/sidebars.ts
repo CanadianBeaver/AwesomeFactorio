@@ -41,7 +41,7 @@ const sidebars: SidebarsConfig = {
       },
       items: ['RawResourcesProcessing/BigOreFoundry']
     },
-    {
+    /*{
       type: 'category',
       label: 'Переработка нефти',
       link: {
@@ -58,7 +58,7 @@ const sidebars: SidebarsConfig = {
         id: 'RawResourcesProcessing/BeaconsAndModules',
       },
       items: []
-    },
+    },*/
     {
       type: 'category',
       label: 'Погрузка и разгрузка поездов',
