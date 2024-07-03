@@ -82,7 +82,7 @@ stateDiagram
 
 Предлагаю собственно чертёж `вундершняги`, которая совместно с другими комбинаторами управляет работой выключателя питания.
 
-![Backup steam power](../_images/PowerProduction/BackupSteamPower.01.png)
+![Backup steam power](./images/BackupSteamPower.01.jpg)
 
 ```blueprint title="Чертёж c вундершнягой:"
 0eNrFV9uOmzAQ/ZXIT60EVSCEhKiqtNof6EPf2hVyzCSxZAyyze5GUf69Y8h1MRtIL/uCsGwfe+bMnBnvyFJUUCouDVnsSAaaKV4aXkiyID82MCqLF1CjUhVZxfCH61EhRwYnFF9vzEjzDEafDv85FWIEAphRnOFOAZ9/yTMIK6Su8isQAasjRvPrgCAe4XYrWfzcEc3Xkgp7VbMtAe/IDeS4QtLcjuqDfP3CDduQPW6UGbySRbB/8ghIww2HBqcebFNZ5UtQuOCEoAtBlV9SCQJhy0Lzxhk7gjj+NPwy9ciWLJLoy3S/91pAYU+gKLkBNOkLFB+Bpm6gyO0cB1LQ4MToN/S3UYVIl7Chz7xQdg3jilXcpDiXnTauuNImbbHyzJWpqDgT06zwFWSkgdeG2pAb20FeUkWNPYV8I/tmXmII8Jr1HQnsx269YI7jKMAbH29lx6Glea0AZGslTiHuYzV+O5N45IUrqP/Hdv9jFbR2T64XIVLjxRStMGjeigoNDt9PT/YfLfbR2iWXtbWO8JodyURW8ZQMD2XNgtBNyooLA6pXblCtIV8KLtd+TtmGS/AnDRmVZSK4yBbvJtgxRf1VpSRl4AQKhwDlXNqrZYoL4USb9EAruI2xFdqmtk6QCNlzEBWfA9UqkH+6lVUgF1HxNVESUAGXRVUzkTw5TpideWCsyivRFQKHLJx1ZGFRmbIakHEPnQnlTpTxdUoF1l8Oc+ZvHCZoXro0ZX7pJwdOMtDxZ910OD52Od5adDgiA4alRr2fg1FyIKBnBh5Az7Ko79DFh2tVjNuy6A1mvuG3xi23aZ0J6UoVecol4hxFa0hwzC7cWwdH3A4Wj4Q91Tq4gRZ2hF4QDCR09gGEHgqdBotyF2d/yP6p0g7n3sXduHelbdfkd2Ii6o3TJURBOLDGRuFfrbE3/d8qrmgx16k979A29E/AqMsJk4EyOglv6HIQDXTrJPiHrcsS6zre6t5mRRuguQ9yjX3B3Y2KrJgAbMQVUGZdcG+LsgFqfHhlGyrXHTZ1NCnBtO8r5cRF0sFufF9NnH9gTZy+EcWv/1cUe3dL7xTAcc8CNxv89qt5tsJiQ21x8ab3iKBL3Lwg3+s3+On194yp11A4D6JZEs7mcTKejKP9/jdULWp6
@@ -108,7 +108,7 @@ stateDiagram
 
 У аффтара всё хорошо с математикой или он что-то курил, когда писал про `вундершнягу`? Ведь схему можно сократить на один комбинатор! Зачем нам комбинаторы задающие пределы срабатывания для выключателя питания, когда их можно объединить математическим сложением?
 
-![Backup steam power](../_images/PowerProduction/BackupSteamPower.02.png)
+![Backup steam power](./images/BackupSteamPower.02.jpg)
 
 А ведь действительно таки можно и вот чертёж реализующий идею с математикой.
 

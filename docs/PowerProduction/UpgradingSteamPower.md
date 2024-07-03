@@ -27,7 +27,7 @@
 
 ## Само творение
 
-![Upgraded steam power](../_images/PowerProduction/UpgradingSteamPower.01.png)
+![Upgraded steam power](./images/UpgradingSteamPower.01.jpg)
 
 и её чертёж:
 
@@ -87,7 +87,7 @@
 
 Как вам такой вариант?
 
-![Upgraded steam power](../_images/PowerProduction/UpgradingSteamPower.02.png)
+![Upgraded steam power](./images/UpgradingSteamPower.02.jpg)
 
 Чертёж, чтобы поиграться:
 
@@ -103,7 +103,7 @@
 
 И вот вам [сохранёнка со всеми няшками](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip), чертежи в книге игры. Надеюсь в курсе как открыть книгу чертежей? *Подсказка: кнопка бэ.*
 
-![Upgraded steam power](../_images/PowerProduction/UpgradingSteamPower.03.png)
+![Upgraded steam power](./images/UpgradingSteamPower.03.png)
 
 Детальный разбор смотрите на YouTube канале.
 
