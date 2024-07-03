@@ -14,7 +14,7 @@ keywords:
 
 ## Добыча ресурсов
 
-![ddddddddddddddddd](../_images/MiningResources/MiningResources.04.jpg)
+![ddddddddddddddddd](../MiningResources/images/MiningResources.04.jpg)
 
 ## Солнечные панели
 
