@@ -43,6 +43,15 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Переработка нефти',
+      link: {
+        type: 'doc',
+        id: 'OilProcessing/README',
+      },
+      items: [ ]
+    },
+    {
+      type: 'category',
       label: 'Погрузка и разгрузка',
       link: {
         type: 'doc',
