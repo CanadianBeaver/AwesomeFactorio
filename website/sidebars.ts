@@ -61,24 +61,38 @@ const sidebars: SidebarsConfig = {
         id: 'PowerProduction/README',
       },
       items: [
-        'PowerProduction/SteamPower',
-        'PowerProduction/SolarPower',
-        'PowerProduction/NuclearPower'
+        'PowerProduction/BackupSteamPower'
       ]
     },
     {
       type: 'category',
-      label: 'Сопутствующие вопросы',
+      label: 'Паровая энергия',
       link: {
-        type: 'generated-index',
-        slug: 'PowerProduction/Questions'
+        type: 'doc',
+        id: 'PowerProduction/SteamPower',
       },
       items: [
-        'PowerProduction/EfficientFuelForSteamPower',
-        'PowerProduction/BackupSteamPower',
         'PowerProduction/UpgradingSteamPower',
-        'PowerProduction/HugeNuclearPowerPlant'
+        'PowerProduction/EfficientFuelForSteamPower'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Солнечная энергия',
+      link: {
+        type: 'doc',
+        id: 'PowerProduction/SolarPower',
+      },
+      items: [ ]
+    },
+    {
+      type: 'category',
+      label: 'Ядерная энергия',
+      link: {
+        type: 'doc',
+        id: 'PowerProduction/NuclearPower',
+      },
+      items: [ 'PowerProduction/HugeNuclearPowerPlant' ]
     }
   ],
 
