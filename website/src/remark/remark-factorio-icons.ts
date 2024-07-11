@@ -191,7 +191,9 @@ const IconNames: string[] = [
   'Space science pack',
   'Submachine gun',
   'Piercing rounds magazine',
-  'Grenade'
+  'Grenade',
+  'Weapon shooting speed',
+  'Physical projectile damage'
 ];
 
 interface Options {
