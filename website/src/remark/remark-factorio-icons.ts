@@ -193,7 +193,10 @@ const IconNames: string[] = [
   'Piercing rounds magazine',
   'Grenade',
   'Weapon shooting speed',
-  'Physical projectile damage'
+  'Physical projectile damage',
+  'Stronger explosives',
+  'Biter spawner',
+  'Firearm magazine'
 ];
 
 interface Options {
