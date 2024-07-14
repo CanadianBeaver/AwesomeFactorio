@@ -1,6 +1,6 @@
 ---
 title: Альтернативный вариант плавки стальных балок с раздельной плавкой железной руды и железных плит
-tags: [smelting resources, resources, furnace, stone furnace, steel furnaceel]
+tags: [smelting resources, resources, furnace, stone furnace, steel furnace]
 ---
 
 А что если на начальном этапе игры разделить плавку стальных балок `Steel plate`? Это когда мы плавим вначале руду `Iron ore`, а потом сразу железные пластины `Iron plate`.
