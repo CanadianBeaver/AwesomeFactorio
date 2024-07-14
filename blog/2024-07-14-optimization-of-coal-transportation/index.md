@@ -18,3 +18,5 @@ tags: [smelting resources, resources , furnace , stone furnace, steel furnace]
 И творение это обходиться на целый конвейер меньше. По оптимизируем ещё? Открываю челенж *"оптимизируемся вместе"*...
 
 [*![Обновление по подаче угля в кузницы для плавки стальных балок](http://img.youtube.com/vi/eeA8oLBHNjk/0.jpg)*](http://www.youtube.com/shorts/eeA8oLBHNjk)
+
+Также профиксил основную статью про [плавку ресурсов](pathname:///RawResourcesProcessing/#чертёж-первого-уровня-тоже-каменные-печи-с-твёрдотопливными-манипуляторами).
