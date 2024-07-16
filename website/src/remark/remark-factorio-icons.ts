@@ -197,7 +197,8 @@ const IconNames: string[] = [
   'Stronger explosives',
   'Biter spawner',
   'Firearm magazine',
-  'Heavy oil barrel'
+  'Heavy oil barrel',
+  'Sulfur'
 ];
 
 interface Options {
