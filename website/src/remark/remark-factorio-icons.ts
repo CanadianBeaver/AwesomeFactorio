@@ -127,6 +127,8 @@ const IconNames: string[] = [
   'Steel furnace',
   'Steel plate',
   'Stone brick',
+  'Concrete',
+  'Refined concrete',
   'Stone furnace',
   'Stone',
   'Storage tank',
