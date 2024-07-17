@@ -77,6 +77,10 @@ article h1 {
   font-size: 2rem !important;
 }
 
+article h2 {
+  font-size: 1.8rem;
+}
+
 img[src*='#left'] {
   float: left;
   max-width: 20%;
