@@ -158,7 +158,7 @@ const sidebars: SidebarsConfig = {
       },
       items: []
     },
-    /*{
+    {
       type: 'category',
       label: 'Надписи на полях',
       link: {
@@ -166,7 +166,7 @@ const sidebars: SidebarsConfig = {
         id: 'Additionals/Labelling',
       },
       items: []
-    },*/
+    },
     {
       type: 'category',
       label: 'Сохранёнки разных игр',
