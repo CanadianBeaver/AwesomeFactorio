@@ -46,7 +46,7 @@ const sidebars: SidebarsConfig = {
       label: 'Переработка нефти',
       link: {
         type: 'doc',
-        id: 'OilProcessing/README',
+        id: 'OilRefining/README',
       },
       items: [ ]
     },
@@ -160,7 +160,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Надписи на полях',
+      label: 'Послания инопланетян',
       link: {
         type: 'doc',
         id: 'Additionals/Labelling',
