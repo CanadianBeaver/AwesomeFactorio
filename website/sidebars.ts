@@ -123,9 +123,9 @@ const sidebars: SidebarsConfig = {
         id: 'CircuitNetwork/README',
       },
       items: [
-        'CircuitNetwork/Writing',
         'CircuitNetwork/SimpleExamples',
-        'CircuitNetwork/Combinators'
+        'CircuitNetwork/Combinators',
+        'CircuitNetwork/Writing',
       ]
     }
   ],
@@ -151,19 +151,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Параландия',
+      label: 'Послания инопланетян',
       link: {
         type: 'doc',
-        id: 'Additionals/Paraland',
+        id: 'Additionals/Labelling',
       },
       items: []
     },
     {
       type: 'category',
-      label: 'Послания инопланетян',
+      label: 'Параландия',
       link: {
         type: 'doc',
-        id: 'Additionals/Labelling',
+        id: 'Additionals/Paraland',
       },
       items: []
     },
