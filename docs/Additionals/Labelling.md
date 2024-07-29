@@ -36,8 +36,6 @@
 
 *![Книга чертежей в сохранёнки игры](./Labelling.06.png)*
 
-<!--
 Детальный разбор есть на YouTube канале.
 
-[*![Пишем камнями в Factorio](http://img.youtube.com/vi/xxx/0.jpg)*](http://www.youtube.com/watch?v=xxx)
--->
+[*![Пишем камнями в Factorio](http://img.youtube.com/vi/o2BmJ-A1PA0/0.jpg)*](http://www.youtube.com/watch?v=o2BmJ-A1PA0)
