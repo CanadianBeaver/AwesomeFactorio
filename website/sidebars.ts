@@ -16,6 +16,15 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Первый выход с базы',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/FirstExpansion',
+      },
+      items: [ ]
     }
   ],
 
@@ -41,7 +50,7 @@ const sidebars: SidebarsConfig = {
       },
       items: ['RawResourcesProcessing/BigOreFoundry']
     },
-    /*{
+    {
       type: 'category',
       label: 'Переработка нефти',
       link: {
@@ -58,7 +67,7 @@ const sidebars: SidebarsConfig = {
         id: 'RawResourcesProcessing/BeaconsAndModules',
       },
       items: []
-    },*/
+    },
     {
       type: 'category',
       label: 'Погрузка и разгрузка поездов',

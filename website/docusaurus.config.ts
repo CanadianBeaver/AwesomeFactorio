@@ -69,6 +69,7 @@ const config: Config = {
         blog: {
           path: '../blog',
           showReadingTime: false,
+          onUntruncatedBlogPosts: 'ignore',
           blogTitle: 'Блог про игру',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
