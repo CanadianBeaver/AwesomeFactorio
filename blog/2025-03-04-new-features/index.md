@@ -1,0 +1,20 @@
+---
+title: Течение жидкостей по трубам в новом Factorio
+tags: [resources, fluids, factorio2]
+---
+
+Новая способность `!Pump` помпы задавать фильтры на перекачиваемые жидкости позволяет наконец-то смешивать разные жидкости в одной `!Pipe` трубе, но есть нюансы.
+
+<!-- truncate -->
+
+Оказывается жидкости по трубам в новом `Factorio` могут смешиваться. Так или это? Конечно же нет, по трубам может течь только одна жидкость, как было и раньше. Но [новый алгоритм расчёта](https://www.factorio.com/blog/post/fff-416) введённый недавно позволяет жидкостям течь намного быстрее. Также, появилась возможность задавать фильтры жидкостей, что позволяет выкачивать из трубы определённые жидкости. А это значить, что можно использовать одну трубы для нескольких типов жидкостей чередуя их в трубе.
+
+*![Фильтры на помпе](./fff-405-pump-filters.png)*
+
+И вот короткий шортс на вашем тюбе демонстрирующий новую возможность:
+
+[*![Демонстрация использования одной трубы для разных жидкостей](http://img.youtube.com/vi/zT8PQPvXvhk/0.jpg)*](https://youtube.com/shorts/zT8PQPvXvhk)
+
+```blueprint title="Чертёж прилагается"
+0eNrVm29zozYQxr+LXuMbJCSBPNN+kUzGQ7DsaGqDy59c04y/eyV8sR2H9WrpXTrNvTBHzE+r1SOBHjZv7Gk32EPr6p4t35irmrpjy4c31rltXe7CubrcW7ZkjdstWrtxtW1f2TFhrl7bv9iSHx8TZuve9c6erhz/87qqh/2Tbf0XkndC1zdtubWLvqz/YAk7NJ2/qKlDGwEks28qYa/hqPimjsfkE0pEo/QHVMLWrrXV6RtyApydwQd38NRmsW2boV5PodU7WqXTUUoCTGIwFdvlzJxRYhqlo7MnPqDQ7OWzspfdoosJdDErl1FoE52OHMssT2NZYZgpqeWX2WN3/outqxbWz8Dt68LPWNtuyspONCPEj0ZCE0/DZmPbVef+tiHU889Uc5cZtrdrN+wX51YPzW6ypUvWFZCcjMrMMpR5NceG/WFq0PiF4XOw2Q1uvdq4XR8uZwfbt75tH8u27NhUAwptIP13DWhqVq5mJZSVHA1a3Qt657bP/cKv85MBFyhczocbFG7uwZ9t+fIKwUWKwov5cE4dR8WxcRTkWahTlPnxFnf/BqIBhiQwcoChMMbVzIXi0CgjRRk5yshQRoEyBMowKENhjCxFGRJlcJSRowyBMjTKQHUqUZ1mqE6vJjzEQHWqUJ1mqE4VqtMM1alCdZqhOlWoTjNUpwrVqUR1qlCdSlSnCtWpRHWqUJ1KVKcK1alEdapQnUpUpxrVqUR1qlGdSlSnGtWpRHWqUZ1KVKca1ZhK43cdV3c8YNOqLor9sIW+e7cw4+Zg79q28Yi+HWzC/EYh9GjJyvVLWVd2HZ5JFoe2qWzXuXrL3r+y+nModz4E/9W6affl5IOLEtFh5Tdh/eRAsthA1JfmR0aH9Yvzo2ID0V+aHz1/q6ghs+OyiLjad9P/bgHMYnG+2+jTbv/9glVn+973pruyrr6X4UneQ2xb+Sb9/ny0pXq792fKfmjtace3b9ZjfvrFzpZdzyZjvCxSwSvz+/x+UTX7J1eXfut/P9LTlt9fFjaHqyf7XL64MD5vrDuZAN3H44e3s8vmdyXjfuT2bP86DumLa3s/aOziQ4z23aJ6tlXwIT6NaAhjfyjbMegl+208MQQTkB8f/T+f0G4VOrEpd52dTAS6ZwvP2FcjdG11TGehcm01uH5l6/JpZ9fvwn0/7S9ZnxvYuLbrVxeXMioRp+yPg8aW6U0OfvfjPWWbpfGi1DdDfU+UVTus7bitvC9MESlMzePvWsLcBHo1NlxMwQU62AUE/F8NNsEJFsXNEoQmkeAMZxweoSmjUKtZ7CyKrQlsQVVWPgsemfEi3m3QkG1uCIxsmpETnigv3kXcyOc83smA+pgLAgPqI+UlClUluZwFj5J3ruItGDCBOt6CARn5nJcdkTMhp7xJyYkKNGQvO8fUVKTxXhKU0IITGFAcIt6PAuPI4v0okEHwtMC+EDwtMA5NYEBx5PG+GBhHEe+LgQxDYAB9MYSVXVFXPcNnwaNWPSPiDT0ogYaw5CtFjE/Gm4VgfISHIkVdUQ3hqUgRV1STz2JHBl7E259gZg2BkUFvzdN4D1WDr955vIkKQwQBAnYni7di4UgkAQJGouINXTgSHe/owhCCLQx3h/DsoqlrLE/NLHoWV76RxtvRYBI54TagqcsY52KO263zmBobzjO6+a31J/TPNi85l3T3ezKuX2mxcq7o1viXZE/TvfH/IHs53Tj/kuwV8WUUuoDWBEOAGAAiUoK1AUJ4fDUGDKEYECAki6/HgCGS4AaAEEWwA0CIji/JgCE5YQ8MQgrCJhiEGMIOFoLgpS4KVyxe66JwxeLFLgpXLF7tonDF4uUuCldsRL0LrtiIghdcsREVL7hiI0pecMVG1LzgisWLXjSuWLzqReOKxcteNK5YvO5F44rFC180Lraryhdy5WWeQlA9v/TyBH1M2Hf/9BDe0z74R2uV+Edg9ZicjpU+HWfh/I9j/5H4e2g4Dh+JvxWej3MzHqsi8SdNIsKx/0i0GI/Dr5OQiBEUPpPQA/Xog3C93fteXP66I2Evtu3GyJUWRhqjlOKF1PJ4/Acm5t29
+```
