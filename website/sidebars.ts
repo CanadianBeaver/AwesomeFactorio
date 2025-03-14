@@ -142,6 +142,15 @@ const sidebars: SidebarsConfig = {
   additionalSidebar: [
     {
       type: 'category',
+      label: 'Оценка качества чертежей',
+      link: {
+        type: 'doc',
+        id: 'Additionals/QualityAssessment',
+      },
+      items: []
+    },
+    {
+      type: 'category',
       label: 'Про FPS, UPS и производительность игры',
       link: {
         type: 'doc',
