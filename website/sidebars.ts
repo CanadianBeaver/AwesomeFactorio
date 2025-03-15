@@ -75,7 +75,10 @@ const sidebars: SidebarsConfig = {
         type: 'doc',
         id: 'LoadingAndUnloadingTrains/README',
       },
-      items: ['LoadingAndUnloadingTrains/SyncUnloading']
+      items: [
+        'LoadingAndUnloadingTrains/LeftHandTraffic',
+        'LoadingAndUnloadingTrains/SyncUnloading'
+      ]
     }
   ],
 
