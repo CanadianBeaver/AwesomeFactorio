@@ -28,4 +28,4 @@ flowchart LR;
 
 Читайте, [статья тут](pathname:///PowerProduction/BackupSteamPower). Видеоролик:
 
-[*![Простой костыль для перевода паровой электростанции в резерв](http://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](http://www.youtube.com/watch?v=Nfm9Njib4tE)
+[*![Простой костыль для перевода паровой электростанции в резерв](https://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](http://www.youtube.com/watch?v=Nfm9Njib4tE)

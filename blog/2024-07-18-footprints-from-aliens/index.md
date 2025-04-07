@@ -9,4 +9,4 @@ tags: [design, blueprinting]
 
 Используя каменные плитки и строительных роботов можно легко писать длинные строки по чертежам. Всё это мы уже использовали в разных выпусках, про [Параландию](pathname:///Additionals/Paraland) например. А теперь это будет доступно и вам. Пишите поэмы и стихи, [новая статья тут](pathname:///Additionals/Labelling).
 
-[*![Послания инопланетян на кукурузных полях](http://img.youtube.com/vi/HDO-F4JWbiA/0.jpg)*](https://youtube.com/shorts/HDO-F4JWbiA)
+[*![Послания инопланетян на кукурузных полях](https://img.youtube.com/vi/HDO-F4JWbiA/0.jpg)*](https://youtube.com/shorts/HDO-F4JWbiA)

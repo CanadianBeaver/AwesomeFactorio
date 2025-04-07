@@ -9,4 +9,4 @@ tags: [resources, trains, unloading]
 
 Это всё касается правильного понимания как работает выгрузка. [Сама статья тут](pathname:///LoadingAndUnloadingTrains/SyncUnloading).
 
-[*![Тестируем выгрузку для поездов](http://img.youtube.com/vi/tvv_Oarf9n0/0.jpg)*](https://youtube.com/shorts/tvv_Oarf9n0)
+[*![Тестируем выгрузку для поездов](https://img.youtube.com/vi/tvv_Oarf9n0/0.jpg)*](https://youtube.com/shorts/tvv_Oarf9n0)
