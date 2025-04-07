@@ -142,4 +142,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Простые примеры логических сетей](https://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](http://www.youtube.com/watch?v=vixfnONzSgU)
+[*![Простые примеры логических сетей](https://img.youtube.com/vi/vixfnONzSgU/0.jpg)*](https://www.youtube.com/watch?v=vixfnONzSgU)

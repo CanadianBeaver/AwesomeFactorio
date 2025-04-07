@@ -132,6 +132,6 @@ stateDiagram
 
 Качайте [сохранёнку с игрой](../../website/static/saves/AwesomeFactorio%20-%20Power%20Production.zip), а также смотрите детальные разборы на YouTube канале:
 
-[*![Простой костыль для перевода паровой электростанции в резерв](https://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](http://www.youtube.com/watch?v=Nfm9Njib4tE)
+[*![Простой костыль для перевода паровой электростанции в резерв](https://img.youtube.com/vi/Nfm9Njib4tE/0.jpg)*](https://www.youtube.com/watch?v=Nfm9Njib4tE)
 
-[*![Переводим паровые и атомные электростанции в резерв](https://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](http://www.youtube.com/watch?v=FfmslzAyOsc)
+[*![Переводим паровые и атомные электростанции в резерв](https://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](https://www.youtube.com/watch?v=FfmslzAyOsc)

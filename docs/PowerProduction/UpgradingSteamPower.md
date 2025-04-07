@@ -107,4 +107,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Улучшаем угольную электростанцию](https://img.youtube.com/vi/usC4risyoao/0.jpg)*](http://www.youtube.com/watch?v=usC4risyoao)
+[*![Улучшаем угольную электростанцию](https://img.youtube.com/vi/usC4risyoao/0.jpg)*](https://www.youtube.com/watch?v=usC4risyoao)

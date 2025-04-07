@@ -89,14 +89,14 @@ JG "куда-то"
 
 ### Другие симптомы?
 
-Других клинических случаев, где нужны комбинаторы, не наблюдаю. Может у вас есть интересные примеры, что без оных ну ни как вообще? Тогда делитесь чертежами и не стесняйтесь. [Мыло](mailto:factorio@yrfle.com?subject=У%20меня%20есть%20чертёж%20с%20комбинаторами!), [коменты на ютубе](http://www.youtube.com/watch?v=wzzepgeYcpw), может ещё что-то?
+Других клинических случаев, где нужны комбинаторы, не наблюдаю. Может у вас есть интересные примеры, что без оных ну ни как вообще? Тогда делитесь чертежами и не стесняйтесь. [Мыло](mailto:factorio@yrfle.com?subject=У%20меня%20есть%20чертёж%20с%20комбинаторами!), [коменты на ютубе](https://www.youtube.com/watch?v=wzzepgeYcpw), может ещё что-то?
 
 ## Больше подробностей
 
 Детальные чертежи и пояснения стоит перенести в разделы посвященные конкретным применениям комбинаторов. Там где рассматриваются вопросы производства ядерной энергии и транспортировки ресурсов и предметов. А вот теоретический разбор можно найти в разных выпусках на YouTube канале. Ссылки привожу с установленными временными метками на описываемый тут материал:
 
-[*![Примеры логических сетей на комбинаторах](https://img.youtube.com/vi/wzzepgeYcpw/0.jpg)*](http://www.youtube.com/watch?v=wzzepgeYcpw)
+[*![Примеры логических сетей на комбинаторах](https://img.youtube.com/vi/wzzepgeYcpw/0.jpg)*](https://www.youtube.com/watch?v=wzzepgeYcpw)
 
-[*![Переводим паровые и атомные электростанции в резерв](https://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](http://www.youtube.com/watch?v=FfmslzAyOsc&t=42s)
+[*![Переводим паровые и атомные электростанции в резерв](https://img.youtube.com/vi/FfmslzAyOsc/0.jpg)*](https://www.youtube.com/watch?v=FfmslzAyOsc&t=42s)
 
-[*![Плавим ресурсы](https://img.youtube.com/vi/e3mbmKIWLns/0.jpg)*](http://www.youtube.com/watch?v=e3mbmKIWLns&t=659s)
+[*![Плавим ресурсы](https://img.youtube.com/vi/e3mbmKIWLns/0.jpg)*](https://www.youtube.com/watch?v=e3mbmKIWLns&t=659s)

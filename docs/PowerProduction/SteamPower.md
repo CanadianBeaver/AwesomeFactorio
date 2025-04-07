@@ -97,7 +97,7 @@
 
 Детальный разбор производства паровой энергии на YouTube канале.
 
-[*![Паровая энергия](https://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)*](http://www.youtube.com/watch?v=RQ80eZAnZ1Q)
+[*![Паровая энергия](https://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)*](https://www.youtube.com/watch?v=RQ80eZAnZ1Q)
 
 
 Дополнительные материалы:
