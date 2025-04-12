@@ -5,7 +5,7 @@ const sidebars: SidebarsConfig = {
   howToStartSidebar: [
     {
       type: 'category',
-      label: 'Начало',
+      label: 'Эффективное начало',
       link: {
         type: 'doc',
         id: 'HowToStartNewGame/README',
@@ -23,6 +23,15 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'doc',
         id: 'HowToStartNewGame/FirstExpansion',
+      },
+      items: [ ]
+    },
+    {
+      type: 'category',
+      label: 'После запуска спутника',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/AfterSatelliteLaunch',
       },
       items: [ ]
     }
