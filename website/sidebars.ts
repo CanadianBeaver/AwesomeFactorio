@@ -14,7 +14,8 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/BurnerDevices',
         'HowToStartNewGame/ManualConstruction',
         'HowToStartNewGame/Mall',
-        'HowToStartNewGame/Balancers'
+        'HowToStartNewGame/Balancers',
+        'HowToStartNewGame/Drafts',
       ]
     },
     {

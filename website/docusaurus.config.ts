@@ -115,6 +115,12 @@ const config: Config = {
         src: 'logo.svg',
       },
       items: [
+        /*{
+          type: 'docSidebar',
+          sidebarId: 'howToStartSidebar',
+          position: 'left',
+          label: 'Начинаем играть',
+        },*/
         {
           type: 'docSidebar',
           sidebarId: 'miningSidebar',
