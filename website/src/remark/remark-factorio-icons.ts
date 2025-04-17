@@ -96,6 +96,7 @@ const IconNames: string[] = [
   'Empty barrel',
   'Fill sulfuric acid barrel',
   'Fill sulfuric acid barrel',
+  'Raw fish',
   'Power switch',
   'Processing unit',
   'Production science pack',
