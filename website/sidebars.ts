@@ -89,6 +89,15 @@ const sidebars: SidebarsConfig = {
         'LoadingAndUnloadingTrains/LeftHandTraffic',
         'LoadingAndUnloadingTrains/SyncUnloading'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Начинаем играть эффективно',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/README'
+      },
+      items: []
     }
   ],
 
