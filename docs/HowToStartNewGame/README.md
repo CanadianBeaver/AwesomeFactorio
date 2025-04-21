@@ -153,4 +153,8 @@
 
 ## Больше подробностей
 
-Разбор всех полётов [в этом вашем тубе](https://www.youtube.com/playlist?list=PLvB0qwWjZb4KL5HZqJnKbtlvfdKMYzCs2). Смотрите и делитесь комментариями.
+Радиопередача:
+
+[*![Как начать играть?](https://img.youtube.com/vi/yPFaT4FohGw/0.jpg)*](https://www.youtube.com/watch?v=yPFaT4FohGw).
+
+Смотрите и делитесь комментариями.
