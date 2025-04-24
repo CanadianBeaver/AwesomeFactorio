@@ -41,7 +41,7 @@
 
 *![Модули продуктивности](./images/BeaconsAndModules.03.jpg)*
 
- Эти модули могут быть использованы только в машинах, производящих [промежуточные продукты](https://wiki.factorio.com/Category:Intermediate_products). Самое эффективное использование этих модулей показано на картинке в сборочном автомате, три модуля производительности плюс один модуль скорости.
+ Эти модули могут быть использованы только в машинах, производящих промежуточные продукты, такие как `Advanced circuit`, `Copper cable`, `Depleted uranium fuel cell`, `Electric engine unit`, `Electronic circuit`, `Engine unit`, `Flying robot frame`, `Iron gear wheel`, `Iron stick`, `Kovarex enrichment process`, `Low density structure`, `Nuclear fuel`, `Processing unit`, `Rocket fuel`, `Rocket part`, `Uranium fuel cell`, `Uranium-235` and `Uranium-238`. Самое эффективное использование этих модулей показано на картинке в сборочном автомате, три модуля производительности плюс один модуль скорости.
 
  После запуска первого спутника модули продуктивности первого `!Productivity module` и второго `!Productivity module 2` уровня практически бесполезны, кроме использования в нефтеперерабатывающих `!Oil refinery` и химических заводах `!Chemical plant` без маяков `!Beacon` вместе с модулями эффективности, по формуле `!Productivity module` `!Efficiency module 3` `!Efficiency module 3` или `!Productivity module 2` `!Efficiency module 3` `!Efficiency module 3`, хотя и сомнительно.
 
