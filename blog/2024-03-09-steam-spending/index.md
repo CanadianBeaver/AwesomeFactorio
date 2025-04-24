@@ -40,7 +40,3 @@ tags: [steam energy, power production, production, coal liquefaction]
 Ваш ютуб:
 
 [*![Тестируем расход пара разной температуры при производстве энергии](https://img.youtube.com/vi/dhULdGCg3Ms/0.jpg)*](https://youtube.com/shorts/dhULdGCg3Ms?feature=share)
-
-## На самом деле
-
-Ответ был как бы очевиден и подробно [описан в WiKi](https://wiki.factorio.com/Steam), *ну а хули нам инженерам*, мы же мануалов не читаем.

@@ -98,8 +98,6 @@
 :::tip Это интересно:
 [Много разных чертежей](https://www.reddit.com/r/factorio/comments/ig96gm/big_book_of_mining_blueprints), есть интересные варианты
 
-[Кое-что ещё, но не очень много](https://wiki.factorio.com/Mining)
-
 [Расчёт количества буров в зависимости от уровня продуктивности добычи](https://factoriocheatsheet.com/#mining)
 :::
 
