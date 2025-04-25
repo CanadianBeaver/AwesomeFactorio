@@ -63,6 +63,8 @@ const IconNames: string[] = [
   'Inserter',
   'Iron chest',
   'Iron gear wheel',
+  'Turbo splitter',
+  'Turbo underground belt',
   'Turbo transport belt',
   `Wooden chest`,
   'Iron ore',

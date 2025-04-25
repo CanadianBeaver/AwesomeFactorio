@@ -156,7 +156,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'CircuitNetwork/SimpleExamples',
         'CircuitNetwork/Combinators',
-        'CircuitNetwork/Devices',
+        //'CircuitNetwork/Devices',
         'CircuitNetwork/Writing',
       ]
     }
