@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
+
 :root {
   --ifm-color-primary: #cc9900;
   --ifm-color-primary-dark: #af8400;
@@ -14,15 +16,7 @@
   --ifm-color-primary-lightest: #ffca2b;
   --ifm-background-color: #fcfcfc;
   --ifm-heading-font-family: 'Ubuntu';
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
-
-:root {
   --ifm-font-family-base: 'Open Sans';
-}
-
-:root {
   --ifm-link-color: var(--ifm-color-primary-dark);
   --ifm-menu-color-active: var(--ifm-color-primary-dark);
   --ifm-navbar-link-hover-color: var(--ifm-color-primary-dark);
@@ -43,6 +37,7 @@ h1.hero__title {
 }
 
 p.hero__subtitle {
+  font-family: 'Ubuntu';
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: 0px 0px 2px var(--ifm-color-primary-darkest);

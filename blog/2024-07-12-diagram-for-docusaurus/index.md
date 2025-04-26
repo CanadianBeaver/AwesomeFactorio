@@ -1,6 +1,6 @@
 ---
 title: Диаграммы на сайте
-tags: [website, design]
+tags: [web site, web design]
 ---
 
 Совсем недавно я внедрил диаграммы [mermaid](https://mermaid.js.org/) на сайт. Это простой способ вставлять разные диаграммы прямо текстом, [первый пример](pathname:///PowerProduction/BackupSteamPower#откуда-берётся-электричество). Но к сожалению, `mermaid` очень простой, на столько простой что совсем никак. Увы, но в `docusaurus` ничего другого не добавили. Поигрался я с редакторами разными, бесплатными вестимо, як [Draw.io](https://www.drawio.com/) и [Excalidraw](https://plus.excalidraw.com/).

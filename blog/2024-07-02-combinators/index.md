@@ -1,6 +1,6 @@
 ---
 title: Новая статья на сайте про комбинаторы в разделе логических сетей
-tags: [circuit network, website]
+tags: [circuit network, web site]
 ---
 
 Написал новую статью про логические сети и выпустил видео на Youtube.

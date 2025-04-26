@@ -1,6 +1,6 @@
 ---
 title: Миграция на Docusaurus
-tags: [website, design]
+tags: [web site, web design]
 ---
 
 Перехожу окончательно на [Docusaurus](https://docusaurus.io/). Решил порвать с `vuepress` и `vitepress`, которые никак не релизнутся, а существующие превью версии удручают.
