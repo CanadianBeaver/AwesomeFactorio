@@ -20,7 +20,13 @@ tags: [web site, web design]
 * [Ubuntu](https://fonts.google.com/specimen/Ubuntu) (куда же без него любимого)
 * [Open Sans](https://fonts.google.com/specimen/Open+Sans) c [Roboto](https://fonts.google.com/specimen/Roboto) (трудятся на веб сайте)
 * [Russo One](https://fonts.google.com/specimen/Russo+One) (в этом шрифте дух *Factorio*)
-* [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) (в качестве фана, на замену Comic Sans)
+* [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) (в качестве фана, на замену Comic Sans, покрасившей даже будет)
 * [Caveat](https://fonts.google.com/specimen/Caveat) (особой надежды не ожидаю, так, на всякий случай)
 
-На сайте изменения со шрифтами уже произведены, а вот надписи в изображениях на подходе.
+На сайте изменения со шрифтами уже произведены, а вот надписи в изображениях на подходе. Вот первый результат отказа от Comic Sans, было:
+
+*![было](SimpleExamples.Old.jpg)*
+
+Стало:
+
+*![стало](SimpleExamples.New.jpg)*
