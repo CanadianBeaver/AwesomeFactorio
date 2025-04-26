@@ -37,13 +37,14 @@ h1.hero__title {
 }
 
 p.hero__subtitle {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu Sans';
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: 0px 0px 2px var(--ifm-color-primary-darkest);
+  text-transform: uppercase;
 }
 
-.hero__title.addStroke {
+.hero__title.addStroke, p.hero__subtitle.addStroke {
   -webkit-text-stroke: 1px var(--ifm-color-primary-darkest);
 }
 

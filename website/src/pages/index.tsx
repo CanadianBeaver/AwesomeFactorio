@@ -104,7 +104,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      description="Как построить классную фабрику? Это 100500 научных пакетов в минуту...">
+      description="Как построить классную фабрику на 100500 научных пакетов в минуту">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

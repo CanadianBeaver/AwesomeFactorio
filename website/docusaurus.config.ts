@@ -9,7 +9,7 @@ const remarkFactorioSaves = require('./src/remark/remark-factorio-saves');
 
 const config: Config = {
   title: 'Awesome Factorio',
-  tagline: 'Как построить классную фабрику? Это 100500 научных пакетов в минуту...',
+  tagline: 'Как построить классную фабрику на 100500 научных пакетов в минуту',
   favicon: 'favicon.ico',
 
   // Set the production url of your site here
