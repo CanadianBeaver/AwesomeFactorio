@@ -1,6 +1,6 @@
 ---
 title: Основа строительства железных дорог
-tags: [blueprinting, trains, философия factorio]
+tags: [blueprinting, trains, философия factorio, web site]
 ---
 
 Поговорим за правое дело, или за дело левое... Почему нужно использовать левостороннее движение на железных дорогах в Factorio?

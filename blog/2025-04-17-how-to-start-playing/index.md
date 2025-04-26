@@ -1,6 +1,6 @@
 ---
 title: Начинаем играть эффективно
-tags: [blueprinting, философия factorio, production, map generation]
+tags: [blueprinting, философия factorio, production, map generation, web site]
 ---
 
 Играя в *Factorio* мы должны запустить ракету в космос как можно быстрее и это наша единственная цель. Но как подобрать такие параметры игры, чтобы сделать это наиболее эпичнейше?
