@@ -48,6 +48,11 @@ p.hero__subtitle {
   -webkit-text-stroke: 1px var(--ifm-color-primary-darkest);
 }
 
+a.menu__link, ul.table-of-contents a, a.navbar__link {
+  font-family: 'Roboto';
+  letter-spacing: -0.2px;
+}
+
 .markdown em>img {
   vertical-align: middle;
 }
