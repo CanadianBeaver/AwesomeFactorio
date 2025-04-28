@@ -20,7 +20,7 @@
 
 ![Typical steam power](./images/SteamPower.04.jpg)
 
-И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#basic-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины `Wood` разумеется, способны питать много большее число бойлеров с одного простого конвейера.
+И вот тут осторожней, полностью загруженный конвейер угля, жёлтый который, способен питать **только 34 бойлера, то есть 68 паровых двигателей, то есть 61.2 мегаватта максимум**, [пруф](https://factoriocheatsheet.com/#steam-power) (ещё какое-то количество энергии уйдёт на питание твёрдотопливных манипуляторов). Другие типы топлива, кроме древесины `Wood` разумеется, способны питать много большее число бойлеров с одного простого конвейера.
 
 ## Расходы топлива для различных конфигураций паровой электростанции
 
@@ -67,7 +67,7 @@
 
 Тут всё то же самое, только 40 бойлеров, что является максимумом для 2 насосов. Максимальное производство 72 мегаватт, минус питание твёрдотопливных манипуляторов. Картинка по сути похожа на предыдущую, только длиннее:
 
-![Basic steam power](./images/SteamPower.06.jpg)
+![Steam power](./images/SteamPower.06.jpg)
 
 ```blueprint
 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
@@ -89,11 +89,7 @@
 
 ## Больше подробностей
 
-:::tip Это интересно:
-[Таблицы расчётов и прочие интересные данные](https://factoriocheatsheet.com/#basic-power)
-:::
-
-Детальный разбор производства паровой энергии на YouTube канале.
+Можно заглянуть в справочник и подглядеть [таблицу расчётов для паровой энергии](https://factoriocheatsheet.com/#steam-power). А также смотреть детальный разбор производства паровой энергии на YouTube канале.
 
 [*![Паровая энергия](https://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)*](https://www.youtube.com/watch?v=RQ80eZAnZ1Q)
 
