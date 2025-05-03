@@ -17,7 +17,6 @@
   * [Ядерная энергия](PowerProduction/NuclearPower.md)
   * [Переводим паровые и ядерные электростанции в резерв](PowerProduction/BackupSteamPower.md)
   * [Улучшаем угольную электростанцию](PowerProduction/UpgradingSteamPower.md)
-  * [Большая ядерная электростанция](PowerProduction/HugeNuclearPowerPlant.md)
 
 * [Логистические сети](CircuitNetwork/README.md)
   * [Простые примеры](CircuitNetwork/SimpleExamples.md)
