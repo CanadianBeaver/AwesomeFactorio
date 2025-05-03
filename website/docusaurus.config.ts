@@ -171,7 +171,7 @@ const config: Config = {
       links: [
         {
           items: [
-            /*{ label: 'Начало', to: '/HowToStartNewGame', },*/
+            { label: 'Начало', to: '/HowToStartNewGame', },
             { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
           ],
         },

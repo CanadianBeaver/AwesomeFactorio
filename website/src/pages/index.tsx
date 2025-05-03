@@ -16,12 +16,14 @@ type FeatureItem = {
   title: string;
   description: JSX.Element;
   logo: string;
+  url: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Расскажем как построить фабрику',
     logo: thumbnail1,
+    url: '/HowToStartNewGame',
     description: (
       <>
 
@@ -31,6 +33,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Покажем много разных чертежей',
     logo: thumbnail2,
+    url: '/MiningResources',
     description: (
       <>
 
@@ -40,6 +43,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Спалим любой процессор',
     logo: thumbnail3,
+    url: '/Additionals/FPSandUPS',
     description: (
       <>
         ...даже 7950X3D
@@ -48,11 +52,13 @@ const FeatureList: FeatureItem[] = [
   }
 ];
 
-function Feature({ title, logo, description }: FeatureItem) {
+function Feature({ title, logo, url, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className={styles.featureLogo} src={logo} />
+        <Link className="button button--secondary button--lg" to={url}>
+          <img className={styles.featureLogo} src={logo} />
+        </Link>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -88,13 +94,13 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle addStroke">{siteConfig.tagline}</p>
-        {/*
+        {
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/HowToStartNewGame">
             Как начать играть?
           </Link>
         </div>
-        */}
+        }
       </div>
     </header>
   );
