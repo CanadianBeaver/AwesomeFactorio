@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Расскажем как построить фабрику',
     logo: thumbnail1,
-    url: '/HowToStartNewGame',
+    url: '/RawResourcesProcessing',
     description: (
       <>
 
