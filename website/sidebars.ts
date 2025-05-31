@@ -12,11 +12,12 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/Pollution',
         'HowToStartNewGame/BurnerDevices',
         'HowToStartNewGame/ManualConstruction',
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
-        'HowToStartNewGame/Drafts',
+        'HowToStartNewGame/Drafts'
       ]
     },
     {
@@ -99,7 +100,7 @@ const sidebars: SidebarsConfig = {
         id: 'HowToStartNewGame/README'
       },
       items: [
-        'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/Quickbar'
       ]
     }
   ],

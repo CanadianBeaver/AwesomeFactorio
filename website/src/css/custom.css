@@ -125,3 +125,16 @@ img[src*='#right50'] {
   margin-top: 0px;
 }
 
+img[src*='#rightHalf'] {
+  float: right;
+  max-width: 15%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+

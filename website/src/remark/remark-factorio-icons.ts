@@ -22,6 +22,8 @@ const IconNames: string[] = [
   'Boiler',
   'Burner inserter',
   'Burner mining drill',
+  'Electric mining drill',
+  'Big mining drill',
   'Car',
   'Cargo wagon',
   'Cargo landing pad',
@@ -46,8 +48,8 @@ const IconNames: string[] = [
   'Efficiency module 2',
   'Efficiency module 3',
   'Electric furnace',
-  'Electric mining drill',
   'Electronic circuit',
+  'Foundry',
   'Electric energy accumulators',
   'Engine unit',
   'Engine',
@@ -209,9 +211,17 @@ const IconNames: string[] = [
   'Physical projectile damage',
   'Stronger explosives',
   'Biter spawner',
+  'Spitter spawner',
   'Firearm magazine',
   'Heavy oil barrel',
-  'Sulfur'
+  'Sulfur',
+  'Tree 01',
+  'Tree 02',
+  'Tree 03',
+  'Tree 04',
+  'Tree 05',
+  'Tree 06',
+  'Dead tree'
 ];
 
 interface Options {
