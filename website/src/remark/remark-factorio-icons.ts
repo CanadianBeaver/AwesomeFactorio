@@ -3,6 +3,9 @@ import { visit } from 'unist-util-visit';
 import path from 'path';
 
 const IconNames: string[] = [
+  'Artillery',
+  'Flamethrower turret',
+  'Land mine',
   'Accumulator',
   'Advanced circuit',
   'Advanced oil processing',
@@ -133,6 +136,7 @@ const IconNames: string[] = [
   'Bulk inserter',
   'Biter',
   'Spitter',
+  'Small wriggler',
   'Steam engine',
   'Steam turbine',
   'Steam',
