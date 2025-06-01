@@ -100,7 +100,8 @@ const sidebars: SidebarsConfig = {
         id: 'HowToStartNewGame/README'
       },
       items: [
-        'HowToStartNewGame/Quickbar'
+        'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/Pollution'
       ]
     }
   ],
