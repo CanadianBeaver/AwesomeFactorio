@@ -90,6 +90,7 @@ const IconNames: string[] = [
   'Nuclear fuel',
   'Nuclear reactor',
   'Nuclear power',
+  'Heating tower',
   'Module',
   'Offshore pump',
   'Oil refinery',
