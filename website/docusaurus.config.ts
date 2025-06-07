@@ -250,6 +250,7 @@ const config: Config = {
   plugins: [
     require.resolve("docusaurus-plugin-image-zoom"),
     ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
+    ['@docusaurus/plugin-google-tag-manager', { containerId: 'GTM-TVJLMXS7' }],
   ]
 
 };
