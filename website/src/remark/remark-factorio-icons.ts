@@ -4,7 +4,9 @@ import path from 'path';
 
 const IconNames: string[] = [
   'Artillery',
+  'Flamethrower',
   'Flamethrower turret',
+  'Gun turret',
   'Land mine',
   'Accumulator',
   'Advanced circuit',
@@ -58,7 +60,6 @@ const IconNames: string[] = [
   'Engine',
   'Fast inserter',
   'Fluid wagon',
-  'Gun turret',
   'Heat boiler',
   'Heat exchanger',
   'Heat pipe',
