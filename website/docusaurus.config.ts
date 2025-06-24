@@ -171,20 +171,27 @@ const config: Config = {
       links: [
         {
           items: [
-            { label: 'Начало', to: '/HowToStartNewGame', },
-            { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
+            { label: 'Начинаем играть', to: '/HowToStartNewGame', },
+            { label: 'Погрузка и разгрузка', to: '/LoadingAndUnloadingTrains', },
+            { label: 'Логическая сеть', to: '/CircuitNetwork', },
+
           ],
         },
         {
 
           items: [
-            { label: 'Ресурсы', to: '/MiningResources', },
-            { label: 'Плавка', to: '/RawResourcesProcessing', }
+            { label: 'Добыча ресурсов', to: '/MiningResources', },
+            { label: 'Плавка ресурсов', to: '/RawResourcesProcessing', },
+            { label: 'Переработка нефти', to: '/OilRefining', },
+            { label: 'Маяки и модули', to: '/RawResourcesProcessing/BeaconsAndModules', }
           ],
         },
         {
           items: [
-            { label: 'Энергия', to: '/PowerProduction', },
+            { label: 'Производство энергии', to: '/PowerProduction', },
+            { label: 'Паровая энергия', to: '/PowerProduction/SteamPower', },
+            { label: 'Солнечная энергия', to: '/PowerProduction/SolarPower', },
+            { label: 'Ядерная энергия', to: '/PowerProduction/NuclearPower', },
           ],
         },
         /*
