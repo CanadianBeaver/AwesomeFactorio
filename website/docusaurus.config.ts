@@ -145,6 +145,7 @@ const config: Config = {
           position: 'left',
           label: 'Чё исчё?',
         },
+        {to: 'feedback', label: 'Пишите письма', position: 'right'},
         /*{
           type: 'localeDropdown',
           position: 'right'
