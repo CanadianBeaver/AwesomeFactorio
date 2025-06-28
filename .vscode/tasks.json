@@ -10,6 +10,27 @@
             },
         },
         {
+            "label": "Docusaurus clear",
+            "type": "npm",
+            "script": "clear",
+            "promptOnClose": false,
+            "options": {
+                "cwd": "${workspaceRoot}/website"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Docusaurus upgrade",
+            "type": "shell",
+            "command": "npm upgrade",
+            "options": {
+                "cwd": "${workspaceRoot}/website"
+            },
+        },
+        {
             "label": "Docusaurus build",
             "type": "npm",
             "script": "build",
@@ -32,19 +53,6 @@
             },
             "group": {
                 "kind": "test",
-                "isDefault": true
-            }
-        },
-        {
-            "label": "Docusaurus clear",
-            "type": "npm",
-            "script": "clear",
-            "promptOnClose": false,
-            "options": {
-                "cwd": "${workspaceRoot}/website"
-            },
-            "group": {
-                "kind": "build",
                 "isDefault": true
             }
         }
