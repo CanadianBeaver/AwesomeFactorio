@@ -1,4 +1,4 @@
-import React from 'react';
+import { JSX } from 'react';
 import Layout from '@theme/Layout';
 
 function GoogleForm() {

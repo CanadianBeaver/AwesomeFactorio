@@ -1,3 +1,5 @@
+import { JSX } from 'react';
+
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -57,7 +59,7 @@ function Feature({ title, logo, url, description }: FeatureItem) {
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Link className="button button--secondary button--lg" to={url}>
-          <img className={styles.featureLogo} src={logo} />
+          <img className={styles.featureLogo} src={logo} alt='' />
         </Link>
       </div>
       <div className="text--center padding-horiz--md">
@@ -78,7 +80,7 @@ function HomepageFeatures() {
           ))}
         </div>
         <div className="text--center">
-          <img src={banner} />
+          <img src={banner} alt='' />
         </div>
       </div>
     </section>
