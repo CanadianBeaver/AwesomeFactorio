@@ -17,7 +17,7 @@
   --ifm-background-color: #fcfcfc;
   --ifm-heading-font-family: 'Ubuntu';
   --ifm-font-family-base: 'Open Sans';
-  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-link-color: var(--ifm-color-primary-darker);
   --ifm-menu-color-active: var(--ifm-color-primary-dark);
   --ifm-navbar-link-hover-color: var(--ifm-color-primary-dark);
 }
