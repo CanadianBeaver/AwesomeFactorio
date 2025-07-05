@@ -101,7 +101,8 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/Quickbar',
-        'HowToStartNewGame/Pollution'
+        'HowToStartNewGame/Pollution',
+        'HowToStartNewGame/FactoryDefense',
       ]
     }
   ],
