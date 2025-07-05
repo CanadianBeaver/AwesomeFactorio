@@ -103,6 +103,7 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Quickbar',
         'HowToStartNewGame/Pollution',
         //'HowToStartNewGame/FactoryDefense',
+        //'HowToStartNewGame/FirstExpansion'
       ]
     }
   ],
