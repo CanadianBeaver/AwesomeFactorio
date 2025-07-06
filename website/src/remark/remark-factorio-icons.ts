@@ -99,6 +99,7 @@ const IconNames: string[] = [
   'Module',
   'Offshore pump',
   'Oil refinery',
+  'Oil gathering',
   'Oil processing',
   'Petroleum gas',
   'Personal roboport',
