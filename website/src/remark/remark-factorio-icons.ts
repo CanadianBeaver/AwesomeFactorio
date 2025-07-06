@@ -102,6 +102,7 @@ const IconNames: string[] = [
   'Oil gathering',
   'Oil processing',
   'Petroleum gas',
+  'Follower robots',
   'Personal roboport',
   'Pipe to ground',
   'Pipe',
