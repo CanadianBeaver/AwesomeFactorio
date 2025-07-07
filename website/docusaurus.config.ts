@@ -106,64 +106,78 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    /*scripts: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
+        async: true,
+        crossorigin: 'anonymous'
+      }
+    ],*/
     image: 'factorio-card.jpg',
     navbar: {
       title: '',
       logo: {
         alt: 'Прекрасная Фактория',
-        src: 'logo.svg',
+        src: 'logo.svg'
       },
       items: [
         /*{
           type: 'docSidebar',
           sidebarId: 'howToStartSidebar',
           position: 'left',
-          label: 'Начинаем играть',
+          label: 'Начинаем играть'
         },*/
         {
           type: 'docSidebar',
           sidebarId: 'miningSidebar',
           position: 'left',
-          label: 'Ресурсы',
+          label: '⛏️ Ресурсы'
         },
         {
           type: 'docSidebar',
           sidebarId: 'powerSidebar',
           position: 'left',
-          label: 'Энергия',
+          label: '⚡ Энергия'
         },
         {
           type: 'docSidebar',
           sidebarId: 'circuitNetworkSidebar',
           position: 'left',
-          label: 'Логическая сеть',
+          label: '🔌 Логическая сеть'
         },
         {
           type: 'docSidebar',
           sidebarId: 'additionalSidebar',
           position: 'left',
-          label: 'Чё исчё?',
+          label: '🧩 Чё исчё?'
         },
-        {to: 'feedback', label: 'Пишите письма', position: 'right'},
+        {
+          type: 'search',
+          position: 'right'
+        },
+        {
+          to: 'feedback', label: '✉️ Пишите письма', position: 'right'
+        },
         /*{
           type: 'localeDropdown',
           position: 'right'
         },*/
-        {
-          type: 'search',
-          position: 'right',
-        },
-        { to: '/blog', label: 'Blog', position: 'right' },
+        { to: '/blog', label: '📝 Blog', position: 'right' },
         /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-          label: 'GitHub',
-          position: 'right',
+          label: '🐙 GitHub',
+          position: 'right'
         },*/
         {
           href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-          label: 'Youtube',
+          label: '📺 Youtube',
+          position: 'right'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'adSenseSidebar',
           position: 'right',
+          label: '📐 О проекте'
         }
       ],
     },
@@ -174,9 +188,8 @@ const config: Config = {
           items: [
             { label: 'Начинаем играть', to: '/HowToStartNewGame', },
             { label: 'Погрузка и разгрузка', to: '/LoadingAndUnloadingTrains', },
-            { label: 'Логическая сеть', to: '/CircuitNetwork', },
-
-          ],
+            { label: 'Логическая сеть', to: '/CircuitNetwork', }
+          ]
         },
         {
 
@@ -185,31 +198,16 @@ const config: Config = {
             { label: 'Плавка ресурсов', to: '/RawResourcesProcessing', },
             { label: 'Переработка нефти', to: '/OilRefining', },
             { label: 'Маяки и модули', to: '/RawResourcesProcessing/BeaconsAndModules', }
-          ],
+          ]
         },
         {
           items: [
             { label: 'Производство энергии', to: '/PowerProduction', },
             { label: 'Паровая энергия', to: '/PowerProduction/SteamPower', },
             { label: 'Солнечная энергия', to: '/PowerProduction/SolarPower', },
-            { label: 'Ядерная энергия', to: '/PowerProduction/NuclearPower', },
-          ],
+            { label: 'Ядерная энергия', to: '/PowerProduction/NuclearPower', }
+          ]
         },
-        /*
-        {
-          title: 'Другое',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/3by95Rm7wQ',
-            },
-            {
-              label: 'Telegram',
-              href: 'https://telegram.com/AwesomeFactorio',
-            },
-          ],
-        },
-        */
         {
           //title: 'Ещё',
           items: [
@@ -240,6 +238,14 @@ const config: Config = {
             {
               label: 'Send e-mail',
               href: 'mailto:factorio@yrfle.com',
+            },
+            {
+              label: 'Конфиденциальность',
+              to: '/privacy',
+            },
+            {
+              label: 'О проекте',
+              to: '/about',
             }
           ]
         },

@@ -224,6 +224,21 @@ const sidebars: SidebarsConfig = {
       },
       items: []
     }
+  ],
+
+  adSenseSidebar: [
+    {
+      type: 'doc',
+      id: 'about',
+    },
+    {
+      type: 'doc',
+      id: 'privacy',
+    },
+    {
+      type: 'doc',
+      id: 'terms'
+    }
   ]
 
 };
