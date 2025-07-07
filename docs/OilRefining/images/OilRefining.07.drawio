@@ -1,10 +1,10 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="1181" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IJ3oHWNScLf4MZuUwLu7-74" value=" основное направление " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#EEFFEE;fillColor=#EEFFEE;swimlaneFillColor=#EEFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;" parent="1" vertex="1">
+        <mxCell id="IJ3oHWNScLf4MZuUwLu7-74" value=" основное направление " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#EEFFEE;fillColor=#EEFFEE;swimlaneFillColor=#EEFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;textShadow=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="250" width="680" height="220" as="geometry" />
         </mxCell>
         <mxCell id="IJ3oHWNScLf4MZuUwLu7-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;verticalAlign=top;spacingTop=-8;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=default;" parent="IJ3oHWNScLf4MZuUwLu7-74" vertex="1">
@@ -15,7 +15,7 @@
             <mxRectangle width="680" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ3oHWNScLf4MZuUwLu7-70" value=" сопутствующее обеспечение " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;" parent="1" vertex="1">
+        <mxCell id="IJ3oHWNScLf4MZuUwLu7-70" value=" сопутствующее обеспечение " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;textShadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="102" width="230" height="118" as="geometry" />
         </mxCell>
         <mxCell id="IJ3oHWNScLf4MZuUwLu7-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;verticalAlign=top;spacingTop=-8;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=default;" parent="IJ3oHWNScLf4MZuUwLu7-70" vertex="1">
@@ -26,7 +26,7 @@
             <mxRectangle width="230" height="88" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ3oHWNScLf4MZuUwLu7-67" value=" стоит также развивать " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;" parent="1" vertex="1">
+        <mxCell id="IJ3oHWNScLf4MZuUwLu7-67" value=" стоит также развивать " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;textShadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="250" width="280" height="220" as="geometry" />
         </mxCell>
         <mxCell id="IJ3oHWNScLf4MZuUwLu7-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;verticalAlign=top;spacingTop=-8;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=default;" parent="IJ3oHWNScLf4MZuUwLu7-67" vertex="1">
@@ -37,7 +37,7 @@
             <mxRectangle width="280" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ3oHWNScLf4MZuUwLu7-54" value=" боевое обеспечение " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;" parent="1" vertex="1">
+        <mxCell id="IJ3oHWNScLf4MZuUwLu7-54" value=" боевое обеспечение " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#994C00;align=center;verticalAlign=top;spacingTop=-14;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=#FFFFEE;fillColor=#FFFFEE;swimlaneFillColor=#FFFFEE;swimlaneLine=0;rounded=0;shadow=0;gradientColor=none;fontStyle=1;labelBorderColor=#994C00;textShadow=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="102" width="732.5" height="118" as="geometry" />
         </mxCell>
         <mxCell id="IJ3oHWNScLf4MZuUwLu7-55" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;verticalAlign=top;spacingTop=-8;spacing=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#CC6600;labelBackgroundColor=default;" parent="IJ3oHWNScLf4MZuUwLu7-54" vertex="1">
