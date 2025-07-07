@@ -165,18 +165,10 @@ html[data-theme='dark'] a {
   color: var(--ifm-link-color);
 }
 
-html[data-theme='dark'] a:hover {
-  text-decoration: underline;
-}
-
 html[data-theme='dark'] blockquote {
   background-color: #1f1f1f;
   border-left: 4px solid var(--ifm-color-primary-dark);
   padding: 1rem;
-  color: #ccc;
-}
-
-html[data-theme='dark'] article p {
   color: #ccc;
 }
 
