@@ -7,12 +7,12 @@ const navbar: ThemeConfig['navbar'] = {
         src: 'logo.svg'
     },
     items: [
-        /*{
+        {
           type: 'docSidebar',
           sidebarId: 'howToStartSidebar',
           position: 'left',
-          label: 'Начинаем играть'
-        },*/
+          label: '🏭 Начинаем играть'
+        },
         {
             type: 'docSidebar',
             sidebarId: 'miningSidebar',
