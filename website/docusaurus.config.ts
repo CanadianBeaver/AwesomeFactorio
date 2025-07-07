@@ -2,10 +2,16 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+// @ts-ignore
 import { rehypeExtendedTable } from 'rehype-extended-table';
 
 const remarkFactorioIcons = require('./src/remark/remark-factorio-icons');
 const remarkFactorioSaves = require('./src/remark/remark-factorio-saves');
+
+import i18n from './config/i18n';
+import plugins from './config/plugins';
+import footer from './config/footer';
+import navbar from './config/navbar';
 
 const config: Config = {
   title: 'Awesome Factorio',
@@ -30,23 +36,7 @@ const config: Config = {
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'/*, 'en'*/],
-    localeConfigs: {
-      ru: {
-        label: 'Русский',
-        htmlLang: 'ru-RU',
-      }/*,
-      en: {
-        label: 'English',
-        htmlLang: 'en-US',
-      },*/
-    },
-  },
+  i18n,
 
   markdown: {
     mermaid: true,
@@ -114,144 +104,8 @@ const config: Config = {
       }
     ],*/
     image: 'factorio-card.jpg',
-    navbar: {
-      title: '',
-      logo: {
-        alt: 'Прекрасная Фактория',
-        src: 'logo.svg'
-      },
-      items: [
-        /*{
-          type: 'docSidebar',
-          sidebarId: 'howToStartSidebar',
-          position: 'left',
-          label: 'Начинаем играть'
-        },*/
-        {
-          type: 'docSidebar',
-          sidebarId: 'miningSidebar',
-          position: 'left',
-          label: '⛏️ Ресурсы'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'powerSidebar',
-          position: 'left',
-          label: '⚡ Энергия'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'circuitNetworkSidebar',
-          position: 'left',
-          label: '🔌 Логическая сеть'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'additionalSidebar',
-          position: 'left',
-          label: '🧩 Чё исчё?'
-        },
-        {
-          type: 'search',
-          position: 'right'
-        },
-        {
-          to: 'feedback', label: '✉️ Пишите письма', position: 'right'
-        },
-        /*{
-          type: 'localeDropdown',
-          position: 'right'
-        },*/
-        { to: '/blog', label: '📝 Blog', position: 'right' },
-        /*{
-          href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-          label: '🐙 GitHub',
-          position: 'right'
-        },*/
-        {
-          href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-          label: '📺 Youtube',
-          position: 'right'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'adSenseSidebar',
-          position: 'right',
-          label: '📐 О проекте'
-        }
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          items: [
-            { label: 'Начинаем играть', to: '/HowToStartNewGame', },
-            { label: 'Погрузка и разгрузка', to: '/LoadingAndUnloadingTrains', },
-            { label: 'Логическая сеть', to: '/CircuitNetwork', }
-          ]
-        },
-        {
-
-          items: [
-            { label: 'Добыча ресурсов', to: '/MiningResources', },
-            { label: 'Плавка ресурсов', to: '/RawResourcesProcessing', },
-            { label: 'Переработка нефти', to: '/OilRefining', },
-            { label: 'Маяки и модули', to: '/RawResourcesProcessing/BeaconsAndModules', }
-          ]
-        },
-        {
-          items: [
-            { label: 'Производство энергии', to: '/PowerProduction', },
-            { label: 'Паровая энергия', to: '/PowerProduction/SteamPower', },
-            { label: 'Солнечная энергия', to: '/PowerProduction/SolarPower', },
-            { label: 'Ядерная энергия', to: '/PowerProduction/NuclearPower', }
-          ]
-        },
-        {
-          //title: 'Ещё',
-          items: [
-            {
-              label: 'Блог',
-              to: '/blog',
-            },
-            {
-              label: 'RSS',
-              to: 'pathname:///blog/rss.xml',
-            },
-            {
-              label: 'Atom',
-              to: 'pathname:///blog/atom.xml',
-            }
-          ],
-        },
-        {
-          items: [
-            /*{
-              label: 'GitHub',
-              href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-            },*/
-            {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-            },
-            {
-              label: 'Send e-mail',
-              href: 'mailto:factorio@yrfle.com',
-            },
-            {
-              label: 'Конфиденциальность',
-              to: '/privacy',
-            },
-            {
-              label: 'О проекте',
-              to: '/about',
-            }
-          ]
-        },
-      ],
-      copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`,
-    },
+    navbar,
+    footer,
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
@@ -261,12 +115,7 @@ const config: Config = {
     }
   } satisfies Preset.ThemeConfig,
 
-  plugins: [
-    require.resolve("docusaurus-plugin-image-zoom"),
-    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
-    ['@docusaurus/plugin-google-tag-manager', { containerId: 'GTM-TVJLMXS7' }],
-    ['@docusaurus/plugin-google-gtag', { trackingID: 'G-ZCL1B8TRSM', anonymizeIP: true, }],
-  ]
+  plugins,
 
 };
 
