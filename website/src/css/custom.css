@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
 
 :root {
   --ifm-color-primary: #cc9900;
@@ -61,11 +61,14 @@ p.hero__subtitle {
   text-transform: uppercase;
 }
 
-.hero__title.addStroke, p.hero__subtitle.addStroke {
+.hero__title.addStroke,
+p.hero__subtitle.addStroke {
   -webkit-text-stroke: 1px var(--ifm-color-primary-darkest);
 }
 
-a.menu__link, ul.table-of-contents a, a.navbar__link {
+a.menu__link,
+ul.table-of-contents a,
+a.navbar__link {
   font-family: 'Roboto';
   letter-spacing: -0.2px;
 }
@@ -200,4 +203,8 @@ img[src*='#right']:hover,
 img[src*='#left']:hover,
 img[src*='#right50']:hover {
   transform: scale(1.05);
+}
+
+html[data-theme='dark'] div.navbar__logo img {
+  content: url('/logo-dark.svg');
 }
