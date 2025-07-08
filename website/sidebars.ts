@@ -17,17 +17,9 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/ManualConstruction',
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
-        'HowToStartNewGame/Drafts'
+        'HowToStartNewGame/Drafts',
+        'HowToStartNewGame/FactoryDefense'
       ]
-    },
-    {
-      type: 'category',
-      label: 'Первый выход с базы',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/FirstExpansion',
-      },
-      items: [ ]
     },
     {
       type: 'category',
@@ -102,8 +94,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'HowToStartNewGame/Quickbar',
         'HowToStartNewGame/Pollution',
-        //'HowToStartNewGame/FactoryDefense',
-        //'HowToStartNewGame/FirstExpansion'
+        //'HowToStartNewGame/FactoryDefense'
       ]
     }
   ],
