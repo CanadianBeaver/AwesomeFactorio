@@ -63,13 +63,13 @@ slug: /privacy
 
 Мы можем обновлять эту политику. Последняя версия всегда доступна по адресу:
 
-[https://awesomefactorio.yrfle.com/privacy](/privacy)
+[https://awesomefactorio.yrfle.com/privacy](Privacy.md)
 
 ---
 
 ## 📬 Контакты
 
-Если у вас есть вопросы, напишите нам на: `awesome@yrfle.com`
+Если у вас есть вопросы, напишите нам на: `factroy@yrfle.com`
 
 ---
 

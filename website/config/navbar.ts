@@ -11,31 +11,31 @@ const navbar: ThemeConfig['navbar'] = {
           type: 'docSidebar',
           sidebarId: 'howToStartSidebar',
           position: 'left',
-          label: '🏭 Начинаем играть'
+          label: '🏭Начинаем играть'
         },
         {
             type: 'docSidebar',
             sidebarId: 'miningSidebar',
             position: 'left',
-            label: '⛏️ Ресурсы'
+            label: '⛏️Ресурсы'
         },
         {
             type: 'docSidebar',
             sidebarId: 'powerSidebar',
             position: 'left',
-            label: '⚡ Энергия'
+            label: '⚡Энергия'
         },
         {
             type: 'docSidebar',
             sidebarId: 'circuitNetworkSidebar',
             position: 'left',
-            label: '🔌 Логическая сеть'
+            label: '🔌Логическая сеть'
         },
         {
             type: 'docSidebar',
             sidebarId: 'additionalSidebar',
             position: 'left',
-            label: '🧩 Чё исчё?'
+            label: '🧩Чё исчё?'
         },
         {
             type: 'search',
@@ -48,22 +48,22 @@ const navbar: ThemeConfig['navbar'] = {
         {
             to: 'feedback', label: '✉️ Пишите письма', position: 'right'
         },
-        { to: '/blog', label: '📝 Blog', position: 'right' },
+        { to: '/blog', label: '📝Blog', position: 'right' },
         /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-          label: '🐙 GitHub',
+          label: '🐙GitHub',
           position: 'right'
         },*/
         {
             href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-            label: '📺 Youtube',
+            label: '📺Youtube',
             position: 'right'
         },
         {
             type: 'docSidebar',
             sidebarId: 'adSenseSidebar',
             position: 'right',
-            label: '📐 О проекте'
+            label: '📐О проекте'
         }
     ],
 };

@@ -208,3 +208,7 @@ img[src*='#right50']:hover {
 html[data-theme='dark'] div.navbar__logo img {
   content: url('/logo-dark.svg');
 }
+
+.navbar__item {
+  white-space: nowrap;
+}

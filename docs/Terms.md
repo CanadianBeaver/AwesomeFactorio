@@ -50,7 +50,7 @@ slug: /terms
 ## 6. Изменения условий
 
 Мы оставляем за собой право изменять эти Условия в любое время. Актуальная версия всегда доступна по адресу:
-[https://awesomefactorio.yrfle.com/terms](/terms)
+[https://awesomefactorio.yrfle.com/terms](./Terms.md)
 
 ---
 
