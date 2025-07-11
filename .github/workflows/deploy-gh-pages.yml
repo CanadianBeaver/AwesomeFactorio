@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
-      - name: Получить коммиты из GitHub API
+      - name: Download latest commits from GitHub API
         run: |
           mkdir -p website/src/data
           REPO=${GITHUB_REPOSITORY}
