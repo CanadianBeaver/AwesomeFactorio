@@ -40,8 +40,8 @@ jobs:
           mkdir -p website/src/data
           REPO=${GITHUB_REPOSITORY}
           curl -s https://api.github.com/repos/$REPO/commits | \
-            jq '[.[] | {message: .commit.message, date: (.commit.author.date | fromdate | strftime(" %d %B %Y")), url: .html_url}] | .[:6]' \
-              > website/src/data/git-commits.json        
+            jq '[.[] | {message: .commit.message, date: (.commit.author.date | fromdate | strftime("%e %b %Y")), url: .html_url}] | .[:6]' \
+              > website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
