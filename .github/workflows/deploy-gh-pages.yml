@@ -35,6 +35,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
+      - name: Получить коммиты из GitHub API
+        run: |
+          REPO=${GITHUB_REPOSITORY}
+          curl -s https://api.github.com/repos/$REPO/commits | \
+            jq '[.[] | {message: .commit.message, date: (.commit.author.date | fromdate | strftime(" %d %B %Y")), url: .html_url}] | .[:5]' \
+              > website/src/data/git-commits.json        
       - name: Build pages
         run: npm run build
         working-directory: website
