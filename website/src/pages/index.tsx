@@ -14,6 +14,8 @@ import thumbnail1 from './production.png';
 import thumbnail2 from './logistics.png';
 import thumbnail3 from './intermediate-products.png';
 
+import GitCommits from './commits';
+
 type FeatureItem = {
   title: string;
   description: JSX.Element;
@@ -81,6 +83,9 @@ function HomepageFeatures() {
         </div>
         <div className="text--center">
           <img src={banner} alt='' />
+        </div>
+        <div className="text--left">
+          <GitCommits />
         </div>
       </div>
     </section>
