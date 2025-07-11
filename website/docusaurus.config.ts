@@ -54,8 +54,7 @@ const config: Config = {
           sidebarCollapsed: false,
           sidebarCollapsible: false,
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
-          rehypePlugins: [rehypeExtendedTable],
-          showLastUpdateTime: true
+          rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
           path: '../blog',
@@ -66,6 +65,7 @@ const config: Config = {
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
+          showLastUpdateTime: true,
           blogSidebarCount: 'ALL',
           feedOptions: {
             title: 'Блог про игру Factorio',
