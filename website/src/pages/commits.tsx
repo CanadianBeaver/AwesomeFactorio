@@ -1,4 +1,3 @@
-// src/components/GitCommits.tsx
 import React from 'react';
 import commits from '../data/git-commits.json';
 
