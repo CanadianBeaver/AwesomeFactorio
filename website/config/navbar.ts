@@ -11,31 +11,36 @@ const navbar: ThemeConfig['navbar'] = {
           type: 'docSidebar',
           sidebarId: 'howToStartSidebar',
           position: 'left',
-          label: '🏭Начинаем играть'
+          label: '🏭Начинаем играть',
+          title: 'от первой печи и до запуска первого спутника'
         },
         {
             type: 'docSidebar',
             sidebarId: 'miningSidebar',
             position: 'left',
-            label: '⛏️Ресурсы'
+            label: '⛏️Ресурсы',
+            title: 'где копать и по куда сдавать накопанное'
         },
         {
             type: 'docSidebar',
             sidebarId: 'powerSidebar',
             position: 'left',
-            label: '⚡Энергия'
+            label: '⚡Энергия',
+            title: 'от пара до ядерной энергии'
         },
         {
             type: 'docSidebar',
             sidebarId: 'circuitNetworkSidebar',
             position: 'left',
-            label: '🔌Логическая сеть'
+            label: '🔌Логическая сеть',
+            title: 'автоматизация и умная логика с помощью проводов и сигналов'
         },
         {
             type: 'docSidebar',
             sidebarId: 'additionalSidebar',
             position: 'left',
-            label: '🧩Чё исчё?'
+            label: '🧩Чё исчё?',
+            title: 'всяка дополнительная дичь и полезняшки'
         },
         {
             type: 'search',
@@ -46,24 +51,27 @@ const navbar: ThemeConfig['navbar'] = {
           position: 'right'
         },*/
         {
-            to: 'feedback', label: '✉️ Пишите письма', position: 'right'
+            to: 'feedback', label: '✉️', position: 'right', title: 'пишите письма'
         },
-        { to: '/blog', label: '📝Blog', position: 'right' },
+        { to: '/blog', label: '📝', position: 'right', title: 'блог со статьями и заметками' },
         /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
           label: '🐙GitHub',
-          position: 'right'
+          position: 'right',
+          title: 'загляните в репозиторий и оставьте звёздочку'
         },*/
         {
             href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
             label: '📺Youtube',
-            position: 'right'
+            position: 'right',
+            title: 'подписывайтесь на канал и слушайте радиопередачи'
         },
         {
             type: 'docSidebar',
             sidebarId: 'adSenseSidebar',
             position: 'right',
-            label: '📐О проекте'
+            label: '📐',
+            title: 'узнайте больше обо всём на свете'
         }
     ],
 };
