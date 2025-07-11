@@ -37,6 +37,7 @@ jobs:
         working-directory: website
       - name: Получить коммиты из GitHub API
         run: |
+          mkdir -p website/src/data
           REPO=${GITHUB_REPOSITORY}
           curl -s https://api.github.com/repos/$REPO/commits | \
             jq '[.[] | {message: .commit.message, date: (.commit.author.date | fromdate | strftime(" %d %B %Y")), url: .html_url}] | .[:5]' \
