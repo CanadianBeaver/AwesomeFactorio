@@ -233,6 +233,7 @@ const IconNames: string[] = [
   'Power armor research',
   'Power armor mk2 research',
   'Grenade',
+  `Cluster grenade`,
   'Weapon shooting speed',
   'Physical projectile damage',
   'Stronger explosives',
@@ -290,12 +291,17 @@ const plugin: Plugin<[Options]> = (options) => {
             alt: iconName,
             url: iconUrl
           }
-        ]
+        ],
+        data: {
+          hProperties: {
+            className: "factorio-icon"
+          }
+        }
       };
 
       let spaceNode = {
         type: "text",
-        value: " "
+        value: ""
       };
 
       parent.children.splice(index, deleteNode, iconNode, spaceNode);

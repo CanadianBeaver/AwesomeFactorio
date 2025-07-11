@@ -81,6 +81,12 @@ div.sidebarItemTitle_pO2u {
   font-family: 'Ubuntu';
 }
 
+em.factorio-icon + code {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 article h1,
 article h2,
 article h3,

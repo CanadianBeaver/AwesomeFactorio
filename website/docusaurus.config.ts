@@ -54,7 +54,8 @@ const config: Config = {
           sidebarCollapsed: false,
           sidebarCollapsible: false,
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
-          rehypePlugins: [rehypeExtendedTable]
+          rehypePlugins: [rehypeExtendedTable],
+          showLastUpdateTime: true
         },
         blog: {
           path: '../blog',
