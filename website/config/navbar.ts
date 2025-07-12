@@ -4,42 +4,38 @@ const navbar: ThemeConfig['navbar'] = {
     title: '',
     logo: {
         alt: 'Прекрасная Фактория',
-        src: 'logo.svg'
+        src: 'logo.svg',
+        srcDark: 'logo-dark.svg',
     },
     items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'howToStartSidebar',
-          position: 'left',
-          label: '🏭Начинаем играть',
-          title: 'от первой печи и до запуска первого спутника'
+            type: 'doc',
+            docId: 'HowToStartNewGame/README',
+            label: 'Начинаем играть', //label: '🏭 Начинаем играть',
+            title: 'от первой печи и до запуска первого спутника'
         },
         {
-            type: 'docSidebar',
-            sidebarId: 'miningSidebar',
-            position: 'left',
-            label: '⛏️Ресурсы',
+            type: 'doc',
+            docId: 'MiningResources/README',
+            label: 'Ресурсы', //label: '⛏️ Ресурсы',
             title: 'где копать и по куда сдавать накопанное'
         },
         {
-            type: 'docSidebar',
-            sidebarId: 'powerSidebar',
-            position: 'left',
-            label: '⚡Энергия',
+            type: 'doc',
+            docId: 'PowerProduction/README',
+            label: 'Энергия', // label: '⚡ Энергия',
             title: 'от пара до ядерной энергии'
         },
         {
-            type: 'docSidebar',
-            sidebarId: 'circuitNetworkSidebar',
-            position: 'left',
-            label: '🔌Логическая сеть',
+            type: 'doc',
+            docId: 'CircuitNetwork/README',
+            label: 'Логическая сеть', //label: '🔌 Логическая сеть',
             title: 'автоматизация и умная логика с помощью проводов и сигналов'
         },
         {
-            type: 'docSidebar',
-            sidebarId: 'additionalSidebar',
-            position: 'left',
-            label: '🧩Чё исчё?',
+            type: 'doc',
+            docId: 'Additionals/QualityAssessment',
+            label: 'Чё исчё?', //label: '🧩 Чё исчё?',
             title: 'всяка дополнительная дичь и полезняшки'
         },
         {
@@ -51,27 +47,35 @@ const navbar: ThemeConfig['navbar'] = {
           position: 'right'
         },*/
         {
-            to: 'feedback', label: '✉️', position: 'right', title: 'пишите письма'
+            to: 'feedback',
+            label: '✉️ Contact us',
+            title: 'пишите письма',
+            position: 'right'
         },
-        { to: '/blog', label: '📝', position: 'right', title: 'блог со статьями и заметками' },
+        {
+            to: '/blog',
+            label: '📝 Blog',
+            title: 'блог со статьями и заметками',
+            position: 'right'
+         },
         /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-          label: '🐙GitHub',
+          label: '🐙 GitHub',
           position: 'right',
           title: 'загляните в репозиторий и оставьте звёздочку'
         },*/
         {
             href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-            label: '📺Youtube',
-            position: 'right',
-            title: 'подписывайтесь на канал и слушайте радиопередачи'
+            label: '📺 Youtube',
+            title: 'подписывайтесь на канал и слушайте радиопередачи',
+            position: 'right'
         },
         {
             type: 'docSidebar',
             sidebarId: 'adSenseSidebar',
-            position: 'right',
-            label: '📐',
-            title: 'узнайте больше обо всём на свете'
+            label: '📐 About us',
+            title: 'узнайте больше обо всём на свете',
+            position: 'right'
         }
     ],
 };
