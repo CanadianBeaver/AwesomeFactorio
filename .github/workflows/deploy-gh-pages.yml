@@ -40,13 +40,14 @@ jobs:
           mkdir -p website/src/data
           git log -n 20 --pretty=format:'%H|+|%ad|+|%s' --date=format:'%e %B %Y' | \
             grep -vE 'https?://' | \
-            head -n 6 | \
-            while read LINE; do
-              HASH=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $1}')
-              DATE=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $2}')
-              MSG=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $3}' | sed 's/"/\\"/g')
-              echo "{\"date\": \"$DATE\", \"message\": \"$MSG\", \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/${HASH}\"}"
-            done > website/src/data/tmp-git-commits.json
+            head -n 6 > website/src/data/tmp-git-commits.log
+          while read LINE; do
+            HASH=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $1}')
+            DATE=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $2}')
+            MSG=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $3}' | sed 's/"/\\"/g')
+            echo "{\"date\": \"$DATE\", \"message\": \"$MSG\", \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/${HASH}\"}"
+          done < website/src/data/tmp-git-commits.log > website/src/data/tmp-git-commits.json
+          rm website/src/data/tmp-git-commits.log          
           printf '[%s]\n' "$(paste -sd, - < website/src/data/tmp-git-commits.json)" > website/src/data/git-commits.json
           rm website/src/data/tmp-git-commits.json
       - name: Build pages
