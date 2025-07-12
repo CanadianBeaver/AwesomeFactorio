@@ -14,7 +14,7 @@ import thumbnail1 from './production.png';
 import thumbnail2 from './logistics.png';
 import thumbnail3 from './intermediate-products.png';
 
-import GitCommits from './commits';
+import gitDataCommits from '../data/git-commits.json';
 
 type FeatureItem = {
   title: string;
@@ -72,6 +72,37 @@ function Feature({ title, logo, url, description }: FeatureItem) {
   );
 }
 
+function GitCommits() {
+  if (!gitDataCommits || gitDataCommits.length === 0) {
+    return null; // ничего не выводим, если нет данных
+  }
+
+  function getIconByUrl(url: string): string {
+    const icons = [
+      '🚀','🏭','🕒','🔧','📦','⚡','🔨','🧪','📈','🛠️','💡','🐞',
+      '🎨','🧱','📊','📃','🖼️','🐢','🚧','📜','🧬','🎯','🧰','⚙️'
+    ];
+    let sum = 0;
+    for (let i = 0; i < url.length; i++) {
+      sum += url.charCodeAt(i);
+    }
+    return icons[sum % icons.length];
+  }
+
+  return (
+    <div className="margin-top--lg">
+      <h3>🕒 Последние изменения:</h3>
+      <pre>
+        {gitDataCommits.map((c, i) => (
+          <div key={i}>
+           {c.date}: {getIconByUrl(c.url)} {c.message}
+          </div>
+        ))}
+      </pre>
+    </div>
+  );
+}
+
 function HomepageFeatures() {
   return (
     <section className={styles.features}>
@@ -84,7 +115,7 @@ function HomepageFeatures() {
         <div className="text--center">
           <img src={banner} alt='' />
         </div>
-        <div className="text--left">
+        <div className="row">
           <GitCommits />
         </div>
       </div>

@@ -1,27 +1,27 @@
 [
   {
-    "message": "🚀 Добавлена автоматическая генерация лога коммитов",
     "date": " 3 июля 2025",
+    "message": "Добавлена автоматическая генерация лога коммитов",
     "url": "https://github.com/username/repo/commit/abcdef1"
   },
   {
-    "message": "🐛 Исправлена ошибка отображения даты в компоненте GitCommits",
     "date": " 5 июля 2025",
+    "message": "Исправлена ошибка отображения даты в компоненте GitCommits",
     "url": "https://github.com/username/repo/commit/abcdef2"
   },
   {
-    "message": "📦 Обновлены зависимости проекта (React 18)",
     "date": " 7 июля 2025",
+    "message": "Обновлены зависимости проекта (React 18)",
     "url": "https://github.com/username/repo/commit/abcdef3"
   },
   {
-    "message": "📝 Обновлена документация по подключению GitHub API",
     "date": " 9 июля 2025",
+    "message": "Обновлена документация по подключению GitHub API",
     "url": "https://github.com/username/repo/commit/abcdef4"
   },
   {
-    "message": "🎨 Улучшено оформление компонента коммитов (терминальный стиль)",
     "date": "11 июля 2025",
+    "message": "Улучшено оформление компонента коммитов (терминальный стиль)",
     "url": "https://github.com/username/repo/commit/abcdef5"
   }
 ]

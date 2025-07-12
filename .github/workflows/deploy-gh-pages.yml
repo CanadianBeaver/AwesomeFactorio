@@ -35,16 +35,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
-      - name: Download latest commits from GitHub API
+      - name: Prepare latest commits from git
         run: |
           mkdir -p website/src/data
-          REPO=${GITHUB_REPOSITORY}
-          curl -s https://api.github.com/repos/$REPO/commits | \
-            jq '[.[] | select(.commit.message | test("https?://") | not) |
-                 {message: .commit.message,
-                  date: (.commit.author.date | fromdate | strftime(" %e %b %Y")),
-                  url: .html_url}] | .[:6]' \
-              > website/src/data/git-commits.json
+          git log -n 20 --pretty=format:'%H|+|%ad|+|%s' --date=format:'%e %B %Y' | \
+            grep -vE 'https?://' | \
+            head -n 6 | \
+            while read LINE; do
+              HASH=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $1}')
+              DATE=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $2}')
+              MSG=$(echo "$LINE" | awk -F'\\|\\+\\|' '{print $3}' | sed 's/"/\\"/g')
+              echo "{\"date\": \"$DATE\", \"message\": \"$MSG\", \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/${HASH}\"}"
+            done | \
+            paste -sd, - | \
+            sed 's/^/[/' | \
+            sed 's/$/]/' | \
+            > website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
