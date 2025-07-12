@@ -39,15 +39,13 @@ jobs:
         run: |
           mkdir -p website/src/data
           git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
-            grep -vE 'https?://' | \
+            awk -F'@@@' '!($3 ~ /https?:\/\//) {
+              gsub(/"/, "\\\"", $3);
+              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
+            }' | \
             head -n 6 | \
-            awk -F'@@@' '{
-                gsub(/"/, "\\\"", $3);
-                print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
-              }' | \
-            paste -sd, - | \
-            sed 's/^/[/' | sed 's/$/]/' | \
-              > website/src/data/git-commits.json
+            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
+            > website/src/data/git-commits.json
       - name: Save latest commits from git for debug
         uses: actions/upload-artifact@v4
         with:
