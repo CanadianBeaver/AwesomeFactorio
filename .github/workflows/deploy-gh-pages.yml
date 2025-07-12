@@ -37,13 +37,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
-      - name: Debug filtered commits1
-        run: |
-          git log -n 100 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y'
-      - name: Debug filtered commits2
-        run: |
-          git log -n 100 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
-            awk -F'@@@' '!($3 ~ /https?:\/\//) { print $0 }'
       - name: Prepare latest commits from git
         run: |
           mkdir -p website/src/data
@@ -55,11 +48,6 @@ jobs:
             head -n 6 | \
             awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
             > website/src/data/git-commits.json
-      - name: Save latest commits from git for debug
-        uses: actions/upload-artifact@v4
-        with:
-          name: git-commits
-          path: website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
