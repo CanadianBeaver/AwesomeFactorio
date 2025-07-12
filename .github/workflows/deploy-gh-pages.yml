@@ -50,6 +50,11 @@ jobs:
           rm website/src/data/tmp-git-commits.log          
           printf '[%s]\n' "$(paste -sd, - < website/src/data/tmp-git-commits.json)" > website/src/data/git-commits.json
           rm website/src/data/tmp-git-commits.json
+      - name: Save latest commits from git for debug
+        uses: actions/upload-artifact@v3
+        with:
+          name: git-commits
+          path: website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
@@ -57,7 +62,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .build
-
   # Deployment job
   deploy:
     environment:
