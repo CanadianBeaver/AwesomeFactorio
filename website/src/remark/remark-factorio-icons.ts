@@ -277,13 +277,13 @@ const plugin: Plugin<[Options]> = (options) => {
       if (index > 0 && parent.children[index - 1].type === 'emphasis' && parent.children[index - 1].children.length > 0 && parent.children[index - 1].children[0].type === 'image') return;
       if (index > 1 && parent.children[index - 1].type === 'text' && parent.children[index - 1].value === ' ' && parent.children[index - 2].type === 'emphasis' && parent.children[index - 2].children.length > 0 && parent.children[index - 2].children[0].type === 'image') return;
 
-      let deleteNode = node.value.startsWith('!') ? 1 : 0;
+      const deleteNode = node.value.startsWith('!') ? 1 : 0;
       let iconName = node.value;
       if (deleteNode == 1) iconName = iconName.substring(1);
-      let rootDir = path.relative(vfile.dirname, 'factorio_icons');
-      let iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
+      const rootDir = path.relative(vfile.dirname, 'factorio_icons');
+      const iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
 
-      let iconNode = {
+      const iconNode = {
         type: "emphasis",
         children: [
           {
@@ -291,20 +291,19 @@ const plugin: Plugin<[Options]> = (options) => {
             alt: iconName,
             url: iconUrl
           }
-        ],
-        data: {
-          hProperties: {
-            className: "factorio-icon"
-          }
-        }
+        ]
       };
 
-      let spaceNode = {
-        type: "text",
-        value: ""
+      const nowrapNode = {
+        type: "span",
+        data: { hProperties: { style: "white-space:nowrap; display: inline-block; min-width: max-content;" } },
+        children: [
+          iconNode,
+          ...(deleteNode !== 1 ? [{ ...node }] : [])
+        ]
       };
 
-      parent.children.splice(index, deleteNode, iconNode, spaceNode);
+      parent.children.splice(index, 1, nowrapNode);
     });
   }
   return transformer;
