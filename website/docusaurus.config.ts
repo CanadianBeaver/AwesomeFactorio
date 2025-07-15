@@ -83,7 +83,6 @@ const config: Config = {
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         docsRouteBasePath: '/',
         docsDir: '../docs',
@@ -97,13 +96,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    scripts: [
-      {
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
-        async: true,
-        crossorigin: 'anonymous'
-      }
-    ],
     image: 'factorio-card.jpg',
     navbar,
     footer,
@@ -117,6 +109,14 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   plugins,
+
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
+      async: true,
+      crossorigin: 'anonymous'
+    }
+  ],
 
 };
 
