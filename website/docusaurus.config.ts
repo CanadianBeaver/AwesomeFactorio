@@ -106,7 +106,7 @@ const config: Config = {
     zoom: {
       selector: '.markdown :not(em) > img'
     },
-    showAds: process.env.REACT_APP_SHOW_ADS === 'true',
+    showAds: true, // Set to true to enable Google AdSense ads
   } satisfies Preset.ThemeConfig,
 
   plugins,

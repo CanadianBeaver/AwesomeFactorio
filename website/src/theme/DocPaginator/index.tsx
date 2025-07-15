@@ -1,7 +1,7 @@
-import React, {useEffect,type ReactNode} from 'react';
+import React, { useEffect, type ReactNode } from 'react';
 import DocPaginator from '@theme-original/DocPaginator';
 import type DocPaginatorType from '@theme/DocPaginator';
-import type {WrapperProps} from '@docusaurus/types';
+import type { WrapperProps } from '@docusaurus/types';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 type Props = WrapperProps<typeof DocPaginatorType>;
