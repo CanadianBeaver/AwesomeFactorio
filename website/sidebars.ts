@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
         'HowToStartNewGame/Drafts',
-        //'HowToStartNewGame/FactoryDefense'
+        'HowToStartNewGame/FactoryDefense'
       ]
     },
     {
@@ -94,7 +94,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'HowToStartNewGame/Quickbar',
         'HowToStartNewGame/Pollution',
-        //'HowToStartNewGame/FactoryDefense'
+        'HowToStartNewGame/FactoryDefense'
       ]
     }
   ],

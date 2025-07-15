@@ -1,17 +1,11 @@
-declare global {
-  interface Window {
-    adsbygoogle?: unknown[];
-  }
-}
-
 import React, {useEffect,type ReactNode} from 'react';
-import Layout from '@theme-original/DocItem/Layout';
-import type LayoutType from '@theme/DocItem/Layout';
+import DocPaginator from '@theme-original/DocPaginator';
+import type DocPaginatorType from '@theme/DocPaginator';
 import type {WrapperProps} from '@docusaurus/types';
 
-type Props = WrapperProps<typeof LayoutType>;
+type Props = WrapperProps<typeof DocPaginatorType>;
 
-export default function LayoutWrapper(props: Props): ReactNode {
+export default function DocPaginatorWrapper(props: Props): ReactNode {
   useEffect(() => {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -22,7 +16,7 @@ export default function LayoutWrapper(props: Props): ReactNode {
 
   return (
     <>
-      <Layout {...props} />
+      <DocPaginator {...props} />
       <div style={{ marginTop: '2rem' }}>
         <ins
           className="adsbygoogle"
