@@ -105,7 +105,8 @@ const config: Config = {
     },
     zoom: {
       selector: '.markdown :not(em) > img'
-    }
+    },
+    showAds: true, // 👉 сменить на false, чтобы отключить рекламу
   } satisfies Preset.ThemeConfig,
 
   plugins,
