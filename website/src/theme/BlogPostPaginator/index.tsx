@@ -9,11 +9,9 @@ type Props = WrapperProps<typeof BlogPostPaginatorType>;
 export default function BlogPostPaginatorWrapper(props: Props): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const showAds = (siteConfig.themeConfig as { showAds?: boolean })?.showAds ?? false;
-  const isProduction = process.env.NODE_ENV === 'production';
-  const _showAds_ = showAds && isProduction;
 
   useEffect(() => {
-    if (_showAds_ && typeof window !== 'undefined') {
+    if (showAds && typeof window !== 'undefined') {
       try {
         if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
           window.adsbygoogle.push({});
@@ -22,12 +20,12 @@ export default function BlogPostPaginatorWrapper(props: Props): ReactNode {
         console.error('AdSense error:', e);
       }
     }
-  }, [_showAds_]);
+  }, [showAds]);
 
   return (
     <>
       <BlogPostPaginator {...props} />
-      {_showAds_ && (
+      {showAds && (
         <div style={{ marginTop: '2rem' }}>
           <ins
             className="adsbygoogle"
