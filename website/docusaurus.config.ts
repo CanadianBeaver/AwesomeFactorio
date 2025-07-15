@@ -13,6 +13,8 @@ import plugins from './config/plugins';
 import footer from './config/footer';
 import navbar from './config/navbar';
 
+const isShowArticleAds = process.env.SHOW_GOOGLE_ADS === 'true';
+
 const config: Config = {
   title: 'Awesome Factorio',
   tagline: 'Как построить классную фабрику на 100500 научных пакетов в минуту',
@@ -106,18 +108,17 @@ const config: Config = {
     zoom: {
       selector: '.markdown :not(em) > img'
     },
-    showAds: true, // Set to true to enable Google AdSense ads
+    showArticleAds: isShowArticleAds, // Set to true to enable Google AdSense ads
   } satisfies Preset.ThemeConfig,
 
   plugins,
 
-  scripts: [
+  scripts: isShowArticleAds ? [
     {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
       async: true,
       crossorigin: 'anonymous'
-    }
-  ],
+    }] : [],
 
 };
 
