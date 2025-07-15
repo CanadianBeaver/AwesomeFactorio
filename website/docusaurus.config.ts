@@ -97,13 +97,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    /*scripts: [
+    scripts: [
       {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
         async: true,
         crossorigin: 'anonymous'
       }
-    ],*/
+    ],
     image: 'factorio-card.jpg',
     navbar,
     footer,
