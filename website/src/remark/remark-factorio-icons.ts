@@ -295,8 +295,8 @@ const plugin: Plugin<[Options]> = (options) => {
       };
 
       const nowrapNode = {
-        type: "span",
-        data: { hProperties: { style: "white-space:nowrap; display: inline-block; min-width: max-content;" } },
+        type: "strong",
+        data: { hProperties: { style: "white-space:nowrap; display: inline-block; min-width: max-content; font-weight: lighter" } },
         children: [
           iconNode,
           ...(deleteNode !== 1 ? [{ ...node }] : [])
