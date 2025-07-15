@@ -1,4 +1,10 @@
-import React, {type ReactNode} from 'react';
+declare global {
+  interface Window {
+    adsbygoogle?: unknown[];
+  }
+}
+
+import React, {useEffect,type ReactNode} from 'react';
 import Layout from '@theme-original/DocItem/Layout';
 import type LayoutType from '@theme/DocItem/Layout';
 import type {WrapperProps} from '@docusaurus/types';
@@ -6,6 +12,14 @@ import type {WrapperProps} from '@docusaurus/types';
 type Props = WrapperProps<typeof LayoutType>;
 
 export default function LayoutWrapper(props: Props): ReactNode {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error('AdSense error:', e);
+    }
+  }, []);
+
   return (
     <>
       <Layout {...props} />
@@ -17,9 +31,6 @@ export default function LayoutWrapper(props: Props): ReactNode {
           data-ad-format="fluid"
           data-ad-client="ca-pub-7158690744744856"
           data-ad-slot="9315287584"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
       </div>
     </>
   );
