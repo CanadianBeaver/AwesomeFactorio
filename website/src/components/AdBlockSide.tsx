@@ -20,7 +20,8 @@ const AdBlockSide = () => {
 
     return (
         <div style={{ marginTop: '2rem' }}>
-            <ins class="adsbygoogle"
+            <ins
+                className="adsbygoogle"
                 style={{ display: 'block', textAlign: 'center' }}
                 data-ad-client="ca-pub-7158690744744856"
                 data-ad-slot="1554704293"
