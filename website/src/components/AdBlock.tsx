@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useThemeConfig } from '@docusaurus/theme-common';
 
-const AdsBlock = () => {
+const AdBlock = () => {
     const { showArticleAds = false } = useThemeConfig() as { showArticleAds?: boolean; };
 
     useEffect(() => {
@@ -32,4 +32,4 @@ const AdsBlock = () => {
     );
 };
 
-export default AdsBlock;
+export default AdBlock;
