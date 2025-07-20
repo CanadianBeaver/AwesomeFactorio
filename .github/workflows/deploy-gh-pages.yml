@@ -62,8 +62,7 @@ jobs:
           git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
             awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
               gsub(/"/, "\\\"", $3);
-              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\""
-
+              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"$GITHUB_REPOSITORY"'/commit/" $1 "\""
               files=$(git show --name-only --pretty="format:" "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
               if [[ -n "$files" ]]; then
                 file_urls=$(echo "$files" | awk '
