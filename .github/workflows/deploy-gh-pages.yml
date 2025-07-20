@@ -67,24 +67,22 @@ jobs:
             while IFS="@@@" read sha date msg; do
               if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
               files=$(git show --name-only --pretty="format:" "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
+              if [[ -n "$files" ]]; then
+                file_urls=$(echo "$files" | awk '
+                {
+                  fname=$0;
+                  gsub(/\.md$/, "", fname);
 
-
-              #if [[ -n "$files" ]]; then
-              #  file_urls=$(echo "$files" | awk '
-              #  {
-              #    fname=$0;
-              #    gsub(/\.md$/, "", fname);
-              #
-              #    if (fname ~ /^docs\//) {
-              #      sub(/^docs\//, "", fname);
-              #      print "\"https://awesomefactorio.yrfle.com/" fname "\""
-              #    } else if (fname ~ /^blog\//) {
-              #      print "\"https://awesomefactorio.yrfle.com/" fname "\""
-              #    }
-              #  }' | paste -sd "," -)
-              #else
-              #  file_urls=""
-              #fi
+                  if (fname ~ /^docs\//) {
+                    sub(/^docs\//, "", fname);
+                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
+                  } else if (fname ~ /^blog\//) {
+                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
+                  }
+                }' | paste -sd "," -)
+              else
+                file_urls=""
+              fi
 
               #safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
 
