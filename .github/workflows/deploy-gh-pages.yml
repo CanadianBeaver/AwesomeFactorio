@@ -63,42 +63,42 @@ jobs:
           mkdir -p website/src/data
           echo "[" > website/src/data/git-commits-pages.json
 
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' \
-          | while IFS="@@@" read sha date msg; do
-            if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
+          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+            while IFS="@@@" read sha date msg; do
+              if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
+              files=$(git show --name-only --pretty="format:" "$sha" | \
+                grep -E '^docs.*\.md$|^blog.*\.md$')
 
-            files=$(git show --name-only --pretty="format:" "$sha" \
-              | grep -E '^docs.*\.md$|^blog.*\.md$')
-
-            if [[ -n "$files" ]]; then
-              file_urls=$(echo "$files" | awk '
-                {
-                  fname=$0;
-                  gsub(/\.md$/, "", fname);
-
-                  if (fname ~ /^docs\//) {
-                    sub(/^docs\//, "", fname);
-                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
-                  } else if (fname ~ /^blog\//) {
-                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
-                  }
-                }' | paste -sd "," -)
-            else
+              #if [[ -n "$files" ]]; then
+              #  file_urls=$(echo "$files" | awk '
+              #  {
+              #    fname=$0;
+              #    gsub(/\.md$/, "", fname);
+              #
+              #    if (fname ~ /^docs\//) {
+              #      sub(/^docs\//, "", fname);
+              #      print "\"https://awesomefactorio.yrfle.com/" fname "\""
+              #    } else if (fname ~ /^blog\//) {
+              #      print "\"https://awesomefactorio.yrfle.com/" fname "\""
+              #    }
+              #  }' | paste -sd "," -)
+              #else
+              #  file_urls=""
+              #fi
               file_urls=""
-            fi
 
-            safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
+              safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
 
-            echo "  {" >> website/src/data/git-commits-pages.json
-            echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
-            echo "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
-            echo "    \"files\": [${file_urls}]," >> website/src/data/git-commits-pages.json
-            echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/$sha\"" >> website/src/data/git-commits-pages.json
-            echo "  }," >> website/src/data/git-commits-pages.json
-          done
+              echo "  {" >> website/src/data/git-commits-pages.json
+              echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
+              echo "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
+              echo "    \"files\": [${file_urls}]," >> website/src/data/git-commits-pages.json
+              echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/$sha\"" >> website/src/data/git-commits-pages.json
+              echo "  }," >> website/src/data/git-commits-pages.json
+            done
 
-          sed -i '$ s/,$//' website/src/data/git-commits-pages.json
-          echo "]" >> website/src/data/git-commits-pages.json
+            sed -i '$ s/,$//' website/src/data/git-commits-pages.json
+            echo "]" >> website/src/data/git-commits-pages.json
 
       - name: 📤 Upload artifact
         uses: actions/upload-artifact@v4
