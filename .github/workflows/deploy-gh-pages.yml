@@ -52,7 +52,13 @@ jobs:
             > website/src/data/git-commits.json
 
 
-      - name: 📥 Generate git-commits-pages.json
+
+
+
+
+      - name: 🧰 Build git-commits-pages.json
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           mkdir -p website/src/data
           echo "[" > website/src/data/git-commits-pages.json
@@ -94,11 +100,16 @@ jobs:
           sed -i '$ s/,$//' website/src/data/git-commits-pages.json
           echo "]" >> website/src/data/git-commits-pages.json
 
-      - name: 📤 Upload git-commits-pages.json as artifact
+      - name: 📤 Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: git-commits-pages
           path: website/src/data/git-commits-pages.json
+
+
+
+
+
 
 
 
