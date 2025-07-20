@@ -57,13 +57,38 @@ jobs:
 
 
       - name: 🧰 Build git-commits-pages.json
-        env:
-          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           mkdir -p website/src/data
-          echo "[" > website/src/data/git-commits-pages.json
-
           git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+            awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
+              gsub(/"/, "\\\"", $3);
+              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\""
+
+              files=$(git show --name-only --pretty="format:" "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
+              if [[ -n "$files" ]]; then
+                file_urls=$(echo "$files" | awk '
+                {
+                  fname=$0;
+                  gsub(/\.md$/, "", fname);
+
+                  if (fname ~ /^docs\//) {
+                    sub(/^docs\//, "", fname);
+                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
+                  } else if (fname ~ /^blog\//) {
+                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
+                  }
+                }' | paste -sd "," -)
+                print ",\"pages\": [${file_urls}]"
+              else
+                file_urls=""
+              fi
+              print "}"
+            }' | \
+            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
+            > website/src/data/git-commits-pages.json
+
+
+
             while IFS="@@@" read sha date msg; do
               if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
               files=$(git show --name-only --pretty="format:" "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
@@ -89,7 +114,7 @@ jobs:
               echo "  {" >> website/src/data/git-commits-pages.json
               echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
               echo "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
-              echo "    \"files\": [${file_urls}]," >> website/src/data/git-commits-pages.json
+              echo "    \"pages\": [${file_urls}]," >> website/src/data/git-commits-pages.json
               echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/$sha\"" >> website/src/data/git-commits-pages.json
               echo "  }," >> website/src/data/git-commits-pages.json
             done
