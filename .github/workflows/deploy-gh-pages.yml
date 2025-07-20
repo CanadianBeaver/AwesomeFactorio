@@ -84,17 +84,17 @@ jobs:
                 file_urls=""
               fi
 
-              #safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
+              safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
 
-              #echo "  {" >> website/src/data/git-commits-pages.json
-              ##echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
-              ##cho "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
-              #echo "    \"files\": [${file_urls}]," >> website/src/data/git-commits-pages.json
-              #echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/$sha\"" >> website/src/data/git-commits-pages.json
-              #echo "  }," >> website/src/data/git-commits-pages.json
+              echo "  {" >> website/src/data/git-commits-pages.json
+              echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
+              echo "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
+              echo "    \"files\": [${file_urls}]," >> website/src/data/git-commits-pages.json
+              echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/$sha\"" >> website/src/data/git-commits-pages.json
+              echo "  }," >> website/src/data/git-commits-pages.json
             done
 
-            #sed -i '$ s/,$//' website/src/data/git-commits-pages.json
+            sed -i '$ s/,$//' website/src/data/git-commits-pages.json
             echo "]" >> website/src/data/git-commits-pages.json
 
       - name: 📤 Upload artifact
