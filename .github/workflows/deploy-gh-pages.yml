@@ -62,7 +62,7 @@ jobs:
           mkdir -p website/src/data
           echo "[" > website/src/data/git-commits-pages.json
 
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | while IFS="@@@" read sha date msg; do
+          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | while IFS="@@@" read -r sha date msg; do
             if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
 
             files=$(git show --name-only --pretty=format: "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
