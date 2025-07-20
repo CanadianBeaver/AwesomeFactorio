@@ -66,8 +66,8 @@ jobs:
           git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
             while IFS="@@@" read sha date msg; do
               if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
-              #files=$(git show --name-only --pretty="format:" "$sha" | \
-              #  grep -E '^docs/.*\.md$|^blog/.*\.md$')
+              files=$(git show --name-only --pretty="format:" "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
+
 
               #if [[ -n "$files" ]]; then
               #  file_urls=$(echo "$files" | awk '
