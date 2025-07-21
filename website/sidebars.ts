@@ -229,6 +229,14 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       id: 'terms'
+    },
+    {
+      type: 'doc',
+      id: 'Feedback',
+    },
+    {
+      type: 'doc',
+      id: 'Latest',
     }
   ]
 

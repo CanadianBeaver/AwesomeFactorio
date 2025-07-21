@@ -93,12 +93,13 @@ function GitCommits() {
     <div className="margin-top--lg">
       <h3>🕒 Последние изменения:</h3>
       <pre>
-        {gitDataCommits.map((c, i) => (
+        {gitDataCommits.slice(0, 6).map((c, i) => (
           <div key={i}>
            {c.date}: {getIconByUrl(c.url)} {c.message}
           </div>
         ))}
       </pre>
+      <Link to="Latest">подробнее</Link>
     </div>
   );
 }

@@ -62,7 +62,7 @@ const config: Config = {
           path: '../blog',
           showReadingTime: false,
           onUntruncatedBlogPosts: 'ignore',
-          blogTitle: 'Блог про игру',
+          blogTitle: 'Наш блог и достижения',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable],
@@ -70,7 +70,7 @@ const config: Config = {
           showLastUpdateTime: true,
           blogSidebarCount: 'ALL',
           feedOptions: {
-            title: 'Блог про игру Factorio',
+            title: 'Блог и достижения проекта Awesome Factorio',
             description: 'Делюсь прогрессом и достижениями в игре Factorio',
             copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`
           },

@@ -1,1 +1,22 @@
-[{"date": "12 July 2025", "message": "debug fetch-depth", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/500f1ec241e1540f94184d8f67fdf55df9ba47b7"},{"date": "12 July 2025", "message": "continue debug", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/86140ae7a170a0d5e2a81f440cdb626ddd98b7bb"},{"date": "12 July 2025", "message": "testing commits", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/e9c860f92684606be0ec28487ee23867a522ff48"},{"date": "12 July 2025", "message": "maybe now it works? Actions...", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/01d70206b810ed0a7f247962a92606566eb69336"},{"date": "12 July 2025", "message": "another second try", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/b3d01490a5a128c41b1ef866d0a202e8140a8d5f"},{"date": "12 July 2025", "message": "another try", "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/3229566167357309ab50edecd2f9279e833785b6"}]
+[
+  {
+    "date": "20 July 2025",
+    "message": "several updates",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/d2cf4c6bcf82473d4cdd05aff447de4a83033988",
+    "pages": ["https://awesomefactorio.yrfle.com/blog/2025/07/15/dark-theme","https://awesomefactorio.yrfle.com/Additionals/QualityAssessment","https://awesomefactorio.yrfle.com/HowToStartNewGame/FactoryDefense"]
+  }
+,
+  {
+    "date": "19 July 2025",
+    "message": "updated image for Quality Assessment article",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/a35c92691827dde57198cfdef055383d1a7323cf",
+    "pages": ["https://awesomefactorio.yrfle.com/Additionals/QualityAssessment"]
+  }
+,
+  {
+    "date": "19 July 2025",
+    "message": "updated several sentences in article about defense",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/849bf816d0a76fb50d1feba0e94831fa1e39cdfe",
+    "pages": ["https://awesomefactorio.yrfle.com/HowToStartNewGame/FactoryDefense"]
+  }
+]

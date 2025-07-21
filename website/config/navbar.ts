@@ -47,7 +47,8 @@ const navbar: ThemeConfig['navbar'] = {
           position: 'right'
         },*/
         {
-            to: 'feedback',
+            type: 'doc',
+            docId: 'Feedback',
             label: '✉️ Contact us',
             title: 'пишите письма',
             position: 'right'

@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 30
+          fetch-depth: 20
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
@@ -39,24 +39,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
+#      - name: Prepare latest commits from git
+#        run: |
+#          mkdir -p website/src/data
+#          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+#            awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
+#              gsub(/"/, "\\\"", $3);
+#              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
+#            }' | \
+#            head -n 6 | \
+#            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
+#            > website/src/data/git-commits.json
       - name: Prepare latest commits from git
         run: |
           mkdir -p website/src/data
-          git log -n 30 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
-            awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
-              gsub(/"/, "\\\"", $3);
-              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
-            }' | \
-            head -n 6 | \
-            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
-            > website/src/data/git-commits.json
-
-
-
-      - name: 🛠 Generate git-commits-pages.json
-        run: |
-          mkdir -p website/src/data
-          git log -n 30 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
+          git log -n 20 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
           | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
@@ -139,28 +136,12 @@ jobs:
             END {
               print "]"
             }
-          ' > website/src/data/git-commits-pages.json
-
-
-
-
-      - name: ✅ Report file
-        run: |
-          echo "✅ Файл создан:"
-          cat website/src/data/git-commits-pages.json
-
-      - name: 📤 Upload artifact (optional)
-        uses: actions/upload-artifact@v4
-        with:
-          name: git-commits-pages
-          path: website/src/data/git-commits-pages.json
-
-
-
-
-
-
-
+          ' > website/src/data/git-commits.json
+#      - name: 📤 Upload artifact (optional)
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: git-commits
+#          path: website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
