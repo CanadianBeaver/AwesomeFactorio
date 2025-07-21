@@ -57,7 +57,6 @@ jobs:
       - name: 🛠 Generate git-commits-pages.json
         run: |
           mkdir -p website/src/data
-
           git log -n 30 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
@@ -69,7 +68,7 @@ jobs:
             }
 
             function format_page_url(file, url) {
-              # Удаляем расширение
+              # Очищаем путь
               sub(/\.md$/, "", file)
               sub(/\/(README|index)$/, "", file)
 
@@ -81,7 +80,7 @@ jobs:
               if (file ~ /^blog\//) {
                 sub(/^blog\//, "", file)
 
-                # Замена дефисов на слэши ТОЛЬКО возле цифр
+                # Только дефисы около цифр → слэши
                 gsub(/([0-9])\-/, "\\1/", file)
                 gsub(/\-([0-9])/, "/\\1", file)
 
@@ -136,6 +135,7 @@ jobs:
               print "]"
             }
           ' > website/src/data/git-commits-pages.json
+
 
 
 
