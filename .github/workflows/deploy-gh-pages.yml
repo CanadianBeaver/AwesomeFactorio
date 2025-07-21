@@ -59,8 +59,7 @@ jobs:
       - name: 🛠 Generate git-commits-pages.json
         run: |
           mkdir -p website/src/data
-
-          git log -n 30 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
+          git log -n 30 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' | awk -F"@@@" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
               gsub(/"/,"\\\"",str)
