@@ -220,15 +220,15 @@ const sidebars: SidebarsConfig = {
   adSenseSidebar: [
     {
       type: 'doc',
-      id: 'about',
+      id: 'About',
     },
     {
       type: 'doc',
-      id: 'privacy',
+      id: 'Privacy',
     },
     {
       type: 'doc',
-      id: 'terms'
+      id: 'Terms'
     },
     {
       type: 'doc',

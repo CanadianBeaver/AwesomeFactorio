@@ -99,7 +99,7 @@ function GitCommits() {
           </div>
         ))}
       </pre>
-      <Link to="Latest">подробнее</Link>
+      <Link to="/latest">подробнее</Link>
     </div>
   );
 }
