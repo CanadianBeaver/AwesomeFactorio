@@ -55,6 +55,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
+          breadcrumbs: false,
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable]
         },
@@ -67,7 +68,6 @@ const config: Config = {
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
-          showLastUpdateTime: true,
           blogSidebarCount: 'ALL',
           feedOptions: {
             title: 'Блог и достижения проекта Awesome Factorio',
