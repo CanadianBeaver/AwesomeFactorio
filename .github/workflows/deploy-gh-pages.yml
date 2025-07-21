@@ -53,11 +53,11 @@ jobs:
 
 
 
-
       - name: 🛠 Generate git-commits-pages.json
         run: |
           mkdir -p website/src/data
-          git log -n 30 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
+          git log -n 30 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
+          | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
               gsub(/"/,"\\\"",str)
@@ -67,8 +67,7 @@ jobs:
               return str
             }
 
-            function format_page_url(file, url) {
-              # Очищаем путь
+            function format_page_url(file, url, path_segments, i, out, n) {
               sub(/\.md$/, "", file)
               sub(/\/(README|index)$/, "", file)
 
@@ -80,11 +79,17 @@ jobs:
               if (file ~ /^blog\//) {
                 sub(/^blog\//, "", file)
 
-                # Только дефисы около цифр → слэши
-                gsub(/([0-9])\-/, "\\1/", file)
-                gsub(/\-([0-9])/, "/\\1", file)
+                n = split(file, path_segments, "-")
+                out = path_segments[1]
+                for (i = 2; i <= n; i++) {
+                  if (path_segments[i - 1] ~ /^[0-9]+$/ || path_segments[i] ~ /^[0-9]+$/) {
+                    out = out "/" path_segments[i]
+                  } else {
+                    out = out "-" path_segments[i]
+                  }
+                }
 
-                return "https://awesomefactorio.yrfle.com/blog/" file
+                return "https://awesomefactorio.yrfle.com/blog/" out
               }
 
               return ""
@@ -135,8 +140,6 @@ jobs:
               print "]"
             }
           ' > website/src/data/git-commits-pages.json
-
-
 
 
 
