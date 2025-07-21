@@ -69,6 +69,7 @@ jobs:
             }
 
             function format_page_url(file, url) {
+              # Удаляем расширение
               sub(/\.md$/, "", file)
               sub(/\/(README|index)$/, "", file)
 
@@ -79,7 +80,11 @@ jobs:
 
               if (file ~ /^blog\//) {
                 sub(/^blog\//, "", file)
-                file = gensub(/^([0-9]{4})-([0-9]{2})-([0-9]{2})/, "\\1/\\2/\\3", 1, file)
+
+                # Замена дефисов на слэши ТОЛЬКО возле цифр
+                gsub(/([0-9])\-/, "\\1/", file)
+                gsub(/\-([0-9])/, "/\\1", file)
+
                 return "https://awesomefactorio.yrfle.com/blog/" file
               }
 
@@ -131,6 +136,7 @@ jobs:
               print "]"
             }
           ' > website/src/data/git-commits-pages.json
+
 
 
 
