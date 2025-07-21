@@ -60,66 +60,63 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           mkdir -p website/src/data
-          echo "[" > website/src/data/git-commits-pages.json
 
           git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' \
           | awk -F'@@@' -v repo="${GITHUB_REPOSITORY}" '
-            BEGIN { ORS = ""; first = 1 }
+            BEGIN {
+              print "["
+              first = 1
+            }
             {
               sha = $1
               date = $2
               msg = $3
 
+              # Пропускаем коммиты с ! или ссылками
               if (msg ~ /^!/ || msg ~ /https?:\/\//) next
 
               # Экранируем кавычки
-              gsub(/"/, "\\\"", msg)
+              gsub(/["\\]/, "\\\\&", msg)
 
               # Получаем список изменённых файлов
               cmd = "git show --name-only --pretty=format: " sha
-              cmd | getline raw
+              while ((cmd | getline file) > 0) {
+                if (file ~ /^(docs|blog)\/.*\.md$/) {
+                  # Удаляем .md
+                  sub(/\.md$/, "", file)
+
+                  # Строим правильный URL
+                  url = "https://awesomefactorio.yrfle.com/" file
+                  pages[pl++] = "\"" url "\""
+                }
+              }
               close(cmd)
 
+              # Собираем массив страниц
               pages_json = "["
-
-              # Получаем все файлы и фильтруем их по регулярке
-              cmd2 = "git show --name-only --pretty=format: " sha " | grep -E '^docs/.*\\.md$|^blog/.*\\.md$'"
-              while ((cmd2 | getline file) > 0) {
-                # Удаляем расширение .md
-                sub(/\.md$/, "", file)
-
-                # Строим ссылку
-                if (file ~ /^docs\//) {
-                  sub(/^docs\//, "", file)
-                  url = "\"https://awesomefactorio.yrfle.com/" file "\""
-                } else if (file ~ /^blog\//) {
-                  url = "\"https://awesomefactorio.yrfle.com/" file "\""
-                } else {
-                  continue
-                }
-
-                if (pages_json != "[") pages_json = pages_json ","
-                pages_json = pages_json url
+              for (i = 0; i < pl; i++) {
+                if (i != 0) pages_json = pages_json ", "
+                pages_json = pages_json pages[i]
               }
-              close(cmd2)
-
               pages_json = pages_json "]"
 
-              if (first == 0) print ",\n"
+              delete pages
+              pl = 0
+
+              if (!first) print ","
               first = 0
 
-              print "  {\n"
-              print "    \"date\": \"" date "\",\n"
-              print "    \"message\": \"" msg "\",\n"
-              print "    \"pages\": " pages_json ",\n"
-              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\"\n"
+              print "  {"
+              print "    \"date\": \"" date "\","
+              print "    \"message\": \"" msg "\","
+              print "    \"pages\": " pages_json ","
+              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\""
               print "  }"
             }
             END {
-              print "\n]\n"
+              print "\n]"
             }
-          ' >> website/src/data/git-commits-pages.json
-
+          ' > website/src/data/git-commits-pages.json
 
 
       - name: 📤 Upload artifact
