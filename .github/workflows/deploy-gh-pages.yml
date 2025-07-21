@@ -55,53 +55,71 @@ jobs:
 
 
 
-      - name: 🧰 Build git-commits-pages.json
+      - name: 🔧 Build git-commits-pages.json via awk
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           mkdir -p website/src/data
           echo "[" > website/src/data/git-commits-pages.json
 
-          git log -n 20 --pretty=format:"%H@@@%ad@@@%s" --date=format:"%e %B %Y" | while IFS="@@@" read -r sha date msg; do
-            echo "sha=$sha"
-            echo "date=$date"
-            echo "msg=$msg"
-          done
+          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' \
+          | awk -F'@@@' -v repo="${GITHUB_REPOSITORY}" '
+            BEGIN { ORS = ""; first = 1 }
+            {
+              sha = $1
+              date = $2
+              msg = $3
 
+              if (msg ~ /^!/ || msg ~ /https?:\/\//) next
 
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | while IFS="@@@" read -r sha date msg; do
-            if [[ "$msg" =~ ^! || "$msg" =~ http ]]; then continue; fi
+              # Экранируем кавычки
+              gsub(/"/, "\\\"", msg)
 
-            files=$(git show --name-only --pretty=format: "$sha" | grep -E '^docs/.*\.md$|^blog/.*\.md$' || true)
+              # Получаем список изменённых файлов
+              cmd = "git show --name-only --pretty=format: " sha
+              cmd | getline raw
+              close(cmd)
 
-            if [[ -n "$files" ]]; then
-              file_urls=$(echo "$files" | awk '
-                {
-                  fname=$0;
-                  gsub(/\.md$/, "", fname);
-                  if (fname ~ /^docs\//) {
-                    sub(/^docs\//, "", fname);
-                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
-                  } else if (fname ~ /^blog\//) {
-                    print "\"https://awesomefactorio.yrfle.com/" fname "\""
-                  }
-                }' | paste -sd "," -)
-            else
-              file_urls=""
-            fi
+              pages_json = "["
 
-            safe_msg=$(echo "$msg" | sed 's/"/\\"/g')
+              # Получаем все файлы и фильтруем их по регулярке
+              cmd2 = "git show --name-only --pretty=format: " sha " | grep -E '^docs/.*\\.md$|^blog/.*\\.md$'"
+              while ((cmd2 | getline file) > 0) {
+                # Удаляем расширение .md
+                sub(/\.md$/, "", file)
 
-            echo "  {" >> website/src/data/git-commits-pages.json
-            echo "    \"date\": \"$date\"," >> website/src/data/git-commits-pages.json
-            echo "    \"message\": \"$safe_msg\"," >> website/src/data/git-commits-pages.json
-            echo "    \"pages\": [${file_urls}]," >> website/src/data/git-commits-pages.json
-            echo "    \"url\": \"https://github.com/${GITHUB_REPOSITORY}/commit/${sha}\"" >> website/src/data/git-commits-pages.json
-            echo "  }," >> website/src/data/git-commits-pages.json
-          done
+                # Строим ссылку
+                if (file ~ /^docs\//) {
+                  sub(/^docs\//, "", file)
+                  url = "\"https://awesomefactorio.yrfle.com/" file "\""
+                } else if (file ~ /^blog\//) {
+                  url = "\"https://awesomefactorio.yrfle.com/" file "\""
+                } else {
+                  continue
+                }
 
-          sed -i '$ s/,$//' website/src/data/git-commits-pages.json
-          echo "]" >> website/src/data/git-commits-pages.json
+                if (pages_json != "[") pages_json = pages_json ","
+                pages_json = pages_json url
+              }
+              close(cmd2)
+
+              pages_json = pages_json "]"
+
+              if (first == 0) print ",\n"
+              first = 0
+
+              print "  {\n"
+              print "    \"date\": \"" date "\",\n"
+              print "    \"message\": \"" msg "\",\n"
+              print "    \"pages\": " pages_json ",\n"
+              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\"\n"
+              print "  }"
+            }
+            END {
+              print "\n]\n"
+            }
+          ' >> website/src/data/git-commits-pages.json
+
 
 
       - name: 📤 Upload artifact
