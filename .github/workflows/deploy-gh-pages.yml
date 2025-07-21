@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 20
+          fetch-depth: 30
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
@@ -42,7 +42,7 @@ jobs:
       - name: Prepare latest commits from git
         run: |
           mkdir -p website/src/data
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+          git log -n 30 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
             awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
               gsub(/"/, "\\\"", $3);
               print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
@@ -52,72 +52,67 @@ jobs:
             > website/src/data/git-commits.json
 
 
-
-
-
-      - name: 🔧 Build git-commits-pages.json via awk
-        env:
-          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: 🛠 Generate git-commits-pages.json
         run: |
           mkdir -p website/src/data
-
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' \
-          | awk -F'@@@' -v repo="${GITHUB_REPOSITORY}" '
-            BEGIN {
-              print "["
-              first = 1
+          git log -n 30 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | awk -v repo="$GITHUB_REPOSITORY" -F'@@@' '
+            function escape(str,s,i,r) {
+              s = str; gsub(/\\/,"\\\\", s); gsub(/"/,"\\\"",s)
+              gsub(/\t/, "\\t", s); gsub(/\r/, "\\r", s); gsub(/\n/, "\\n", s)
+              return s
             }
+
+            BEGIN {
+              print "["; first = 1
+            }
+
             {
               sha = $1
               date = $2
               msg = $3
 
-              # Пропускаем коммиты с ! или ссылками
+              # Пропускаем коммиты с URL или начинающиеся с !
               if (msg ~ /^!/ || msg ~ /https?:\/\//) next
 
-              # Экранируем кавычки
-              gsub(/["\\]/, "\\\\&", msg)
-
-              # Получаем список изменённых файлов
-              cmd = "git show --name-only --pretty=format: " sha
+              # Получить список файлов в коммите
+              cmd = "git diff-tree --no-commit-id --name-only -r " sha
+              pages = ""; count = 0
               while ((cmd | getline file) > 0) {
-                if (file ~ /^(docs|blog)\/.*\.md$/) {
-                  # Удаляем .md
-                  sub(/\.md$/, "", file)
-
-                  # Строим правильный URL
-                  url = "https://awesomefactorio.yrfle.com/" file
-                  pages[pl++] = "\"" url "\""
+                if (file ~ /^docs\/.*\.md$/) {
+                  path = file; sub(/^docs\//, "", path); sub(/\.md$/, "", path)
+                  url = "https://awesomefactorio.yrfle.com/" path
+                  pages = pages "\"" url "\","
+                  count++
+                } else if (file ~ /^blog\/.*\.md$/) {
+                  path = file; sub(/^blog\//, "", path); sub(/\.md$/, "", path)
+                  url = "https://awesomefactorio.yrfle.com/blog/" path
+                  pages = pages "\"" url "\","
+                  count++
                 }
               }
               close(cmd)
 
-              # Собираем массив страниц
-              pages_json = "["
-              for (i = 0; i < pl; i++) {
-                if (i != 0) pages_json = pages_json ", "
-                pages_json = pages_json pages[i]
-              }
-              pages_json = pages_json "]"
+              if (count == 0) next
 
-              delete pages
-              pl = 0
+              # Удалить последнюю запятую
+              sub(/,$/, "", pages)
 
+              # Печать коммит-объекта
               if (!first) print ","
               first = 0
 
               print "  {"
-              print "    \"date\": \"" date "\","
-              print "    \"message\": \"" msg "\","
-              print "    \"pages\": " pages_json ","
-              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\""
+              print "    \"date\": \"" escape(date) "\","
+              print "    \"message\": \"" escape(msg) "\","
+              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\","
+              print "    \"pages\": [" pages "]"
               print "  }"
             }
+
             END {
-              print "\n]"
+              print "]"
             }
           ' > website/src/data/git-commits-pages.json
-
 
       - name: 📤 Upload artifact
         uses: actions/upload-artifact@v4
