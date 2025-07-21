@@ -54,10 +54,13 @@ jobs:
 
 
 
+
+
       - name: 🛠 Generate git-commits-pages.json
         run: |
           mkdir -p website/src/data
-          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | awk -v repo="$GITHUB_REPOSITORY" -F"@@@" '
+
+          git log -n 30 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
               gsub(/"/,"\\\"",str)
@@ -67,24 +70,22 @@ jobs:
               return str
             }
 
-            function format_page_url(file,    url) {
+            function format_page_url(file,     url) {
               sub(/\.md$/, "", file)
               sub(/\/(README|index)$/, "", file)
 
-              if (file ~ "^docs/") {
+              if (file ~ /^docs\//) {
                 sub(/^docs\//, "", file)
-                url = "https://awesomefactorio.yrfle.com/" file
-                return url
+                return "https://awesomefactorio.yrfle.com/" file
               }
 
-              if (file ~ "^blog/") {
+              if (file ~ /^blog\//) {
                 sub(/^blog\//, "", file)
-                # Преобразуем YYYY-MM-DD → YYYY/MM/DD
-                if (file ~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}/) {
-                  file = gensub(/^([0-9]{4})-([0-9]{2})-([0-9]{2})/, "\\1/\\2/\\3", 1, file)
-                }
-                url = "https://awesomefactorio.yrfle.com/blog/" file
-                return url
+
+                # Заменить дефисы между датами на слэши: 2025-07-21 → 2025/07/21
+                file = gensub(/^([0-9]{4})-([0-9]{2})-([0-9]{2})(.*)$/, "\\1/\\2/\\3\\4", 1, file)
+
+                return "https://awesomefactorio.yrfle.com/blog/" file
               }
 
               return ""
@@ -100,12 +101,13 @@ jobs:
               date = $2
               msg  = $3
 
-              # Пропустить коммит при наличии URL или начальном !
+              # Фильтруем сообщения
               if (msg ~ /^!/ || msg ~ /https?:\/\//) next
 
               cmd = "git diff-tree --no-commit-id --name-only -r " sha
               pages = ""
               count = 0
+
               while ((cmd | getline file) > 0) {
                 if (file ~ /^(docs|blog)\/.*\.md$/) {
                   url = format_page_url(file)
@@ -118,7 +120,6 @@ jobs:
               close(cmd)
 
               if (count == 0) next
-
               sub(/,$/, "", pages)
 
               if (!first) print ","
@@ -132,25 +133,21 @@ jobs:
               print "  }"
             }
 
-            END { print "]" }
+            END {
+              print "]"
+            }
           ' > website/src/data/git-commits-pages.json
 
-      - name: 📤 Upload JSON file (optional)
+      - name: ✅ Report file
+        run: |
+          echo "✅ Файл создан:"
+          cat website/src/data/git-commits-pages.json
+
+      - name: 📤 Upload artifact (optional)
         uses: actions/upload-artifact@v4
         with:
           name: git-commits-pages
           path: website/src/data/git-commits-pages.json
-
-
-
-
-
-      - name: 📤 Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: git-commits-pages
-          path: website/src/data/git-commits-pages.json
-
 
 
 
