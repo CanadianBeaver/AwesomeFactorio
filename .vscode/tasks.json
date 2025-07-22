@@ -55,6 +55,12 @@
                 "kind": "test",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Start Ollama Server",
+            "type": "shell",
+            "command": "ollama serve",
+            "isBackground": true
         }
     ]
 }
