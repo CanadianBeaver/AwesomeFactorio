@@ -68,7 +68,10 @@ const footer: ThemeConfig['footer'] = {
             ]
         },
     ],
-    copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`,
+    copyright:
+        `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.<br/>` +
+        `Content licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>.<br/>` +
+        `<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img src="/cc_by-nc-nd_icon.svg" alt="License: CC BY-NC-ND 4.0" width="88" height="31"></a>`
 };
 
 export default footer;
