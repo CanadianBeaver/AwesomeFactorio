@@ -1,5 +1,6 @@
 ---
 title: Последние обновления на сайте
+description: Автоматические сводки изменений на сайте с помощью GitHub Actions
 tags: [web design, web site, Ай-Яй]
 ---
 
