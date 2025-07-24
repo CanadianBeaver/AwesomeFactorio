@@ -178,6 +178,7 @@ const IconNames: string[] = [
   'Speed module 3',
   'Recycler',
   'Spidertron',
+  'Spidertron research',
   'Pentapod egg',
   'Captive biter spawner',
   'Tree seed',
