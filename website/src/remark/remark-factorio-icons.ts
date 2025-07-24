@@ -270,7 +270,14 @@ const IconNames: string[] = [
   'Tree 04',
   'Tree 05',
   'Tree 06',
-  'Dead tree'
+  'Dead tree',
+  'Medium spitter',
+  'Medium biter',
+  'Behemoth biter',
+  'Behemoth worm',
+  'Behemoth spitter',
+  'Small spitter',
+  'Small biter'
 ];
 
 interface Options {
