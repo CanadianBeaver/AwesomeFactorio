@@ -251,7 +251,21 @@ const IconNames: string[] = [
   'Power armor MK2',
   'Heavy armor research',
   'Power armor research',
-  'Power armor mk2 research',
+  'Power armor MK2 research',
+  'Energy shield mk2 equipment',
+  'Energy shield mk2 equipment research',
+  'Battery mk2 equipment',
+  'Battery mk2 equipment research',
+  'Personal roboport mk2 equipment research',
+  'Personal roboport mk2 equipment',
+  'Discharge defense equipment',
+  'Discharge defense equipment research',
+  'Portable fission reactor',
+  'Portable fission reactor research',
+  'Exoskeleton research',
+  'Exoskeleton',
+  'Mech armor',
+  'Mech armor research',
   'Grenade',
   `Cluster grenade`,
   'Weapon shooting speed',
@@ -277,7 +291,10 @@ const IconNames: string[] = [
   'Behemoth worm',
   'Behemoth spitter',
   'Small spitter',
-  'Small biter'
+  'Small biter',
+  'Big stomper',
+  'Big wriggler',
+  'Big strafer'
 ];
 
 interface Options {
