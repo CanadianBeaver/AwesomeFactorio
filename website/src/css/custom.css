@@ -221,3 +221,7 @@ img[src*='#right50']:hover {
 .navbar__item {
   white-space: nowrap;
 }
+
+td:has(img[src*='#verticalalign']) {
+  vertical-align: top !important;
+}
