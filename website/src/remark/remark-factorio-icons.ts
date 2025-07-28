@@ -14,6 +14,7 @@ const IconNames: string[] = [
   'Explosive rocket',
   'Explosive rocketry',
   'Gun turret',
+  'Atomic bomb',
   'Land mine',
   'Accumulator',
   'Advanced circuit',
