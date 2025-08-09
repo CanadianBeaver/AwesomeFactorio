@@ -2,7 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
 
-  howToStartSidebar: [
+  howToStartSidebarTemp: [
     {
       type: 'category',
       label: 'Эффективное начало',
@@ -31,6 +31,22 @@ const sidebars: SidebarsConfig = {
         id: 'HowToStartNewGame/AfterSatelliteLaunch',
       },
       items: [ ]
+    }
+  ],
+
+  howToStartSidebar: [
+    {
+      type: 'category',
+      label: 'Начинаем играть эффективно',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/README'
+      },
+      items: [
+        'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/Pollution',
+        'HowToStartNewGame/FactoryDefense'
+      ]
     }
   ],
 
@@ -84,19 +100,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'LoadingAndUnloadingTrains/LeftHandTraffic',
         'LoadingAndUnloadingTrains/SyncUnloading'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Начинаем играть эффективно',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/README'
-      },
-      items: [
-        'HowToStartNewGame/Quickbar',
-        'HowToStartNewGame/Pollution',
-        //'HowToStartNewGame/FactoryDefense'
       ]
     }
   ],
