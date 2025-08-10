@@ -2,10 +2,18 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+// @ts-ignore
 import { rehypeExtendedTable } from 'rehype-extended-table';
 
 const remarkFactorioIcons = require('./src/remark/remark-factorio-icons');
 const remarkFactorioSaves = require('./src/remark/remark-factorio-saves');
+
+import i18n from './config/i18n';
+import plugins from './config/plugins';
+import footer from './config/footer';
+import navbar from './config/navbar';
+
+const isShowArticleAds = process.env.SHOW_GOOGLE_ADS === 'true';
 
 const config: Config = {
   title: 'Awesome Factorio',
@@ -30,23 +38,7 @@ const config: Config = {
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'/*, 'en'*/],
-    localeConfigs: {
-      ru: {
-        label: 'Русский',
-        htmlLang: 'ru-RU',
-      }/*,
-      en: {
-        label: 'English',
-        htmlLang: 'en-US',
-      },*/
-    },
-  },
+  i18n,
 
   markdown: {
     mermaid: true,
@@ -63,6 +55,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
+          breadcrumbs: false,
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable]
         },
@@ -70,14 +63,14 @@ const config: Config = {
           path: '../blog',
           showReadingTime: false,
           onUntruncatedBlogPosts: 'ignore',
-          blogTitle: 'Блог про игру',
+          blogTitle: 'Наш блог и достижения',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
           beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
           blogSidebarCount: 'ALL',
           feedOptions: {
-            title: 'Блог про игру Factorio',
+            title: 'Блог и достижения проекта Awesome Factorio',
             description: 'Делюсь прогрессом и достижениями в игре Factorio',
             copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`
           },
@@ -92,7 +85,6 @@ const config: Config = {
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         docsRouteBasePath: '/',
         docsDir: '../docs',
@@ -106,151 +98,27 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'factorio-card.jpg',
-    navbar: {
-      title: '',
-      logo: {
-        alt: 'Прекрасная Фактория',
-        src: 'logo.svg',
-      },
-      items: [
-        /*{
-          type: 'docSidebar',
-          sidebarId: 'howToStartSidebar',
-          position: 'left',
-          label: 'Начинаем играть',
-        },*/
-        {
-          type: 'docSidebar',
-          sidebarId: 'miningSidebar',
-          position: 'left',
-          label: 'Ресурсы',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'powerSidebar',
-          position: 'left',
-          label: 'Энергия',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'circuitNetworkSidebar',
-          position: 'left',
-          label: 'Логическая сеть',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'additionalSidebar',
-          position: 'left',
-          label: 'Чё исчё?',
-        },
-        /*{
-          type: 'localeDropdown',
-          position: 'right'
-        },*/
-        {
-          type: 'search',
-          position: 'right',
-        },
-        { to: '/blog', label: 'Blog', position: 'right' },
-        /*{
-          href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-          label: 'GitHub',
-          position: 'right',
-        },*/
-        {
-          href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-          label: 'Youtube',
-          position: 'right',
-        }
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          items: [
-            { label: 'Начало', to: '/HowToStartNewGame', },
-            { label: 'Поезда', to: '/LoadingAndUnloadingTrains', }
-          ],
-        },
-        {
-
-          items: [
-            { label: 'Ресурсы', to: '/MiningResources', },
-            { label: 'Плавка', to: '/RawResourcesProcessing', }
-          ],
-        },
-        {
-          items: [
-            { label: 'Энергия', to: '/PowerProduction', },
-          ],
-        },
-        /*
-        {
-          title: 'Другое',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/3by95Rm7wQ',
-            },
-            {
-              label: 'Telegram',
-              href: 'https://telegram.com/AwesomeFactorio',
-            },
-          ],
-        },
-        */
-        {
-          //title: 'Ещё',
-          items: [
-            {
-              label: 'Блог',
-              to: '/blog',
-            },
-            {
-              label: 'RSS',
-              to: 'pathname:///blog/rss.xml',
-            },
-            {
-              label: 'Atom',
-              to: 'pathname:///blog/atom.xml',
-            }
-          ],
-        },
-        {
-          items: [
-            /*{
-              label: 'GitHub',
-              href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
-            },*/
-            {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/@AwesomeFactorio?sub_confirmation=1',
-            },
-            {
-              label: 'Send e-mail',
-              href: 'mailto:factorio@yrfle.com',
-            }
-          ]
-        },
-      ],
-      copyright: `Copyright © 2023-${new Date().getFullYear()} AwesomeFactorio.`,
-    },
+    navbar,
+    footer,
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
     zoom: {
       selector: '.markdown :not(em) > img'
-    }
+    },
+    showArticleAds: isShowArticleAds, // Set to true to enable Google AdSense ads
   } satisfies Preset.ThemeConfig,
 
-  plugins: [
-    require.resolve("docusaurus-plugin-image-zoom"),
-    ['docusaurus-plugin-yandex-metrica', { counterID: '97640344' }],
-  ]
+  plugins,
+
+  scripts: isShowArticleAds ? [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856',
+      async: true,
+      crossorigin: 'anonymous'
+    }] : [],
 
 };
 

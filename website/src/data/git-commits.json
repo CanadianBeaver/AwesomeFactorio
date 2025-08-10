@@ -1,0 +1,22 @@
+[
+  {
+    "date": "20 July 2025",
+    "message": "several updates",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/d2cf4c6bcf82473d4cdd05aff447de4a83033988",
+    "pages": ["https://awesomefactorio.yrfle.com/blog/2025/07/15/dark-theme","https://awesomefactorio.yrfle.com/Additionals/QualityAssessment","https://awesomefactorio.yrfle.com/HowToStartNewGame/FactoryDefense"]
+  }
+,
+  {
+    "date": "19 July 2025",
+    "message": "updated image for Quality Assessment article",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/a35c92691827dde57198cfdef055383d1a7323cf",
+    "pages": ["https://awesomefactorio.yrfle.com/Additionals/QualityAssessment"]
+  }
+,
+  {
+    "date": "19 July 2025",
+    "message": "updated several sentences in article about defense",
+    "url": "https://github.com/CanadianBeaver/AwesomeFactorio/commit/849bf816d0a76fb50d1feba0e94831fa1e39cdfe",
+    "pages": ["https://awesomefactorio.yrfle.com/HowToStartNewGame/FactoryDefense"]
+  }
+]

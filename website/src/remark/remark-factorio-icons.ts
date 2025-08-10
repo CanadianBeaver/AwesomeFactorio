@@ -3,6 +3,29 @@ import { visit } from 'unist-util-visit';
 import path from 'path';
 
 const IconNames: string[] = [
+  'Artillery',
+  'Flamethrower',
+  'Flamethrower turret',
+  'Flamethrower research',
+  'Flamethrower ammo',
+  'Rocketry',
+  'Rocket',
+  'Rocket launcher',
+  'Explosive rocket',
+  'Explosive rocketry',
+  'Gun turret',
+  'Atomic bomb',
+  'Night vision equipment',
+  'Night vision equipment research',
+  'Belt immunity equipment',
+  'Belt immunity equipment research',
+  'Nauvis',
+  'Vulcanus',
+  'Fulgora',
+  'Gleba',
+  'Aquilo',
+  'Shattered planet',
+  'Land mine',
   'Accumulator',
   'Advanced circuit',
   'Advanced oil processing',
@@ -22,6 +45,8 @@ const IconNames: string[] = [
   'Boiler',
   'Burner inserter',
   'Burner mining drill',
+  'Electric mining drill',
+  'Big mining drill',
   'Car',
   'Cargo wagon',
   'Cargo landing pad',
@@ -46,14 +71,13 @@ const IconNames: string[] = [
   'Efficiency module 2',
   'Efficiency module 3',
   'Electric furnace',
-  'Electric mining drill',
   'Electronic circuit',
+  'Foundry',
   'Electric energy accumulators',
   'Engine unit',
   'Engine',
   'Fast inserter',
   'Fluid wagon',
-  'Gun turret',
   'Heat boiler',
   'Heat exchanger',
   'Heat pipe',
@@ -73,6 +97,11 @@ const IconNames: string[] = [
   'Lab',
   'Lamp',
   'Laser turret',
+  'Personal laser defense research',
+  'Distractor research',
+  'Distractor',
+  'Destroyer research',
+  'Destroyer',
   'Landfill',
   'Light oil cracking',
   'Light oil',
@@ -85,14 +114,24 @@ const IconNames: string[] = [
   'Lubricant',
   'Medium electric pole',
   'Mining productivity',
+  'Personal laser defense',
+  'Poison capsule',
+  'Slowdown capsule',
+  'Combat shotgun',
+  'Worm',
+  'Armor making',
   'Nuclear fuel',
   'Nuclear reactor',
   'Nuclear power',
+  'Heating tower',
+  'Biochamber',
   'Module',
   'Offshore pump',
   'Oil refinery',
+  'Oil gathering',
   'Oil processing',
   'Petroleum gas',
+  'Follower robots',
   'Personal roboport',
   'Pipe to ground',
   'Pipe',
@@ -117,10 +156,12 @@ const IconNames: string[] = [
   'Roboport',
   'Robotics',
   'Rocket fuel',
+  'Battery equipment',
   'Satellite',
   'Small electric pole',
   'Solar energy',
   'Solar panel',
+  'Solar panel equipment',
   'Solid fuel from heavy oil',
   'Solid fuel from light oil',
   'Solid fuel from petroleum gas',
@@ -129,6 +170,7 @@ const IconNames: string[] = [
   'Bulk inserter',
   'Biter',
   'Spitter',
+  'Small wriggler',
   'Steam engine',
   'Steam turbine',
   'Steam',
@@ -147,9 +189,19 @@ const IconNames: string[] = [
   'Speed module',
   'Speed module 2',
   'Speed module 3',
+  'Recycler',
   'Spidertron',
+  'Spidertron research',
+  'Pentapod egg',
+  'Captive biter spawner',
+  'Uranium rounds magazine',
+  'Uranium processing',
+  'Uranium ammo',
+  'Tree seed',
+  'Tree seeding',
   'Tree',
   'Tank',
+  'Tank research',
   'Toolbelt',
   'Train stop',
   'Transport belt',
@@ -203,15 +255,70 @@ const IconNames: string[] = [
   'Military science pack',
   'Space science pack',
   'Submachine gun',
+  'Pistol',
+  'Shotgun',
+  'Shotgun shell',
+  'Piercing shotgun shell',
   'Piercing rounds magazine',
+  'Military',
+  'Light armor',
+  'Heavy armor',
+  'Modular armor',
+  'Power armor',
+  'Power armor MK2',
+  'Heavy armor research',
+  'Power armor research',
+  'Power armor MK2 research',
+  'Energy shield mk2',
+  'Energy shield mk2 research',
+  'Battery mk2 equipment',
+  'Railgun ammo',
+  'Railgun',
+  'Teslagun',
+  'Tesla ammo',
+  'Battery mk2 equipment research',
+  'Personal roboport mk2 equipment research',
+  'Personal roboport mk2 equipment',
+  'Discharge defense equipment',
+  'Discharge defense equipment research',
+  'Portable fission reactor',
+  'Portable fission reactor research',
+  'Exoskeleton research',
+  'Exoskeleton',
+  'Mech armor',
+  'Mech armor research',
+  'Portable fusion reactor',
+  'Portable fusion reactor research',
+  'Research productivity',
   'Grenade',
+  `Cluster grenade`,
   'Weapon shooting speed',
   'Physical projectile damage',
   'Stronger explosives',
   'Biter spawner',
+  'Spitter spawner',
   'Firearm magazine',
   'Heavy oil barrel',
-  'Sulfur'
+  'Defender research',
+  'Defender',
+  'Sulfur',
+  'Tree 01',
+  'Tree 02',
+  'Tree 03',
+  'Tree 04',
+  'Tree 05',
+  'Tree 06',
+  'Dead tree',
+  'Medium spitter',
+  'Medium biter',
+  'Behemoth biter',
+  'Behemoth worm',
+  'Behemoth spitter',
+  'Small spitter',
+  'Small biter',
+  'Big stomper',
+  'Big wriggler',
+  'Big strafer'
 ];
 
 interface Options {
@@ -238,13 +345,13 @@ const plugin: Plugin<[Options]> = (options) => {
       if (index > 0 && parent.children[index - 1].type === 'emphasis' && parent.children[index - 1].children.length > 0 && parent.children[index - 1].children[0].type === 'image') return;
       if (index > 1 && parent.children[index - 1].type === 'text' && parent.children[index - 1].value === ' ' && parent.children[index - 2].type === 'emphasis' && parent.children[index - 2].children.length > 0 && parent.children[index - 2].children[0].type === 'image') return;
 
-      let deleteNode = node.value.startsWith('!') ? 1 : 0;
+      const deleteNode = node.value.startsWith('!') ? 1 : 0;
       let iconName = node.value;
       if (deleteNode == 1) iconName = iconName.substring(1);
-      let rootDir = path.relative(vfile.dirname, 'factorio_icons');
-      let iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
+      const rootDir = path.relative(vfile.dirname, 'factorio_icons');
+      const iconUrl = `${rootDir}/${iconName.toLowerCase().replace(/ /g, "-")}.png`;
 
-      let iconNode = {
+      const iconNode = {
         type: "emphasis",
         children: [
           {
@@ -255,12 +362,16 @@ const plugin: Plugin<[Options]> = (options) => {
         ]
       };
 
-      let spaceNode = {
-        type: "text",
-        value: " "
+      const nowrapNode = {
+        type: "strong",
+        data: { hProperties: { style: "white-space:nowrap; display: inline-block; min-width: max-content; font-weight: lighter" } },
+        children: [
+          iconNode,
+          ...(deleteNode !== 1 ? [{ ...node }] : [])
+        ]
       };
 
-      parent.children.splice(index, deleteNode, iconNode, spaceNode);
+      parent.children.splice(index, 1, nowrapNode);
     });
   }
   return transformer;

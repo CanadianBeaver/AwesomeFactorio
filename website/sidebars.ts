@@ -2,7 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
 
-  howToStartSidebar: [
+  howToStartSidebarTemp: [
     {
       type: 'category',
       label: 'Эффективное начало',
@@ -13,21 +13,16 @@ const sidebars: SidebarsConfig = {
       items: [
         'HowToStartNewGame/Quickbar',
         'HowToStartNewGame/TipsAndTricks',
+        'HowToStartNewGame/Pollution',
         'HowToStartNewGame/BurnerDevices',
         'HowToStartNewGame/ManualConstruction',
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
         'HowToStartNewGame/Drafts',
+        'HowToStartNewGame/FactoryDefense',
+        'HowToStartNewGame/DeathWorld',
+        'HowToStartNewGame/MilitaryOutposts'
       ]
-    },
-    {
-      type: 'category',
-      label: 'Первый выход с базы',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/FirstExpansion',
-      },
-      items: [ ]
     },
     {
       type: 'category',
@@ -37,6 +32,22 @@ const sidebars: SidebarsConfig = {
         id: 'HowToStartNewGame/AfterSatelliteLaunch',
       },
       items: [ ]
+    }
+  ],
+
+  howToStartSidebar: [
+    {
+      type: 'category',
+      label: 'Начинаем играть эффективно',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/README'
+      },
+      items: [
+        'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/Pollution',
+        'HowToStartNewGame/FactoryDefense'
+      ]
     }
   ],
 
@@ -90,18 +101,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'LoadingAndUnloadingTrains/LeftHandTraffic',
         'LoadingAndUnloadingTrains/SyncUnloading'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Начинаем играть эффективно',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/README'
-      },
-      items: [
-        'HowToStartNewGame/Quickbar',
-        'HowToStartNewGame/TipsAndTricks'
       ]
     }
   ],
@@ -221,6 +220,29 @@ const sidebars: SidebarsConfig = {
         id: 'Additionals/SavedGames',
       },
       items: []
+    }
+  ],
+
+  adSenseSidebar: [
+    {
+      type: 'doc',
+      id: 'About',
+    },
+    {
+      type: 'doc',
+      id: 'Privacy',
+    },
+    {
+      type: 'doc',
+      id: 'Terms'
+    },
+    {
+      type: 'doc',
+      id: 'Feedback',
+    },
+    {
+      type: 'doc',
+      id: 'Latest',
     }
   ]
 

@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
 
 :root {
   --ifm-color-primary: #cc9900;
@@ -17,9 +17,26 @@
   --ifm-background-color: #fcfcfc;
   --ifm-heading-font-family: 'Ubuntu';
   --ifm-font-family-base: 'Open Sans';
-  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-link-color: var(--ifm-color-primary-darker);
   --ifm-menu-color-active: var(--ifm-color-primary-dark);
   --ifm-navbar-link-hover-color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #1e1e1e;
+  --ifm-color-primary: #ff9800;
+  --ifm-color-primary-dark: #e68900;
+  --ifm-color-primary-darker: #d97706;
+  --ifm-color-primary-darkest: #bf6000;
+  --ifm-color-primary-light: #ffa833;
+  --ifm-color-primary-lighter: #ffbb5c;
+  --ifm-color-primary-lightest: #ffca82;
+  --ifm-link-color: var(--ifm-color-primary-lightest);
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-heading-color: #f5f5f5;
+  --ifm-menu-color-active: var(--ifm-color-primary-dark);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-light);
 }
 
 .table-of-contents__link.toc-highlight.table-of-contents__link--active {
@@ -44,11 +61,14 @@ p.hero__subtitle {
   text-transform: uppercase;
 }
 
-.hero__title.addStroke, p.hero__subtitle.addStroke {
+.hero__title.addStroke,
+p.hero__subtitle.addStroke {
   -webkit-text-stroke: 1px var(--ifm-color-primary-darkest);
 }
 
-a.menu__link, ul.table-of-contents a, a.navbar__link {
+a.menu__link,
+ul.table-of-contents a,
+a.navbar__link {
   font-family: 'Roboto';
   letter-spacing: -0.2px;
 }
@@ -112,6 +132,19 @@ img[src*='#right'] {
   margin-top: 0px;
 }
 
+img[src*='#right25'] {
+  float: right;
+  max-width: 25%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
 img[src*='#right50'] {
   float: right;
   max-width: 30%;
@@ -125,3 +158,70 @@ img[src*='#right50'] {
   margin-top: 0px;
 }
 
+img[src*='#rightHalf'] {
+  float: right;
+  max-width: 15%;
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: var(--ifm-color-primary-darkest);
+  border-style: solid;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+html[data-theme='dark'] article h1,
+html[data-theme='dark'] article h2,
+html[data-theme='dark'] article h3 {
+  color: var(--ifm-color-primary-lightest);
+}
+
+html[data-theme='dark'] a {
+  color: var(--ifm-link-color);
+}
+
+html[data-theme='dark'] blockquote {
+  background-color: #1f1f1f;
+  border-left: 4px solid var(--ifm-color-primary-dark);
+  padding: 1rem;
+  color: #ccc;
+}
+
+article ul {
+  padding-left: 1.5rem;
+  list-style-type: square;
+}
+
+article blockquote {
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+html[data-theme='dark'] article blockquote {
+  background-color: #1f1f1f;
+  color: #aaa;
+}
+
+img[src*='#right'],
+img[src*='#left'],
+img[src*='#right50'] {
+  transition: transform 0.3s ease;
+}
+
+img[src*='#right']:hover,
+img[src*='#left']:hover,
+img[src*='#right50']:hover {
+  transform: scale(1.05);
+}
+
+.navbar__item {
+  white-space: nowrap;
+}
+
+td:has(img[src*='#verticalalign']) {
+  vertical-align: top !important;
+}

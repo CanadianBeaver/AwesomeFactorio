@@ -1,3 +1,5 @@
+import { JSX } from 'react';
+
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -11,6 +13,8 @@ import banner from './factorio-banner.jpg';
 import thumbnail1 from './production.png';
 import thumbnail2 from './logistics.png';
 import thumbnail3 from './intermediate-products.png';
+
+import gitDataCommits from '../data/git-commits.json';
 
 type FeatureItem = {
   title: string;
@@ -57,13 +61,45 @@ function Feature({ title, logo, url, description }: FeatureItem) {
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Link className="button button--secondary button--lg" to={url}>
-          <img className={styles.featureLogo} src={logo} />
+          <img className={styles.featureLogo} src={logo} alt='' />
         </Link>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
+    </div>
+  );
+}
+
+function GitCommits() {
+  if (!gitDataCommits || gitDataCommits.length === 0) {
+    return null; // ничего не выводим, если нет данных
+  }
+
+  function getIconByUrl(url: string): string {
+    const icons = [
+      '🚀','🏭','🔧','📦','⚡','🔨','🧪','📈','🛠️','💡','🐞',
+      '🎨','🧱','📊','📃','🖼️','🐢','🚧','📜','🎯','🧰','⚙️'
+    ];
+    let sum = 0;
+    for (let i = 0; i < url.length; i++) {
+      sum += url.charCodeAt(i);
+    }
+    return icons[sum % icons.length];
+  }
+
+  return (
+    <div className="margin-top--lg">
+      <h3>🕒 Последние изменения:</h3>
+      <pre>
+        {gitDataCommits.slice(0, 6).map((c, i) => (
+          <div key={i}>
+           {c.date}: {getIconByUrl(c.url)} {c.message}
+          </div>
+        ))}
+      </pre>
+      <Link to="/latest">подробнее</Link>
     </div>
   );
 }
@@ -78,7 +114,10 @@ function HomepageFeatures() {
           ))}
         </div>
         <div className="text--center">
-          <img src={banner} />
+          <img src={banner} alt='' />
+        </div>
+        <div className="row">
+          <GitCommits />
         </div>
       </div>
     </section>

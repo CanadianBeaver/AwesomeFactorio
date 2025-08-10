@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ltex-plus.vscode-ltex-plus",
+    "DavidAnson.vscode-markdownlint"
+  ],
+  "unwantedRecommendations": [
+    "valentjn.vscode-ltex",
+    "neo-ltex.ltex"
+  ]
+}

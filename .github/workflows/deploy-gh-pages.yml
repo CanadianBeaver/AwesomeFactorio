@@ -23,9 +23,13 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      SHOW_GOOGLE_ADS: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
@@ -35,6 +39,109 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: website
+#      - name: Prepare latest commits from git
+#        run: |
+#          mkdir -p website/src/data
+#          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+#            awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
+#              gsub(/"/, "\\\"", $3);
+#              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
+#            }' | \
+#            head -n 6 | \
+#            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
+#            > website/src/data/git-commits.json
+      - name: Prepare latest commits from git
+        run: |
+          mkdir -p website/src/data
+          git log -n 20 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
+          | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
+            function escape(str) {
+              gsub(/\\/,"\\\\",str)
+              gsub(/"/,"\\\"",str)
+              gsub(/\t/, "\\t", str)
+              gsub(/\r/, "\\r", str)
+              gsub(/\n/, "\\n", str)
+              return str
+            }
+
+            function format_page_url(file, url, path_segments, i, out, n) {
+              sub(/\.md$/, "", file)
+              sub(/\/(README|index)$/, "", file)
+
+              if (file ~ /^docs\//) {
+                sub(/^docs\//, "", file)
+                return "https://awesomefactorio.yrfle.com/" file
+              }
+
+              if (file ~ /^blog\//) {
+                sub(/^blog\//, "", file)
+
+                n = split(file, path_segments, "-")
+                out = path_segments[1]
+                for (i = 2; i <= n; i++) {
+                  if (path_segments[i - 1] ~ /^[0-9]+$/ || path_segments[i] ~ /^[0-9]+$/) {
+                    out = out "/" path_segments[i]
+                  } else {
+                    out = out "-" path_segments[i]
+                  }
+                }
+
+                return "https://awesomefactorio.yrfle.com/blog/" out
+              }
+
+              return ""
+            }
+
+            BEGIN {
+              print "["
+              first = 1
+            }
+
+            {
+              sha  = $1
+              date = $2
+              msg  = $3
+
+              if (msg ~ /^!/ || msg ~ /https?:\/\//) next
+
+              cmd = "git diff-tree --no-commit-id --name-only -r " sha
+              pages = ""
+              count = 0
+
+              while ((cmd | getline file) > 0) {
+                if (file ~ /^(docs|blog)\/.*\.md$/) {
+                  url = format_page_url(file)
+                  if (url != "") {
+                    pages = pages "\"" url "\","
+                    count++
+                  }
+                }
+              }
+              close(cmd)
+
+              if (count == 0) next
+              sub(/,$/, "", pages)
+
+              if (!first) print ","
+              first = 0
+
+              print "  {"
+              print "    \"date\": \"" escape(date) "\","
+              print "    \"message\": \"" escape(msg) "\","
+              print "    \"url\": \"https://github.com/" repo "/commit/" sha "\","
+              print "    \"pages\": [" pages "]"
+              print "  }"
+            }
+
+            END {
+              print "]"
+            }
+          ' > website/src/data/git-commits.json
+#      - name: 📤 Upload artifact (optional)
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: git-commits
+#          path: website/src/data/git-commits.json
       - name: Build pages
         run: npm run build
         working-directory: website
@@ -42,7 +149,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .build
-
   # Deployment job
   deploy:
     environment:
