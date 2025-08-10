@@ -12,6 +12,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/Quickbar',
+        'HowToStartNewGame/TipsAndTricks',
         'HowToStartNewGame/Pollution',
         'HowToStartNewGame/BurnerDevices',
         'HowToStartNewGame/ManualConstruction',
