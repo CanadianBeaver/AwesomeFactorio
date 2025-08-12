@@ -4,7 +4,8 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Russo+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --ifm-color-primary: #cc9900;
@@ -16,7 +17,7 @@
   --ifm-color-primary-lightest: #ffca2b;
   --ifm-background-color: #fcfcfc;
   --ifm-heading-font-family: 'Ubuntu';
-  --ifm-font-family-base: 'Open Sans';
+  --ifm-font-family-base: 'Rubik';
   --ifm-link-color: var(--ifm-color-primary-darker);
   --ifm-menu-color-active: var(--ifm-color-primary-dark);
   --ifm-navbar-link-hover-color: var(--ifm-color-primary-dark);
@@ -59,6 +60,7 @@ p.hero__subtitle {
   letter-spacing: 1px;
   text-shadow: 0px 0px 2px var(--ifm-color-primary-darkest);
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .hero__title.addStroke,
@@ -71,6 +73,7 @@ ul.table-of-contents a,
 a.navbar__link {
   font-family: 'Roboto';
   letter-spacing: -0.2px;
+  font-weight: 400;
 }
 
 .markdown em>img {
@@ -88,6 +91,8 @@ article h4,
 article h5,
 article h6 {
   color: var(--ifm-color-primary-darkest);
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 
 article h1 {
@@ -224,4 +229,8 @@ img[src*='#right50']:hover {
 
 td:has(img[src*='#verticalalign']) {
   vertical-align: top !important;
+}
+
+aside li.sidebarItem__DBe{
+  font-family: 'Roboto';
 }
