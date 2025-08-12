@@ -54,7 +54,7 @@ h1.hero__title {
 }
 
 p.hero__subtitle {
-  font-family: 'Ubuntu Sans';
+  font-family: 'Russo One';
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: 0px 0px 2px var(--ifm-color-primary-darkest);

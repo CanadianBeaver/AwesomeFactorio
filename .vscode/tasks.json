@@ -7,7 +7,7 @@
             "command": "npm clean-install",
             "options": {
                 "cwd": "${workspaceRoot}/website"
-            },
+            }
         },
         {
             "label": "Docusaurus clear",
@@ -28,7 +28,7 @@
             "command": "npm upgrade",
             "options": {
                 "cwd": "${workspaceRoot}/website"
-            },
+            }
         },
         {
             "label": "Docusaurus build",
