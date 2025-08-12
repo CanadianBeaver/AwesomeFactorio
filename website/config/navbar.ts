@@ -49,13 +49,13 @@ const navbar: ThemeConfig['navbar'] = {
         {
             type: 'doc',
             docId: 'Feedback',
-            label: '✉️ Contact us',
+            label: '✉️ Контакты',
             title: 'пишите письма',
             position: 'right'
         },
         {
             to: '/blog',
-            label: '📝 Blog',
+            label: '📝 Блог',
             title: 'блог со статьями и заметками',
             position: 'right'
          },
@@ -74,7 +74,7 @@ const navbar: ThemeConfig['navbar'] = {
         {
             type: 'docSidebar',
             sidebarId: 'adSenseSidebar',
-            label: '📐 About us',
+            label: '📐 О проекте',
             title: 'узнайте больше обо всём на свете',
             position: 'right'
         }

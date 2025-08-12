@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Расскажем как построить фабрику',
     logo: thumbnail1,
-    url: '/HowToStartNewGame',
+    url: '/MiningResources',
     description: (
       <>
 
@@ -37,7 +37,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Покажем много разных чертежей',
     logo: thumbnail2,
-    url: '/MiningResources',
+    url: '/PowerProduction',
     description: (
       <>
 
