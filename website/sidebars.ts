@@ -14,13 +14,14 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Quickbar',
         'HowToStartNewGame/TipsAndTricks',
         'HowToStartNewGame/Pollution',
+        'HowToStartNewGame/FactoryDefense',
+        'HowToStartNewGame/CombatTactics',
+        'HowToStartNewGame/DeathWorld',
         'HowToStartNewGame/BurnerDevices',
         'HowToStartNewGame/ManualConstruction',
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
         'HowToStartNewGame/Drafts',
-        'HowToStartNewGame/FactoryDefense',
-        'HowToStartNewGame/DeathWorld',
         'HowToStartNewGame/MilitaryOutposts'
       ]
     },
