@@ -75,6 +75,10 @@ a.navbar__link {
   font-weight: 400;
 }
 
+.table-of-contents {
+    font-size: 0.9rem;
+}
+
 .markdown em>img {
   vertical-align: middle;
 }
