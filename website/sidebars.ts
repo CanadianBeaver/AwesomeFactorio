@@ -46,8 +46,18 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/Quickbar',
-        'HowToStartNewGame/Pollution',
-        'HowToStartNewGame/FactoryDefense'
+        'HowToStartNewGame/Pollution'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Оборона макаронной фабрики',
+      link: {
+        type: 'doc',
+        id: 'HowToStartNewGame/FactoryDefense'
+      },
+      items: [
+        'HowToStartNewGame/CombatTactics'
       ]
     }
   ],
