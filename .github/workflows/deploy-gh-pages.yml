@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 20
+          fetch-depth: 25
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
@@ -42,18 +42,18 @@ jobs:
 #      - name: Prepare latest commits from git
 #        run: |
 #          mkdir -p website/src/data
-#          git log -n 20 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
+#          git log -n 25 --pretty=format:'%H@@@%ad@@@%s' --date=format:'%e %B %Y' | \
 #            awk -F'@@@' '!($3 ~ /^!/ || $3 ~ /https?:\/\//) {
 #              gsub(/"/, "\\\"", $3);
 #              print "{\"date\": \"" $2 "\", \"message\": \"" $3 "\", \"url\": \"https://github.com/'"${GITHUB_REPOSITORY}"'/commit/" $1 "\"}"
 #            }' | \
-#            head -n 6 | \
+#            head -n 8 | \
 #            awk 'NR==1{printf "["}{if(NR>1)printf ","} {printf "%s", $0} END{print "]"}' \
 #            > website/src/data/git-commits.json
       - name: Prepare latest commits from git
         run: |
           mkdir -p website/src/data
-          git log -n 20 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
+          git log -n 25 --pretty=format:%H@@@%ad@@@%s --date=format:'%e %B %Y' \
           | awk -F"@@@" -v repo="$GITHUB_REPOSITORY" '
             function escape(str) {
               gsub(/\\/,"\\\\",str)
