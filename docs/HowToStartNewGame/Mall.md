@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 # Магазины
 
 :::danger

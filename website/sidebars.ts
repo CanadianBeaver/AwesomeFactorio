@@ -2,40 +2,6 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
 
-  howToStartSidebarTemp: [
-    {
-      type: 'category',
-      label: 'Эффективное начало',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/README',
-      },
-      items: [
-        'HowToStartNewGame/Quickbar',
-        'HowToStartNewGame/TipsAndTricks',
-        'HowToStartNewGame/Pollution',
-        'HowToStartNewGame/FactoryDefense',
-        'HowToStartNewGame/CombatTactics',
-        'HowToStartNewGame/DeathWorld',
-        'HowToStartNewGame/BurnerDevices',
-        'HowToStartNewGame/ManualConstruction',
-        'HowToStartNewGame/Mall',
-        'HowToStartNewGame/Balancers',
-        'HowToStartNewGame/Drafts',
-        'HowToStartNewGame/MilitaryOutposts'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'После запуска спутника',
-      link: {
-        type: 'doc',
-        id: 'HowToStartNewGame/AfterSatelliteLaunch',
-      },
-      items: [ ]
-    }
-  ],
-
   howToStartSidebar: [
     {
       type: 'category',
@@ -58,6 +24,21 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/CombatTactics'
+      ]
+    },
+        {
+      type: 'category',
+      label: 'Неопубликованное',
+      items: [
+        'HowToStartNewGame/TipsAndTricks',
+        'HowToStartNewGame/DeathWorld',
+        'HowToStartNewGame/BurnerDevices',
+        'HowToStartNewGame/ManualConstruction',
+        'HowToStartNewGame/Mall',
+        'HowToStartNewGame/Balancers',
+        'HowToStartNewGame/Drafts',
+        'HowToStartNewGame/MilitaryOutposts',
+        'HowToStartNewGame/AfterSatelliteLaunch'
       ]
     }
   ],

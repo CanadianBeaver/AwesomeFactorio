@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 # Советы и рекомендации
 
 :::tip Вся статья, кратко *![Пикник на обочине](./images/nuclear-cheers.jpg#right50)*
