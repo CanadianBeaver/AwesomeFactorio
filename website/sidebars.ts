@@ -23,7 +23,9 @@ const sidebars: SidebarsConfig = {
         id: 'HowToStartNewGame/FactoryDefense'
       },
       items: [
-        'HowToStartNewGame/CombatTactics'
+        'HowToStartNewGame/CombatTactics',
+        'HowToStartNewGame/TankAndSpidertron',
+        'HowToStartNewGame/MilitaryOutposts'
       ]
     },
         {
@@ -37,7 +39,6 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
         'HowToStartNewGame/Drafts',
-        'HowToStartNewGame/MilitaryOutposts',
         'HowToStartNewGame/AfterSatelliteLaunch'
       ]
     }

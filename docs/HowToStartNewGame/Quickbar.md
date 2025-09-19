@@ -96,6 +96,6 @@
 
 Радиопередача:
 
-[*![Главные игровые панели*](https://img.youtube.com/vi/uxeglrmzI08/0.jpg)*](https://www.youtube.com/watch?v=uxeglrmzI08).
+[*![Главные игровые панели*](https://img.youtube.com/vi/uxeglrmzI08/0.jpg)*](https://www.youtube.com/watch?v=uxeglrmzI08)
 
 Смотрите и делитесь комментариями.
