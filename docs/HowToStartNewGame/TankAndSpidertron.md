@@ -107,6 +107,6 @@
 
 ## Смотрите на ТвойТуб
 
-[*![Танк и Паукотроны](https://img.youtube.com/vi/xxxxx/0.jpg)*](https://www.youtube.com/watch?v=xxxxx)
+[*![Танк и Паукотроны](https://img.youtube.com/vi/eoLRx2c5ROk/0.jpg)*](https://www.youtube.com/watch?v=eoLRx2c5ROk)
 
 Делитесь [комментариями](../Feedback.mdx), подписывайтесь и ставьте лайки.
