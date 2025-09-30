@@ -28,12 +28,6 @@ const navbar: ThemeConfig['navbar'] = {
         },
         {
             type: 'doc',
-            docId: 'CircuitNetwork/README',
-            label: 'Логическая сеть', //label: '🔌 Логическая сеть',
-            title: 'автоматизация и умная логика с помощью проводов и сигналов'
-        },
-        {
-            type: 'doc',
             docId: 'Additionals/QualityAssessment',
             label: 'Чё исчё?', //label: '🧩 Чё исчё?',
             title: 'всяка дополнительная дичь и полезняшки'

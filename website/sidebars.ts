@@ -28,7 +28,21 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/MilitaryOutposts'
       ]
     },
-        {
+    {
+      type: 'category',
+      label: 'Логическая сеть и комбинаторы',
+      link: {
+        type: 'doc',
+        id: 'CircuitNetwork/README',
+      },
+      items: [
+        'CircuitNetwork/SimpleExamples',
+        'CircuitNetwork/Combinators',
+        //'CircuitNetwork/Devices',
+        'CircuitNetwork/Writing',
+      ]
+    },
+    {
       type: 'category',
       label: 'Неопубликованное',
       items: [
@@ -139,23 +153,6 @@ const sidebars: SidebarsConfig = {
         id: 'PowerProduction/NuclearPower',
       },
       items: [ 'PowerProduction/HugeNuclearPowerPlant' ]
-    }
-  ],
-
-  circuitNetworkSidebar: [
-    {
-      type: 'category',
-      label: 'Логическая сеть и комбинаторы',
-      link: {
-        type: 'doc',
-        id: 'CircuitNetwork/README',
-      },
-      items: [
-        'CircuitNetwork/SimpleExamples',
-        'CircuitNetwork/Combinators',
-        //'CircuitNetwork/Devices',
-        'CircuitNetwork/Writing',
-      ]
     }
   ],
 
