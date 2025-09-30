@@ -44,6 +44,18 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Строительство железных дорог',
+      link: {
+        type: 'doc',
+        id: 'LoadingAndUnloadingTrains/LeftHandTraffic',
+      },
+      items: [
+        'LoadingAndUnloadingTrains/README',
+        'LoadingAndUnloadingTrains/SyncUnloading'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Неопубликованное',
       items: [
         'HowToStartNewGame/TipsAndTricks',
@@ -97,18 +109,6 @@ const sidebars: SidebarsConfig = {
         id: 'RawResourcesProcessing/BeaconsAndModules',
       },
       items: []
-    },
-    {
-      type: 'category',
-      label: 'Погрузка и разгрузка поездов',
-      link: {
-        type: 'doc',
-        id: 'LoadingAndUnloadingTrains/README',
-      },
-      items: [
-        'LoadingAndUnloadingTrains/LeftHandTraffic',
-        'LoadingAndUnloadingTrains/SyncUnloading'
-      ]
     }
   ],
 
