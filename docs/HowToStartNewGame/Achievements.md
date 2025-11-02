@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 # Достижения
 
 :::danger
