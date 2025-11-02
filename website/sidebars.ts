@@ -38,7 +38,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'CircuitNetwork/SimpleExamples',
         'CircuitNetwork/Combinators',
-        //'CircuitNetwork/Devices',
         'CircuitNetwork/Writing',
       ]
     },
@@ -65,7 +64,9 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Mall',
         'HowToStartNewGame/Balancers',
         'HowToStartNewGame/Drafts',
-        'HowToStartNewGame/AfterSatelliteLaunch'
+        'HowToStartNewGame/AfterSatelliteLaunch',
+        'HowToStartNewGame/UsefulMods',
+        'CircuitNetwork/Devices'
       ]
     }
   ],

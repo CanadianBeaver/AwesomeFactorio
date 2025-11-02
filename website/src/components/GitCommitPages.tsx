@@ -6,7 +6,7 @@ function normalizeInternalUrl(url: string): string {
   try {
     const siteBase = typeof window !== 'undefined' ? window.location.origin : '';
 
-    // Если ссылка начинается с текущего сайта — удаляем "https://example.com"
+    // Если ссылка начинается с текущего сайта — удаляем
     if (url.startsWith(siteBase)) {
       return url.replace(siteBase, '');
     }
