@@ -7,6 +7,7 @@ const IconNames: string[] = [
   'Artillery shell',
   'Artillery damage',
   'Artillery range',
+  'Artillery wagon',
   'Flamethrower',
   'Flamethrower turret',
   'Flamethrower research',
