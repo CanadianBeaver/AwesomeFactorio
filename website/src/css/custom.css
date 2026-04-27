@@ -184,6 +184,16 @@ img[src*='#rightHalf'] {
   margin-top: 0px;
 }
 
+[data-theme='dark'] .markdown img:is([src$=".webp"], [src$=".jpg"], [src$=".png"]) {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+
+.markdown img:is([src$=".webp"], [src$=".jpg"], [src$=".png"]) {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
 html[data-theme='dark'] article h1,
 html[data-theme='dark'] article h2,
 html[data-theme='dark'] article h3 {
