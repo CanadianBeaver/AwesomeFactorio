@@ -58,6 +58,7 @@ const IconNames: string[] = [
   'Centrifuge',
   'Chemical plant',
   'Chemical science pack',
+  'Explosives',
   'Cliff explosives',
   'Circuit network',
   'Coal liquefaction',
