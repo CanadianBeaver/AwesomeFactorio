@@ -111,6 +111,15 @@ article h3 {
   font-size: 1.25rem;
 }
 
+article h4 {
+  font-size: 1.1rem;
+}
+
+article h5,
+article h6 {
+  font-size: 1rem;
+}
+
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
   font-size: 1.8rem !important;
 }
@@ -196,7 +205,10 @@ img[src*='#rightHalf'] {
 
 html[data-theme='dark'] article h1,
 html[data-theme='dark'] article h2,
-html[data-theme='dark'] article h3 {
+html[data-theme='dark'] article h3,
+html[data-theme='dark'] article h4,
+html[data-theme='dark'] article h5,
+html[data-theme='dark'] article h6 {
   color: var(--ifm-color-primary-lightest);
 }
 
