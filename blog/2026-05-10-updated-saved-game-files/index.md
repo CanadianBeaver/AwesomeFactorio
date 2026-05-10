@@ -1,7 +1,7 @@
 ---
 title: Обновил файлы сохранёнок с чертежами
 description: Вернулся к работе над проектом, будем продолжать творить
-tags: [combat tactics, defense, pollution, web site, Ай-Яй]
+tags: [blueprinting, web site, factorio2, power production, production]
 ---
 
 Для хранения чертежей используются несколько файл записанных игр, которые давненько не обновлялись. Настала пора их перепроверить.
