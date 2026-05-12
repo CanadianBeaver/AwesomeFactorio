@@ -25,7 +25,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'HowToStartNewGame/CombatTactics',
         'HowToStartNewGame/TankAndSpidertron',
-        'HowToStartNewGame/MilitaryOutposts'
+        'HowToStartNewGame/MilitaryOutposts',
+        'HowToStartNewGame/BigMilitaryOutposts'
       ]
     },
     {
