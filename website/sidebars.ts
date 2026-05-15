@@ -24,9 +24,18 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'HowToStartNewGame/CombatTactics',
-        'HowToStartNewGame/TankAndSpidertron',
-        'HowToStartNewGame/MilitaryOutposts',
-        'HowToStartNewGame/BigMilitaryOutposts'
+        'HowToStartNewGame/TankAndSpidertron'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Массовая фортификация',
+      link: {
+        type: 'doc',
+        id: 'MilitaryOutposts/README'
+      },
+      items: [
+        'MilitaryOutposts/BigMilitaryOutposts'
       ]
     },
     {
