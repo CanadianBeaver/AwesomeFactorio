@@ -35,7 +35,8 @@ const sidebars: SidebarsConfig = {
         id: 'MilitaryOutposts/README'
       },
       items: [
-        'MilitaryOutposts/BigMilitaryOutposts'
+        'MilitaryOutposts/Smallest',
+        'MilitaryOutposts/Biggest'
       ]
     },
     {
