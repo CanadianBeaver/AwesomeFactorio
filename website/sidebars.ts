@@ -78,7 +78,8 @@ const sidebars: SidebarsConfig = {
         'HowToStartNewGame/Drafts',
         'HowToStartNewGame/AfterSatelliteLaunch',
         'HowToStartNewGame/UsefulMods',
-        'CircuitNetwork/Devices'
+        'CircuitNetwork/Devices',
+        'FactoryDesign/README'
       ]
     }
   ],
