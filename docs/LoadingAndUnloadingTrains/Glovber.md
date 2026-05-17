@@ -8,8 +8,10 @@ unlisted: true
 Это заготовка для будущей статьи, сейчас она не рекомендуется для изучения, а в будущем может измениться или вообще исчезнуть.
 :::
 
-:::tip Glovber: Uber’s wheels, Glovo’s boxes.
-We are driving you to the safety of the shelter, packing your garbage into boxes, and delivering whatever you can salvage. Просто и понятно...
+:::tip Glovber: Glovo’s boxes, Uber’s wheels.  *![Glovber: Glovo’s boxes, Uber’s wheels](./images/Glovber.webp#left)*
+We are driving you to the safety of the shelter, packing your garbage into boxes, and delivering whatever you can salvage.
+
+[Просто и понятно...](https://youtube.com/shorts/zarOECMDRnM?sub_confirmation=1)
 :::
 
 В любой игре *Factorio* у подавляющем большинстве случаев ваши поезда чинно возят единственный ресурс туда‑сюда, полностью загружаясь на одной станции и полностью разгружаясь на другой. Но иногда возникает потребность отвезти кучу разного хлама, как правило, с центра фабрики на окраину, например, для [снабжения фортификаций](../MilitaryOutposts/Biggest.md), сдерживающих [экспансию местной фауны](../MilitaryOutposts/README.md#экспансия-жуков), или для строительства очередного [добывающего аванпоста](../MiningResources/Autotorio.md).
