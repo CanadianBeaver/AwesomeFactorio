@@ -8,10 +8,8 @@ unlisted: true
 Это заготовка для будущей статьи, сейчас она не рекомендуется для изучения, а в будущем может измениться или вообще исчезнуть.
 :::
 
-:::tip Glovber: Glovo’s boxes, Uber’s wheels.  *![Glovber: Glovo’s boxes, Uber’s wheels](./images/Glovber.webp#left)*
-We are driving you to the safety of the shelter, packing your garbage into boxes, and delivering whatever you can salvage.
-
-[Просто и понятно...](https://youtube.com/shorts/zarOECMDRnM?sub_confirmation=1)
+:::tip Glovber: Glovo’s boxes, Uber’s wheels.
+We are driving you to the safety of the shelter, packing your garbage into boxes, and delivering whatever you can salvage. Просто и понятно...
 :::
 
 В любой игре *Factorio* у подавляющем большинстве случаев ваши поезда чинно возят единственный ресурс туда, полностью загружаясь на станции погрузки и сюда, полностью разгружаясь на станции разгрузки. Но иногда возникает потребность отвезти кучу разного хабара, как правило, с центра фабрики на окраину, например, для [снабжения фортификаций](../MilitaryOutposts/Biggest.md), сдерживающих [экспансию местной фауны](../MilitaryOutposts/README.md#экспансия-жуков), или для строительства очередного [добывающего аванпоста](../MiningResources/Autotorio.md).
@@ -33,6 +31,8 @@ We are driving you to the safety of the shelter, packing your garbage into boxes
 :::
 
 ## Размещение станций погрузки
+
+[*![Фильтрация ячеек грузового вагона в Factroio](./images/Glovber.webp#right50)*](pathname:///blog/2026/05/17/grand-opening-transport-company)
 
 Станции погрузки для поездов с разношерстной перевозкой предметов стоит размещать поближе к производимому хабару. В самом начале строительства большой фабрики, то есть [после запуска первого спутника](../HowToStartNewGame/AfterSatelliteLaunch.md), логично держать станцию погрузку ближе к [заводам снабжения, яки моллам](../HowToStartNewGame/Mall.md), но по мере роста фабрики и увеличения количества [форпостов](../MilitaryOutposts/README.md) один единственный завод снабжения может перестать справляться с нагрузками. Эти маленькие фабрики лениво создают всевозможный хабар понемногу, удовлетворяя базовые нужды инженера. Строить второй аналогичный завод снабжения бессмысленно ибо для бесперебойного снабжения удаленных форпостов или производства предметов расширяющих фабрику потребно производить не весь игровой ассортимент, а только строительные расходники и амуницию для фронта.
 
