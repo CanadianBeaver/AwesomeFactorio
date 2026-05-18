@@ -61,7 +61,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'LoadingAndUnloadingTrains/README',
-        'LoadingAndUnloadingTrains/Glovber',
+        'LoadingAndUnloadingTrains/Jlovber',
         'LoadingAndUnloadingTrains/SyncUnloading'
       ]
     },
