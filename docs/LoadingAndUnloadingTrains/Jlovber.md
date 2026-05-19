@@ -66,12 +66,13 @@ unlisted: true
 
 ```mermaid
 graph TD
-    CC(Constant Combinator)
-    TS(Train Stop)
+    TS[Train Stop]
     AC(Arithmetic Combinator)
+    CC(Constant Combinator)
     IN(Inserter)
     RC(Requester chest)
     SUM{Объединяем множества}
+    CW[Cargo wagon]
 
     TS -->|"считываем содержимое <br/> остановившегося поезда"| AC
     AC -->|"меняем знак у каждого<br />предмета на обратный"| SUM
@@ -79,9 +80,10 @@ graph TD
     SUM -->|"устанавливаем фильтры"| IN
     CC -->|"устанавливаем запросы"| RC
     RC -->|"предоставляем предметы"| IN
+    IN -->|"погружаем предметы"| CW
 
     linkStyle 0 stroke:#5ea374,stroke-width:2px;
-    linkStyle 1 stroke:#e05a47,stroke-width:2px,background-color:none;
+    linkStyle 1 stroke:#e05a47,stroke-width:2px;
     linkStyle 2 stroke:#e05a47,stroke-width:2px;
     linkStyle 3 stroke:#e05a47,stroke-width:2px;
     linkStyle 4 stroke:#5ea374,stroke-width:2px;
@@ -107,6 +109,7 @@ graph TD
 graph TD
     TS(Train Stop)
     AC(Arithmetic Combinator)
+    CW[Cargo wagon]
 
     subgraph Индекс_1 [Поток 1]
         CC1(Constant Combinator 1)
@@ -160,6 +163,14 @@ graph TD
     RC2 -->|"Предоставляем предметы"| IN2
     RCn -->|"Предоставляем предметы"| INn
 
+    IN1 -->|"Погружаем предметы"| CW
+    IN2 -->|"Погружаем предметы"| CW
+    INn -->|"Погружаем предметы"| CW
+
+    IN01 -->|"Погружаем предметы"| CW
+    IN02 -->|"Погружаем предметы"| CW
+    IN0n -->|"Погружаем предметы"| CW
+
     RC01 --> IN01
     RC02 --> IN02
     RC0n --> IN0n
@@ -191,13 +202,82 @@ graph TD
 
 Доставлять топливо для огнеметных турелей `!Flamethrower turret` можно двумя вариантами, либо гонять жидкую горючку в вагон-цистернах `!Fluid wagon` либо фасовать её по бочкам `!Empty barrel`. У каждого варианта свои нюансы и свой уровень головной боли. Вариант с вагонами-цистернами подходит для [жирноватых фортификаций](../MilitaryOutposts/Biggest.md) испытывающих проблем с нехваткой топлива. Логистика тут проста как [одноколейные рельсы](./LeftHandTraffic.md#история-железных-дорог-на-планете-nauvis), потому что схема работает по принципу залил, отвез и слил. Никакой лишней возни, но есть нюанс, ведь под это дело нужен отдельный вагон, что увеличивает размер состава. Из-за этого [малюсенькие форпосты](../MilitaryOutposts/Smallest.md) превращаются в проблему, так как длинный состав сложнее защитить, да и городить бо́льшую разгрузочную станцию посреди территории кусак `!Captive biter spawner` является сомнительным удовольствием. Фасовка бочками является выбором любителей компактного микроменеджмента, так как их главный плюс заключается в том, что они прекрасно делят место с амуницией и ремонтными комплектами в обычном грузовом вагоне. Это позволяет собирать ультракороткие поезда для маленьких форпостов и сильно экономит пространство, можно уложиться и в один вагон. Минус в том, что придётся заниматься дополнительной расфасовкой и логистикой по возврату пустой тары на фабрику, но всё решаемо. [Подробности](../MilitaryOutposts/README.md#доставка-топлива-для-огнемётных-турелей-в-бочках-или-в-цистернах-или-вообще-по-трубам).
 
+## Строительств добывающих аванпостов и фортификаций (TBD)
+
+Такой вариант использования действительно существует, и в сообществе игроков он называется строительным поездом в один конец. Это невероятно удобный способ расширения фабрики, который позволяет за считанные минуты развернуть полностью автономный укрепрайон прямо под носом у кусак.
+
+Для организации такой схемы вам понадобится настроить логистическую сеть на самой станции и правильно подготовить автоматику поезда. В грузовой вагон вы загружаете строго определенное количество рельсов, турелей, стен, конвейеров, дрон-станций и, самое главное, несколько десятков строительных дронов. На месте будущего аванпоста вы вручную ставите только рельсы для станции, саму остановку, один сундук снабжения, один манипулятор, дрон-станцию и подключаете все это к минимальному источнику питания, например, к паре солнечных панелей или аккумуляторов.
+
+Манипулятор выгружает из приехавшего поезда строительных дронов и складывает их в дрон-станцию, а остальные ресурсы отправляются в сундуки снабжения. После этого вы просто «выстреливаете» по радарной карте заранее подготовленным огромным чертежом всего форпоста. Выгруженные дроны моментально забирают материалы из сундуков и начинают автоматическую сборку стен, оборонительных линий и добывающих буров.
+
+Чтобы превратить этот процесс в идеальный замкнутый цикл, разгрузочные манипуляторы на станции необходимо подключить к логической сети через зеленый или красный провод. Вы задаете им условие работы только в том случае, если строительных материалов на станции меньше необходимого по чертежу количества. Когда строительство завершается, вы меняете режим работы манипуляторов на погрузку, чтобы они собрали все неиспользованные остатки ресурсов обратно в вагоны. Поезд получает автоматическую команду отправляться назад на базу, как только его инвентарь перестанет меняться или сундуки на станции полностью опустеют.
+
 ## Разгрузка на форпостах
 
-(TBD)
+Организовать разгрузку снабжения на форпостах можно так же просто, как и погрузить грузовой вагон с помощью одного манипулятора. Схема строится на логической сети, где фильтры для выгружающего манипулятора строятся на объединение множества запрашиваемых предметов с уже выгруженными в сундуки. Вот схема:
+
+```mermaid
+graph TD
+    CC(Constant Combinator)
+    CH[Сундуки аванпоста]
+    AC(Arithmetic Combinator)
+    IN(Inserter)
+    CW[Cargo wagon]
+    SUM{Объединяем множества}
+
+    CH -->|"считываем содержимое <br/> предметов на форпосте"| AC
+    AC -->|"меняем знак у каждого<br />предмета на обратный"| SUM
+    CC -->|"задаём предметы и<br />количества на разгрузку"| SUM
+    SUM -->|"устанавливаем фильтры"| IN
+    CW -->|"предоставляем предметы"| IN
+    IN -->|"выгружаем предметы"| CH
+
+    linkStyle 0 stroke:#5ea374,stroke-width:2px;
+    linkStyle 1 stroke:#e05a47,stroke-width:2px;
+    linkStyle 2 stroke:#e05a47,stroke-width:2px;
+    linkStyle 3 stroke:#e05a47,stroke-width:2px;
+    linkStyle 4 stroke:#5ea374,stroke-width:2px;
+```
+
+И вот наглядное воплощение в чертеже, тут мы переливаем топливо для огнемётных турелей по бочкам и возвращаем пустую тару назад:
+
+*![Разгрузка одним манипулятором в Factroio](./images/Jlovber.06.webp)*
+
+Ничего нового чертёж не приносить, всё тот же самый метод объединения множества запрашиваемых предметов за вычетом уже имеющихся.
 
 ## Управление станцией разгрузки
 
-(TBD)
+Выше описанная схема объединения множеств также подходит и для управления доступностью станций снабжения на форпостах, то есть включения станции когда нужно доставить амуницию или строительные материалы на форпост и её отключения при достаточном количестве на форпосте. Схема становится ещё проще:
+
+
+```mermaid
+graph TD
+    CC(Constant Combinator)
+    CH[Сундуки форпоста]
+    AC(Arithmetic Combinator)
+    TC(Train Stop)
+    SUM{Объединяем множества}
+
+    CH -->|"считываем содержимое <br/> предметов на форпосте"| AC
+    AC -->|"меняем знак у каждого<br />предмета на обратный"| SUM
+    CC -->|"задаём минимальное<br />количества предметов"| SUM
+    SUM -->|"включаем если больше 0<br />выключаем если меньше 0"| TC
+
+    linkStyle 0 stroke:#5ea374,stroke-width:2px;
+    linkStyle 1 stroke:#e05a47,stroke-width:2px;
+    linkStyle 2 stroke:#e05a47,stroke-width:2px;
+    linkStyle 3 stroke:#e05a47,stroke-width:2px;
+```
+
+И вот непосредственно чертёж, который так удобно совместить с управляемой разгрузкой и о которой мы уже говорили в предыдущем разделе.
+
+*![Управление станцией разгрузки в Factroio](./images/Jlovber.07.webp)*
+
+Привожу полный чертёж станции разгрузки на форпосте с комбинатором управления доступностью станции:
+
+```blueprint
+0eNrtWd1u2zYUfhWDlwNVWLKk2Ma2y73AelN0gUDbjE1EfyWpZG5gYOuA9WJFB+x6D5Fuy1CsS/oK8hvtUJIt2aZjSU6ADmiCOBR/Ph6eP346vkIjP6ExZ6FEwyvExlEo0PD5FRJsGhJf9YUkoGiIOGE+WmDEwgn9Hg3NBdZNikZRHHFZmWgtTjGioWSS0Rw6e5h7YRKMKAckvFpNhKDByGfh1AjIeMZCalgIozgSsDgK1T4AaAwGTxyM5tDqP3FgownjdJxPsDGCNosVGg1iOTd8Np1JI2K+MSKcUx+tZngvEuKDHDAzjHhA1OF2ZLPWsrFQUC6hb1ces9tdCeRuC9TXgPbKA3MmZwGVbGyMo2DEQiIj/Q7maoeTLXyMwGSSR743ojNywWA9LCqBPRieZGBCDZwxLqRX2k3OM11dMC5BHWgtWT7DoGAGZUtBFYzCEpIoVzHAalFMOcnFQF/A0iiRcdICvCqTF1J5GfHzTFhOJ2goeUIxmnJKYZ8z4gu6gJ9drdp1TFW6jrKUBsXBO66sQXFLW+i0zymZeEzSQHhBNAGwLs77FCacVBIp8oMt1MCLhML5z5gPMmfnFrl182hZxZvSUzFjo7cQNzMNT7KFRrYPCL7j4kreICY887Mh+irrSJRBncUp/Go04q63kJACQkPIKNa66CBXylYAmJZeR2PGxwmTHg3JyC/tvOpee20LpyXhXELymKLcPIXHdrfO/nXu1+DVMvKyoxXuhfODeuqgMZ3U3/cpWihIuYqJb0HjfuebiIOulDUCEsKyfC/h+SxgssijWyo/KZGT0QpPp/LCD12d3fqbrgE6OJRjnFVs2FkW01mt9Mx2XjpNQkMmkIcbemempdWFskbzCQT60XhlOj7z4b+c8ejyAWDLfBSr+6g1jrOBY8jImHKYNWmPWEZ0wknIksDIAAVculPyEm7dhtDdCnbpupqLt6W8/cp9KZnvUz43xIz6DSGtCqRZuiSEOfCMS9IUzqnClT7JyYTw9mc1S28csalBfQgyDvQgjvwjfMi09RmlLVzlllSssLXerNIMjMO9NZ5RcUxmsA7kvLa4hxlbW2Qta2mbyDacmpMpbaPQajT3Kn6d0xRIjEcaqdfTUay2YKC/g7dyI/ReFd05iP7sCHS3otyYMG7EZHzejrWh2Cdzyr0JFWPO4oKApL+n79Nb+Ps3vU4/LN9A+y696Sxfp++XP6Yf0rtO+nH5Q3qT/gUzbpavYPSPDozcwvR36d8wAIuXv34XAtAdPN+qFXcw7x9Ae7t8vXy1fIM72bo/AeMa1sLDdXq7/Fmt66Tvlj9BPyB3YO1NB9p3agr0flSb6N64Bppkv76KdzlLb8VZnJ03L1wieCRRJI/wKUQuEMOCe+++inYbkyZzkzRtvot+ShTKemAK5X7aFMp+cAplPR6F6usp1FF050TLoI5jZe7DUiir+5lDteJQG5T7M4k6lkTZ/wsSZT0miTqWiLjd+5nIb0ArbrboxvIXDdnQcQJzv03uqcU6e6sYO0WmsgqVFxjrV+X0NTOzad3Y1rCX+yQXtCJaUUi8lzXUzjGqWp8IuomOUXRBOWcTqoqX43NPsJdUX7uqJN97j27uJW62DrVhddfWV3crSXcjVe4HcvYAubXkcdva9xGqok83y6HuluW/zIqXj1Fi1nqUTqcntXR68gnp9NmmTnvNdepHUybURfgI+uxXsibEvyJ+RRrYW7zv1QjFQQPYk9qwVrcBrFMf1mwA26sPazWANevD9mrDDupbrMKPDqI2MJhTH3WfvcCTL+FZxcbzHjYxXPTmKYYmPHSLpo372IKWU4472MKQgVUvfBbjagGGi1dNUIMY8ol1CjuoL+LUq8D6e26M4DITmQiOaw3swcDp212ra/cXi/8AU4SYwA==
+```
 
 ## Больше подробностей
 
