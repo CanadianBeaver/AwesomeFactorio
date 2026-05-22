@@ -247,11 +247,11 @@ graph TD
 
 *![Разгрузка одним манипулятором в Factroio](./images/Jlovber.06.webp)*
 
-Ничего нового чертёж не приносить, всё тот же самый метод объединения множества запрашиваемых предметов за вычетом уже имеющихся.
+Ничего нового чертёж не приносит, всё тот же самое. Считываем сигналы предметов в ящиках, минусуем их с теми сигналами, что определены на постоянном комбинаторе и устанавливаем фильтры на выгружаемом манипуляторе. Кстати, для увеличения скорости разгрузки можно также увеличить количество манипуляторов по уже описанной ранее схеме.
 
 ## Управление станцией разгрузки
 
-Выше описанная схема объединения множеств также подходит и для управления доступностью станций снабжения на форпостах, то есть включения станции когда нужно доставить амуницию или строительные материалы на форпост и её отключения при достаточном количестве на форпосте. Схема становится ещё проще:
+Выше описанная схема объединения множеств также подходит и для управления доступностью железнодорожной станции снабжения на форпостах. Включаем станцию на приход поездов, когда нужно доставить амуницию или строительные материалы на форпост и отключаем при достаточном количестве на форпосте. Схема становится ещё проще:
 
 
 ```mermaid
@@ -273,11 +273,11 @@ graph TD
     linkStyle 3 stroke:#e05a47,stroke-width:2px;
 ```
 
-И вот непосредственно чертёж, который так удобно совместить с управляемой разгрузкой и о которой мы уже говорили в предыдущем разделе.
+Кстати, постоянным комбинатором в этой схеме можно полностью отключить железнодорожную станцию. Выключаете комбинатор и станция больше не принимает поездов, так как никогда не будет получать положительных сигналов из логической сети. И вот непосредственно чертёж, который так удобно совместить с управляемой разгрузкой о которой мы уже говорили в предыдущем разделе:
 
 *![Управление станцией разгрузки в Factroio](./images/Jlovber.07.webp)*
 
-Привожу полный чертёж станции разгрузки на форпосте с комбинатором управления доступностью станции:
+Привожу полный чертёж станции разгрузки на форпосте с комбинатором управления доступностью железнодорожной станции:
 
 ```blueprint
 0eNrtWd1u2zYUfhWDlwNVWLKk2Ma2y73AelN0gUDbjE1EfyWpZG5gYOuA9WJFB+x6D5Fuy1CsS/oK8hvtUJIt2aZjSU6ADmiCOBR/Ph6eP346vkIjP6ExZ6FEwyvExlEo0PD5FRJsGhJf9YUkoGiIOGE+WmDEwgn9Hg3NBdZNikZRHHFZmWgtTjGioWSS0Rw6e5h7YRKMKAckvFpNhKDByGfh1AjIeMZCalgIozgSsDgK1T4AaAwGTxyM5tDqP3FgownjdJxPsDGCNosVGg1iOTd8Np1JI2K+MSKcUx+tZngvEuKDHDAzjHhA1OF2ZLPWsrFQUC6hb1ces9tdCeRuC9TXgPbKA3MmZwGVbGyMo2DEQiIj/Q7maoeTLXyMwGSSR743ojNywWA9LCqBPRieZGBCDZwxLqRX2k3OM11dMC5BHWgtWT7DoGAGZUtBFYzCEpIoVzHAalFMOcnFQF/A0iiRcdICvCqTF1J5GfHzTFhOJ2goeUIxmnJKYZ8z4gu6gJ9drdp1TFW6jrKUBsXBO66sQXFLW+i0zymZeEzSQHhBNAGwLs77FCacVBIp8oMt1MCLhML5z5gPMmfnFrl182hZxZvSUzFjo7cQNzMNT7KFRrYPCL7j4kreICY887Mh+irrSJRBncUp/Go04q63kJACQkPIKNa66CBXylYAmJZeR2PGxwmTHg3JyC/tvOpee20LpyXhXELymKLcPIXHdrfO/nXu1+DVMvKyoxXuhfODeuqgMZ3U3/cpWihIuYqJb0HjfuebiIOulDUCEsKyfC/h+SxgssijWyo/KZGT0QpPp/LCD12d3fqbrgE6OJRjnFVs2FkW01mt9Mx2XjpNQkMmkIcbemempdWFskbzCQT60XhlOj7z4b+c8ejyAWDLfBSr+6g1jrOBY8jImHKYNWmPWEZ0wknIksDIAAVculPyEm7dhtDdCnbpupqLt6W8/cp9KZnvUz43xIz6DSGtCqRZuiSEOfCMS9IUzqnClT7JyYTw9mc1S28csalBfQgyDvQgjvwjfMi09RmlLVzlllSssLXerNIMjMO9NZ5RcUxmsA7kvLa4hxlbW2Qta2mbyDacmpMpbaPQajT3Kn6d0xRIjEcaqdfTUay2YKC/g7dyI/ReFd05iP7sCHS3otyYMG7EZHzejrWh2Cdzyr0JFWPO4oKApL+n79Nb+Ps3vU4/LN9A+y696Sxfp++XP6Yf0rtO+nH5Q3qT/gUzbpavYPSPDozcwvR36d8wAIuXv34XAtAdPN+qFXcw7x9Ae7t8vXy1fIM72bo/AeMa1sLDdXq7/Fmt66Tvlj9BPyB3YO1NB9p3agr0flSb6N64Bppkv76KdzlLb8VZnJ03L1wieCRRJI/wKUQuEMOCe+++inYbkyZzkzRtvot+ShTKemAK5X7aFMp+cAplPR6F6usp1FF050TLoI5jZe7DUiir+5lDteJQG5T7M4k6lkTZ/wsSZT0miTqWiLjd+5nIb0ArbrboxvIXDdnQcQJzv03uqcU6e6sYO0WmsgqVFxjrV+X0NTOzad3Y1rCX+yQXtCJaUUi8lzXUzjGqWp8IuomOUXRBOWcTqoqX43NPsJdUX7uqJN97j27uJW62DrVhddfWV3crSXcjVe4HcvYAubXkcdva9xGqok83y6HuluW/zIqXj1Fi1nqUTqcntXR68gnp9NmmTnvNdepHUybURfgI+uxXsibEvyJ+RRrYW7zv1QjFQQPYk9qwVrcBrFMf1mwA26sPazWANevD9mrDDupbrMKPDqI2MJhTH3WfvcCTL+FZxcbzHjYxXPTmKYYmPHSLpo372IKWU4472MKQgVUvfBbjagGGi1dNUIMY8ol1CjuoL+LUq8D6e26M4DITmQiOaw3swcDp212ra/cXi/8AU4SYwA==
