@@ -1,7 +1,3 @@
----
-unlisted: true
----
-
 # Доставка разного барахла
 
 :::danger
@@ -283,6 +279,6 @@ graph TD
 
 Радиопередача со многими деталями и глубоким смыслом:
 
-[*![Автоматизация фортификаций, часть первая](https://img.youtube.com/vi/XXXXXXX/0.jpg)*](https://www.youtube.com/watch?v=XXXXXXX)
+[*![Автоматизация фортификаций, часть первая](https://img.youtube.com/vi/wcmj_MWS0hs/0.jpg)*](https://www.youtube.com/watch?v=wcmj_MWS0hs)
 
 Смотрите и делитесь комментариями.
