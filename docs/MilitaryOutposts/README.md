@@ -138,6 +138,6 @@
 
 Радиопередача со многими деталями и глубоким смыслом:
 
-[*![Автоматизация фортификаций, часть первая](https://img.youtube.com/vi/6ErbeX1ZQ7g/mqdefault.jpg)*](https://www.youtube.com/watch?v=6ErbeX1ZQ7g)
+https://youtube.com/watch?v=6ErbeX1ZQ7g
 
 Смотрите и делитесь комментариями.

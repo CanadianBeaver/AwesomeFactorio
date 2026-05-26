@@ -38,4 +38,4 @@
 
 Детальный разбор есть на YouTube канале.
 
-[*![Пишем камнями в Factorio](https://img.youtube.com/vi/o2BmJ-A1PA0/mqdefault.jpg)*](https://www.youtube.com/watch?v=o2BmJ-A1PA0)
+https://youtube.com/watch?v=o2BmJ-A1PA0

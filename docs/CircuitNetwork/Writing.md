@@ -64,4 +64,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Простые примеры логических сетей](https://img.youtube.com/vi/vixfnONzSgU/mqdefault.jpg)*](https://www.youtube.com/watch?v=vixfnONzSgU&t=1082)
+https://youtube.com/watch?v=vixfnONzSgU&t=1082

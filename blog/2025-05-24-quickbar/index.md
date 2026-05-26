@@ -9,4 +9,4 @@ tags: [игровые панели, модификации, web site]
 
 [Новая статья на сайте](pathname:///HowToStartNewGame/Quickbar) знакомящая нас с тем, как настраивать внешний вид игры под себя. Читайте, просвещайтесь, новый радио выпуск уже твоём тубе.
 
-[*![Две самые важные панели](https://img.youtube.com/vi/uxeglrmzI08/0.jpg)*](https://www.youtube.com/watch?v=uxeglrmzI08)
+https://youtube.com/watch?v=uxeglrmzI08

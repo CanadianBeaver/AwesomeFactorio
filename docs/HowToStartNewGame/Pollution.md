@@ -107,6 +107,6 @@
 
 Радиопередача:
 
-[*![Про загрязнение, как же оно воняет](https://img.youtube.com/vi/EVJ6AyHxEgc/mqdefault.jpg)*](https://www.youtube.com/watch?v=EVJ6AyHxEgc)
+https://youtube.com/watch?v=EVJ6AyHxEgc
 
 Смотрите и делитесь комментариями.

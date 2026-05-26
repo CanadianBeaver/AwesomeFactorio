@@ -12,4 +12,4 @@ tags: [web site, defense, combat tactics]
 
 Также готова и новая радиопередача:
 
-[*![Военные тактики и приёмы.](https://img.youtube.com/vi/4EXFkMBMmPY/0.jpg)*](https://www.youtube.com/watch?v=4EXFkMBMmPY).
+https://youtube.com/watch?v=4EXFkMBMmPY

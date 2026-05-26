@@ -293,6 +293,6 @@
 
 Радиопередача:
 
-[*![Оборона макаронной фабрики](https://img.youtube.com/vi/DV8OqBeGc7Q/mqdefault.jpg)*](https://www.youtube.com/watch?v=DV8OqBeGc7Q)
+https://youtube.com/watch?v=DV8OqBeGc7Q
 
 Смотрите и делитесь комментариями.

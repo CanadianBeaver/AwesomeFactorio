@@ -70,7 +70,7 @@
 0eNqdmN+unCAQxl9lwzU2gvzT+z5Fs2ncPWRrwqJRt6k58d0LnrY56TIu4xUhgZ8fw/DNxHdycQ87jJ2fSfNOJt8OxdwXt7F7i/NfpOGMkiUOKyXdtfcTab6Fhd3Nty4umZfBkoZ0s70TSnx7j7Opd+1YDK23jsR9/s0GVEC83nlvnSuss9d57K7F0Dv7icDXMyXWz93c2Q8h22T57h/3ix3DJ5ISKBn6Kezp/Z9DsS9yO1UY1yjqPwrPo4h9SpVH0fsUkXmich8jMzHVPkZlYtQ+Rmdi6n2Mwd22SFPqPIrcp7ByN4efcH8DHcaQ3952tx+X/jHGrGaccnVOfSMzvc0LqRwn9V9upbSWlCnKTVJu5gtg/IXe3Dfw6ookMu0gjkLGT+/edcWTwdO45NaAVoPzMghT48wMwPAS6WYQhyHtDOJwpJ9BnAqZWRBHIOtXCXAkztNAjjpmahvv2Sm4oUKnkp1rnLGBes1BZ0sKjjYcXieVZVJzjXQ3SHRVIu0NBDFsWYVA/KDBJcMYywOVIhXDqkLmewUIFsiODeJIZM8GcRS2a4NAGtu3QSCD7dwgUI1NMgAkSuTdK4DDkF4HcTjSgyAOtusBQdi2BwRh+x4QpJBXVgMcfbCs6Gd7CRad9meB7HxAscjWB+LI8mhtSp06VlLAVCXDmg+kmGPNBwJVWPOBQOJoYUrEEKzsEv1eNrln+vEvo/n0T4US117C3oZ8bUe3nDbeaeNNp967Jaz4acdpg3LDhK65VkoaZcy6/gbgU6bv
 ```
 
-Простроить такое чудо элементарно. Ставим первую опору ЛЭП, зажимаем мышой, ведем вправо сколько надо. Потом вниз строим ещё три линии электропередач. Возвращаемся к первой опоре, устанавливаем солнечную панель в крайнем верхнем углу, зажимаем мышой и ведём во все стороны. Как говориться, все девки наши, [тут показано](https://www.youtube.com/watch?v=oK32IE75AoA&t=601s). Типичное применение:
+Простроить такое чудо элементарно. Ставим первую опору ЛЭП, зажимаем мышой, ведем вправо сколько надо. Потом вниз строим ещё три линии электропередач. Возвращаемся к первой опоре, устанавливаем солнечную панель в крайнем верхнем углу, зажимаем мышой и ведём во все стороны. Как говориться, все девки наши, [тут показано](https://youtube.com/watch?v=oK32IE75AoA&t=601s). Типичное применение:
 
 ![А теперь много солнечных панелей](./images/SolarPower.12.jpg)
 
@@ -86,7 +86,7 @@
 
 ### Самые лучшие чертежи с аккумуляторными блоками до запуска первого спутника
 
-Предлагаю также рассмотреть ещё два альтернативных чертежа на основе предыдущего. Первый весьма актуален до запуска спутника, его можно [строить в ручную без роботов](https://www.youtube.com/watch?v=oK32IE75AoA&t=912s) и его стоит начать использовать после начала производства аккумуляторных блоков.
+Предлагаю также рассмотреть ещё два альтернативных чертежа на основе предыдущего. Первый весьма актуален до запуска спутника, его можно [строить в ручную без роботов](https://youtube.com/watch?v=oK32IE75AoA&t=912s) и его стоит начать использовать после начала производства аккумуляторных блоков.
 
 ![Early solar 8x1x1 plantation](./images/SolarPower.03.jpg)
 
@@ -166,4 +166,4 @@
 
 Детальный разбор производства подсолнечной и надсолнечной энергии смотрите на YouTube канале.
 
-[*![Солнечная энергия](https://img.youtube.com/vi/oK32IE75AoA/mqdefault.jpg)*](https://www.youtube.com/watch?v=oK32IE75AoA)
+https://youtube.com/watch?v=oK32IE75AoA

@@ -7,4 +7,4 @@ tags: [circuit network, web site]
 
 <!-- truncate -->
 
-Статья посвящена использованию комбинаторов и приведены простые примеры, а также приведён анализ использования комбинаторов в игре. [Статья тут](pathname:///CircuitNetwork/Combinators), [видео тут](https://www.youtube.com/watch?v=wzzepgeYcpw).
+Статья посвящена использованию комбинаторов и приведены простые примеры, а также приведён анализ использования комбинаторов в игре. [Статья тут](pathname:///CircuitNetwork/Combinators), [видео тут](https://youtube.com/watch?v=wzzepgeYcpw).

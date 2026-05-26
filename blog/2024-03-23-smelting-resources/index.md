@@ -11,6 +11,6 @@ tags: [smelting resources, resources, furnace, stone furnace, steel furnace, ele
 
 Создал большую книгу чертежей, оптимизировал всё и наконец-то до оптимизировался до финальной статьи. Также обновил файл сохранения с книгой чертежей, сохранёнку найдёте в конце статьи. Вот предварительные шортс на вашем тюбе:
 
-[*![Тестируем выплавку ресурсов](https://img.youtube.com/vi/AvGi18AbEPM/0.jpg)*](https://youtube.com/shorts/AvGi18AbEPM)
+https://youtube.com/shorts/AvGi18AbEPM
 
-[*![Тестируем выплавку ресурсов](https://img.youtube.com/vi/T6U3JsuAGZk/0.jpg)*](https://youtube.com/shorts/T6U3JsuAGZk)
+https://youtube.com/shorts/T6U3JsuAGZk

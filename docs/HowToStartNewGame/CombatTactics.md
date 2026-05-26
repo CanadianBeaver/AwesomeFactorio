@@ -82,6 +82,6 @@
 
 ## Смотрите также ТвойТуб
 
-[*![Военные тактики и приёмы.](https://img.youtube.com/vi/4EXFkMBMmPY/mqdefault.jpg)*](https://www.youtube.com/watch?v=4EXFkMBMmPY)
+https://youtube.com/watch?v=4EXFkMBMmPY
 
 Смотрите и делитесь комментариями.

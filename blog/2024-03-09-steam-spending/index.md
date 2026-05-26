@@ -23,7 +23,7 @@ tags: [steam energy, power production, production, coal liquefaction]
 
 Ваш ютуб:
 
-[*![Тестируем расход пара разной температуры при сжижении угля](https://img.youtube.com/vi/qDtrt17gSSw/0.jpg)*](https://youtube.com/shorts/qDtrt17gSSw?feature=shared)
+https://youtube.com/shorts/qDtrt17gSSw?feature=shared
 
 ## Добыча мегаджоулей
 
@@ -39,4 +39,4 @@ tags: [steam energy, power production, production, coal liquefaction]
 
 Ваш ютуб:
 
-[*![Тестируем расход пара разной температуры при производстве энергии](https://img.youtube.com/vi/dhULdGCg3Ms/0.jpg)*](https://youtube.com/shorts/dhULdGCg3Ms?feature=share)
+https://youtube.com/shorts/dhULdGCg3Ms?feature=share

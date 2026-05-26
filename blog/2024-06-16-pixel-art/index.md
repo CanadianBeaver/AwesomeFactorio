@@ -15,4 +15,4 @@ tags: [circuit network]
 
 Подробности [в статье про комбинаторы](pathname:///CircuitNetwork/Writing).
 
-[*![pixel art в Factorio](https://img.youtube.com/vi/OOORdFtuOec/0.jpg)*](https://youtube.com/shorts/OOORdFtuOec?feature=share)
+https://youtube.com/shorts/OOORdFtuOec

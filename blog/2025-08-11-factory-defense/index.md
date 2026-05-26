@@ -10,4 +10,4 @@ tags: [web site, defense, pollution]
 
 Хватит это терпеть! В новой статье про [оборону макаронной фабрики](pathname:///HowToStartNewGame/FactoryDefense) собраны все самые убойные (в прямом смысле!) тактики, как защитить свой завод от всех, кто пытается покуситься на ваше стальное счастье. От базовых стен до огнедышащих турелей — теперь вы будете готовы ко всему. Радиопередача тут:
 
-[*![Оборона макаронной фабрики](https://img.youtube.com/vi/DV8OqBeGc7Q/0.jpg)*](https://www.youtube.com/watch?v=DV8OqBeGc7Q).
+https://youtube.com/watch?v=DV8OqBeGc7Q

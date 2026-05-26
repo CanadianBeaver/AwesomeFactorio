@@ -75,4 +75,4 @@
 
 Детальный разбор погрузки и разгрузки поездов смотрите на YouTube канале.
 
-[*![Погрузка и разгрузка поездов](https://img.youtube.com/vi/gXBgfwMp__I/mqdefault.jpg)*](https://www.youtube.com/watch?v=gXBgfwMp__I)
+https://youtube.com/watch?v=gXBgfwMp__I

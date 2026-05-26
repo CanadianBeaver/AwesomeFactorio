@@ -111,4 +111,4 @@
 
 Детальный разбор смотрите на YouTube канале.
 
-[*![Улучшаем угольную электростанцию](https://img.youtube.com/vi/usC4risyoao/mqdefault.jpg)*](https://www.youtube.com/watch?v=usC4risyoao)
+https://youtube.com/watch?v=usC4risyoao

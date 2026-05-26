@@ -7,6 +7,7 @@ import { rehypeExtendedTable } from 'rehype-extended-table';
 
 const remarkFactorioIcons = require('./src/remark/remark-factorio-icons');
 const remarkFactorioSaves = require('./src/remark/remark-factorio-saves');
+const remarkYoutubeLink = require('./src/remark/remark-youtube-link');
 
 import i18n from './config/i18n';
 import plugins from './config/plugins';
@@ -59,7 +60,7 @@ const config: Config = {
           sidebarCollapsed: false,
           sidebarCollapsible: false,
           breadcrumbs: false,
-          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves, remarkYoutubeLink],
           rehypePlugins: [rehypeExtendedTable]
         },
         blog: {
@@ -68,7 +69,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'ignore',
           blogTitle: 'Наш блог и достижения',
           blogDescription: 'Делюсь прогрессом и достижениями в игре Factorio',
-          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves],
+          beforeDefaultRemarkPlugins: [remarkFactorioIcons, remarkFactorioSaves, remarkYoutubeLink],
           rehypePlugins: [rehypeExtendedTable],
           blogSidebarTitle: 'Все записи',
           blogSidebarCount: 'ALL',

@@ -27,4 +27,4 @@ tags: [backup steam power, power production, steam energy]
 
 А для первого экрана рассчитайте сами, управитесь?
 
-[*![Тестируем расход пара](https://img.youtube.com/vi/Mzf2iQyWpAM/0.jpg)*](https://youtube.com/shorts/Mzf2iQyWpAM?feature=share)
+https://youtube.com/shorts/Mzf2iQyWpAM

@@ -74,4 +74,4 @@
 
 И вот вам радиопередача на твоейТрубе, где всё раскладывается по полочкам:
 
-[*![Строим железные дороги правильно и сравниваем чертежи](https://img.youtube.com/vi/uq0NMMY9YsE/mqdefault.jpg)*](https://www.youtube.com/watch?v=uq0NMMY9YsE)
+https://youtube.com/watch?v=uq0NMMY9YsE
