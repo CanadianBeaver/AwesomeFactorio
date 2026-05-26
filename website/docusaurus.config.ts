@@ -55,7 +55,7 @@ const config: Config = {
           path: '../docs',
           exclude: ['README.md'],
           routeBasePath: '/',
-          sidebarPath: './sidebars.ts',
+          sidebarPath: './config/sidebars.ts',
           sidebarCollapsed: false,
           sidebarCollapsible: false,
           breadcrumbs: false,

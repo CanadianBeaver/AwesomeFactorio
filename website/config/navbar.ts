@@ -1,5 +1,9 @@
 import type { ThemeConfig } from '@docusaurus/preset-classic';
 
+const isDevelopment = process.env.NODE_ENV === 'development';
+
+import unlistedItems from './unlistedItemsInNavbar';
+
 const navbar: ThemeConfig['navbar'] = {
     title: '',
     logo: {
@@ -32,6 +36,13 @@ const navbar: ThemeConfig['navbar'] = {
             label: 'Чё исчё?', //label: '🧩 Чё исчё?',
             title: 'всяка дополнительная дичь и полезняшки'
         },
+        ...(isDevelopment ? [
+            {
+                type: 'dropdown',
+                label: '📝 Черновики',
+                items: unlistedItems,
+            }
+        ] : []),
         {
             type: 'search',
             position: 'right'
@@ -52,7 +63,7 @@ const navbar: ThemeConfig['navbar'] = {
             label: '📝 Блог',
             title: 'блог со статьями и заметками',
             position: 'right'
-         },
+        },
         /*{
           href: 'https://github.com/CanadianBeaver/AwesomeFactorio',
           label: '🐙 GitHub',

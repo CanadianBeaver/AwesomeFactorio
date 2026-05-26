@@ -64,23 +64,6 @@ const sidebars: SidebarsConfig = {
         'LoadingAndUnloadingTrains/Jlovber',
         'LoadingAndUnloadingTrains/SyncUnloading'
       ]
-    },
-    {
-      type: 'category',
-      label: 'Неопубликованное',
-      items: [
-        'HowToStartNewGame/TipsAndTricks',
-        'HowToStartNewGame/DeathWorld',
-        'HowToStartNewGame/BurnerDevices',
-        'HowToStartNewGame/ManualConstruction',
-        'HowToStartNewGame/Mall',
-        'HowToStartNewGame/Balancers',
-        'HowToStartNewGame/Drafts',
-        'HowToStartNewGame/AfterSatelliteLaunch',
-        'HowToStartNewGame/UsefulMods',
-        'CircuitNetwork/Devices',
-        'FactoryDesign/README'
-      ]
     }
   ],
 
