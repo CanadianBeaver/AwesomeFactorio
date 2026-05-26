@@ -28,6 +28,6 @@ unlisted: true
 
 Радиопередача со многими деталями и глубоким смыслом:
 
-[*![Автоматизация фортификаций, часть вторая](https://img.youtube.com/vi/XXXXXXX/0.jpg)*](https://www.youtube.com/watch?v=XXXXXXX)
+[*![Автоматизация фортификаций, часть вторая](https://img.youtube.com/vi/XXXXXXX/mqdefault.jpg)*](https://www.youtube.com/watch?v=XXXXXXX)
 
 Смотрите и делитесь комментариями.

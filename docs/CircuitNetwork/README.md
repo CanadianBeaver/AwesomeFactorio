@@ -59,4 +59,4 @@
 
 Дополнительные материалы, смотрите радуйтесь:
 
-[*![Примеры логических сетей на комбинаторах](https://img.youtube.com/vi/wzzepgeYcpw/0.jpg)*](https://www.youtube.com/watch?v=wzzepgeYcpw)
+[*![Примеры логических сетей на комбинаторах](https://img.youtube.com/vi/wzzepgeYcpw/mqdefault.jpg)*](https://www.youtube.com/watch?v=wzzepgeYcpw)

@@ -48,4 +48,4 @@
 
 Детальный разбор добычи урановой руды смотрите на YouTube канале.
 
-[*![Добыча урановой руды](https://img.youtube.com/vi/ErwjhRdBRJ8/0.jpg)*](https://www.youtube.com/watch?v=ErwjhRdBRJ8)
+[*![Добыча урановой руды](https://img.youtube.com/vi/ErwjhRdBRJ8/mqdefault.jpg)*](https://www.youtube.com/watch?v=ErwjhRdBRJ8)

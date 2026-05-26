@@ -162,6 +162,6 @@ description: Пошаговое руководство по началу нов�
 
 Радиопередача:
 
-[*![Как начать играть?](https://img.youtube.com/vi/yPFaT4FohGw/0.jpg)*](https://www.youtube.com/watch?v=yPFaT4FohGw)
+[*![Как начать играть?](https://img.youtube.com/vi/yPFaT4FohGw/mqdefault.jpg)*](https://www.youtube.com/watch?v=yPFaT4FohGw)
 
 Смотрите и делитесь комментариями.

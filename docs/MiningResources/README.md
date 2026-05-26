@@ -101,4 +101,4 @@
 
 Детальный разбор добычи ресурсов смотрите на YouTube канале.
 
-[*![Добыча ресурсов](https://img.youtube.com/vi/ZI2aVerqCT4/0.jpg)*](https://www.youtube.com/watch?v=ZI2aVerqCT4)
+[*![Добыча ресурсов](https://img.youtube.com/vi/ZI2aVerqCT4/mqdefault.jpg)*](https://www.youtube.com/watch?v=ZI2aVerqCT4)

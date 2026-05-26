@@ -62,4 +62,4 @@
 
 Детальный разбор производства ядерной энергии смотрите на YouTube канале.
 
-[*![Ядерная энергия](https://img.youtube.com/vi/VzHm8KVxfys/0.jpg)*](https://www.youtube.com/watch?v=VzHm8KVxfys)
+[*![Ядерная энергия](https://img.youtube.com/vi/VzHm8KVxfys/mqdefault.jpg)*](https://www.youtube.com/watch?v=VzHm8KVxfys)

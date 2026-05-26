@@ -166,4 +166,4 @@
 
 Детальный разбор производства подсолнечной и надсолнечной энергии смотрите на YouTube канале.
 
-[*![Солнечная энергия](https://img.youtube.com/vi/oK32IE75AoA/0.jpg)*](https://www.youtube.com/watch?v=oK32IE75AoA)
+[*![Солнечная энергия](https://img.youtube.com/vi/oK32IE75AoA/mqdefault.jpg)*](https://www.youtube.com/watch?v=oK32IE75AoA)

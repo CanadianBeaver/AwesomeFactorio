@@ -97,4 +97,4 @@
 
 Как всегда, на ТвойТубэ смотрите детальный разбор производства паровой энергии:
 
-[*![Паровая энергия](https://img.youtube.com/vi/RQ80eZAnZ1Q/0.jpg)*](https://www.youtube.com/watch?v=RQ80eZAnZ1Q)
+[*![Паровая энергия](https://img.youtube.com/vi/RQ80eZAnZ1Q/mqdefault.jpg)*](https://www.youtube.com/watch?v=RQ80eZAnZ1Q)

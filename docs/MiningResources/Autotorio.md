@@ -56,4 +56,4 @@
 
 Детальный обзор смотрите на YouTube канале.
 
-[*![Строительство шахтёрских аванпостов на автомате](https://img.youtube.com/vi/BdD4tp3KQGc/0.jpg)*](https://www.youtube.com/watch?v=BdD4tp3KQGc)
+[*![Строительство шахтёрских аванпостов на автомате](https://img.youtube.com/vi/BdD4tp3KQGc/mqdefault.jpg)*](https://www.youtube.com/watch?v=BdD4tp3KQGc)

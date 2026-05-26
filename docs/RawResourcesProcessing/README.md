@@ -322,10 +322,10 @@
 
 [Сохранёнка со всеми чертежами](../../website/static/saves/AwesomeFactorio%20-%20Resources.zip), все чертежи в книге игры. А также детальный разбор на YouTube канале:
 
-[*![Плавим ресурсы](https://img.youtube.com/vi/z7HcOThwafg/0.jpg)*](https://www.youtube.com/watch?v=z7HcOThwafg)
+[*![Плавим ресурсы](https://img.youtube.com/vi/z7HcOThwafg/mqdefault.jpg)*](https://www.youtube.com/watch?v=z7HcOThwafg)
 
 Дополнительные материалы:
 
 * Обновление по подаче угля в кузницы для плавки стальных балок\
-[*![Обновление по подаче угля в кузницы для плавки стальных балок](https://img.youtube.com/vi/eeA8oLBHNjk/0.jpg)*](https://www.youtube.com/shorts/eeA8oLBHNjk)
+[*![Обновление по подаче угля в кузницы для плавки стальных балок](https://img.youtube.com/vi/eeA8oLBHNjk/mqdefault.jpg)*](https://www.youtube.com/shorts/eeA8oLBHNjk)
 * [Средние опоры ЛЭП в чертежах плавки стальных балок](/blog/2024/03/27/smelting-resources)
