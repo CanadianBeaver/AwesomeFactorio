@@ -6,8 +6,13 @@
             "type": "shell",
             "command": "npm clean-install",
             "options": {
-                "cwd": "${workspaceRoot}/website"
-            }
+                "cwd": "${workspaceRoot}/website",
+                "shell": {
+                   "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Docusaurus clear",
@@ -15,20 +20,30 @@
             "script": "clear",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceRoot}/website"
+                "cwd": "${workspaceRoot}/website",
+                "shell": {
+                   "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Docusaurus upgrade",
             "type": "shell",
             "command": "npm upgrade",
             "options": {
-                "cwd": "${workspaceRoot}/website"
-            }
+                "cwd": "${workspaceRoot}/website",
+                "shell": {
+                   "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Docusaurus build",
@@ -36,12 +51,17 @@
             "script": "build",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceRoot}/website"
+                "cwd": "${workspaceRoot}/website",
+                "shell": {
+                   "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Docusaurus serve",
@@ -49,12 +69,17 @@
             "script": "serve",
             "promptOnClose": false,
             "options": {
-                "cwd": "${workspaceRoot}/website"
+                "cwd": "${workspaceRoot}/website",
+                "shell": {
+                   "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
             },
             "group": {
                 "kind": "test",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
